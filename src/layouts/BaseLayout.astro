@@ -1,0 +1,52 @@
+---
+const {
+  title = "TechMind Hub",
+  description = "TechMind Hub — curated notes on AI, robotics, automation, and enterprise tech.",
+} = Astro.props;
+
+const canonical = new URL(Astro.url.pathname, Astro.site ?? Astro.url.origin).toString();
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="canonical" href={canonical} />
+    <meta name="description" content={description} />
+    <title>{title}</title>
+
+    <style>
+      :root { color-scheme: light; }
+      body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
+      .wrap { max-width: 1040px; margin: 0 auto; padding: 24px; }
+      header { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+      nav a { margin-left: 12px; text-decoration: none; color: #003E54; }
+      nav a:hover { text-decoration: underline; }
+      .brand { font-weight: 700; color: #0046AF; letter-spacing: 0.2px; }
+      .card { border: 1px solid rgba(0,0,0,0.08); border-radius: 16px; padding: 16px; background: #F9FAFB; }
+      .muted { color: rgba(0,0,0,0.65); }
+      footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid rgba(0,0,0,0.08); }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <div class="brand">TechMind Hub</div>
+        <nav>
+          <a href="/">Home</a>
+          <a href="/posts">Posts</a>
+          <a href="/about">About</a>
+        </nav>
+      </header>
+
+      <main style="margin-top: 20px;">
+        <slot />
+      </main>
+
+      <footer class="muted">
+        © {new Date().getFullYear()} TechMind Hub
+      </footer>
+    </div>
+  </body>
+</html>
