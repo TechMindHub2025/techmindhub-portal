@@ -1,23 +1,41 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+
+const title = "About";
+const description =
+  "TechMind Hub is a curated stream of practical signals across AI, robotics, automation, and enterprise technology.";
 ---
 
-<BaseLayout
-  title="About — TechMind Hub"
-  description="About TechMind Hub."
->
-  <div class="card">
-    <h1 style="margin-top:0;">About</h1>
-    <p class="muted">
-      TechMind Hub is a practical feed of signals across AI, robotics, automation, and enterprise tech.
-      Built with a strict engineering workflow: PRs, approvals, and repeatable automation.
+<BaseLayout title={title} description={description}>
+  <article class="prose">
+    <h1>About TechMind Hub</h1>
+    <p>
+      TechMind Hub is a curated stream of practical signals across AI, robotics, automation, and enterprise technology.
+      The goal is simple: capture what matters, summarize it clearly, and keep it searchable and shareable — without noise.
     </p>
 
-    <h2>Principles</h2>
+    <h2>What you will find here</h2>
     <ul>
-      <li>Non-Russian sources only</li>
-      <li>Clear, actionable summaries</li>
-      <li>Automation-friendly publishing</li>
+      <li><strong>Short, actionable posts</strong> with key takeaways.</li>
+      <li><strong>Visual-first summaries</strong> (cover + quick context).</li>
+      <li><strong>Links to original sources</strong> for deeper reading.</li>
+      <li><strong>Tags</strong> for fast navigation across topics.</li>
     </ul>
-  </div>
+
+    <h2>How publishing works</h2>
+    <p>
+      TechMind Hub follows a strict, automation-friendly workflow: content is proposed via pull requests, every post is reviewed
+      before publishing, and the site is deployed automatically after approval.
+    </p>
+
+    <h2>Where to discuss</h2>
+    <p>
+      This portal is the archive. Discussions happen on the social posts (LinkedIn / Facebook) linked on each article.
+    </p>
+
+    <h2>Contact</h2>
+    <p>
+      For collaboration or requests, reach out via the connected social profiles.
+    </p>
+  </article>
 </BaseLayout>

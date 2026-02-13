@@ -1,0 +1,32 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+
+export async function getStaticPaths() {
+  const posts = await getCollection("posts");
+  return posts
+    .filter((p) => p.data.status !== "draft")
+    .map((p) => ({ params: { slug: p.slug }, props: { post: p } }));
+}
+
+const { post } = Astro.props;
+const { Content } = await post.render();
+---
+
+<BaseLayout title={post.data.title}>
+  <article>
+    <h1>{post.data.title}</h1>
+
+    <p style="opacity:.75;">
+      {post.data.date.toISOString().slice(0,10)}
+      {" · "}
+      <a href={post.data.source_url} rel="nofollow" target="_blank">
+        Source: {post.data.source}
+      </a>
+    </p>
+
+    <p><strong>{post.data.summary}</strong></p>
+
+    <Content />
+  </article>
+</BaseLayout>

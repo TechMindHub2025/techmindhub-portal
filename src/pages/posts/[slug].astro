@@ -1,0 +1,128 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+
+// Build all static routes for published posts
+export async function getStaticPaths() {
+  const posts = await getCollection("posts", ({ data }) => data.status === "published");
+
+  return posts.map((post) => ({
+    params: { slug: post.slug },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+
+// Defensive: if someone opens a draft by direct URL in dev, show 404
+if (post.data.status !== "published") {
+  return Astro.redirect("/posts");
+}
+
+const { title, description, pubDate, tags, source_url, cover_hero, cover_alt, social } = post.data;
+---
+
+<BaseLayout title={title} description={description}>
+  <article class="post">
+    <header class="post__header">
+      <h1 class="post__title">{title}</h1>
+
+      <div class="post__meta">
+        <time datetime={pubDate.toISOString()}>
+          {pubDate.toISOString().slice(0, 10)}
+        </time>
+
+        {source_url && (
+          <>
+            <span class="dot">·</span>
+            <a class="link" href={source_url} target="_blank" rel="noopener noreferrer">
+              Source
+            </a>
+          </>
+        )}
+      </div>
+
+      {cover_hero && (
+        <figure class="post__hero">
+          <img
+            src={cover_hero}
+            alt={cover_alt || title}
+            loading="eager"
+          />
+        </figure>
+      )}
+
+      {tags?.length ? (
+        <div class="post__tags">
+          {tags.map((t) => (
+            <a class="tag" href={`/posts?tag=${encodeURIComponent(t)}`}>#{t}</a>
+          ))}
+        </div>
+      ) : null}
+
+      {(social?.linkedin || social?.facebook) && (
+        <div class="post__social">
+          {social?.linkedin && (
+            <a class="btn" href={social.linkedin} target="_blank" rel="noopener noreferrer">
+              Discuss on LinkedIn
+            </a>
+          )}
+          {social?.facebook && (
+            <a class="btn" href={social.facebook} target="_blank" rel="noopener noreferrer">
+              Discuss on Facebook
+            </a>
+          )}
+        </div>
+      )}
+    </header>
+
+    <div class="post__content">
+      <slot />
+    </div>
+  </article>
+
+  <style>
+    .post { max-width: 920px; margin: 0 auto; padding: 12px 0 40px; }
+    .post__header { margin: 10px 0 18px; }
+    .post__title { margin: 0 0 10px; font-size: 42px; line-height: 1.1; letter-spacing: -0.02em; }
+    .post__meta { display: flex; align-items: center; gap: 10px; opacity: 0.8; }
+    .dot { opacity: 0.6; }
+    .link { text-decoration: underline; }
+
+    .post__hero { margin: 18px 0 10px; }
+    .post__hero img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 18px;
+      border: 1px solid rgba(0,0,0,0.08);
+      background: #fff;
+    }
+
+    .post__tags { margin-top: 12px; display: flex; flex-wrap: wrap; gap: 10px; }
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      padding: 6px 10px;
+      border-radius: 999px;
+      border: 1px solid rgba(0,0,0,0.08);
+      background: #F9FAFB;
+      text-decoration: none;
+      font-size: 13px;
+    }
+
+    .post__social { margin-top: 14px; display: flex; gap: 10px; flex-wrap: wrap; }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      padding: 8px 12px;
+      border-radius: 12px;
+      border: 1px solid rgba(0,0,0,0.08);
+      background: #fff;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .post__content { margin-top: 18px; }
+  </style>
+</BaseLayout>

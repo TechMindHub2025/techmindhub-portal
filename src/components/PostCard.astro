@@ -1,0 +1,49 @@
+---
+const { post } = Astro.props;
+
+// post is a collection entry:
+// post.data -> frontmatter fields
+// post.slug -> URL slug
+const d = post.data;
+---
+
+<article class="card">
+  <a class="card__cover" href={`/posts/${post.slug}/`}>
+    <img src={d.cover_image} alt={d.title} loading="lazy" />
+  </a>
+
+  <div class="card__body">
+    <h3 class="card__title">
+      <a href={`/posts/${post.slug}/`}>{d.title}</a>
+    </h3>
+
+    <div class="card__meta">
+      <time datetime={d.pubDate.toISOString()}>
+        {d.pubDate.toISOString().slice(0, 10)}
+      </time>
+    </div>
+
+    <p class="card__desc">{d.description}</p>
+
+    {d.tags?.length ? (
+      <div class="card__tags">
+        {d.tags.map((t) => (
+          <a class="tag" href={`/tags/${encodeURIComponent(t)}/`}>#{t}</a>
+        ))}
+      </div>
+    ) : null}
+  </div>
+</article>
+
+<style>
+  .card { border: 1px solid rgba(0,0,0,.08); border-radius: 14px; overflow: hidden; background: #fff; }
+  .card__cover { display:block; }
+  .card__cover img { width:100%; height: 220px; object-fit: cover; display:block; }
+  .card__body { padding: 14px 14px 16px; }
+  .card__title { margin: 0 0 6px; font-size: 20px; line-height: 1.2; }
+  .card__title a { text-decoration: none; color: inherit; }
+  .card__meta { font-size: 12px; opacity: .7; margin-bottom: 10px; }
+  .card__desc { margin: 0 0 12px; opacity: .9; }
+  .card__tags { display:flex; flex-wrap:wrap; gap: 8px; }
+  .tag { font-size: 12px; padding: 4px 10px; border-radius: 999px; text-decoration:none; border: 1px solid rgba(0,0,0,.10); }
+</style>
