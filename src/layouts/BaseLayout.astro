@@ -1,27 +1,35 @@
 ---
 /**
- * BaseLayout.astro
- * - Global shell: header (banner + nav), content container, footer
- * - Brand palette is aligned with TechMind Hub logo:
- *   Primary: #0046AF, Accent: #00CFFD, Text: #003E54
+ * BaseLayout.astro — TechMind Hub
+ * - Banner (desktop + mobile via <picture>)
+ * - Soft gradient overlay on banner (bottom → top)
+ * - Favicon / PWA manifest links
+ * - Canonical + OpenGraph + Twitter cards (default OG image: /og.png)
  */
+
+type Props = {
+  title?: string;
+  description?: string;
+  ogImage?: string; // absolute or /path
+  ogType?: string;  // "website" | "article" etc
+  noindex?: boolean;
+};
 
 const {
   title = "TechMind Hub",
-  description = "TechMind Hub — curated notes on AI, robotics, automation, and enterprise tech.",
-  ogImage, // optional per-page override
+  description = "TechMind Hub — curated signals across AI, robotics, automation, and enterprise tech.",
+  ogImage = "/og.png",
+  ogType = "website",
+  noindex = false,
 } = Astro.props;
 
-const canonical = new URL(
-  Astro.url.pathname,
-  Astro.site ?? Astro.url.origin
-).toString();
+const canonical = new URL(Astro.url.pathname, Astro.site ?? Astro.url.origin).toString();
 
-// Set a reasonable default OpenGraph image.
-// You can override per page by passing ogImage prop.
-const ogImageUrl = ogImage
-  ? new URL(ogImage, Astro.site ?? Astro.url.origin).toString()
-  : new URL("/banner1.png", Astro.site ?? Astro.url.origin).toString();
+const path = Astro.url.pathname;
+const isActive = (href: string) => {
+  if (href === "/") return path === "/";
+  return path === href || path.startsWith(href + "/");
+};
 ---
 
 <!doctype html>
@@ -29,238 +37,225 @@ const ogImageUrl = ogImage
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="canonical" href={canonical} />
-    <meta name="description" content={description} />
 
-    <!-- Open Graph -->
-    <meta property="og:type" content="website" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+
+    {noindex ? <meta name="robots" content="noindex,nofollow" /> : null}
+
+    <!-- Favicons -->
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <!-- Optional: helps Windows tiles / pinned tabs -->
+    <meta name="theme-color" content="#F9FAFB" />
+
+    <!-- OpenGraph -->
+    <meta property="og:site_name" content="TechMind Hub" />
+    <meta property="og:type" content={ogType} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
-    <meta property="og:image" content="/banner.png" />
     <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={ogImage} />
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
-    <meta name="twitter:image" content="/banner.png" />
-
-    <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-    <link rel="shortcut icon" href="/favicon.ico" />
-
-    <!-- Apple -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-
-    <!-- Android / PWA -->
-    <link rel="manifest" href="/site.webmanifest" />
-    <meta name="theme-color" content="#003E54" />
-
-    <title>{title}</title>
+    <meta name="twitter:image" content={ogImage} />
 
     <style>
       :root {
         color-scheme: light;
 
-        /* Brand palette */
-        --brand: #0046af;
-        --accent: #00cffd;
-        --text: #003e54;
+        /* Brand */
+        --tmh-primary: #0046AF;
+        --tmh-accent: #00CFFD;
+        --tmh-text: #003E54;
 
-        /* UI palette */
-        --bg: #f9fafb;
-        --panel: #ffffff;
-        --border: rgba(0, 62, 84, 0.12);
-        --muted: rgba(0, 62, 84, 0.72);
-        --muted2: rgba(0, 62, 84, 0.56);
-
-        --shadow: 0 10px 30px rgba(0, 62, 84, 0.08);
-        --radius: 18px;
-
-        --max: 1100px;
-        --pad: 24px;
+        /* UI */
+        --tmh-bg: #F9FAFB;
+        --tmh-card: #FFFFFF;
+        --tmh-border: rgba(0,0,0,0.08);
+        --tmh-muted: rgba(0, 0, 0, 0.6);
+        --tmh-shadow: 0 10px 30px rgba(0,0,0,0.06);
+        --tmh-radius: 18px;
       }
 
-      * { box-sizing: border-box; }
-      html, body { height: 100%; }
-      body {
+      html, body {
         margin: 0;
-        background: var(--bg);
-        color: var(--text);
+        padding: 0;
+        background: var(--tmh-bg);
+        color: var(--tmh-text);
         font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-        line-height: 1.55;
       }
 
-      a {
-        color: var(--brand);
-        text-decoration: none;
-      }
-      a:hover { text-decoration: underline; }
+      a { color: inherit; }
 
-      .container {
-        max-width: var(--max);
+      .wrap {
+        max-width: 1100px;
         margin: 0 auto;
-        padding: 0 var(--pad);
+        padding: 0 24px 24px;
       }
 
-      /* Header */
-      .site-header {
-        background: var(--panel);
-        border-bottom: 1px solid var(--border);
-      }
-
+      /* ===== Banner ===== */
       .banner {
         position: relative;
+        width: 100%;
         overflow: hidden;
-        border-bottom: 1px solid var(--border);
+        border-bottom: 1px solid var(--tmh-border);
+        background: #fff;
       }
 
       .banner img {
         display: block;
         width: 100%;
-        height: 220px;
-        object-fit: cover;
+        height: auto;
       }
 
-      /* Subtle gradient overlay for readability */
+      /* the soft fade you asked to keep (bottom → top, light tone) */
       .banner::after {
         content: "";
         position: absolute;
-        inset: 0;
-        background: linear-gradient(
-          180deg,
-          rgba(255,255,255,0.05) 0%,
-          rgba(249,250,251,0.65) 70%,
-          rgba(249,250,251,0.95) 100%
-        );
+        left: 0; right: 0; bottom: 0;
+        height: 140px;
         pointer-events: none;
+        background: linear-gradient(
+          to top,
+          rgba(249, 250, 251, 1) 0%,
+          rgba(249, 250, 251, 0.65) 45%,
+          rgba(249, 250, 251, 0) 100%
+        );
       }
 
+      /* ===== Topbar (logo + nav) ===== */
       .topbar {
+        border-bottom: 1px solid var(--tmh-border);
+        background: rgba(255,255,255,0.8);
+        backdrop-filter: blur(8px);
+      }
+
+      .topbar-inner {
         display: flex;
         align-items: center;
         justify-content: space-between;
         gap: 16px;
-        padding: 16px 0;
+        padding: 14px 0;
       }
 
       .brand {
         display: flex;
         align-items: center;
         gap: 12px;
-        min-width: 220px;
+        min-width: 260px;
       }
 
       .brand img {
         width: 40px;
         height: 40px;
-        border-radius: 12px;
-        box-shadow: 0 6px 16px rgba(0, 62, 84, 0.14);
+        border-radius: 999px;
+        box-shadow: 0 6px 16px rgba(0,0,0,0.08);
       }
 
       .brand-title {
         display: flex;
         flex-direction: column;
-        gap: 2px;
+        line-height: 1.15;
       }
 
       .brand-title strong {
+        font-size: 14px;
         letter-spacing: 0.2px;
-        font-size: 15px;
-        line-height: 1.2;
       }
 
       .brand-title span {
         font-size: 12px;
-        color: var(--muted2);
-        line-height: 1.2;
+        color: rgba(0,0,0,0.55);
       }
 
       nav {
         display: flex;
-        gap: 14px;
         align-items: center;
-        flex-wrap: wrap;
-        justify-content: flex-end;
+        gap: 10px;
       }
 
-      nav a {
-        display: inline-flex;
-        align-items: center;
-        gap: 8px;
-        padding: 8px 10px;
-        border-radius: 12px;
-        font-weight: 650;
+      .navlink {
+        text-decoration: none;
+        font-weight: 700;
         font-size: 14px;
-        color: var(--text);
-        text-decoration: none;
+        padding: 8px 12px;
+        border-radius: 12px;
+        color: rgba(0,0,0,0.75);
       }
 
-      nav a:hover {
-        background: rgba(0, 207, 253, 0.10);
-        text-decoration: none;
+      .navlink:hover {
+        background: rgba(0, 70, 175, 0.06);
+        color: var(--tmh-primary);
       }
 
-      nav a[data-active="true"] {
-        color: var(--brand);
+      .navlink.active {
         background: rgba(0, 70, 175, 0.08);
+        color: var(--tmh-primary);
       }
 
-      /* Main */
       main {
-        padding: 26px 0 56px;
+        padding-top: 22px;
       }
 
-      /* Footer */
+      /* ===== Footer ===== */
       footer {
-        border-top: 1px solid var(--border);
-        background: var(--panel);
-      }
-
-      .footer-inner {
+        margin-top: 54px;
+        padding-top: 16px;
+        border-top: 1px solid var(--tmh-border);
         display: flex;
         align-items: center;
         justify-content: space-between;
-        gap: 16px;
-        padding: 18px 0;
-        color: var(--muted2);
+        gap: 12px;
+        color: rgba(0,0,0,0.55);
         font-size: 13px;
       }
 
-      .footer-brand {
+      .footer-right {
         display: inline-flex;
         align-items: center;
         gap: 10px;
       }
 
-      .footer-brand img {
+      .footer-right img {
         width: 22px;
         height: 22px;
-        border-radius: 8px;
-        opacity: 0.95;
+        border-radius: 999px;
+        opacity: 0.9;
       }
 
-      /* Small screens */
+      /* Responsive */
       @media (max-width: 720px) {
-        .banner img { height: 160px; }
-        .topbar { flex-direction: column; align-items: flex-start; }
-        nav { justify-content: flex-start; }
+        .wrap { padding: 0 16px 16px; }
+        .topbar-inner { flex-direction: column; align-items: flex-start; }
+        nav { width: 100%; justify-content: flex-end; }
+        .brand { min-width: unset; }
+        .banner::after { height: 110px; }
       }
     </style>
   </head>
 
   <body>
-    <header class="site-header">
-      <!-- Banner image (Substack-like header) -->
-      <div class="banner">
-        <img src="/banner.png" alt="TechMind Hub banner" loading="eager" />
-      </div>
+    <!-- Banner: desktop + mobile -->
+    <div class="banner" role="presentation" aria-hidden="true">
+      <picture>
+        <source media="(max-width: 720px)" srcset="/banner-mobile.png" />
+        <img src="/banner.png" alt="" />
+      </picture>
+    </div>
 
-      <div class="container">
-        <div class="topbar">
-          <a class="brand" href="/" aria-label="TechMind Hub home">
+    <!-- Top bar -->
+    <div class="topbar">
+      <div class="wrap">
+        <div class="topbar-inner">
+          <a class="brand" href="/" style="text-decoration:none;">
             <img src="/logo.png" alt="TechMind Hub logo" />
             <div class="brand-title">
               <strong>TechMind Hub</strong>
@@ -268,41 +263,27 @@ const ogImageUrl = ogImage
             </div>
           </a>
 
-          <nav aria-label="Primary navigation">
-            <a href="/" data-active={Astro.url.pathname === "/"}>Home</a>
-            <a
-              href="/posts"
-              data-active={Astro.url.pathname.startsWith("/posts")}
-            >
-              Posts
-            </a>
-            <a
-              href="/about"
-              data-active={Astro.url.pathname.startsWith("/about")}
-            >
-              About
-            </a>
+          <nav aria-label="Primary">
+            <a class={"navlink " + (isActive("/") ? "active" : "")} href="/" aria-current={isActive("/") ? "page" : undefined}>Home</a>
+            <a class={"navlink " + (isActive("/posts") ? "active" : "")} href="/posts" aria-current={isActive("/posts") ? "page" : undefined}>Posts</a>
+            <a class={"navlink " + (isActive("/about") ? "active" : "")} href="/about" aria-current={isActive("/about") ? "page" : undefined}>About</a>
           </nav>
         </div>
       </div>
-    </header>
+    </div>
 
-    <main>
-      <div class="container">
+    <div class="wrap">
+      <main>
         <slot />
-      </div>
-    </main>
+      </main>
 
-    <footer>
-      <div class="container">
-        <div class="footer-inner">
-          <span>© {new Date().getFullYear()} TechMind Hub</span>
-          <span class="footer-brand">
-            <img src="/logo.png" alt="TechMind Hub" />
-            <span>Built on Astro + GitHub Pages</span>
-          </span>
+      <footer>
+        <div>© {new Date().getFullYear()} TechMind Hub</div>
+        <div class="footer-right">
+          <img src="/logo.png" alt="" />
+          <span>Built on Astro + GitHub Pages</span>
         </div>
-      </div>
-    </footer>
+      </footer>
+    </div>
   </body>
 </html>
