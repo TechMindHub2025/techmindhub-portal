@@ -18,7 +18,6 @@ posts = posts.sort((a, b) => {
   const db = new Date(b.data.pubDate).getTime();
 
   if (sort === "oldest") return da - db;
-  if (sort === "title") return a.data.title.localeCompare(b.data.title);
   // newest (default)
   return db - da;
 });
@@ -51,7 +50,6 @@ const allTags = Array.from(
           <select name="sort" onchange="this.form.submit()">
             <option value="newest" selected={sort === "newest"}>Newest</option>
             <option value="oldest" selected={sort === "oldest"}>Oldest</option>
-            <option value="title" selected={sort === "title"}>Title</option>
           </select>
         </label>
       </form>
@@ -81,19 +79,17 @@ const allTags = Array.from(
 
           return (
             <article class="card">
-              <a class="coverLink" href={href} aria-label={post.data.title}>
-                <img
-                  class="cover"
-                  src={cover}
-                  alt={post.data.title}
-                  loading="lazy"
-                />
-              </a>
+              <a class="cardLink" href={href} aria-label={post.data.title}></a>
+
+              <img
+                class="cover"
+                src={cover}
+                alt={post.data.title}
+                loading="lazy"
+              />
 
               <div class="cardBody">
-                <h2 class="title">
-                  <a href={href}>{post.data.title}</a>
-                </h2>
+                <h2 class="title">{post.data.title}</h2>
 
                 <time class="date" datetime={new Date(post.data.pubDate).toISOString()}>
                   {new Date(post.data.pubDate).toISOString().slice(0, 10)}
@@ -113,9 +109,11 @@ const allTags = Array.from(
                     ))}
                   </div>
 
-                  <a class="source" href={post.data.source_url} target="_blank" rel="noreferrer">
-                    Source ↗
-                  </a>
+                  {post.data.source_url && (
+                    <a class="source" href={post.data.source_url} target="_blank" rel="noreferrer">
+                      Source ↗
+                    </a>
+                  )}
                 </div>
               </div>
             </article>
@@ -165,18 +163,35 @@ const allTags = Array.from(
       grid-template-columns: repeat(3, minmax(0, 1fr));
       gap: 18px;
     }
+    @media (min-width: 1400px) { .grid { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
     @media (max-width: 980px) { .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
     @media (max-width: 640px) { .grid { grid-template-columns: 1fr; } }
 
     .card {
+      position: relative;
       border: 1px solid var(--tmh-border);
       background: var(--tmh-card);
       border-radius: 16px;
       overflow:hidden;
       box-shadow: 0 10px 24px rgba(0,0,0,0.06);
+      transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease;
+    }
+    .card:hover {
+      transform: translateY(-2px);
+      border-color: rgba(0,70,175,0.35);
+      box-shadow: 0 14px 26px rgba(0,0,0,0.08);
+    }
+    .card:focus-within {
+      border-color: rgba(0,70,175,0.45);
+      box-shadow: 0 0 0 3px rgba(0,207,253,0.15);
     }
 
-    .coverLink { display:block; }
+    .cardLink {
+      position: absolute;
+      inset: 0;
+      z-index: 1;
+    }
+
     .cover {
       width: 100%;
       aspect-ratio: 16 / 9;
@@ -186,14 +201,16 @@ const allTags = Array.from(
     }
 
     .cardBody { padding: 14px 14px 16px; }
-    .title { margin: 0; font-size: 18px; line-height: 1.25; }
-    .title a { color: var(--tmh-text); text-decoration:none; }
-    .title a:hover { text-decoration: underline; }
+    .title { margin: 0; font-size: 18px; line-height: 1.25; color: var(--tmh-text); }
 
     .date { display:block; margin-top: 8px; font-size: 12px; color: var(--tmh-muted); }
     .desc { margin: 10px 0 0; color: var(--tmh-muted); font-size: 14px; line-height: 1.5; }
 
     .metaRow { margin-top: 12px; display:flex; align-items:center; justify-content:space-between; gap:12px; }
+    .metaRow, .tags, .source, .pill {
+      position: relative;
+      z-index: 2;
+    }
     .tags { display:flex; flex-wrap:wrap; gap:8px; }
     .pill {
       font-size: 12px;
