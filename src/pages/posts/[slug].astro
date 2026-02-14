@@ -80,49 +80,4 @@ const { title, description, pubDate, tags, source_url, cover_hero, cover_alt, so
       <slot />
     </div>
   </article>
-
-  <style>
-    .post { max-width: 920px; margin: 0 auto; padding: 12px 0 40px; }
-    .post__header { margin: 10px 0 18px; }
-    .post__title { margin: 0 0 10px; font-size: 42px; line-height: 1.1; letter-spacing: -0.02em; }
-    .post__meta { display: flex; align-items: center; gap: 10px; opacity: 0.8; }
-    .dot { opacity: 0.6; }
-    .link { text-decoration: underline; }
-
-    .post__hero { margin: 18px 0 10px; }
-    .post__hero img {
-      width: 100%;
-      height: auto;
-      display: block;
-      border-radius: 18px;
-      border: 1px solid rgba(0,0,0,0.08);
-      background: #fff;
-    }
-
-    .post__tags { margin-top: 12px; display: flex; flex-wrap: wrap; gap: 10px; }
-    .tag {
-      display: inline-flex;
-      align-items: center;
-      padding: 6px 10px;
-      border-radius: 999px;
-      border: 1px solid rgba(0,0,0,0.08);
-      background: #F9FAFB;
-      text-decoration: none;
-      font-size: 13px;
-    }
-
-    .post__social { margin-top: 14px; display: flex; gap: 10px; flex-wrap: wrap; }
-    .btn {
-      display: inline-flex;
-      align-items: center;
-      padding: 8px 12px;
-      border-radius: 12px;
-      border: 1px solid rgba(0,0,0,0.08);
-      background: #fff;
-      text-decoration: none;
-      font-weight: 600;
-    }
-
-    .post__content { margin-top: 18px; }
-  </style>
 </BaseLayout>

@@ -7,6 +7,8 @@
  * - Canonical + OpenGraph + Twitter cards (default OG image: /og.png)
  */
 
+import "../styles/ui.css";
+
 type Props = {
   title?: string;
   description?: string;
@@ -41,7 +43,6 @@ const isActive = (href: string) => {
     <title>{title}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
-
     {noindex ? <meta name="robots" content="noindex,nofollow" /> : null}
 
     <!-- Favicons -->
@@ -255,11 +256,11 @@ const isActive = (href: string) => {
     <div class="topbar">
       <div class="wrap">
         <div class="topbar-inner">
-          <a class="brand" href="/" style="text-decoration:none;">
+          <a class="brand" href="/">
             <img src="/logo.png" alt="TechMind Hub logo" />
             <div class="brand-title">
-              <strong>TechMind Hub</strong>
-              <span>AI • Robotics • Automation • Enterprise Tech</span>
+              <strong>HUB of</strong>
+              <span>AI • Robotics • Automation • Enterprise Tech • Networks</span>
             </div>
           </a>
 
