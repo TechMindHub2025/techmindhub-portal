@@ -366,16 +366,36 @@ select {
 
 .tmh-actions { display: flex; gap: 10px; margin-top: 16px; flex-wrap: wrap; }
 
+.btn,
 .tmh-btn {
-  display: inline-flex; align-items: center; justify-content: center;
-  padding: 10px 14px; border-radius: 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 14px;
+  border-radius: 12px;
   border: 1px solid var(--tmh-border);
-  background: white; color: var(--tmh-text);
+  background: #fff;
+  color: var(--tmh-text);
   text-decoration: none;
+  font-weight: 600;
   box-shadow: 0 1px 0 rgba(0,0,0,.03);
   transition: transform var(--tmh-card-transition), box-shadow var(--tmh-card-transition), border-color var(--tmh-card-transition);
 }
-.tmh-btn:hover { transform: translateY(-1px); box-shadow: 0 8px 22px rgba(0,0,0,.08); }
+
+.btn:hover,
+.tmh-btn:hover {
+  transform: translateY(var(--tmh-card-lift));
+  border-color: var(--tmh-card-hover-border);
+  box-shadow: var(--tmh-card-shadow-hover);
+}
+
+.btn:focus-visible,
+.tmh-btn:focus-visible {
+  outline: none;
+  border-color: var(--tmh-card-focus-border);
+  box-shadow: var(--tmh-card-focus-ring);
+}
+
 .tmh-btn--primary { background: var(--tmh-accent-soft); border-color: transparent; }
 
 .tmh-hero { display: grid; grid-template-columns: 1.3fr .7fr; gap: 22px; align-items: start; }
@@ -479,16 +499,7 @@ select {
 }
 
 .post__social { margin-top: 14px; display: flex; gap: 10px; flex-wrap: wrap; }
-.post .btn {
-  display: inline-flex;
-  align-items: center;
-  padding: 8px 12px;
-  border-radius: 12px;
-  border: 1px solid rgba(0,0,0,0.08);
-  background: #fff;
-  text-decoration: none;
-  font-weight: 600;
-}
+
 
 .post__content { margin-top: 18px; }
 
