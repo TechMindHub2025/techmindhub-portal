@@ -1,25 +1,128 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+
+const all = await getCollection("posts", ({ data }) => data.status === "published");
+
+// newest first
+const posts = [...all].sort((a, b) => +new Date(b.data.pubDate) - +new Date(a.data.pubDate));
+const latest = posts.slice(0, 6);
+
+// tag cloud (top 12 by count)
+const tagCounts = new Map<string, number>();
+for (const p of posts) {
+  for (const t of p.data.tags ?? []) tagCounts.set(t, (tagCounts.get(t) ?? 0) + 1);
+}
+const topTags = [...tagCounts.entries()]
+  .sort((a, b) => b[1] - a[1])
+  .slice(0, 12)
+  .map(([t]) => t);
+
+const pageTitle = "TechMind Hub";
+const pageDescription =
+  "Signals across AI, robotics, automation, and enterprise tech — distilled into actionable notes.";
 ---
 
-<BaseLayout
-  title="TechMind Hub"
-  description="Curated notes on AI, robotics, automation, and enterprise tech."
->
-  <div class="card">
-    <h1 style="margin-top:0;">TechMind Hub</h1>
-    <p class="muted">
-      A clean, Git-based publishing hub for TechMind Hub social posts + long-form notes.
-    </p>
+<BaseLayout title={pageTitle} description={pageDescription}>
+  <section class="tmh-container tmh-stack">
+    <!-- HERO -->
+    <div class="tmh-hero">
+      <div class="tmh-hero__text">
+        <h1 class="tmh-h1">TechMind Hub</h1>
+        <p class="tmh-lead">
+          Signals across AI, robotics, automation, and enterprise tech — distilled into actionable notes.
+        </p>
 
-    <ul>
-      <li>GitHub Pages hosting</li>
-      <li>Astro static site</li>
-      <li>Strict PR + approvals workflow</li>
-    </ul>
+        <div class="tmh-actions">
+          <a class="tmh-btn tmh-btn--primary" href="/posts">Browse Posts</a>
+          <a class="tmh-btn" href="/about">About</a>
+        </div>
 
-    <p>
-      Next: wire up a minimal content model for posts and a build workflow for Pages.
-    </p>
-  </div>
+        <div class="tmh-pills">
+          <span class="tmh-pill">Short, actionable summaries</span>
+          <span class="tmh-pill">Source-linked</span>
+          <span class="tmh-pill">Automation-ready publishing</span>
+        </div>
+      </div>
+
+      <div class="tmh-hero__panel">
+        <div class="tmh-panel">
+          <div class="tmh-panel__title">Start here</div>
+          <ul class="tmh-list">
+            <li><a href="/posts">Archive (all posts)</a></li>
+            <li><a href="/about">How it works</a></li>
+            <li><a href="/tags/techmindhub">Browse by tags</a></li>
+          </ul>
+          <div class="tmh-panel__hint">
+            New posts appear here after approval & deploy.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- LATEST -->
+    <div class="tmh-section">
+      <div class="tmh-section__head">
+        <h2 class="tmh-h2">Latest</h2>
+        <a class="tmh-link" href="/posts">View all →</a>
+      </div>
+
+      <div class="tmh-grid">
+        {latest.map((p) => (
+          <a class="tmh-card" href={`/posts/${p.slug}/`}>
+            <div class="tmh-card__media">
+              <img
+                src={p.data.cover_card}
+                alt={p.data.cover_alt ?? p.data.title}
+                loading="lazy"
+              />
+            </div>
+            <div class="tmh-card__body">
+              <div class="tmh-card__title">{p.data.title}</div>
+              <div class="tmh-card__meta">
+                {new Date(p.data.pubDate).toISOString().slice(0, 10)}
+              </div>
+              <div class="tmh-card__desc">{p.data.description}</div>
+
+              <div class="tmh-card__footer">
+                <div class="tmh-tags">
+                  {(p.data.tags ?? []).slice(0, 2).map((t) => (
+                    <span class="tmh-tag">#{t}</span>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+
+    <!-- TOPICS -->
+    <div class="tmh-section">
+      <div class="tmh-section__head">
+        <h2 class="tmh-h2">Topics</h2>
+        <a class="tmh-link" href="/posts">Browse →</a>
+      </div>
+
+      <div class="tmh-tagsCloud">
+        {topTags.map((t) => (
+          <a class="tmh-pill tmh-pill--link" href={`/tags/${t}`}>#{t}</a>
+        ))}
+      </div>
+    </div>
+
+    <!-- DISCUSS -->
+    <div class="tmh-section tmh-callout">
+      <h2 class="tmh-h2">Where to discuss</h2>
+      <p class="tmh-lead">
+        This portal is the archive. Discussions happen on the linked social posts under each article.
+      </p>
+
+      <div class="tmh-actions">
+        <a class="tmh-btn" href="/posts">Open archive</a>
+        <a class="tmh-btn" href="/about">Publishing workflow</a>
+      </div>
+    </div>
+  </section>
 </BaseLayout>
+

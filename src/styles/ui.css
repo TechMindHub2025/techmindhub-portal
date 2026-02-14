@@ -1,0 +1,504 @@
+/* src/styles/ui.css */
+
+/* =========================================================
+   GLOBAL TOKENS + BASE (moved from BaseLayout.astro)
+   ========================================================= */
+
+:root {
+  color-scheme: light;
+
+  /* Brand */
+  --tmh-primary: #0046AF;
+  --tmh-accent: #00CFFD;
+  --tmh-text: #003E54;
+
+  /* UI */
+  --tmh-bg: #F9FAFB;
+  --tmh-card: #FFFFFF;
+  --tmh-border: rgba(0,0,0,0.08);
+  --tmh-muted: rgba(0, 0, 0, 0.6);
+
+  /* Shadows / Radius */
+  --tmh-shadow: 0 10px 30px rgba(0,0,0,0.06);
+  --tmh-radius: 18px;
+
+  /* Shared “soft accent” */
+  --tmh-accent-soft: rgba(0,207,253,0.08);
+
+  /* Canonical card interaction (source of truth) */
+  --tmh-card-shadow: 0 10px 24px rgba(0,0,0,0.06);
+  --tmh-card-shadow-hover: 0 14px 26px rgba(0,0,0,0.08);
+  --tmh-card-hover-border: rgba(0,70,175,0.35);
+  --tmh-card-focus-border: rgba(0,70,175,0.45);
+  --tmh-card-focus-ring: 0 0 0 3px rgba(0,207,253,0.15);
+  --tmh-card-lift: -2px;
+  --tmh-card-transition: 160ms ease;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--tmh-bg);
+  color: var(--tmh-text);
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
+
+a { color: inherit; }
+
+/* Shared page wrapper used across layout/pages */
+.wrap {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 24px 24px;
+}
+
+/* =========================================================
+   LAYOUT (Banner + Topbar + Footer)  (moved from BaseLayout.astro)
+   ========================================================= */
+
+.banner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border-bottom: 1px solid var(--tmh-border);
+  background: #fff;
+}
+
+.banner img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* soft fade (bottom → top) */
+.banner::after {
+  content: "";
+  position: absolute;
+  left: 0; right: 0; bottom: 0;
+  height: 140px;
+  pointer-events: none;
+  background: linear-gradient(
+    to top,
+    rgba(249, 250, 251, 1) 0%,
+    rgba(249, 250, 251, 0.65) 45%,
+    rgba(249, 250, 251, 0) 100%
+  );
+}
+
+.topbar {
+  border-bottom: 1px solid var(--tmh-border);
+  background: rgba(255,255,255,0.8);
+  backdrop-filter: blur(8px);
+}
+
+.topbar-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 14px 0;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 260px;
+  text-decoration: none; /* replaces inline style="" */
+}
+
+.brand img {
+  width: 40px;
+  height: 40px;
+  border-radius: 999px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+}
+
+.brand-title {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.15;
+}
+
+.brand-title strong {
+  font-size: 14px;
+  letter-spacing: 0.2px;
+}
+
+.brand-title span {
+  font-size: 12px;
+  color: rgba(0,0,0,0.55);
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.navlink {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 8px 12px;
+  border-radius: 12px;
+  color: rgba(0,0,0,0.75);
+}
+
+.navlink:hover {
+  background: rgba(0, 70, 175, 0.06);
+  color: var(--tmh-primary);
+}
+
+.navlink.active {
+  background: rgba(0, 70, 175, 0.08);
+  color: var(--tmh-primary);
+}
+
+main { padding-top: 22px; }
+
+footer {
+  margin-top: 54px;
+  padding-top: 16px;
+  border-top: 1px solid var(--tmh-border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  color: rgba(0,0,0,0.55);
+  font-size: 13px;
+}
+
+.footer-right {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-right img {
+  width: 22px;
+  height: 22px;
+  border-radius: 999px;
+  opacity: 0.9;
+}
+
+@media (max-width: 720px) {
+  .wrap { padding: 0 16px 16px; }
+  .topbar-inner { flex-direction: column; align-items: flex-start; }
+  nav { width: 100%; justify-content: flex-end; }
+  .brand { min-width: unset; }
+  .banner::after { height: 110px; }
+}
+
+/* =========================================================
+   POSTS / CARDS UI (source of truth from /posts)
+   ========================================================= */
+
+/* Page */
+.page { padding: 28px 0 40px; }
+
+.pageHead {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.pageHead h1,
+h1 {
+  margin: 0;
+  font-size: 34px;
+  letter-spacing: -0.02em;
+  color: var(--tmh-text);
+}
+
+.lead {
+  margin: 8px 0 0;
+  color: var(--tmh-muted);
+  max-width: 64ch;
+}
+
+/* Controls */
+.controls { display: flex; gap: 12px; align-items: center; }
+.control { display: flex; gap: 10px; align-items: center; color: var(--tmh-muted); }
+.control span { font-size: 13px; }
+
+select {
+  border: 1px solid var(--tmh-border);
+  background: var(--tmh-card);
+  padding: 8px 10px;
+  border-radius: 10px;
+  color: var(--tmh-text);
+  outline: none;
+}
+
+/* Tag bar + chips */
+.tagBar { margin: 18px 0 22px; display: flex; flex-wrap: wrap; gap: 10px; }
+
+.tagChip {
+  display: inline-flex;
+  align-items: center;
+  padding: 7px 12px;
+  border-radius: 999px;
+  border: 1px solid var(--tmh-border);
+  background: var(--tmh-card);
+  color: var(--tmh-text);
+  text-decoration: none;
+  font-size: 13px;
+}
+.tagChip:hover { border-color: rgba(0,70,175,0.35); }
+.tagChip.active {
+  border-color: rgba(0,70,175,0.45);
+  box-shadow: 0 0 0 3px rgba(0,207,253,0.12);
+}
+
+/* Grid */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+@media (min-width: 1400px) { .grid { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+@media (max-width: 980px) { .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 640px) { .grid { grid-template-columns: 1fr; } }
+
+/* Card (canonical) */
+.card,
+.tmh-card { /* tmh-card kept for Home/index without refactor */
+  position: relative;
+  border: 1px solid var(--tmh-border);
+  background: var(--tmh-card);
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: var(--tmh-card-shadow);
+  transition: transform var(--tmh-card-transition), box-shadow var(--tmh-card-transition), border-color var(--tmh-card-transition);
+}
+
+.card:hover,
+.tmh-card:hover {
+  transform: translateY(var(--tmh-card-lift));
+  border-color: var(--tmh-card-hover-border);
+  box-shadow: var(--tmh-card-shadow-hover);
+}
+
+.card:focus-within,
+.tmh-card:focus-within {
+  border-color: var(--tmh-card-focus-border);
+  box-shadow: var(--tmh-card-focus-ring);
+}
+
+/* Full-card clickable overlay (if you use it) */
+.cardLink {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+/* Cover */
+.cover { /* posts.astro / posts cards */
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  display: block;
+  background: #eef3f8;
+}
+
+.tmh-card__media { aspect-ratio: 16/9; background: #eef3f8; }
+.tmh-card__media img { width: 100%; height: 100%; object-fit: cover; display: block; }
+
+/* Body */
+.cardBody { padding: 14px 14px 16px; }
+.title { margin: 0; font-size: 18px; line-height: 1.25; color: var(--tmh-text); }
+
+.date { display: block; margin-top: 8px; font-size: 12px; color: var(--tmh-muted); }
+.desc { margin: 10px 0 0; color: var(--tmh-muted); font-size: 14px; line-height: 1.5; }
+
+/* Meta row */
+.metaRow {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+/* Ensure tags/source/pills stay clickable above overlay */
+.metaRow, .tags, .source, .pill { position: relative; z-index: 2; }
+.tags { display: flex; flex-wrap: wrap; gap: 8px; }
+
+.pill,
+.tmh-tag {
+  font-size: 12px;
+  padding: 5px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(0,70,175,0.22);
+  background: var(--tmh-accent-soft);
+  color: var(--tmh-primary);
+  text-decoration: none;
+  white-space: nowrap;
+}
+.pill:hover,
+.tmh-tag:hover { border-color: rgba(0,70,175,0.38); }
+
+.source {
+  font-size: 12px;
+  color: var(--tmh-muted);
+  text-decoration: none;
+  white-space: nowrap;
+}
+.source:hover { text-decoration: underline; }
+
+/* Empty state */
+.empty {
+  border: 1px dashed var(--tmh-border);
+  border-radius: 14px;
+  padding: 20px;
+  color: var(--tmh-muted);
+  background: var(--tmh-card);
+}
+
+/* =========================================================
+   HOME (moved from index.astro) — kept as-is, but now unified
+   ========================================================= */
+
+.tmh-container { max-width: none; margin: 0 auto; padding: 48px 0px; }
+.tmh-stack { display: flex; flex-direction: column; gap: 36px; }
+
+.tmh-h1 { font-size: 42px; line-height: 1.1; margin: 0; }
+.tmh-h2 { font-size: 26px; margin: 0; }
+.tmh-lead { margin: 10px 0 0; color: var(--tmh-muted); max-width: 62ch; }
+
+.tmh-actions { display: flex; gap: 10px; margin-top: 16px; flex-wrap: wrap; }
+
+.tmh-btn {
+  display: inline-flex; align-items: center; justify-content: center;
+  padding: 10px 14px; border-radius: 12px;
+  border: 1px solid var(--tmh-border);
+  background: white; color: var(--tmh-text);
+  text-decoration: none;
+  box-shadow: 0 1px 0 rgba(0,0,0,.03);
+  transition: transform var(--tmh-card-transition), box-shadow var(--tmh-card-transition), border-color var(--tmh-card-transition);
+}
+.tmh-btn:hover { transform: translateY(-1px); box-shadow: 0 8px 22px rgba(0,0,0,.08); }
+.tmh-btn--primary { background: var(--tmh-accent-soft); border-color: transparent; }
+
+.tmh-hero { display: grid; grid-template-columns: 1.3fr .7fr; gap: 22px; align-items: start; }
+@media (max-width: 900px) { .tmh-hero { grid-template-columns: 1fr; } }
+
+.tmh-pills { display: flex; gap: 10px; margin-top: 14px; flex-wrap: wrap; }
+.tmh-pill {
+  display: inline-flex; align-items: center;
+  padding: 8px 12px; border-radius: 999px;
+  border: 1px solid var(--tmh-border);
+  background: white;
+  color: var(--tmh-muted);
+  font-size: 13px;
+}
+.tmh-pill--link { text-decoration: none; }
+.tmh-pill--link:hover { color: var(--tmh-text); box-shadow: 0 8px 22px rgba(0,0,0,.08); transform: translateY(-1px); }
+
+.tmh-panel {
+  border: 1px solid var(--tmh-border);
+  border-radius: 16px;
+  padding: 16px;
+  background: var(--tmh-card);
+  box-shadow: var(--tmh-shadow);
+}
+.tmh-panel__title { font-weight: 700; margin-bottom: 8px; }
+.tmh-panel__hint { margin-top: 10px; color: var(--tmh-muted); font-size: 13px; }
+
+.tmh-list { margin: 0; padding-left: 18px; color: var(--tmh-muted); }
+.tmh-list a { color: var(--tmh-text); text-decoration: none; }
+.tmh-list a:hover { text-decoration: underline; }
+
+.tmh-section { display: flex; flex-direction: column; gap: 14px; }
+.tmh-section__head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
+.tmh-link { color: var(--tmh-text); text-decoration: none; }
+.tmh-link:hover { text-decoration: underline; }
+
+.tmh-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+@media (max-width: 980px) { .tmh-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 620px) { .tmh-grid { grid-template-columns: 1fr; } }
+
+/* Home card (kept, but now same hover/feel because .tmh-card is unified above) */
+.tmh-card {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  text-decoration: none;
+  color: var(--tmh-text);
+}
+
+.tmh-card__body { padding: 14px 14px 12px; display: flex; flex-direction: column; gap: 8px; }
+.tmh-card__title { font-weight: 800; font-size: 16px; line-height: 1.2; }
+.tmh-card__meta { font-size: 12px; color: var(--tmh-muted); }
+.tmh-card__desc { color: var(--tmh-muted); font-size: 13px; line-height: 1.45; }
+
+.tmh-card__footer { margin-top: 6px; display: flex; justify-content: space-between; align-items: center; }
+.tmh-tags { display: flex; gap: 8px; flex-wrap: wrap; }
+
+.tmh-tagsCloud { display: flex; flex-wrap: wrap; gap: 10px; }
+
+.tmh-callout {
+  border: 1px dashed var(--tmh-border);
+  border-radius: 16px;
+  padding: 18px;
+  background: linear-gradient(180deg, rgba(0,0,0,0.02), rgba(0,0,0,0));
+}
+
+/* =========================================================
+   SINGLE POST PAGE (moved from posts/[slug].astro) — scoped
+   ========================================================= */
+
+.post { max-width: 920px; margin: 0 auto; padding: 12px 0 40px; }
+.post__header { margin: 10px 0 18px; }
+.post__title { margin: 0 0 10px; font-size: 42px; line-height: 1.1; letter-spacing: -0.02em; }
+.post__meta { display: flex; align-items: center; gap: 10px; opacity: 0.8; }
+.post .dot { opacity: 0.6; }
+.post .link { text-decoration: underline; }
+
+.post__hero { margin: 18px 0 10px; }
+.post__hero img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 18px;
+  border: 1px solid rgba(0,0,0,0.08);
+  background: #fff;
+}
+
+.post__tags { margin-top: 12px; display: flex; flex-wrap: wrap; gap: 10px; }
+.post .tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(0,0,0,0.08);
+  background: #F9FAFB;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.post__social { margin-top: 14px; display: flex; gap: 10px; flex-wrap: wrap; }
+.post .btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 12px;
+  border-radius: 12px;
+  border: 1px solid rgba(0,0,0,0.08);
+  background: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.post__content { margin-top: 18px; }
+
+/* =========================================================
+   TAG PAGE (moved from tags/[tag].astro) — wrap/grid already used
+   ========================================================= */
+
+/* (No extra needed: .wrap + .grid are already defined above) */

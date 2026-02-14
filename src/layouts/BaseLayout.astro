@@ -7,6 +7,8 @@
  * - Canonical + OpenGraph + Twitter cards (default OG image: /og.png)
  */
 
+import "../styles/ui.css";
+
 type Props = {
   title?: string;
   description?: string;
@@ -67,179 +69,6 @@ const isActive = (href: string) => {
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={ogImage} />
 
-    <style>
-      :root {
-        color-scheme: light;
-
-        /* Brand */
-        --tmh-primary: #0046AF;
-        --tmh-accent: #00CFFD;
-        --tmh-text: #003E54;
-
-        /* UI */
-        --tmh-bg: #F9FAFB;
-        --tmh-card: #FFFFFF;
-        --tmh-border: rgba(0,0,0,0.08);
-        --tmh-muted: rgba(0, 0, 0, 0.6);
-        --tmh-shadow: 0 10px 30px rgba(0,0,0,0.06);
-        --tmh-radius: 18px;
-      }
-
-      html, body {
-        margin: 0;
-        padding: 0;
-        background: var(--tmh-bg);
-        color: var(--tmh-text);
-        font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-      }
-
-      a { color: inherit; }
-
-      .wrap {
-        max-width: 1100px;
-        margin: 0 auto;
-        padding: 0 24px 24px;
-      }
-
-      /* ===== Banner ===== */
-      .banner {
-        position: relative;
-        width: 100%;
-        overflow: hidden;
-        border-bottom: 1px solid var(--tmh-border);
-        background: #fff;
-      }
-
-      .banner img {
-        display: block;
-        width: 100%;
-        height: auto;
-      }
-
-      /* the soft fade you asked to keep (bottom → top, light tone) */
-      .banner::after {
-        content: "";
-        position: absolute;
-        left: 0; right: 0; bottom: 0;
-        height: 140px;
-        pointer-events: none;
-        background: linear-gradient(
-          to top,
-          rgba(249, 250, 251, 1) 0%,
-          rgba(249, 250, 251, 0.65) 45%,
-          rgba(249, 250, 251, 0) 100%
-        );
-      }
-
-      /* ===== Topbar (logo + nav) ===== */
-      .topbar {
-        border-bottom: 1px solid var(--tmh-border);
-        background: rgba(255,255,255,0.8);
-        backdrop-filter: blur(8px);
-      }
-
-      .topbar-inner {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 16px;
-        padding: 14px 0;
-      }
-
-      .brand {
-        display: flex;
-        align-items: center;
-        gap: 12px;
-        min-width: 260px;
-      }
-
-      .brand img {
-        width: 40px;
-        height: 40px;
-        border-radius: 999px;
-        box-shadow: 0 6px 16px rgba(0,0,0,0.08);
-      }
-
-      .brand-title {
-        display: flex;
-        flex-direction: column;
-        line-height: 1.15;
-      }
-
-      .brand-title strong {
-        font-size: 14px;
-        letter-spacing: 0.2px;
-      }
-
-      .brand-title span {
-        font-size: 12px;
-        color: rgba(0,0,0,0.55);
-      }
-
-      nav {
-        display: flex;
-        align-items: center;
-        gap: 10px;
-      }
-
-      .navlink {
-        text-decoration: none;
-        font-weight: 700;
-        font-size: 14px;
-        padding: 8px 12px;
-        border-radius: 12px;
-        color: rgba(0,0,0,0.75);
-      }
-
-      .navlink:hover {
-        background: rgba(0, 70, 175, 0.06);
-        color: var(--tmh-primary);
-      }
-
-      .navlink.active {
-        background: rgba(0, 70, 175, 0.08);
-        color: var(--tmh-primary);
-      }
-
-      main {
-        padding-top: 22px;
-      }
-
-      /* ===== Footer ===== */
-      footer {
-        margin-top: 54px;
-        padding-top: 16px;
-        border-top: 1px solid var(--tmh-border);
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 12px;
-        color: rgba(0,0,0,0.55);
-        font-size: 13px;
-      }
-
-      .footer-right {
-        display: inline-flex;
-        align-items: center;
-        gap: 10px;
-      }
-
-      .footer-right img {
-        width: 22px;
-        height: 22px;
-        border-radius: 999px;
-        opacity: 0.9;
-      }
-
-      /* Responsive */
-      @media (max-width: 720px) {
-        .wrap { padding: 0 16px 16px; }
-        .topbar-inner { flex-direction: column; align-items: flex-start; }
-        nav { width: 100%; justify-content: flex-end; }
-        .brand { min-width: unset; }
-        .banner::after { height: 110px; }
-      }
-    </style>
   </head>
 
   <body>
@@ -255,11 +84,11 @@ const isActive = (href: string) => {
     <div class="topbar">
       <div class="wrap">
         <div class="topbar-inner">
-          <a class="brand" href="/" style="text-decoration:none;">
+          <a class="brand" href="/">
             <img src="/logo.png" alt="TechMind Hub logo" />
             <div class="brand-title">
-              <strong>TechMind Hub</strong>
-              <span>AI • Robotics • Automation • Enterprise Tech</span>
+              <strong>HUB of</strong>
+              <span>AI • Robotics • Automation • Enterprise Tech • Networks</span>
             </div>
           </a>
 
