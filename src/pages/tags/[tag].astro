@@ -25,10 +25,10 @@ const posts = all
 ---
 
 <BaseLayout title={`#${tag}`}>
-  <main class="wrap">
+  <section class="page">
     <h1>#{tag}</h1>
     <section class="grid">
       {posts.map((post) => <PostCard post={post} />)}
     </section>
-  </main>
+  </section>
 </BaseLayout>

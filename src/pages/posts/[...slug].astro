@@ -17,7 +17,7 @@ const { Content } = await post.render();
   <article>
     <h1>{post.data.title}</h1>
 
-    <p style="opacity:.75;">
+    <p class="legacy-post-meta">
       {post.data.date.toISOString().slice(0,10)}
       {" · "}
       <a href={post.data.source_url} rel="nofollow" target="_blank">
