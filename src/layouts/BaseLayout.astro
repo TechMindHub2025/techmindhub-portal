@@ -92,7 +92,9 @@ const isActive = (href: string) => {
 
           <nav aria-label="Primary">
             <a class={"navlink " + (isActive("/") ? "active" : "")} href="/" aria-current={isActive("/") ? "page" : undefined}>Home</a>
-            <a class={"navlink " + (isActive("/posts") ? "active" : "")} href="/posts" aria-current={isActive("/posts") ? "page" : undefined}>Posts</a>
+            <a class={"navlink " + (isActive("/posts") ? "active" : "")} href="/posts" aria-current={isActive("/posts") ? "page" : undefined}>Analysis</a>
+            <a class={"navlink " + (isActive("/tags") ? "active" : "")} href="/tags" aria-current={isActive("/tags") ? "page" : undefined}>Tags</a>
+            <a class="navlink" href="https://www.facebook.com/groups/techmindhub" target="_blank" rel="noreferrer">Circle</a>
             <a class={"navlink " + (isActive("/about") ? "active" : "")} href="/about" aria-current={isActive("/about") ? "page" : undefined}>About</a>
           </nav>
         </div>
