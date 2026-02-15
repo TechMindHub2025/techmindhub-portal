@@ -1,41 +1,170 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
 
-const title = "About";
-const description =
-  "TechMind Hub is a curated stream of practical signals across AI, robotics, automation, and enterprise technology.";
+export const prerender = true;
+
+const FORM_ACTION = import.meta.env.PUBLIC_TMH_CONTACT_FORM_ACTION;
+
+const FB_CIRCLE_URL = "https://www.facebook.com/groups/techmindhub";
+const LINKEDIN_URL  = "https://www.linkedin.com/in/andrew-rover-799772ba/";
+const FB = "https://www.facebook.com/andrew.rover.2024";
+
+const all = await getCollection("posts", ({ data }) => data.status === "published");
+
+// newest first
+const posts = [...all].sort((a, b) => +new Date(b.data.pubDate) - +new Date(a.data.pubDate));
+const latest = posts.slice(0, 6);
+
+// tag cloud (top 12 by count)
+const tagCounts = new Map<string, number>();
+for (const p of posts) {
+  for (const t of p.data.tags ?? []) tagCounts.set(t, (tagCounts.get(t) ?? 0) + 1);
+}
+const topTags = [...tagCounts.entries()]
+  .sort((a, b) => b[1] - a[1])
+  .slice(0, 12)
+  .map(([t]) => t);
+  
 ---
 
-<BaseLayout title={title} description={description}>
-  <article class="prose">
-    <h1>About TechMind Hub</h1>
-    <p>
-      TechMind Hub is a curated stream of practical signals across AI, robotics, automation, and enterprise technology.
-      The goal is simple: capture what matters, summarize it clearly, and keep it searchable and shareable — without noise.
-    </p>
+<BaseLayout
+  title="About — TechMind Hub"
+  description="What TechMind Hub is, who it’s for, how publishing works, and how to get in touch."
+>
+  <section class="page">
+    <header class="pageHead">
+      <h1>About TechMind Hub</h1>
+      <p class="lead">
+        TechMind Hub is a curated stream of practical signals across AI, robotics, automation, and enterprise technology.
+        The goal is simple: capture what matters, summarize it clearly, and keep it searchable and shareable — without noise.
+      </p>
 
-    <h2>What you will find here</h2>
-    <ul>
-      <li><strong>Short, actionable posts</strong> with key takeaways.</li>
-      <li><strong>Visual-first summaries</strong> (cover + quick context).</li>
-      <li><strong>Links to original sources</strong> for deeper reading.</li>
-      <li><strong>Tags</strong> for fast navigation across topics.</li>
-    </ul>
+      <div class="tmh-actions">
+        <a class="tmh-btn tmh-btn--primary" href="/posts">Browse Analysis</a>
+        <a class="tmh-btn" href="/tags">Explore Tags</a>
+        <a class="tmh-btn" href="/circle">Join the Circle</a>
+      </div>
+    </header>
+    <div class="tmh-pills">
+	</div>
+    <div class="aboutGrid">
+      <!-- What it is -->
+      <article class="moduleCard">
+        <h2 class="moduleTitle">What it is</h2>
+        <p class="moduleText">
+          A lightweight “signal desk” that turns high-signal sources into short, source-linked notes you can skim fast and reference later.
+        </p>
+        <ul class="moduleList">
+          <li>Short, actionable summaries</li>
+          <li>Source-linked references</li>
+          <li>Tags for fast navigation</li>
+          <li>Automation-ready publishing workflow</li>
+        </ul>
+      </article>
 
-    <h2>How publishing works</h2>
-    <p>
-      TechMind Hub follows a strict, automation-friendly workflow: content is proposed via pull requests, every post is reviewed
-      before publishing, and the site is deployed automatically after approval.
-    </p>
+      <!-- Who it's for -->
+      <article class="moduleCard">
+        <h2 class="moduleTitle">Who it’s for</h2>
+        <p class="moduleText">
+          Engineers, operators, tech leaders, and builders who want fast, reliable situational awareness — without spending hours scrolling feeds.
+        </p>
+        <div class="badgeRow">
+          <span class="badge">CTO / Tech Lead</span>
+          <span class="badge">Infra &amp; NetOps</span>
+          <span class="badge">AI / Robotics</span>
+          <span class="badge">Procurement &amp; Vendors</span>
+        </div>
+      </article>
 
-    <h2>Where to discuss</h2>
-    <p>
-      This portal is the archive. Discussions happen on the social posts (LinkedIn / Facebook) linked on each article.
-    </p>
+      <!-- Topics -->
+      <article class="moduleCard">
+        <h2 class="moduleTitle">Topics</h2>
+        <p class="moduleText">
+          The current scope is intentionally broad — with a bias toward real-world engineering and operations.
+        </p>
 
-    <h2>Contact</h2>
-    <p>
-      For collaboration or requests, reach out via the connected social profiles.
-    </p>
-  </article>
+        <div class="tmh-section">
+          <div class="tmh-section__head">
+            <a class="tagChip" href="/posts">Browse →</a>
+          </div>
+
+          <div class="tmh-tagsCloud">
+            {topTags.map((t) => (
+              <a class="tmh-pill tmh-pill--link" href={`/tags/${t}`}>#{t}</a>
+            ))}
+          </div>
+        </div>
+
+        <p class="moduleText" style="margin-top:12px;">
+          Tags are the primary navigation layer — the archive stays clean, searchable, and easy to maintain.
+        </p>
+      </article>
+
+      <!-- Publishing workflow -->
+      <article class="moduleCard">
+        <h2 class="moduleTitle">How publishing works</h2>
+        <p class="moduleText">
+          TechMind Hub follows a strict, automation-friendly workflow: content is proposed via pull requests, every post is reviewed before publishing,
+          and the site is deployed automatically after approval.
+        </p>
+        <ol class="steps">
+          <li>Collect → curate sources</li>
+          <li>Summarize with links and tags</li>
+          <li>Review → merge</li>
+          <li>Deploy → publish</li>
+        </ol>
+      </article>
+
+      <!-- Where to discuss -->
+      <article class="moduleCard">
+        <h2 class="moduleTitle">Where to discuss</h2>
+        <p class="moduleText">
+          This site is the archive. Discussions happen in the community spaces and under social posts linked on each article.
+        </p>
+
+        <div class="linkRow">
+          <a class="btn" href={FB_CIRCLE_URL} target="_blank" rel="noopener noreferrer">TechMind Hub Circle</a>
+          <a class="btn" href={LINKEDIN_URL} target="_blank" rel="noopener noreferrer">LinkedIn</a>
+		  <a class="btn" href={FB} target="_blank" rel="noopener noreferrer">Facebook</a>
+        </div>
+
+        <p class="moduleText" style="margin-top:12px;">
+          Community rules live on the <a href="/circle">Circle</a> page.
+        </p>
+      </article>
+
+      <!-- Contact -->
+      <article class="moduleCard">
+        <h2 class="moduleTitle">Contact</h2>
+        <p class="moduleText">
+          Want updates, collaborations, or to suggest a source? Leave an email below.
+        </p>
+
+        {FORM_ACTION ? (
+          <form class="contactForm" method="post" action={FORM_ACTION}>
+            <div class="formRow">
+              <label class="label" for="email">Email</label>
+              <input class="input" id="email" name="email" type="email" placeholder="you@company.com" required />
+              <button class="btn" type="submit">Submit</button>
+            </div>
+            <p class="note">
+              By submitting, you agree to be contacted about TechMind Hub updates. Unsubscribe anytime.
+            </p>
+          </form>
+        ) : (
+          <div class="callout">
+            <p class="moduleText" style="margin:0;">
+              Form endpoint is not configured yet.
+              Set <strong>PUBLIC_TMH_CONTACT_FORM_ACTION</strong> in your env to enable submissions.
+            </p>
+          </div>
+        )}
+
+        <p class="moduleText" style="margin-top:12px;">
+          This will evolve over time — TechMind Hub is designed as a “container” where new modules can be added without redesigning everything.
+        </p>
+      </article>
+    </div>
+  </section>
 </BaseLayout>
