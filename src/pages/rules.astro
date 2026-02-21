@@ -1,0 +1,146 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const FB_CIRCLE_URL =
+  import.meta.env.PUBLIC_FB_CIRCLE_URL ||
+  "https://www.facebook.com/groups/techmindhub";
+---
+
+<BaseLayout title="TechMind Hub — Principles">
+  <section class="container">
+    <div class="pageHeader">
+      <h1 class="pageTitle">TechMind Hub Principles</h1>
+      <p class="pageLead">
+        A lightweight, professional tech circle focused on high-signal discussion and engineering-grade clarity.
+      </p>
+    </div>
+
+    <div class="grid2">
+      <article class="moduleCard">
+        <h2 class="moduleTitle">Core principles</h2>
+        <p class="moduleText">The defaults that shape everything published and discussed across TechMind Hub.</p>
+
+        <ul class="rulesList">
+          <li>
+            <span class="ruleTitle">Signal over noise</span>
+            <span class="ruleDesc">Short, actionable, high-density content. No engagement farming.</span>
+          </li>
+          <li>
+            <span class="ruleTitle">Source-first thinking</span>
+            <span class="ruleDesc">Claims should be linkable to credible sources. Opinions are fine—label them.</span>
+          </li>
+          <li>
+            <span class="ruleTitle">Engineering depth</span>
+            <span class="ruleDesc">Prefer real constraints, trade-offs, and practical implementation detail.</span>
+          </li>
+          <li>
+            <span class="ruleTitle">No sales hype</span>
+            <span class="ruleDesc">No aggressive promotion, hype language, or “DM me” funnels.</span>
+          </li>
+        </ul>
+
+        <div class="pillRow">
+          <span class="pill">Quality-first</span>
+          <span class="pill">Evidence-linked</span>
+          <span class="pill">Practical</span>
+        </div>
+      </article>
+
+      <article class="moduleCard">
+        <h2 class="moduleTitle">Conduct & format</h2>
+        <p class="moduleText">A professional space—clear tone, clean communication, predictable moderation.</p>
+
+        <ul class="rulesList">
+          <li>
+            <span class="ruleTitle">Professional conduct</span>
+            <span class="ruleDesc">Respectful debate is welcome. Personal attacks, harassment, and misinformation are not.</span>
+          </li>
+          <li>
+            <span class="ruleTitle">English-only discussion</span>
+            <span class="ruleDesc">To keep the circle accessible globally, discussion is strictly in English.</span>
+          </li>
+          <li>
+            <span class="ruleTitle">Curated, not open posting</span>
+            <span class="ruleDesc">The Circle is moderated to preserve quality and relevance.</span>
+          </li>
+        </ul>
+
+        <div class="callout">
+          <p class="moduleText" style="margin:0;">
+            Full operational rules apply inside the Facebook Circle.
+          </p>
+          <p class="moduleText" style="margin:10px 0 0 0;">
+            <a class="btn" href={FB_CIRCLE_URL} target="_blank" rel="noopener noreferrer">Open Facebook Circle</a>
+          </p>
+        </div>
+      </article>
+    </div>
+
+    <article class="moduleCard" style="margin-top:16px;">
+      <h2 class="moduleTitle">What this is (and isn’t)</h2>
+      <div class="grid2">
+        <div>
+          <p class="moduleText"><strong>This is:</strong></p>
+          <ul class="bullets">
+            <li>A curated signal feed and a practical discussion layer</li>
+            <li>A place for builders: infra, AI, automation, robotics</li>
+            <li>A professional circle with moderation standards</li>
+          </ul>
+        </div>
+        <div>
+          <p class="moduleText"><strong>This is not:</strong></p>
+          <ul class="bullets">
+            <li>An open forum for unrestricted posting</li>
+            <li>A marketplace or spam-friendly promo space</li>
+            <li>A multilingual chatroom</li>
+          </ul>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <style>
+    /* Minimal local styles; won't fight your ui.css */
+    .pageHeader { margin: 6px 0 18px; }
+    .pageTitle { margin: 0 0 8px; }
+    .pageLead { margin: 0; max-width: 70ch; }
+
+    .grid2 {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 16px;
+    }
+    @media (min-width: 920px) {
+      .grid2 { grid-template-columns: 1fr 1fr; }
+    }
+
+    .rulesList {
+      list-style: none;
+      padding: 0;
+      margin: 14px 0 0;
+      display: grid;
+      gap: 12px;
+    }
+    .ruleTitle {
+      display: block;
+      font-weight: 700;
+      margin-bottom: 2px;
+    }
+    .ruleDesc {
+      display: block;
+      opacity: 0.9;
+    }
+
+    .pillRow {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 14px;
+    }
+
+    .bullets {
+      margin: 8px 0 0;
+      padding-left: 18px;
+    }
+  </style>
+</BaseLayout>
