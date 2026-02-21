@@ -138,25 +138,108 @@ const topTags = [...tagCounts.entries()]
       <article class="moduleCard">
         <h2 class="moduleTitle">Contact</h2>
         <p class="moduleText">
-          Want updates, collaborations, or to suggest a source? Leave an email below.
+          Want updates, collaborations, or to suggest a source? Send a short message.
         </p>
 
-        {FORM_ACTION ? (
-          <form class="contactForm" method="post" action={FORM_ACTION}>
-            <div class="formRow">
-              <label class="label" for="email">Email</label>
-              <input class="input" id="email" name="email" type="email" placeholder="you@company.com" required />
-              <button class="btn" type="submit">Submit</button>
+        {import.meta.env.PUBLIC_TURNSTILE_SITEKEY ? (
+          <>
+            <form class="contactForm" id="tmhContactForm">
+			<div class="contactFormInner">
+              <div class="formRow" style="gap:12px; align-items:flex-start;">
+                <div style="flex:1; display:flex; flex-direction:column; gap:10px;">
+                  <div>
+                    <label class="label" for="name">Name (optional)</label>
+                    <input class="input" id="name" name="name" type="text" placeholder="Your name" autocomplete="name" />
+                  </div>
+
+                  <div>
+                    <label class="label" for="email">Email</label>
+                    <input class="input" id="email" name="email" type="email" placeholder="you@company.com" required autocomplete="email" />
+                  </div>
+
+                  <div>
+                    <label class="label" for="message">Message</label>
+                    <textarea class="input" id="message" name="message" rows="5" placeholder="What’s on your mind?" required></textarea>
+                  </div>
+
+                  <!-- Turnstile widget -->
+                  <div
+                    class="cf-turnstile"
+                    data-sitekey={import.meta.env.PUBLIC_TURNSTILE_SITEKEY}
+                  ></div>
+
+                  <div style="display:flex; gap:10px; align-items:center;">
+                    <button class="btn" type="submit" id="tmhContactSubmit">Send</button>
+                    <span class="note" id="tmhContactStatus" aria-live="polite"></span>
+                  </div>
+
+                  <p class="badge" style="margin-top:6px;">
+                    By submitting, you agree to be contacted about TechMind Hub updates. Unsubscribe anytime.
+                  </p>
+                </div>
+              </div>
             </div>
-            <p class="note">
-              By submitting, you agree to be contacted about TechMind Hub updates. Unsubscribe anytime.
-            </p>
-          </form>
+			</form>
+
+            <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+
+            <script>
+              const form = document.getElementById("tmhContactForm");
+              const btn = document.getElementById("tmhContactSubmit");
+              const statusEl = document.getElementById("tmhContactStatus");
+
+              const endpoint = "/api/contact"; // Worker endpoint
+
+              function setStatus(text) {
+                if (statusEl) statusEl.textContent = text || "";
+              }
+
+              form?.addEventListener("submit", async (e) => {
+                e.preventDefault();
+                setStatus("");
+                btn?.setAttribute("disabled", "true");
+                btn && (btn.textContent = "Sending...");
+
+                try {
+                  const fd = new FormData(form);
+
+                  const token = (fd.get("cf-turnstile-response") || "").toString().trim();
+                  const payload = {
+                    name: (fd.get("name") || "").toString().trim(),
+                    email: (fd.get("email") || "").toString().trim(),
+                    message: (fd.get("message") || "").toString().trim(),
+                    turnstileToken: token,
+                  };
+
+                  const res = await fetch(endpoint, {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify(payload),
+                  });
+
+                  const data = await res.json().catch(() => null);
+
+                  if (res.ok && data?.ok) {
+                    form.reset();
+                    setStatus("✅ Sent. Thanks!");
+                  } else {
+                    const err = data?.error || `Request failed (${res.status})`;
+                    setStatus("❌ " + err);
+                  }
+                } catch (err) {
+                  setStatus("❌ Network error. Try again.");
+                } finally {
+                  btn?.removeAttribute("disabled");
+                  btn && (btn.textContent = "Send");
+                }
+              });
+            </script>
+          </>
         ) : (
           <div class="callout">
             <p class="moduleText" style="margin:0;">
-              Form endpoint is not configured yet.
-              Set <strong>PUBLIC_TMH_CONTACT_FORM_ACTION</strong> in your env to enable submissions.
+              Turnstile is not configured yet.
+              Set <strong>PUBLIC_TURNSTILE_SITEKEY</strong> in your env to enable the form.
             </p>
           </div>
         )}
