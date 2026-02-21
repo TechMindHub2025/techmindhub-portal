@@ -6,9 +6,17 @@ export const prerender = true;
 
 const FORM_ACTION = import.meta.env.PUBLIC_TMH_CONTACT_FORM_ACTION;
 
-const FB_CIRCLE_URL = "https://www.facebook.com/groups/techmindhub";
-const LINKEDIN_URL  = "https://www.linkedin.com/in/andrew-rover-799772ba/";
-const FB = "https://www.facebook.com/andrew.rover.2024";
+const FB_CIRCLE_URL =
+  import.meta.env.PUBLIC_FB_CIRCLE_URL ||
+  "https://www.facebook.com/groups/techmindhub";
+
+const LINKEDIN_URL =
+  import.meta.env.PUBLIC_LINKEDIN_URL ||
+  "https://www.linkedin.com/in/andrew-rover-799772ba/";
+
+const FB_PROFILE_URL =
+  import.meta.env.PUBLIC_FB_PROFILE_URL ||
+  "https://www.facebook.com/andrew.rover.2024";
 
 const all = await getCollection("posts", ({ data }) => data.status === "published");
 
@@ -35,7 +43,7 @@ const topTags = [...tagCounts.entries()]
   <section class="page">
     <header class="pageHead">
       <h1>About TechMind Hub</h1>
-      <p class="lead">
+      <p class="pageLead">
         TechMind Hub is a curated stream of practical signals across AI, robotics, automation, and enterprise technology.
         The goal is simple: capture what matters, summarize it clearly, and keep it searchable and shareable — without noise.
       </p>
@@ -126,11 +134,11 @@ const topTags = [...tagCounts.entries()]
         <div class="linkRow">
           <a class="btn" href={FB_CIRCLE_URL} target="_blank" rel="noopener noreferrer">TechMind Hub Circle</a>
           <a class="btn" href={LINKEDIN_URL} target="_blank" rel="noopener noreferrer">LinkedIn</a>
-		  <a class="btn" href={FB} target="_blank" rel="noopener noreferrer">Facebook</a>
+		  <a class="btn" href={FB_PROFILE_URL} target="_blank" rel="noopener noreferrer">Facebook</a>
         </div>
 
         <p class="moduleText" style="margin-top:12px;">
-          Community rules live on the <a href="/circle">Circle</a> page.
+          Community rules live on the <a href="/rules/">Сircle</a> page.
         </p>
       </article>
 

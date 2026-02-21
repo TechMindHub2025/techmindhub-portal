@@ -1,0 +1,139 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const FB_CIRCLE_URL =
+  import.meta.env.PUBLIC_FB_CIRCLE_URL ||
+  "https://www.facebook.com/groups/techmindhub";
+
+const RULES_URL = "/rules";
+---
+
+<BaseLayout title="Circle — TechMind Hub">
+  <section class="page">
+    <header class="pageHeader">
+      <h1 class="pageTitle">TechMind Hub Circle</h1>
+      <p class="pageLead">
+        A curated Facebook community for high-signal discussion across AI, infrastructure, automation, and enterprise tech —
+        with predictable moderation and zero sales hype.
+      </p>
+
+      <div class="btnRow" style="margin-top: 14px;">
+        <a class="btn" href={FB_CIRCLE_URL} target="_blank" rel="noopener noreferrer">Open Facebook Circle</a>
+        <a class="btn btnSecondary" href={RULES_URL}>Read principles</a>
+      </div>
+
+      <div class="pillRow" style="margin-top: 14px;">
+        <span class="pill">Curated</span>
+        <span class="pill">English-only</span>
+        <span class="pill">No hype</span>
+        <span class="pill">Source-first</span>
+      </div>
+    </header>
+
+    <div class="grid2">
+      <article class="moduleCard">
+        <h2 class="moduleTitle">Who joins</h2>
+        <p class="moduleText">
+          Engineers, operators, architects, tech leaders, and builders who want fast, reliable situational awareness — and
+          discussions that don’t waste time.
+        </p>
+
+        <ul class="list">
+          <li>Infra / networking / systems</li>
+          <li>AI engineering & applied ML</li>
+          <li>Automation & robotics</li>
+          <li>Enterprise platforms & vendors</li>
+        </ul>
+      </article>
+
+      <article class="moduleCard">
+        <h2 class="moduleTitle">What happens inside</h2>
+        <p class="moduleText">
+          The Circle is a discussion layer — the website is the archive. Posts are moderated to keep signal high.
+        </p>
+
+        <ul class="list">
+          <li>Source-based debate and technical critique</li>
+          <li>Short, actionable analysis (no engagement farming)</li>
+          <li>Vendor transparency: specs, constraints, real use cases</li>
+          <li>Admin-curated threads and member submissions</li>
+        </ul>
+      </article>
+    </div>
+
+    <article class="moduleCard" style="margin-top: 18px;">
+      <h2 class="moduleTitle">What it is (and isn’t)</h2>
+
+      <div class="split2">
+        <div>
+          <p class="moduleText"><strong>This is:</strong></p>
+          <ul class="list">
+            <li>A curated signal feed + a practical discussion layer</li>
+            <li>A professional tech circle with moderation standards</li>
+            <li>A place for builders: infra, AI, automation, robotics</li>
+          </ul>
+        </div>
+
+        <div>
+          <p class="moduleText"><strong>This is not:</strong></p>
+          <ul class="list">
+            <li>An open forum for unrestricted posting</li>
+            <li>A marketplace or spam-friendly promo space</li>
+            <li>A multilingual chatroom</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="callout" style="margin-top: 14px;">
+        <p class="moduleText" style="margin:0;">
+          If you’re looking for sales leads, mass reposting, or “DM me” funnels — this Circle is probably not for you.
+        </p>
+      </div>
+    </article>
+
+    <div class="grid2" style="margin-top: 18px;">
+      <article class="moduleCard">
+        <h2 class="moduleTitle">Why Facebook</h2>
+        <p class="moduleText">
+          Facebook gives us a pragmatic mix: friction-based entry, strong moderation tooling, and persistent searchable threads.
+          It’s not trendy — it’s operationally effective.
+        </p>
+      </article>
+
+      <article class="moduleCard">
+        <h2 class="moduleTitle">How to participate</h2>
+        <p class="moduleText">
+          Keep it professional, link sources, and add context. Low-effort posts, hype language, and off-topic content get removed.
+        </p>
+
+        <div class="btnRow" style="margin-top: 12px;">
+          <a class="btn" href={FB_CIRCLE_URL} target="_blank" rel="noopener noreferrer">Join / Open Circle</a>
+          <a class="btn btnSecondary" href={RULES_URL}>Principles & rules</a>
+        </div>
+      </article>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+  }
+  .split2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+    align-items: start;
+  }
+  .list {
+    margin: 10px 0 0 18px;
+    color: var(--muted, #334155);
+    line-height: 1.6;
+  }
+
+  @media (max-width: 920px) {
+    .grid2, .split2 { grid-template-columns: 1fr; }
+  }
+</style>
