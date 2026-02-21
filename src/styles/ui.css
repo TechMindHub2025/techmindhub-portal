@@ -625,3 +625,48 @@ select {
   padding: 18px;
   background: linear-gradient(180deg, rgba(0,0,0,0.02), rgba(0,0,0,0));
 }
+
+/* Contact form – full-width inputs */
+.contactForm {
+  width: 100%;
+}
+
+.contactForm .input {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.contactForm textarea.input {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.contactForm .cf-turnstile {
+  width: 100%;
+}
+
+/* Contact form – center all controls without changing their width */
+.contactFormInner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;   /* центрируем сами элементы */
+  gap: 10px;
+}
+
+/* чтобы label/подписи не были по центру, а читались нормально */
+.contactFormInner > div,
+.contactFormInner label,
+.contactFormInner .note {
+  width: 100%;
+  max-width: 420px;      /* подгони если надо: 380–520 */
+}
+
+.contactFormInner .cf-turnstile {
+  width: 100%;
+  max-width: 420px;
+}
+
+/* кнопка по центру */
+.contactFormInner button.btn {
+  align-self: center;
+}
