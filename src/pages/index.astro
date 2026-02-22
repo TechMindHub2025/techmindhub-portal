@@ -132,13 +132,14 @@ const pageDescription =
 <script>
   const heroBg = document.querySelector('.heroBg');
   const mediaQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
-  const PARALLAX_FACTOR = 0.2;
+  const PARALLAX_FACTOR = 0.22;
+  const MAX_TRAVEL = 20;
 
   if (heroBg && !mediaQuery.matches) {
     let ticking = false;
 
     const updateParallax = () => {
-      const offset = Math.round(window.scrollY * PARALLAX_FACTOR);
+      const offset = Math.min(MAX_TRAVEL, Math.round(window.scrollY * PARALLAX_FACTOR));
       heroBg.style.transform = `translate3d(0, ${offset}px, 0)`;
       ticking = false;
     };

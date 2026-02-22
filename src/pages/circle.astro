@@ -22,7 +22,7 @@ const RULES_URL = "/rules";
         <a class="btn btnSecondary" href={RULES_URL}>Read principles</a>
       </div>
 
-      <div class="pillRow">
+      <div class="pillRow circlePillRow">
         <span class="pill">Curated</span>
         <span class="pill">English-only</span>
         <span class="pill">No hype</span>
@@ -127,6 +127,10 @@ const RULES_URL = "/rules";
     gap: 18px;
     align-items: start;
   }
+  .circlePillRow {
+    margin-top: var(--space-5);
+  }
+
   .list {
     margin: 10px 0 0 18px;
     color: var(--muted, #334155);

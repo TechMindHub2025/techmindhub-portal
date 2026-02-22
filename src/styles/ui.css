@@ -294,6 +294,30 @@ select:focus-visible {
 
 /* Tag bar + chips */
 .tagBar { margin: 0 0 var(--space-5); display: flex; flex-wrap: wrap; gap: var(--space-2); }
+.tagControls {
+  margin: 0 0 var(--space-5);
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--space-3);
+  flex-wrap: wrap;
+}
+
+.tagControls .tagBar {
+  margin: 0;
+  flex: 1;
+}
+
+.tagSort {
+  margin-top: 0;
+  margin-left: auto;
+}
+
+@media (max-width: 720px) {
+  .tagControls { align-items: stretch; }
+  .tagSort { margin-left: 0; }
+}
+
 
 .tagChip {
   display: inline-flex;
@@ -473,17 +497,17 @@ select:focus-visible {
   align-items: start;
   padding: var(--space-6);
   border: 1px solid var(--tmh-border);
-  background: rgba(255,255,255,0.7);
+  background: rgba(255,255,255,0.62);
 }
 .heroBg {
   position: absolute;
-  inset: -14% 0 0;
-  z-index: -1;
+  inset: -28px 0;
+  z-index: 0;
   pointer-events: none;
   background:
-    radial-gradient(120% 90% at 0% 0%, rgba(0, 207, 253, 0.16), transparent 55%),
-    radial-gradient(90% 75% at 100% 10%, rgba(0, 70, 175, 0.14), transparent 55%),
-    linear-gradient(180deg, rgba(255,255,255,0.98) 0%, rgba(249,250,251,0.92) 100%);
+    radial-gradient(120% 90% at 0% 0%, rgba(0, 207, 253, 0.24), transparent 58%),
+    radial-gradient(90% 80% at 100% 10%, rgba(0, 70, 175, 0.18), transparent 55%),
+    linear-gradient(180deg, rgba(255,255,255,0.98) 0%, rgba(249,250,251,0.94) 100%);
   will-change: transform;
   transform: translate3d(0, 0, 0);
 }
