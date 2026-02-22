@@ -26,7 +26,8 @@ const pageDescription =
 <BaseLayout title={pageTitle} description={pageDescription}>
   <section class="tmh-container tmh-stack">
     <!-- HERO -->
-    <div class="tmh-hero">
+    <div class="tmh-hero reveal">
+      <div class="heroBg" aria-hidden="true"></div>
       <div class="tmh-hero__text">
         <h1 class="tmh-h1">TechMind Hub</h1>
         <p class="tmh-lead">
@@ -61,7 +62,7 @@ const pageDescription =
     </div>
 
     <!-- LATEST -->
-    <div class="tmh-section">
+    <div class="tmh-section reveal">
       <div class="tmh-section__head">
         <h2 class="tmh-h2">Latest</h2>
         <a class="tmh-link" href="/posts">View all →</a>
@@ -98,7 +99,7 @@ const pageDescription =
     </div>
 
     <!-- TOPICS -->
-    <div class="tmh-section">
+    <div class="tmh-section reveal">
       <div class="tmh-section__head">
         <h2 class="tmh-h2">Topics</h2>
         <a class="tmh-link" href="/posts">Browse →</a>
@@ -112,7 +113,7 @@ const pageDescription =
     </div>
 
     <!-- DISCUSS -->
-    <div class="tmh-section tmh-callout">
+    <div class="tmh-section tmh-callout reveal">
       <h2 class="tmh-h2">Where to discuss</h2>
       <p class="tmh-lead">
         This portal is the archive. Discussions happen on the linked social posts under each article.
@@ -126,3 +127,30 @@ const pageDescription =
   </section>
 </BaseLayout>
 
+
+
+<script>
+  const heroBg = document.querySelector('.heroBg');
+  const mediaQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
+  const PARALLAX_FACTOR = 0.2;
+
+  if (heroBg && !mediaQuery.matches) {
+    let ticking = false;
+
+    const updateParallax = () => {
+      const offset = Math.round(window.scrollY * PARALLAX_FACTOR);
+      heroBg.style.transform = `translate3d(0, ${offset}px, 0)`;
+      ticking = false;
+    };
+
+    const onScroll = () => {
+      if (!ticking) {
+        ticking = true;
+        window.requestAnimationFrame(updateParallax);
+      }
+    };
+
+    updateParallax();
+    window.addEventListener('scroll', onScroll, { passive: true });
+  }
+</script>

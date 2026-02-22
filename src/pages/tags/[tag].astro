@@ -33,14 +33,16 @@ const normalizeAsset = (src?: string) => {
 
 <BaseLayout title={`#${tag} — TechMind Hub`}>
   <main class="wrap">
-    <div class="sectionHead">
-      <h1>#{tag}</h1>
-	  <div class="tagBar">
+    <section class="page">
+      <header class="pageHeader">
+        <h1 class="pageTitle">#{tag}</h1>
+        <p class="pageLead">Posts and notes for this topic.</p>
+	    <div class="tagBar">
          <a class="tagChip" href={`${base}tags/`}>All tags →</a>
 	  </div>
-    </div>
+    </header>
 
-    <section class="grid">
+      <section class="grid reveal">
       {posts.map((post) => {
         const href = postHref(post.slug);
         const cover = post.data.cover_card || post.data.cover_hero;
@@ -80,6 +82,7 @@ const normalizeAsset = (src?: string) => {
           </article>
         );
       })}
+      </section>
     </section>
   </main>
 </BaseLayout>
