@@ -45,12 +45,12 @@ const allTags = Array.from(
 
     </header>
 
-    <div class="tagControls">
+    <div class="tmh-tagsCloud">
       <div class="tagBar">
       <a class={"tagChip " + (!tag ? "active" : "")} href="/posts">All</a>
       {allTags.map((t) => (
         <a
-          class={"tagChip " + (tag === t.toLowerCase() ? "active" : "")}
+          class={"tmh-pill tmh-pill--link" + (tag === t.toLowerCase() ? "active" : "")}
           href={`/posts?tag=${encodeURIComponent(t)}&sort=${encodeURIComponent(sort)}`}
         >
           #{t}

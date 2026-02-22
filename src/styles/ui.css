@@ -91,6 +91,12 @@ a { color: inherit; }
   height: auto;
 }
 
+.banner picture {
+  display: block;
+  will-change: transform;
+  transform: translate3d(0,0,0);
+}
+
 /* soft fade (bottom → top) */
 .banner::after {
   content: "";
@@ -754,20 +760,25 @@ select:focus-visible {
   width: 100%;
 }
 
+/* Add spacing between the intro text and the form */
+.contactForm {
+  margin-top: 16px;
+}
+
 /* Contact form – center all controls without changing their width */
 .contactFormInner {
   display: flex;
   flex-direction: column;
-  align-items: center;   /* центрируем сами элементы */
+  align-items: center;   /* center the elements themselves */
   gap: 10px;
 }
 
-/* чтобы label/подписи не были по центру, а читались нормально */
+/* labels/signatures are not centered, but are readable normally */
 .contactFormInner > div,
 .contactFormInner label,
 .contactFormInner .note {
   width: 100%;
-  max-width: 420px;      /* подгони если надо: 380–520 */
+  max-width: 420px;      /* adjust if necessary: 380–520 */
 }
 
 .contactFormInner .cf-turnstile {
@@ -775,7 +786,7 @@ select:focus-visible {
   max-width: 420px;
 }
 
-/* кнопка по центру */
+/* button in the center */
 .contactFormInner button.btn {
   align-self: center;
 }
@@ -799,8 +810,62 @@ select:focus-visible {
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .reveal {
+.reveal {
     opacity: 0;
     transform: translate3d(0, 8px, 0);
   }
 }
+
+@media (max-width: 920px) {
+    .grid2, .split2 { grid-template-columns: 1fr; }
+}
+
+.rulesList {
+      list-style: none;
+      padding: 0;
+      margin: 14px 0 0;
+      display: grid;
+      gap: 12px;
+    }
+.ruleTitle {
+      display: block;
+      font-weight: 700;
+      margin-bottom: 2px;
+    }
+.ruleDesc {
+      display: block;
+      opacity: 0.9;
+    }
+
+.pillRow {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 14px;
+    }
+
+.bullets {
+      margin: 8px 0 0;
+      padding-left: 18px;
+    }
+
+.grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+  }
+.split2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+    align-items: start;
+  }
+.circlePillRow {
+    margin-top: var(--space-5);
+  }
+
+.list {
+    margin: 10px 0 0 18px;
+    color: var(--muted, #334155);
+    line-height: 1.6;
+  }

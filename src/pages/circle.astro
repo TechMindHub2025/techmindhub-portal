@@ -30,8 +30,8 @@ const RULES_URL = "/rules";
       </div>
     </header>
 
-    <div class="grid2 reveal">
-      <article class="moduleCard">
+    <div class="aboutGrid reveal">
+      <article class="moduleCard reveal">
         <h2 class="moduleTitle">Who joins</h2>
         <p class="moduleText">
           Engineers, operators, architects, tech leaders, and builders who want fast, reliable situational awareness — and
@@ -46,7 +46,7 @@ const RULES_URL = "/rules";
         </ul>
       </article>
 
-      <article class="moduleCard">
+      <article class="moduleCard reveal">
         <h2 class="moduleTitle">What happens inside</h2>
         <p class="moduleText">
           The Circle is a discussion layer — the website is the archive. Posts are moderated to keep signal high.
@@ -91,8 +91,8 @@ const RULES_URL = "/rules";
       </div>
     </article>
 
-    <div class="grid2 reveal" style="margin-top: 18px;">
-      <article class="moduleCard">
+    <div class="aboutGrid reveal" style="margin-top: 18px;">
+      <article class="moduleCard reveal">
         <h2 class="moduleTitle">Why Facebook</h2>
         <p class="moduleText">
           Facebook gives us a pragmatic mix: friction-based entry, strong moderation tooling, and persistent searchable threads.
@@ -100,7 +100,7 @@ const RULES_URL = "/rules";
         </p>
       </article>
 
-      <article class="moduleCard">
+      <article class="moduleCard reveal">
         <h2 class="moduleTitle">How to participate</h2>
         <p class="moduleText">
           Keep it professional, link sources, and add context. Low-effort posts, hype language, and off-topic content get removed.
@@ -114,30 +114,3 @@ const RULES_URL = "/rules";
     </div>
   </section>
 </BaseLayout>
-
-<style>
-  .grid2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 18px;
-  }
-  .split2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 18px;
-    align-items: start;
-  }
-  .circlePillRow {
-    margin-top: var(--space-5);
-  }
-
-  .list {
-    margin: 10px 0 0 18px;
-    color: var(--muted, #334155);
-    line-height: 1.6;
-  }
-
-  @media (max-width: 920px) {
-    .grid2, .split2 { grid-template-columns: 1fr; }
-  }
-</style>

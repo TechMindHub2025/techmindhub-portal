@@ -50,10 +50,10 @@ const normalizeAsset = (src?: string) => {
       <header class="pageHeader">
         <h1 class="pageTitle">#{tag}</h1>
         <p class="pageLead">Posts and notes for this topic.</p>
-        <div class="tagBar">
-          <a class="tagChip" href={`${base}tags/`}>All tags →</a>
+        <div class="tmh-tagsCloud reveal">
+          <a class="tmh-pill tmh-pill--link" href={`${base}tags/`}>All tags →</a>
           {otherTags.slice(0, 3).map(([t]) => (
-            <a class="tagChip" href={tagHref(t)}>#{t}</a>
+            <a class="tmh-pill tmh-pill--link" href={tagHref(t)}>#{t}</a>
           ))}
         </div>
       </header>
@@ -104,7 +104,7 @@ const normalizeAsset = (src?: string) => {
         <section class="tmh-section reveal" style="margin-top: var(--space-5);">
           <div class="tmh-section__head">
             <h2 class="tmh-h2">Other tags</h2>
-            <a class="tmh-link" href={`${base}tags/`}>View all →</a>
+            <a class="source" href={`${base}tags/`}>View all →</a>
           </div>
           <div class="tmh-tagsCloud">
             {otherTags.map(([t, n]) => (

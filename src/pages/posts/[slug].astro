@@ -35,8 +35,8 @@ const { title, description, pubDate, tags, source_url, cover_hero, cover_alt, so
         {source_url && (
           <>
             <span class="dot">·</span>
-            <a class="link" href={source_url} target="_blank" rel="noopener noreferrer">
-              Source
+            <a class="source" href={source_url} target="_blank" rel="noopener noreferrer">
+              Source ↗
             </a>
           </>
         )}
@@ -53,9 +53,9 @@ const { title, description, pubDate, tags, source_url, cover_hero, cover_alt, so
       )}
 
       {tags?.length ? (
-        <div class="post__tags">
+        <div class="tmh-tagsCloud">
           {tags.map((t) => (
-            <a class="tag" href={`/posts?tag=${encodeURIComponent(t)}`}>#{t}</a>
+            <a class="tmh-pill tmh-pill--link" href={`/posts?tag=${encodeURIComponent(t)}`}>#{t}</a>
           ))}
         </div>
       ) : null}
