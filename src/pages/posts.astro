@@ -35,15 +35,29 @@ const allTags = Array.from(
 
 <BaseLayout title="Posts — TechMind Hub" description="Latest TechMind Hub posts and notes.">
   <section class="page">
-    <div class="pageHead">
+    <header class="pageHeader">
       <div>
-        <h1>Posts</h1>
-        <p class="lead">
+        <h1 class="pageTitle">Posts</h1>
+        <p class="pageLead">
           A curated feed of signals across AI, robotics, automation, and enterprise tech.
         </p>
       </div>
 
-      <form class="controls" method="get" action="/posts">
+    </header>
+
+    <div class="tagControls">
+      <div class="tagBar">
+      <a class={"tagChip " + (!tag ? "active" : "")} href="/posts">All</a>
+      {allTags.map((t) => (
+        <a
+          class={"tagChip " + (tag === t.toLowerCase() ? "active" : "")}
+          href={`/posts?tag=${encodeURIComponent(t)}&sort=${encodeURIComponent(sort)}`}
+        >
+          #{t}
+        </a>
+      ))}
+      </div>
+      <form class="controls tagSort" method="get" action="/posts">
         {tag ? <input type="hidden" name="tag" value={tag} /> : null}
         <label class="control">
           <span>Sort</span>
@@ -55,24 +69,12 @@ const allTags = Array.from(
       </form>
     </div>
 
-    <div class="tagBar">
-      <a class={"tagChip " + (!tag ? "active" : "")} href="/posts">All</a>
-      {allTags.map((t) => (
-        <a
-          class={"tagChip " + (tag === t.toLowerCase() ? "active" : "")}
-          href={`/posts?tag=${encodeURIComponent(t)}&sort=${encodeURIComponent(sort)}`}
-        >
-          #{t}
-        </a>
-      ))}
-    </div>
-
     {posts.length === 0 ? (
       <div class="empty">
         <p>No posts found{tag ? ` for #${tag}` : ""}.</p>
       </div>
     ) : (
-      <div class="grid">
+      <div class="grid reveal">
         {posts.map((post) => {
           const href = `/posts/${post.slug}/`;
           const cover = post.data.cover_card || post.data.cover_hero;

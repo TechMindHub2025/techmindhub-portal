@@ -17,12 +17,12 @@ const RULES_URL = "/rules";
         with predictable moderation and zero sales hype.
       </p>
 
-      <div class="btnRow" style="margin-top: 14px;">
+      <div class="pageActions">
         <a class="btn" href={FB_CIRCLE_URL} target="_blank" rel="noopener noreferrer">Open Facebook Circle</a>
         <a class="btn btnSecondary" href={RULES_URL}>Read principles</a>
       </div>
 
-      <div class="pillRow" style="margin-top: 14px;">
+      <div class="pillRow circlePillRow">
         <span class="pill">Curated</span>
         <span class="pill">English-only</span>
         <span class="pill">No hype</span>
@@ -30,7 +30,7 @@ const RULES_URL = "/rules";
       </div>
     </header>
 
-    <div class="grid2">
+    <div class="grid2 reveal">
       <article class="moduleCard">
         <h2 class="moduleTitle">Who joins</h2>
         <p class="moduleText">
@@ -61,7 +61,7 @@ const RULES_URL = "/rules";
       </article>
     </div>
 
-    <article class="moduleCard" style="margin-top: 18px;">
+    <article class="moduleCard reveal" style="margin-top: 18px;">
       <h2 class="moduleTitle">What it is (and isn’t)</h2>
 
       <div class="split2">
@@ -91,7 +91,7 @@ const RULES_URL = "/rules";
       </div>
     </article>
 
-    <div class="grid2" style="margin-top: 18px;">
+    <div class="grid2 reveal" style="margin-top: 18px;">
       <article class="moduleCard">
         <h2 class="moduleTitle">Why Facebook</h2>
         <p class="moduleText">
@@ -106,7 +106,7 @@ const RULES_URL = "/rules";
           Keep it professional, link sources, and add context. Low-effort posts, hype language, and off-topic content get removed.
         </p>
 
-        <div class="btnRow" style="margin-top: 12px;">
+        <div class="pageActions" style="margin-top: 12px;">
           <a class="btn" href={FB_CIRCLE_URL} target="_blank" rel="noopener noreferrer">Join / Open Circle</a>
           <a class="btn btnSecondary" href={RULES_URL}>Principles & rules</a>
         </div>
@@ -127,6 +127,10 @@ const RULES_URL = "/rules";
     gap: 18px;
     align-items: start;
   }
+  .circlePillRow {
+    margin-top: var(--space-5);
+  }
+
   .list {
     margin: 10px 0 0 18px;
     color: var(--muted, #334155);

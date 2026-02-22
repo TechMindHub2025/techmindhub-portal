@@ -23,15 +23,22 @@ const tagHref = (t: string) => `${base}tags/${encodeURIComponent(t)}/`;
 
 <BaseLayout title="Tags">
   <main class="wrap">
-    <h1>Tags</h1>
-    <p class="lead">Browse by topic.</p>
-    <div class="ctaRow">
-      <div class="tmh-tagsCloud">
+    <section class="page">
+      <header class="pageHeader">
+        <h1 class="pageTitle">Tags</h1>
+        <p class="pageLead">Browse by topic.</p>
+
+        <div class="pageActions">
+          <a class="tmh-btn" href="/posts">All analysis</a>
+        </div>
+      </header>
+
+      <div class="tmh-tagsCloud reveal">
         {tags.map(([t, n]) => (
           <a class="tmh-pill tmh-pill--link" href={tagHref(t)}>#{t} <span class="count">{n}</span></a>
         ))}
       </div>
-	</div>
+    </section>
   </main>
 </BaseLayout>
 

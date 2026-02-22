@@ -16,13 +16,26 @@ const base = import.meta.env.BASE_URL;
 const { tag } = Astro.params;
 
 const all = await getCollection("posts");
-const posts = all
-  .filter((p) => p.data.status !== "draft")
+const published = all.filter((p) => p.data.status !== "draft");
+
+const posts = published
   .filter((p) => (p.data.tags ?? []).includes(tag))
   .sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime());
 
 const postHref = (slug: string) => `${base}posts/${slug}/`;
 const tagHref = (t: string) => `${base}tags/${encodeURIComponent(t)}/`;
+
+const tagCounts = new Map<string, number>();
+for (const p of published) {
+  for (const t of (p.data.tags ?? [])) {
+    tagCounts.set(t, (tagCounts.get(t) ?? 0) + 1);
+  }
+}
+
+const otherTags = [...tagCounts.entries()]
+  .filter(([t]) => t !== tag)
+  .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+  .slice(0, 8);
 
 const normalizeAsset = (src?: string) => {
   if (!src) return null;
@@ -33,53 +46,77 @@ const normalizeAsset = (src?: string) => {
 
 <BaseLayout title={`#${tag} — TechMind Hub`}>
   <main class="wrap">
-    <div class="sectionHead">
-      <h1>#{tag}</h1>
-	  <div class="tagBar">
-         <a class="tagChip" href={`${base}tags/`}>All tags →</a>
-	  </div>
-    </div>
+    <section class="page">
+      <header class="pageHeader">
+        <h1 class="pageTitle">#{tag}</h1>
+        <p class="pageLead">Posts and notes for this topic.</p>
+        <div class="tagBar">
+          <a class="tagChip" href={`${base}tags/`}>All tags →</a>
+          {otherTags.slice(0, 3).map(([t]) => (
+            <a class="tagChip" href={tagHref(t)}>#{t}</a>
+          ))}
+        </div>
+      </header>
 
-    <section class="grid">
-      {posts.map((post) => {
-        const href = postHref(post.slug);
-        const cover = post.data.cover_card || post.data.cover_hero;
-        const coverSrc = normalizeAsset(cover);
+      <section class="grid reveal">
+        {posts.map((post) => {
+          const href = postHref(post.slug);
+          const cover = post.data.cover_card || post.data.cover_hero;
+          const coverSrc = normalizeAsset(cover);
 
-        return (
-          <article class="card">
-            <a class="cardLink" href={href} aria-label={post.data.title}></a>
+          return (
+            <article class="card">
+              <a class="cardLink" href={href} aria-label={post.data.title}></a>
 
-            {coverSrc ? (
-              <img class="cover" src={coverSrc} alt={post.data.title} loading="lazy" />
-            ) : null}
+              {coverSrc ? (
+                <img class="cover" src={coverSrc} alt={post.data.title} loading="lazy" />
+              ) : null}
 
-            <div class="cardBody">
-              <h2 class="title">{post.data.title}</h2>
+              <div class="cardBody">
+                <h2 class="title">{post.data.title}</h2>
 
-              <time class="date" datetime={post.data.pubDate.toISOString()}>
-                {post.data.pubDate.toISOString().slice(0, 10)}
-              </time>
+                <time class="date" datetime={post.data.pubDate.toISOString()}>
+                  {post.data.pubDate.toISOString().slice(0, 10)}
+                </time>
 
-              <p class="desc">{post.data.description}</p>
+                <p class="desc">{post.data.description}</p>
 
-              <div class="metaRow">
-                <div class="tags">
-                  {(post.data.tags ?? []).slice(0, 6).map((t) => (
-                    <a class="pill" href={tagHref(t)}>#{t}</a>
-                  ))}
+                <div class="metaRow">
+                  <div class="tags">
+                    {(post.data.tags ?? []).slice(0, 6).map((t) => (
+                      <a class="pill" href={tagHref(t)}>#{t}</a>
+                    ))}
+                  </div>
+
+                  {post.data.source_url ? (
+                    <a class="source" href={post.data.source_url} target="_blank" rel="noreferrer">
+                      Source ↗
+                    </a>
+                  ) : null}
                 </div>
-
-                {post.data.source_url ? (
-                  <a class="source" href={post.data.source_url} target="_blank" rel="noreferrer">
-                    Source ↗
-                  </a>
-                ) : null}
               </div>
-            </div>
-          </article>
-        );
-      })}
+            </article>
+          );
+        })}
+      </section>
+
+      {otherTags.length ? (
+        <section class="tmh-section reveal" style="margin-top: var(--space-5);">
+          <div class="tmh-section__head">
+            <h2 class="tmh-h2">Other tags</h2>
+            <a class="tmh-link" href={`${base}tags/`}>View all →</a>
+          </div>
+          <div class="tmh-tagsCloud">
+            {otherTags.map(([t, n]) => (
+              <a class="tmh-pill tmh-pill--link" href={tagHref(t)}>#{t} <span class="count">{n}</span></a>
+            ))}
+          </div>
+        </section>
+      ) : null}
     </section>
   </main>
 </BaseLayout>
+
+<style>
+  .count { opacity:.7; margin-left:6px; font-size:12px; }
+</style>
