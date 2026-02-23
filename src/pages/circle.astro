@@ -17,12 +17,12 @@ const RULES_URL = "/rules";
         with predictable moderation and zero sales hype.
       </p>
 
-      <div class="btnRow" style="margin-top: 14px;">
+      <div class="pageActions">
         <a class="btn" href={FB_CIRCLE_URL} target="_blank" rel="noopener noreferrer">Open Facebook Circle</a>
         <a class="btn btnSecondary" href={RULES_URL}>Read principles</a>
       </div>
 
-      <div class="pillRow" style="margin-top: 14px;">
+      <div class="pillRow circlePillRow">
         <span class="pill">Curated</span>
         <span class="pill">English-only</span>
         <span class="pill">No hype</span>
@@ -30,8 +30,8 @@ const RULES_URL = "/rules";
       </div>
     </header>
 
-    <div class="grid2">
-      <article class="moduleCard">
+    <div class="aboutGrid reveal">
+      <article class="moduleCard reveal">
         <h2 class="moduleTitle">Who joins</h2>
         <p class="moduleText">
           Engineers, operators, architects, tech leaders, and builders who want fast, reliable situational awareness — and
@@ -46,7 +46,7 @@ const RULES_URL = "/rules";
         </ul>
       </article>
 
-      <article class="moduleCard">
+      <article class="moduleCard reveal">
         <h2 class="moduleTitle">What happens inside</h2>
         <p class="moduleText">
           The Circle is a discussion layer — the website is the archive. Posts are moderated to keep signal high.
@@ -61,7 +61,7 @@ const RULES_URL = "/rules";
       </article>
     </div>
 
-    <article class="moduleCard" style="margin-top: 18px;">
+    <article class="moduleCard reveal" style="margin-top: 18px;">
       <h2 class="moduleTitle">What it is (and isn’t)</h2>
 
       <div class="split2">
@@ -91,8 +91,8 @@ const RULES_URL = "/rules";
       </div>
     </article>
 
-    <div class="grid2" style="margin-top: 18px;">
-      <article class="moduleCard">
+    <div class="aboutGrid reveal" style="margin-top: 18px;">
+      <article class="moduleCard reveal">
         <h2 class="moduleTitle">Why Facebook</h2>
         <p class="moduleText">
           Facebook gives us a pragmatic mix: friction-based entry, strong moderation tooling, and persistent searchable threads.
@@ -100,13 +100,13 @@ const RULES_URL = "/rules";
         </p>
       </article>
 
-      <article class="moduleCard">
+      <article class="moduleCard reveal">
         <h2 class="moduleTitle">How to participate</h2>
         <p class="moduleText">
           Keep it professional, link sources, and add context. Low-effort posts, hype language, and off-topic content get removed.
         </p>
 
-        <div class="btnRow" style="margin-top: 12px;">
+        <div class="pageActions" style="margin-top: 12px;">
           <a class="btn" href={FB_CIRCLE_URL} target="_blank" rel="noopener noreferrer">Join / Open Circle</a>
           <a class="btn btnSecondary" href={RULES_URL}>Principles & rules</a>
         </div>
@@ -114,26 +114,3 @@ const RULES_URL = "/rules";
     </div>
   </section>
 </BaseLayout>
-
-<style>
-  .grid2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 18px;
-  }
-  .split2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 18px;
-    align-items: start;
-  }
-  .list {
-    margin: 10px 0 0 18px;
-    color: var(--muted, #334155);
-    line-height: 1.6;
-  }
-
-  @media (max-width: 920px) {
-    .grid2, .split2 { grid-template-columns: 1fr; }
-  }
-</style>

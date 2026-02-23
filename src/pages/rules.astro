@@ -7,16 +7,16 @@ const FB_CIRCLE_URL =
 ---
 
 <BaseLayout title="TechMind Hub — Principles">
-  <section class="container">
-    <div class="pageHeader">
+  <section class="page">
+    <header class="pageHeader">
       <h1 class="pageTitle">TechMind Hub Principles</h1>
       <p class="pageLead">
         A lightweight, professional tech circle focused on high-signal discussion and engineering-grade clarity.
       </p>
-    </div>
+    </header>
 
-    <div class="grid2">
-      <article class="moduleCard">
+    <div class="aboutGrid reveal">
+      <article class="moduleCard reveal">
         <h2 class="moduleTitle">Core principles</h2>
         <p class="moduleText">The defaults that shape everything published and discussed across TechMind Hub.</p>
 
@@ -46,7 +46,7 @@ const FB_CIRCLE_URL =
         </div>
       </article>
 
-      <article class="moduleCard">
+      <article class="moduleCard reveal">
         <h2 class="moduleTitle">Conduct & format</h2>
         <p class="moduleText">A professional space—clear tone, clean communication, predictable moderation.</p>
 
@@ -76,7 +76,7 @@ const FB_CIRCLE_URL =
       </article>
     </div>
 
-    <article class="moduleCard" style="margin-top:16px;">
+    <article class="moduleCard reveal" style="margin-top:16px;">
       <h2 class="moduleTitle">What this is (and isn’t)</h2>
       <div class="grid2">
         <div>
@@ -98,49 +98,4 @@ const FB_CIRCLE_URL =
       </div>
     </article>
   </section>
-
-  <style>
-    /* Minimal local styles; won't fight your ui.css */
-    .pageHeader { margin: 6px 0 18px; }
-    .pageTitle { margin: 0 0 8px; }
-    .pageLead { margin: 0; max-width: 70ch; }
-
-    .grid2 {
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 16px;
-    }
-    @media (min-width: 920px) {
-      .grid2 { grid-template-columns: 1fr 1fr; }
-    }
-
-    .rulesList {
-      list-style: none;
-      padding: 0;
-      margin: 14px 0 0;
-      display: grid;
-      gap: 12px;
-    }
-    .ruleTitle {
-      display: block;
-      font-weight: 700;
-      margin-bottom: 2px;
-    }
-    .ruleDesc {
-      display: block;
-      opacity: 0.9;
-    }
-
-    .pillRow {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-      margin-top: 14px;
-    }
-
-    .bullets {
-      margin: 8px 0 0;
-      padding-left: 18px;
-    }
-  </style>
 </BaseLayout>

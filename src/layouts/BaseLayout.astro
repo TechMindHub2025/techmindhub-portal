@@ -114,5 +114,56 @@ const isActive = (href: string) => {
         </div>
       </footer>
     </div>
+
+<script>
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  // --- Banner parallax (site-wide) ---
+  if (!reduceMotion) {
+    const bannerEl = document.querySelector('.banner picture, .banner img');
+    const PARALLAX_FACTOR = 0.26; // 0.12–0.25 "usually ok"
+
+    if (bannerEl) {
+      let latestY = 0;
+      let ticking = false;
+
+      const apply = () => {
+        // "the banner moves up more slowly"
+        bannerEl.style.transform = `translate3d(0, ${-latestY * -PARALLAX_FACTOR}px, 0)`;
+        ticking = false;
+      };
+
+      const onScroll = () => {
+        latestY = window.scrollY || 0;
+        if (!ticking) {
+          ticking = true;
+          requestAnimationFrame(apply);
+        }
+      };
+
+      window.addEventListener('scroll', onScroll, { passive: true });
+      onScroll(); // "apply immediately"
+    }
+  }
+
+  // --- Reveal on scroll ---
+  if (!reduceMotion && 'IntersectionObserver' in window) {
+    const revealItems = document.querySelectorAll('.reveal');
+    const observer = new IntersectionObserver(
+      (entries, obs) => {
+        entries.forEach((entry) => {
+          if (!entry.isIntersecting) return;
+          entry.target.classList.add('is-visible');
+          obs.unobserve(entry.target);
+        });
+      },
+      { threshold: 0.16 }
+    );
+
+    revealItems.forEach((item) => observer.observe(item));
+  } else {
+    document.querySelectorAll('.reveal').forEach((item) => item.classList.add('is-visible'));
+  }
+</script>
   </body>
 </html>
