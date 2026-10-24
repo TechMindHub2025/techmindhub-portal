@@ -28,6 +28,7 @@ const posts = defineCollection({
     // Publication images are hosted on Cloudflare R2.
     cover_card: z.string().min(1),
     cover_hero: z.string().min(1),
+    cover_og: z.string().min(1).optional(),
 
     // Optional
     cover_alt: z.string().default(""),
@@ -49,12 +50,14 @@ const posts = defineCollection({
         ctx.addIssue({ code: z.ZodIssueCode.custom, path: [key], message: "Published posts require this field under the visual canon." });
       }
     }
-    for (const key of ["cover_card", "cover_hero"] as const) {
+    for (const key of ["cover_card", "cover_hero", "cover_og"] as const) {
       try {
-        const url = new URL(data[key]);
+        const url = new URL(data[key] || "");
         if (url.protocol !== "https:" || url.host !== "media.techmindhub.cc" || url.username || url.password || !url.pathname.startsWith("/posts/") || url.pathname === "/posts/") throw new Error("Not a publication R2 URL");
+        const extension = key === "cover_og" ? ".jpg" : ".webp";
+        if (!url.pathname.endsWith(extension)) throw new Error("Wrong web image format");
       } catch {
-        ctx.addIssue({ code: z.ZodIssueCode.custom, path: [key], message: "Published image must use https://media.techmindhub.cc/posts/<versioned-file>." });
+        ctx.addIssue({ code: z.ZodIssueCode.custom, path: [key], message: "Published images need versioned R2 URLs: WebP for card/hero, JPEG for cover_og. Original PNGs stay in Andrew's archive." });
       }
     }
     if (data.cover_card === data.cover_hero) {

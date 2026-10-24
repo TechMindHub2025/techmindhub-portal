@@ -1,6 +1,6 @@
 # TechMind Hub publishing workflow
 
-Last confirmed with Andrew: October 24, 2026.
+Last confirmed with Andrew: October 25, 2026.
 
 Start every session with [../AGENTS.md](../AGENTS.md). Approved examples, automated
 check coverage and the rule-change process are in [REFERENCE.md](REFERENCE.md).
@@ -21,9 +21,11 @@ automation complements factual and visual review, not replaces it.
 
 - GitHub holds site code, article Markdown and social text.
 - Publication images belong in the existing Cloudflare R2 bucket `tmh-assets` and are served from `https://media.techmindhub.cc`.
+- Follow [IMAGE-DELIVERY.md](IMAGE-DELIVERY.md). Andrew receives untouched original PNGs in a separate originals ZIP. The upload ZIP contains optimized WebP cards/infographics and JPEG social link previews only: three files per publication, nine for a three-post batch. R2 is for these web derivatives; original PNGs are archived by Andrew.
+- Published metadata uses `cover_card` and `cover_hero` WebP URLs plus a separate `cover_og` JPEG URL. Verify decoded infographic pixel equality, card readability and social-preview crop safety before review.
 - The current manual upload prefix is `posts/`. Use absolute HTTPS image URLs in article metadata and article content.
 - Upload images as ordinary files, not as multi-megabyte Base64 payloads passed through conversation/tool outputs.
-- Use versioned filenames for changed images, for example `posts/<slug>-card-v2.png`, and retain the previous asset until the new release is verified.
+- Use versioned filenames for changed images, for example `posts/<slug>-card-web-v2.webp`, and retain the previous asset until the new release is verified.
 - Upload and verify the public asset before merging a PR that references its new URL. Do not claim a working upload based only on the dashboard.
 - Publish only deliberately public, reviewed files. Credentials, access keys, internal logs and private source material do not belong in the public bucket or published site.
 
@@ -53,7 +55,7 @@ Andrew confirmed removal of both public Download links on October 24, 2026. Do n
 
 The approved direction and production rules live in [VISUAL-CANON.md](VISUAL-CANON.md). Use that document before preparing publication images. The shared palette registry is `src/data/editorial-domains.json`; add directions there rather than scattering colour rules across templates. Each article receives one primary `domain`, a short `topic` label and separate alt text for its cover and inner image.
 
-The first paired review candidate is documented in [briefs/photonics-pilot.md](briefs/photonics-pilot.md). Andrew has now authorised all three generated publication pairs. The prior cover-only v3 ZIP and SVG pilot are superseded. The current upload archive is `TechMindHub-Cloudflare-images-canon-v2.zip`, containing exactly six PNGs; the release manifest records their exact names and public R2 URLs. Do not ask Andrew to upload previous archives as the final set. PR #23 was released after the six R2 URLs and Andrew's GitHub approval were verified. For future releases, verify image URLs before merging the human-approved final head. Sources and research IDs belong in article text; no numbered section markers or source footers on the generated images.
+The first paired review candidate is documented in [briefs/photonics-pilot.md](briefs/photonics-pilot.md). The cover-only v3 ZIP and SVG pilot are superseded. The PNG archives for PR #23 and PR #26 are historical original-artwork sets; do not ask Andrew to upload them as a new web release. Those releases were verified after R2 upload and human approval. The six-publication web migration is recorded in `releases/2026-10-25-web-migration-v1.json`; follow IMAGE-DELIVERY.md for current packaging. Verify image URLs before merging the human-approved final head. Sources and research IDs belong in article text; no numbered section markers or source footers on generated artwork.
 
 Home, Analysis and tag pages share `PostCard.astro`. Article order is title/metadata, the declared infographic, then the article body. The article template renders `cover_hero` exactly once before `<Content />`; do not add the same image again in the Markdown body. Keep `cover_alt` as a concise useful image description.
 

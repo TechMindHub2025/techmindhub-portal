@@ -7,7 +7,7 @@ const href = `/posts/${post.slug}/`;
 ---
 <article class="card editorial-card" style={domain ? `--domain-accent:${domain.accent};--domain-surface:${domain.surface}` : undefined}>
   <a class="cardLink" href={href} aria-label={d.title}></a>
-  <img class="cover" src={d.cover_card || d.cover_hero} alt={d.card_alt || d.title} width="1200" height="675" loading="lazy" decoding="async" />
+  <img class="cover" src={d.cover_card || d.cover_hero} alt={d.card_alt || d.title} width="800" height="450" loading="lazy" decoding="async" />
   <div class="cardBody">
     <div class="editorial-card__eyebrow">{d.topic || domain?.label || d.tags?.[0] || "Analysis"}</div>
     <h2 class="title">{d.title}</h2>

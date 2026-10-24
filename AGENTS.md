@@ -29,6 +29,9 @@ not reconstruct decisions from chat memory or superseded drafts.
   names, research IDs and decorative 01/02 markers stay off the artwork.
 - Code, Markdown and editorial briefs go in GitHub. Publication images go in
   Cloudflare R2 `tmh-assets/posts/`, served by `https://media.techmindhub.cc`.
+  Follow `editorial/IMAGE-DELIVERY.md`: original PNGs are delivered separately to
+  Andrew; R2 receives WebP cards/infographics and dedicated JPEG link previews.
+  Verify lossless infographic pixel equality; inspect resized cards and OG crops.
   No image binaries or image Base64 in publication code. Andrew uploads ordinary
   versioned image files manually; verify public URLs before release.
 - External HTTP(S) links open a new tab with `noopener noreferrer`. Internal,
