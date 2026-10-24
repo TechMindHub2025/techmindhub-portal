@@ -16,7 +16,7 @@ Last confirmed with Andrew: October 24, 2026.
 
 - GitHub holds site code, article Markdown and social text.
 - Publication images belong in the existing Cloudflare R2 bucket `tmh-assets` and are served from `https://media.techmindhub.cc`.
-- The current manual upload prefix is `posts/`. Use absolute HTTPS image URLs in article metadata and download links.
+- The current manual upload prefix is `posts/`. Use absolute HTTPS image URLs in article metadata and article content.
 - Upload images as ordinary files, not as multi-megabyte Base64 payloads passed through conversation/tool outputs.
 - Use versioned filenames for changed images, for example `posts/<slug>-card-v2.png`, and retain the previous asset until the new release is verified.
 - Upload and verify the public asset before merging a PR that references its new URL. Do not claim a working upload based only on the dashboard.
@@ -30,7 +30,7 @@ Last confirmed with Andrew: October 24, 2026.
 | Article / social infographic | Vertical 4:5 where appropriate | Explain the topic at readable full size. Preserve the approved image without arbitrary cropping. This is a separate composition from the feed card. |
 | Social link preview | Prefer a dedicated 1200 x 630 version when needed | Check the actual preview crop. A feed card may be reused only when its essential content survives that crop. |
 
-The page already supplies the full title and description. Do not reproduce the whole article inside a thumbnail. Match the established navy, cyan, white and amber visual palette. A large export is not evidence of thumbnail readability: inspect the actual small previews.
+The page already supplies the full title and description. Do not reproduce the whole article inside a thumbnail. Use a light editorial base with subject-specific composition and palette; keep TechMind Hub recognisable through typography, spacing and small brand accents. Dark scenes are appropriate when they serve the subject, not as the default for every post. A large export is not evidence of thumbnail readability: inspect the actual small previews.
 
 ## Sources and review
 
@@ -41,3 +41,12 @@ The page already supplies the full title and description. Do not reproduce the w
 ## Public article presentation
 
 Andrew confirmed removal of both public Download links on October 24, 2026. Do not add article Markdown or infographic Download buttons/links to public articles. Keep editable article sources and social text in GitHub for Andrew. Publication images remain public through R2; removing a link does not make an image private. Do not create duplicate Markdown exports under `public/` for new articles. This policy does not change bucket permissions.
+
+
+## Visual canon
+
+The approved direction and production rules live in [VISUAL-CANON.md](VISUAL-CANON.md). Use that document before preparing publication images. The shared palette registry is `src/data/editorial-domains.json`; add directions there rather than scattering colour rules across templates. Each article receives one primary `domain`, a short `topic` label and separate alt text for its cover and inner image.
+
+The first paired review candidate is documented in [briefs/photonics-pilot.md](briefs/photonics-pilot.md). Andrew has now authorised all three generated publication pairs. The prior cover-only v3 ZIP and SVG pilot are superseded. The current upload archive is `TechMindHub-Cloudflare-images-canon-v2.zip`, containing exactly six PNGs; the release manifest records their exact names and public R2 URLs. Do not ask Andrew to upload previous archives as the final set. Keep PR #23 draft until these six R2 URLs are verified, then obtain the required GitHub approval. Sources and research IDs belong in article text; no numbered section markers or source footers on the generated images.
+
+Home, Analysis and tag pages share `PostCard.astro`. Article pages use a compact masthead and introduce the infographic in prose. Insert the approved infographic once in the Markdown body after the opening paragraphs, using its public R2 URL. Update `cover_hero`, `cover_alt` and a text equivalent alongside any approved infographic replacement. Do not replace existing approved illustrations merely because a draft canon or review candidate exists.

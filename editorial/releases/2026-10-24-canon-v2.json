@@ -1,0 +1,62 @@
+{
+  "status": "prepared-awaiting-r2-upload",
+  "generator": "built-in image generation",
+  "visual_canon": "1.1",
+  "upload_destination": "tmh-assets/posts/",
+  "files": [
+    {
+      "filename": "computing-with-scattered-light-card-canon-v2.png",
+      "url": "https://media.techmindhub.cc/posts/computing-with-scattered-light-card-canon-v2.png",
+      "role": "cover",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1766450,
+      "sha256": "06c626eb763e925afd431192d1e948b2dbc730bf0a6d21b164307fc306860e58"
+    },
+    {
+      "filename": "computing-with-scattered-light-infographic-canon-v2.png",
+      "url": "https://media.techmindhub.cc/posts/computing-with-scattered-light-infographic-canon-v2.png",
+      "role": "infographic",
+      "width": 1122,
+      "height": 1402,
+      "bytes": 1821359,
+      "sha256": "0bfbe6ddac599d2b61a66abedcbdfdb30d7b2d7f37bef2c82c6d76189149ed69"
+    },
+    {
+      "filename": "who-monitors-the-ai-monitor-card-canon-v2.png",
+      "url": "https://media.techmindhub.cc/posts/who-monitors-the-ai-monitor-card-canon-v2.png",
+      "role": "cover",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1851511,
+      "sha256": "ddc6b0e9db91a996dfdc0c9e10becad5d3ceea4a8545fb7781274494f37e35ad"
+    },
+    {
+      "filename": "who-monitors-the-ai-monitor-infographic-canon-v2.png",
+      "url": "https://media.techmindhub.cc/posts/who-monitors-the-ai-monitor-infographic-canon-v2.png",
+      "role": "infographic",
+      "width": 1122,
+      "height": 1402,
+      "bytes": 1938292,
+      "sha256": "94ad8b062aaea6b7d4eabbd14cee183fc83b1d11948ec3e29db49f89bff6b635"
+    },
+    {
+      "filename": "uv-reproducible-python-maintenance-card-canon-v2.png",
+      "url": "https://media.techmindhub.cc/posts/uv-reproducible-python-maintenance-card-canon-v2.png",
+      "role": "cover",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1615189,
+      "sha256": "527b251ada3817e491ef9c528db75b993376ea3735ca7c43128c52a7cf43ca61"
+    },
+    {
+      "filename": "uv-reproducible-python-maintenance-infographic-canon-v2.png",
+      "url": "https://media.techmindhub.cc/posts/uv-reproducible-python-maintenance-infographic-canon-v2.png",
+      "role": "infographic",
+      "width": 1122,
+      "height": 1402,
+      "bytes": 1753744,
+      "sha256": "3d065d267a65c67dcbb477e8998709ec47393bbeabdc6018eb79a0ff87c682b0"
+    }
+  ]
+}

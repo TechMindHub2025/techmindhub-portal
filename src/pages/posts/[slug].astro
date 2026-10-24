@@ -19,14 +19,15 @@ if (post.data.status !== "published") {
   return Astro.redirect("/posts");
 }
 
-const { title, description, pubDate, tags, source_url, cover_hero, cover_alt, social } = post.data;
+const { title, description, pubDate, tags, source_url, social } = post.data;
 const { Content } = await render(post);
 const ogImage = new URL(post.data.cover_card, "https://techmindhub.cc").href;
 ---
 
-<BaseLayout title={title} description={description} ogImage={ogImage} ogType="article">
+<BaseLayout title={title} description={description} ogImage={ogImage} ogType="article" compactHeader>
   <article class="post">
     <header class="post__header">
+      {post.data.topic && <a class="post__topic" href={`/tags/${encodeURIComponent(tags[0])}/`}>{post.data.topic}</a>}
       <h1 class="post__title">{title}</h1>
       <p class="post__description">{description}</p>
 
@@ -45,15 +46,6 @@ const ogImage = new URL(post.data.cover_card, "https://techmindhub.cc").href;
         )}
       </div>
 
-      {cover_hero && (
-        <figure class="post__hero">
-          <img
-            src={cover_hero}
-            alt={cover_alt || title}
-            loading="eager"
-          />
-        </figure>
-      )}
 
       {tags?.length ? (
         <div class="tmh-tagsCloud">
@@ -90,7 +82,8 @@ const ogImage = new URL(post.data.cover_card, "https://techmindhub.cc").href;
   .post__title { font-size: clamp(1.9rem, 4.5vw, 2.8rem); overflow-wrap: anywhere; }
   .post__description { font-size: 1.15rem; line-height: 1.65; color: var(--tmh-muted); }
   .post__meta { flex-wrap: wrap; }
-  .post__hero { max-width: 680px; margin: 26px auto; }
+  .post__topic { display: inline-block; margin-bottom: 16px; color: var(--tmh-primary); font-size: .8rem; font-weight: 750; letter-spacing: .09em; text-transform: uppercase; text-underline-offset: .2em; }
+  .post__content :global(img) { display: block; width: 100%; max-width: 680px; height: auto; margin: 30px auto; border-radius: 14px; }
   .post__content { font-size: 1.075rem; line-height: 1.8; overflow-wrap: anywhere; }
   .post__content :global(h2) { margin: 2em 0 .6em; line-height: 1.3; font-size: 1.5rem; }
   .post__content :global(p) { margin: 0 0 1.2em; }

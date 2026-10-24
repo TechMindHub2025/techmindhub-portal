@@ -869,3 +869,41 @@ select:focus-visible {
     color: var(--muted, #334155);
     line-height: 1.6;
   }
+
+/* Editorial publication system: light surfaces, subject-led artwork. */
+.editorial-card { display: flex; flex-direction: column; }
+.editorial-card .cardBody { padding: 20px; display: flex; flex-direction: column; flex: 1; }
+.editorial-card__eyebrow { color: #43627a; font-size: 11px; font-weight: 750; letter-spacing: .1em; text-transform: uppercase; margin-bottom: 10px; }
+.editorial-card .title { font-size: 19px; line-height: 1.35; overflow-wrap: anywhere; }
+.editorial-card .metaRow { margin-top: auto; padding-top: 18px; }
+.editorial-card .cover { height: auto; object-fit: contain; }
+.compact-header .banner { height: 104px; }
+.compact-header .banner img { height: 104px; object-fit: cover; object-position: center 42%; }
+.compact-header .banner::after { height: 55px; }
+.compact-header .brand img { max-height: 58px; width: auto; }
+@media (max-width: 640px) {
+  .compact-header .banner, .compact-header .banner img { height: 64px; }
+  .editorial-card .cardBody { padding: 18px; }
+}
+.archive-controls { display: flex; flex-wrap: wrap; align-items: end; gap: 16px; margin-bottom: 18px; }
+.archive-controls label { display: grid; gap: 6px; font-size: 13px; font-weight: 650; }
+.archive-controls .archive-search { flex: 1 1 240px; }
+.archive-controls input, .archive-controls select { box-sizing: border-box; max-width: 100%; min-height: 44px; padding: 10px 12px; font: inherit; color: var(--tmh-text); background: white; border: 1px solid #bdccd5; border-radius: 9px; }
+.archive-controls input:focus-visible, .archive-controls select:focus-visible { outline: 3px solid #9ee4ef; outline-offset: 2px; }
+.archive-count { margin: 10px 0 20px; color: var(--tmh-muted); font-size: 14px; }
+[hidden] { display: none !important; }
+
+.grid > [data-archive-entry] { display: flex; }
+.grid > [data-archive-entry] > .editorial-card { width: 100%; }
+@media (max-width: 720px) {
+  .topbar nav { justify-content: flex-start; flex-wrap: wrap; gap: 4px; }
+  .topbar .navlink { padding: 9px 10px; }
+  footer { flex-wrap: wrap; }
+}
+
+/* A domain label accompanies every colour cue. */
+.editorial-card__eyebrow { color: #153E50; }
+.editorial-card[style] .editorial-card__eyebrow { align-self: flex-start; background: var(--domain-surface, #eef3f8); border-left: 3px solid var(--domain-accent, #43627a); padding: 5px 8px; }
+.palette-key { display: grid; gap: 9px; list-style: none; padding: 0; margin: 16px 0 0; }
+.palette-key li { display: flex; align-items: center; gap: 10px; font-size: 13px; line-height: 1.4; }
+.palette-key__swatch { width: 14px; height: 14px; flex: 0 0 14px; border-radius: 50%; border: 1px solid rgba(0,0,0,.1); }

@@ -15,6 +15,7 @@ type Props = {
   ogImage?: string; // absolute or /path
   ogType?: string;  // "website" | "article" etc
   noindex?: boolean;
+  compactHeader?: boolean;
 };
 
 const {
@@ -23,6 +24,7 @@ const {
   ogImage = "/og.png",
   ogType = "website",
   noindex = false,
+  compactHeader = false,
 } = Astro.props;
 
 const canonical = new URL(Astro.url.pathname, Astro.site ?? Astro.url.origin).toString();
@@ -70,7 +72,7 @@ const isActive = (href: string) => {
 
   </head>
 
-  <body>
+  <body class:list={{ "compact-header": compactHeader }}>
     <!-- Banner: desktop + mobile -->
     <div class="banner" role="presentation" aria-hidden="true">
       <picture>

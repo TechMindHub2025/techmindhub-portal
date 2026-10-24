@@ -1,63 +1,20 @@
 ---
+import domains from "../data/editorial-domains.json";
 const { post } = Astro.props;
-
-// collection entry:
-// post.data -> frontmatter fields
-// post.slug -> URL slug
 const d = post.data;
-
-// Base URL ("/" locally, "/<repo>/" on GitHub Pages, etc.)
-const base = import.meta.env.BASE_URL;
-
-// Cover field support (keep flexible)
-const cover = d.cover_image ?? d.cover ?? d.image ?? d.thumbnail ?? null;
-
-// Normalize leading slashes so `${base}${path}` doesn't become `//...`
-const normalizedCover = typeof cover === "string" ? cover.replace(/^\/+/, "") : "";
-
-// External URLs should pass through as-is
-const isExternal =
-  typeof cover === "string" &&
-  (/^https?:\/\//.test(cover) || cover.startsWith("//"));
-
-// IMPORTANT: keep ternary in one statement (avoid "Unexpected '?'")
-const coverSrc =
-  typeof cover === "string" && cover.length
-    ? (isExternal ? cover : `${base}${normalizedCover}`)
-    : null;
-
-// Internal links (GH Pages friendly)
-const postHref = `${base}posts/${post.slug}/`;
-const tagHref = (t) => `${base}tags/${encodeURIComponent(t)}/`;
+const domain = domains.find(item => item.id === d.domain);
+const href = `/posts/${post.slug}/`;
 ---
-
-<article class="tmh-card">
-  <a class="tmh-card__cover" href={postHref} aria-label={`Open: ${d.title}`}>
-    {coverSrc ? <img src={coverSrc} alt={d.title} loading="lazy" /> : null}
-  </a>
-
-  <div class="tmh-card__body">
-    <h3 class="tmh-card__title">
-      <a href={postHref}>{d.title}</a>
-    </h3>
-
-    <div class="tmh-card__meta">
-      <time datetime={d.pubDate?.toISOString?.() ?? undefined}>
-        {d.pubDate?.toISOString?.().slice(0, 10) ?? ""}
-      </time>
-    </div>
-
-    <p class="tmh-card__desc">{d.description}</p>
-
-    {d.tags?.length ? (
-      <div class="tmh-card__tags">
-        {d.tags.map((t) => (
-          <a class="tmh-tag" href={tagHref(t)}>
-            #{t}
-          </a>
-        ))}
-      </div>
-    ) : null}
+<article class="card editorial-card" style={domain ? `--domain-accent:${domain.accent};--domain-surface:${domain.surface}` : undefined}>
+  <a class="cardLink" href={href} aria-label={d.title}></a>
+  <img class="cover" src={d.cover_card || d.cover_hero} alt={d.card_alt || d.title} width="1200" height="675" loading="lazy" decoding="async" />
+  <div class="cardBody">
+    <div class="editorial-card__eyebrow">{d.topic || domain?.label || d.tags?.[0] || "Analysis"}</div>
+    <h2 class="title">{d.title}</h2>
+    <time class="date" datetime={d.pubDate.toISOString()}>{d.pubDate.toISOString().slice(0, 10)}</time>
+    <p class="desc">{d.excerpt || d.description}</p>
+    <div class="metaRow"><div class="tags">
+      {(d.tags || []).filter(t => t !== "TechMindHub").slice(0, 2).map(t => <a class="pill" href={`/tags/${encodeURIComponent(t)}/`}>#{t}</a>)}
+    </div></div>
   </div>
 </article>
-

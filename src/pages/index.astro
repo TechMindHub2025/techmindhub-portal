@@ -1,4 +1,5 @@
 ---
+import PostCard from "../components/PostCard.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { getCollection } from "astro:content";
 
@@ -52,7 +53,7 @@ const pageDescription =
           <ul class="tmh-list">
             <li><a href="/posts">Archive (all posts)</a></li>
             <li><a href="/about">How it works</a></li>
-            <li><a href="/tags/techmindhub">Browse by tags</a></li>
+            <li><a href="/tags">Browse by tags</a></li>
           </ul>
           <div class="tmh-panel__hint">
             New posts appear here after approval & deploy.
@@ -69,27 +70,7 @@ const pageDescription =
       </div>
 
       <div class="tmh-grid">
-        {latest.map((p) => (
-          <a class="tmh-card" href={`/posts/${p.slug}/`}>
-            <div class="tmh-card__media">
-              <img
-                src={p.data.cover_card}
-                alt={p.data.cover_alt ?? p.data.title}
-                loading="lazy"
-              />
-            </div>
-            <div class="tmh-card__body">
-              <div class="tmh-card__title">{p.data.title}</div>
-              <div class="tmh-card__meta">
-                {new Date(p.data.pubDate).toISOString().slice(0, 10)}
-              </div>
-              <div class="tmh-card__desc">{p.data.description}</div>
-
-              <div class="tmh-card__footer">
-                <div class="tmh-tags">
-                  {(p.data.tags ?? []).slice(0, 2).map((t) => (
-                    <span class="tmh-tag">#{t}</span>
-                  ))}
+        {latest.map((post) => <PostCard post={post} />)}
                 </div>
               </div>
             </div>

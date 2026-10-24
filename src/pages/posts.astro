@@ -1,127 +1,65 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import PostCard from "../components/PostCard.astro";
 import { getCollection } from "astro:content";
-
-const sort = (Astro.url.searchParams.get("sort") ?? "newest").toLowerCase();
-const tag = (Astro.url.searchParams.get("tag") ?? "").trim().toLowerCase();
-
-const all = await getCollection("posts");
-
-// Only published
-let posts = all
-  .filter((p) => p.data.status === "published")
-  .filter((p) => (tag ? (p.data.tags ?? []).map((t) => t.toLowerCase()).includes(tag) : true));
-
-// Sort
-posts = posts.sort((a, b) => {
-  const da = new Date(a.data.pubDate).getTime();
-  const db = new Date(b.data.pubDate).getTime();
-
-  if (sort === "oldest") return da - db;
-  // newest (default)
-  return db - da;
-});
-
-const allTags = Array.from(
-  new Set(
-    all
-      .filter((p) => p.data.status === "published")
-      .flatMap((p) => p.data.tags ?? [])
-      .map((t) => t.trim())
-      .filter(Boolean)
-  )
-).sort((a, b) => a.localeCompare(b));
+const posts = (await getCollection("posts", ({data}) => data.status === "published")).sort((a,b) => +b.data.pubDate - +a.data.pubDate || a.slug.localeCompare(b.slug));
+const allTags = [...new Set(posts.flatMap(p => p.data.tags).filter(t => t !== "TechMindHub"))].sort();
 ---
-
-<BaseLayout title="Posts — TechMind Hub" description="Latest TechMind Hub posts and notes.">
+<BaseLayout title="Analysis — TechMind Hub" description="Explore TechMind Hub analysis by topic, title and date.">
   <section class="page">
-    <header class="pageHeader">
-      <div>
-        <h1 class="pageTitle">Posts</h1>
-        <p class="pageLead">
-          A curated feed of signals across AI, robotics, automation, and enterprise tech.
-        </p>
-      </div>
-
-    </header>
-
-    <div class="tmh-tagsCloud">
-      <div class="tagBar">
-      <a class={"tagChip " + (!tag ? "active" : "")} href="/posts">All</a>
-      {allTags.map((t) => (
-        <a
-          class={"tmh-pill tmh-pill--link" + (tag === t.toLowerCase() ? "active" : "")}
-          href={`/posts?tag=${encodeURIComponent(t)}&sort=${encodeURIComponent(sort)}`}
-        >
-          #{t}
-        </a>
-      ))}
-      </div>
-      <form class="controls tagSort" method="get" action="/posts">
-        {tag ? <input type="hidden" name="tag" value={tag} /> : null}
-        <label class="control">
-          <span>Sort</span>
-          <select name="sort" onchange="this.form.submit()">
-            <option value="newest" selected={sort === "newest"}>Newest</option>
-            <option value="oldest" selected={sort === "oldest"}>Oldest</option>
-          </select>
-        </label>
-      </form>
+    <header class="pageHeader"><div><h1 class="pageTitle">Analysis</h1><p class="pageLead">Explore ideas across science and technology.</p></div></header>
+    <form class="archive-controls" action="/posts" method="get" hidden data-archive-controls>
+      <label class="archive-search">Search articles<input type="search" name="q" placeholder="Title, topic or keyword" autocomplete="off" /></label>
+      <label>Topic<select name="tag"><option value="">All topics</option>{allTags.map(t => <option value={t}>{t}</option>)}</select></label>
+      <label>Sort<select name="sort"><option value="newest">Newest first</option><option value="oldest">Oldest first</option></select></label>
+    </form>
+    <noscript><p>Browse by <a href="/tags/">topic</a>, or explore all articles below.</p></noscript>
+    <p class="archive-count" data-archive-count aria-live="polite">{posts.length} articles</p>
+    <div class="grid">
+      {posts.map(post => <div data-archive-entry data-search={`${post.data.title} ${post.data.description} ${post.data.topic || ""} ${post.data.tags.join(" ")}`.toLowerCase()} data-tags={JSON.stringify(post.data.tags)} data-date={post.data.pubDate.toISOString()} data-slug={post.slug}><PostCard post={post} /></div>)}
     </div>
-
-    {posts.length === 0 ? (
-      <div class="empty">
-        <p>No posts found{tag ? ` for #${tag}` : ""}.</p>
-      </div>
-    ) : (
-      <div class="grid reveal">
-        {posts.map((post) => {
-          const href = `/posts/${post.slug}/`;
-          const cover = post.data.cover_card || post.data.cover_hero;
-
-          return (
-            <article class="card">
-              <a class="cardLink" href={href} aria-label={post.data.title}></a>
-
-              <img
-                class="cover"
-                src={cover}
-                alt={post.data.title}
-                loading="lazy"
-              />
-
-              <div class="cardBody">
-                <h2 class="title">{post.data.title}</h2>
-
-                <time class="date" datetime={new Date(post.data.pubDate).toISOString()}>
-                  {new Date(post.data.pubDate).toISOString().slice(0, 10)}
-                </time>
-
-                <p class="desc">{post.data.description}</p>
-
-                <div class="metaRow">
-                  <div class="tags">
-                    {(post.data.tags ?? []).slice(0, 6).map((t) => (
-                      <a
-                        class="pill"
-                        href={`/posts?tag=${encodeURIComponent(t)}&sort=${encodeURIComponent(sort)}`}
-                      >
-                        #{t}
-                      </a>
-                    ))}
-                  </div>
-
-                  {post.data.source_url && (
-                    <a class="source" href={post.data.source_url} target="_blank" rel="noreferrer">
-                      Source ↗
-                    </a>
-                  )}
-                </div>
-              </div>
-            </article>
-          );
-        })}
-      </div>
-    )}
+    <p data-archive-empty hidden>No articles match. Try another keyword or choose all topics.</p>
   </section>
 </BaseLayout>
+<script>
+  const form = document.querySelector<HTMLFormElement>('[data-archive-controls]');
+  const count = document.querySelector('[data-archive-count]');
+  const empty = document.querySelector<HTMLElement>('[data-archive-empty]');
+  const entries = [...document.querySelectorAll<HTMLElement>('[data-archive-entry]')];
+  if (form) {
+    const query = form.elements.namedItem('q') as HTMLInputElement;
+    const tag = form.elements.namedItem('tag') as HTMLSelectElement;
+    const sort = form.elements.namedItem('sort') as HTMLSelectElement;
+    const readURL = () => {
+      const params = new URLSearchParams(location.search);
+      query.value = params.get('q') || '';
+      tag.value = [...tag.options].find(o => o.value.toLowerCase() === (params.get('tag') || '').toLowerCase())?.value || '';
+      sort.value = params.get('sort') === 'oldest' ? 'oldest' : 'newest';
+    };
+    const update = (writeURL = true) => {
+      const words = query.value.trim().toLowerCase().split(/\s+/).filter(Boolean);
+      let visible = 0;
+      entries.sort((a,b) => a.dataset.date!.localeCompare(b.dataset.date!) * (sort.value === 'oldest' ? 1 : -1) || a.dataset.slug!.localeCompare(b.dataset.slug!));
+      for (const entry of entries) {
+        const tags: string[] = JSON.parse(entry.dataset.tags || '[]');
+        entry.hidden = !words.every(w => entry.dataset.search!.includes(w)) || (!!tag.value && !tags.includes(tag.value));
+        if (!entry.hidden) visible++;
+        entry.parentElement!.append(entry);
+      }
+      if (count) count.textContent = `${visible} ${visible === 1 ? 'article' : 'articles'}`;
+      if (empty) empty.hidden = visible !== 0;
+      if (writeURL) {
+        const params = new URLSearchParams();
+        if (query.value.trim()) params.set('q', query.value.trim());
+        if (tag.value) params.set('tag', tag.value);
+        if (sort.value === 'oldest') params.set('sort', 'oldest');
+        history.replaceState(null, '', location.pathname + (params.size ? '?' + params : ''));
+      }
+    };
+    readURL(); update(false); form.hidden = false;
+    form.addEventListener('input', () => update());
+    form.addEventListener('change', () => update());
+    form.addEventListener('submit', e => { e.preventDefault(); update(); });
+    window.addEventListener('popstate', () => { readURL(); update(false); });
+  }
+</script>

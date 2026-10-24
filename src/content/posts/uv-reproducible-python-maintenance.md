@@ -7,9 +7,12 @@ status: "published"
 canonical_id: "2026-10-24-uv-reproducible-python-maintenance"
 tags: ["Python", "OpenSource", "DeveloperTools", "Reproducibility", "TechMindHub"]
 source_url: "https://docs.astral.sh/uv/concepts/projects/sync/"
-cover_card: "https://media.techmindhub.cc/posts/uv-reproducible-python-maintenance-card-v2.png"
-cover_hero: "https://media.techmindhub.cc/posts/uv-reproducible-python-maintenance-infographic.png"
-cover_alt: "TechMind Hub infographic showing project requirements and a uv lockfile rebuilding Python environments, with a separate maintenance cycle."
+cover_card: "https://media.techmindhub.cc/posts/uv-reproducible-python-maintenance-card-canon-v2.png"
+cover_hero: "https://media.techmindhub.cc/posts/uv-reproducible-python-maintenance-infographic-canon-v2.png"
+domain: "software"
+topic: "Developer tools"
+card_alt: "A translucent uv environment container, package blocks and an update arc accompany the phrase Reproducible. Still maintained."
+cover_alt: "A conceptual uv environment and package blocks illustrate recording, rebuilding and deliberately maintaining a Python setup."
 ---
 
 A small Python automation can become important long before anyone treats it as production software. A reporting script runs every morning, an integration moves records between systems, or an AI application starts serving colleagues. Eventually, someone needs to rebuild it on another machine. The question is whether the repository contains enough information to do that reliably.
@@ -17,6 +20,10 @@ A small Python automation can become important long before anyone treats it as p
 [Astral's uv](https://github.com/astral-sh/uv) brings dependency management, project environments and Python installation into one command-line tool. It is open source, available under either the MIT or Apache 2.0 licence. Its practical value extends beyond installation speed: it can make environment decisions easier to record and review.
 
 That benefit has a boundary. Rebuilding a known environment and deciding when to change it are different responsibilities. A lockfile can faithfully reproduce an environment whose dependencies no longer meet the team's maintenance policy.
+
+![A conceptual uv environment and package blocks illustrate recording, rebuilding and deliberately maintaining a Python setup.](https://media.techmindhub.cc/posts/uv-reproducible-python-maintenance-infographic-canon-v2.png)
+
+**Illustration summary.** Record the requirements, lockfile and Python choice. Rebuild the reviewed environment consistently. Review updates and test behaviour before release. The container and packages are visual metaphors, not a product interface; reproducibility alone does not update or secure the environment.
 
 ## What the repository should describe
 

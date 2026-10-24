@@ -7,14 +7,21 @@ status: "published"
 canonical_id: "2026-10-24-computing-with-scattered-light"
 tags: ["Photonics", "AdvancedComputing", "ReservoirComputing", "Research", "TechMindHub"]
 source_url: "https://doi.org/10.1002/adco.70012"
-cover_card: "https://media.techmindhub.cc/posts/computing-with-scattered-light-card.png"
-cover_hero: "https://media.techmindhub.cc/posts/computing-with-scattered-light-infographic.png"
-cover_alt: "Conceptual illustration of optical encoding, scattering and camera readout, with an electronic feedback path returning to the modulator."
+cover_card: "https://media.techmindhub.cc/posts/computing-with-scattered-light-card-canon-v2.png"
+cover_hero: "https://media.techmindhub.cc/posts/computing-with-scattered-light-infographic-canon-v2.png"
+domain: "photonics"
+topic: "Photonics"
+card_alt: "Light ribbons become a scattered pattern between translucent optical planes beside the title Computing with scattered light."
+cover_alt: "Conceptual light-scattering artwork illustrating a hybrid loop, operating-regime tuning and whole-system evaluation."
 ---
 
 Light scattered through an optical system can look like a loss of information: a structured input becomes a complicated pattern. Reservoir computing asks a different question. Could a repeatable physical transformation provide useful features for interpreting a signal that changes over time?
 
 A [study by Geon Kim and YongKeun Park](https://doi.org/10.1002/adco.70012), first published in *Advanced Computing* on October 22, 2026, investigates how to operate such a reservoir. The engineering interest is the relationship between controllable settings and useful behaviour, rather than the spectacle of computation performed with light.
+
+![Conceptual light-scattering artwork illustrating a hybrid loop, operating-regime tuning and whole-system evaluation.](https://media.techmindhub.cc/posts/computing-with-scattered-light-infographic-canon-v2.png)
+
+**Illustration summary.** The illustration presents three themes: optical processing works with electronic feedback; dynamics, input coupling and interconnectivity affect the operating regime; evaluation should include acquisition, feedback and readout. The translucent planes and glowing loop are an artistic metaphor, not a photograph or layout of the apparatus.
 
 ## What a reservoir contributes
 
@@ -30,7 +37,7 @@ The authors' [public preprint](https://arxiv.org/abs/2605.26848) describes an op
 
 The three investigated design axes concern the reservoir's dynamics, input coupling and interconnectivity. The authors report a memory-capacity maximum near the boundary of stable and chaotic dynamics, supported by numerical simulation. At their selected settings, they report time-series prediction and 84.5% blind accuracy on a ten-class spoken-digit task.
 
-Those are results for the authors' experimental tasks and setup. They do not establish independent replication, general-purpose processing superiority or a measured energy advantage over a matched digital implementation. The supplied infographic illustrates the concept; its scattering block is not a photograph or exact layout of the apparatus.
+Those are results for the authors' experimental tasks and setup. They do not establish independent replication, general-purpose processing superiority or a measured energy advantage over a matched digital implementation. The supplied infographic illustrates the concept; its optical forms are not a photograph or exact layout of the apparatus.
 
 ## Treat the operating regime as a specification
 
