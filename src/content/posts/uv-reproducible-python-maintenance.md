@@ -7,7 +7,7 @@ status: "published"
 canonical_id: "2026-10-24-uv-reproducible-python-maintenance"
 tags: ["Python", "OpenSource", "DeveloperTools", "Reproducibility", "TechMindHub"]
 source_url: "https://docs.astral.sh/uv/concepts/projects/sync/"
-cover_card: "https://media.techmindhub.cc/posts/uv-reproducible-python-maintenance-card.png"
+cover_card: "https://media.techmindhub.cc/posts/uv-reproducible-python-maintenance-card-v2.png"
 cover_hero: "https://media.techmindhub.cc/posts/uv-reproducible-python-maintenance-infographic.png"
 cover_alt: "TechMind Hub infographic showing project requirements and a uv lockfile rebuilding Python environments, with a separate maintenance cycle."
 ---
