@@ -1,0 +1,34 @@
+uv: Reproducible Python Still Needs a Maintenance Plan
+
+Could a colleague rebuild your smallest production automation from its repository alone?
+
+Astral's uv brings Python dependency management, project environments and interpreter installation into one command-line tool. For small services, research scripts and AI applications, the useful question extends beyond installation speed: can another machine reconstruct the project without undocumented setup?
+
+Two files provide the foundation. pyproject.toml declares requirements; uv.lock records resolved dependency choices. Committing both makes environment changes visible and reviewable.
+
+For an existing project, a practical rebuild check starts with:
+
+uv sync --locked
+uv run --locked python script.py
+
+The --locked option makes uv fail if the lockfile needs updating. It does not establish that the recorded versions are current or secure.
+
+That distinction matters. New package releases do not automatically make a lockfile outdated in uv's project-consistency checks. Upgrades remain explicit decisions, followed by review and testing.
+
+The runtime needs attention too. The uv 0.13.5 release notes explain that updating uv does not automatically move environments pinned to older Python patch versions onto a new interpreter. Existing environments may also need separate pip updates.
+
+Our assessment: uv is most valuable when it helps separate routine execution from deliberate change. A reviewed environment can be rebuilt consistently; a candidate upgrade can be assessed before deployment.
+
+Someone still needs to own that process. A lockfile can reproduce an outdated environment just as reliably as a maintained one.
+
+What would a colleague still need to ask you before rebuilding one of your automations?
+
+Full analysis and sources:
+https://techmindhub.cc/posts/uv-reproducible-python-maintenance/
+
+Primary documentation:
+https://docs.astral.sh/uv/concepts/projects/sync/
+Release context:
+https://github.com/astral-sh/uv/releases/tag/0.13.5
+
+#Python #OpenSource #DeveloperTools #Reproducibility #TechMindHub
