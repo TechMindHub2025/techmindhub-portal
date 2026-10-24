@@ -7,7 +7,7 @@ status: "published"
 canonical_id: "2026-10-24-uv-reproducible-python-maintenance"
 tags: ["Python", "OpenSource", "DeveloperTools", "Reproducibility", "TechMindHub"]
 source_url: "https://docs.astral.sh/uv/concepts/projects/sync/"
-cover_card: "https://media.techmindhub.cc/posts/uv-reproducible-python-maintenance-card.png"
+cover_card: "https://media.techmindhub.cc/posts/uv-reproducible-python-maintenance-card-v2.png"
 cover_hero: "https://media.techmindhub.cc/posts/uv-reproducible-python-maintenance-infographic.png"
 cover_alt: "TechMind Hub infographic showing project requirements and a uv lockfile rebuilding Python environments, with a separate maintenance cycle."
 ---
@@ -94,5 +94,3 @@ uv can make a Python environment more inspectable and repeatable. The operationa
 - [uv 0.13.5 release notes](https://github.com/astral-sh/uv/releases/tag/0.13.5)
 
 *Release context: uv 0.13.5; documentation checked for this article on October 24, 2026. Operational recommendations are TechMind Hub's assessment.*
-
-[Download article (.md)](/posts/uv-reproducible-python-maintenance-article.md) · [Download infographic (.png)](https://media.techmindhub.cc/posts/uv-reproducible-python-maintenance-infographic.png)

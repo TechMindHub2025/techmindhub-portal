@@ -1,0 +1,28 @@
+Who Monitors the AI Monitor? Lessons from an External OpenAI Review
+
+An AI monitor can flag suspicious behaviour only if the relevant evidence reaches it. That makes the collection and routing of evidence part of the safety argument.
+
+METR and Redwood Research published a high-access pilot review on October 22. The exercise examined a historical OpenAI monitoring system. It identified coverage and safeguard weaknesses; the evaluators did not verify OpenAI's subsequent statements about production fixes. Possible bypasses are not evidence of actual exploitation by deployed agents.
+
+For an engineering team, our assessment is that three questions deserve separate answers:
+
+Coverage: do the actions and context that matter actually arrive for review?
+
+Detection: what evidence shows that the monitor recognises relevant risks, including cases that nobody has already reported?
+
+Response: can a responsible person intervene before the underlying action becomes difficult or impossible to reverse?
+
+Those questions lead to different acceptance tests. A system can interpret the records it receives well while missing an execution route. It can also raise a correct alert after the opportunity to prevent harm has passed.
+
+Our suggested starting point is one narrowly defined workflow. Trace representative test actions through execution, logging, review and intervention. Record what remains outside that test before expanding the agent's permissions.
+
+A monitor cannot assess evidence it never receives. What evidence would convince you that your own agent's monitoring is complete enough for its permissions?
+
+Full analysis and sources:
+https://techmindhub.cc/posts/who-monitors-the-ai-monitor/
+
+Primary sources:
+https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/
+https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment/
+
+#AgenticAI #AISafety #Cybersecurity #DigitalTrust #TechMindHub
