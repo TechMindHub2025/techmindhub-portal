@@ -1,6 +1,6 @@
-# TechMind Hub visual canon — v1.0
+# TechMind Hub visual canon — v1.1
 
-Approved direction with Andrew on October 24, 2026. The first complete cover/infographic pair is the photonics pilot; final artwork remains subject to visual review. This canon governs new artwork, not an automatic replacement of previously approved assets.
+Approved direction with Andrew on October 24, 2026; revised the same day to require generated designer-led covers and editorial infographics, with sources retained in the article rather than on the images. Andrew authorised preparation of the complete three-publication replacement set. Publication still follows the normal R2 verification and human GitHub review workflow.
 
 ## One publication, one visual argument
 
@@ -41,18 +41,18 @@ Use the exact English words from the reviewed brief. Inspect generated letters a
 
 | Role | Working format | Acceptance |
 | --- | --- | --- |
-| Cover | 16:9; delivery master 1200 x 675 | Inspect at 352px and 260px; subject and short phrase must remain legible. |
-| Article infographic | Usually 4:5; suggested 1200 x 1500 | Readable explanatory structure, controlled copy; preserve essential information on the article's narrow layout. |
+| Cover | 16:9; target master 1200 x 675 or a larger native output near that ratio | Inspect at 352px and 260px; subject and short phrase must remain legible. |
+| Article infographic | Usually 4:5; suggested 1200 x 1500 or a native output near that ratio | Readable explanatory structure, controlled copy; preserve essential information on the article's narrow layout. |
 | Social link preview | 1200 x 630 | Export separately when crop safety is uncertain; never stretch a 16:9 image into this ratio. |
 | Optional social adaptation | Platform-specific | Compose deliberately; do not squeeze the complete infographic into an unsuitable frame. |
 
-For cover reuse in 1200 x 630, keep essential content inside a safe region of at least 6% from all edges and test the actual crop. Scale text and labels for their displayed size. A single large infographic may require an accessible text equivalent in the article. When too much material is needed, use two clear figures rather than smaller type.
+For cover reuse in 1200 x 630, keep essential content inside a safe region of at least 6% from all edges and test the actual crop. Keep native generated output when its aspect ratio closely matches the target; do not stretch it to force pixel dimensions. Scale text and labels for their displayed size. A single large infographic may require an accessible text equivalent in the article. When too much material is needed, use two clear figures rather than smaller type.
 
 ## Accuracy and accessibility
 
 - Separate artistic metaphors, conceptual functional diagrams and faithful apparatus diagrams. Label a concept as a concept. A glass panel on a cover must not become a claim about the actual apparatus.
-- Every arrow must have a defined direction and meaning. Distinguish optical paths, electronic feedback and readout. For precise diagrams, build deterministic native artwork with reviewed labels rather than relying on a generated schematic.
-- Attribute reported findings to the authors; include task, scope and denominator with performance figures. Use an actual source link in the article and a concise source identifier on the image. Do not turn a task result into a universal superiority claim.
+- Every arrow must have a defined direction and meaning. Distinguish optical paths, electronic feedback and readout. Do not ask the image generator to invent precise apparatus diagrams or quantitative charts. These editorial infographics use conceptual artwork and reviewed explanatory text. If a story needs a precise technical figure, handle it as a separate source-grounded figure; do not silently substitute a code-made editorial image for the generated visual the user requested.
+- Attribute reported findings to the authors; include task, scope and denominator with performance figures. Keep source links, author attribution, research identifiers and detailed scope in the article text. Do not print author names, arXiv IDs, DOIs, source URLs, bibliography blocks or source footnotes on editorial covers or infographics. Do not turn a task result into a universal superiority claim.
 - Do not invent measured curves, numerical axes, laboratory photographs, equipment, guarantees or replication. Distinguish proposed evaluation criteria from findings.
 - Write `card_alt` for the cover and `cover_alt` for the inner illustration. Long figure descriptions or text equivalents belong in the article. Never make the only explanation available as raster text.
 - Check text contrast on the actual background, labels without relying on colour, spelling, units, source identifiers and mobile readability.
@@ -61,10 +61,16 @@ For cover reuse in 1200 x 630, keep essential content inside a safe region of at
 
 Record: article slug and source links; primary domain and palette; central question; one-sentence visual argument; shared motif; exact cover phrase; inner-image explanation and exact labels; visual-metaphor/apparatus status; claims and limitations; alt text; role-specific sizes and crop safety; filenames and version; review status.
 
-Production sequence: verify the article and sources → agree on the paired brief → make cover and inner figure → inspect them together and at small size → review facts and typography → export versioned ordinary image files → upload to R2 → verify public URLs → obtain Andrew's GitHub review of the final PR head → merge and check deployment. Use one pilot to validate a revised canon before batch conversion.
+Production sequence: verify the article and sources → agree on the paired brief → make cover and inner figure → inspect them together and at small size → review facts and typography → export versioned ordinary image files → upload to R2 → verify public URLs → obtain Andrew's GitHub review of the final PR head → merge and check deployment. Andrew approved proceeding with all three publication pairs after the initial photonics review; prepare the full set together when that scope is explicitly requested.
+
+## Generation and image text
+
+Use the built-in image generator for the finished cover and editorial infographic. Build each pair from one reviewed brief and use the cover as a style/subject reference for the companion. Prior SVG-made editorial candidates are superseded for this release. Coding is used for the website, metadata and packaging, not as an unannounced substitute for generated publication art.
+
+Keep the source bibliography, author attribution, IDs, source links and detailed caveats in the article. Image copy consists of the short cover phrase or infographic title, a small category label, useful explanatory headings/sentences and the restrained TECHMIND HUB signature. Do not add section numbers such as 01/02 or numbered decorative badges. Scientific figures required by the subject are distinct from decorative numbering; none are needed in this three-publication image set.
 
 ## Storage and release
 
 Code, this canon, registry, article Markdown and text briefs belong in GitHub. Publication image binaries belong in Cloudflare R2 `tmh-assets/posts/`; never send large Base64 payloads through tool outputs or store them in article code. Keep source artwork and prompts with the review package when available. Do not add public Download controls or duplicate article exports. Do not overwrite live approved images while a new pair is under review.
 
-The previous `TechMindHub-editorial-covers-v3.zip` was an intermediate cover-only proposal. It is superseded as the target release direction. Do not upload it as the final canon-compliant image set. PR #23 remains draft until the pilot and remaining pairs are reviewed, the final image URLs are verified, and Andrew approves the final head in GitHub.
+The previous cover-only v3 ZIP and the first SVG photonics pilot are superseded. The prepared replacement set is `TechMindHub-Cloudflare-images-canon-v2.zip`: exactly six PNG files (one cover and one infographic per article), with no source/document files in the upload archive. Its exact names, sizes, hashes and public URLs are recorded in `editorial/releases/2026-10-24-canon-v2.json`. New article URLs and text equivalents must match that set. Keep PR #23 draft until the files are uploaded to R2 and their public URLs verified, then obtain Andrew's approval on the final PR head before merging. Retain previous R2 images until the new deployment is verified.

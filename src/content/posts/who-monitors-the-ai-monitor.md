@@ -7,19 +7,21 @@ status: "published"
 canonical_id: "2026-10-24-who-monitors-the-ai-monitor"
 tags: ["AgenticAI", "AISafety", "Cybersecurity", "DigitalTrust", "TechMindHub"]
 source_url: "https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/"
-cover_card: "https://media.techmindhub.cc/posts/who-monitors-the-ai-monitor-card-v3.png"
-cover_hero: "https://media.techmindhub.cc/posts/who-monitors-the-ai-monitor-infographic.png"
+cover_card: "https://media.techmindhub.cc/posts/who-monitors-the-ai-monitor-card-canon-v2.png"
+cover_hero: "https://media.techmindhub.cc/posts/who-monitors-the-ai-monitor-infographic-canon-v2.png"
 domain: "digital-trust"
 topic: "AI safety"
-card_alt: "A magnifying glass with an eye examines highlighted records, representing independent monitoring review."
-cover_alt: "Conceptual TechMind Hub illustration of agent evidence reaching a monitor and human review, with a separate stream of missing evidence."
+card_alt: "Amber magnifying lenses examine layered records beside the question Who monitors the monitor?"
+cover_alt: "Layered records and magnifying lenses illustrate coverage, detection and response in AI monitoring."
 ---
 
 An AI monitor can examine an agent's behaviour and flag suspicious actions. That is a useful capability, but it leaves a prior question unanswered: which actions actually reach the monitor? A second model cannot evaluate an event that the surrounding infrastructure never presents to it.
 
 An [external pilot by METR and Redwood Research](https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/), published on October 22, provides a concrete reason to keep those questions separate. The exercise ran from July 21 to August 11, 2026, and examined OpenAI's internal misalignment monitoring as it existed on and before July 21. Its results do not establish the expanded system's current coverage.
 
-![Conceptual TechMind Hub illustration of agent evidence reaching a monitor and human review, with a separate stream of missing evidence.](https://media.techmindhub.cc/posts/who-monitors-the-ai-monitor-infographic.png)
+![Layered records and magnifying lenses illustrate coverage, detection and response in AI monitoring.](https://media.techmindhub.cc/posts/who-monitors-the-ai-monitor-infographic-canon-v2.png)
+
+**Illustration summary.** Coverage asks whether the relevant evidence arrives. Detection asks what the monitor recognises. Response asks whether a person can intervene in time. A monitor cannot assess evidence it never receives. These are our evaluation questions; the image is conceptual and does not depict a demonstrated attack or establish current OpenAI system coverage.
 
 ## What the external review establishes
 
