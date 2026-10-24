@@ -1,5 +1,6 @@
 // src/content/config.ts
 import { defineCollection, z } from "astro:content";
+import domains from "../data/editorial-domains.json";
 
 const posts = defineCollection({
   type: "content",
@@ -32,6 +33,7 @@ const posts = defineCollection({
     cover_alt: z.string().default(""),
     card_alt: z.string().default(""),
     topic: z.string().optional(),
+    domain: z.string().refine(id => domains.some(d => d.id === id), {message: "Unknown editorial domain; add it to src/data/editorial-domains.json first."}).optional(),
 
     // Optional social links (bot can fill these later)
     social: z

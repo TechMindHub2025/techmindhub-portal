@@ -9,6 +9,7 @@ tags: ["AgenticAI", "AISafety", "Cybersecurity", "DigitalTrust", "TechMindHub"]
 source_url: "https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/"
 cover_card: "https://media.techmindhub.cc/posts/who-monitors-the-ai-monitor-card-v3.png"
 cover_hero: "https://media.techmindhub.cc/posts/who-monitors-the-ai-monitor-infographic.png"
+domain: "digital-trust"
 topic: "AI safety"
 card_alt: "A magnifying glass with an eye examines highlighted records, representing independent monitoring review."
 cover_alt: "Conceptual TechMind Hub illustration of agent evidence reaching a monitor and human review, with a separate stream of missing evidence."

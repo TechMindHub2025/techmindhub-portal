@@ -9,6 +9,7 @@ tags: ["Photonics", "AdvancedComputing", "ReservoirComputing", "Research", "Tech
 source_url: "https://doi.org/10.1002/adco.70012"
 cover_card: "https://media.techmindhub.cc/posts/computing-with-scattered-light-card-v3.png"
 cover_hero: "https://media.techmindhub.cc/posts/computing-with-scattered-light-infographic.png"
+domain: "photonics"
 topic: "Photonics"
 card_alt: "Conceptual illustration of light entering a scattering block and forming a pattern on a sensor."
 cover_alt: "Conceptual illustration of optical encoding, scattering and camera readout, with an electronic feedback path returning to the modulator."

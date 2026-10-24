@@ -1,13 +1,15 @@
 ---
+import domains from "../data/editorial-domains.json";
 const { post } = Astro.props;
 const d = post.data;
+const domain = domains.find(item => item.id === d.domain);
 const href = `/posts/${post.slug}/`;
 ---
-<article class="card editorial-card">
+<article class="card editorial-card" style={domain ? `--domain-accent:${domain.accent};--domain-surface:${domain.surface}` : undefined}>
   <a class="cardLink" href={href} aria-label={d.title}></a>
   <img class="cover" src={d.cover_card || d.cover_hero} alt={d.card_alt || d.title} width="1200" height="675" loading="lazy" decoding="async" />
   <div class="cardBody">
-    <div class="editorial-card__eyebrow">{d.topic || d.tags?.[0] || "Analysis"}</div>
+    <div class="editorial-card__eyebrow">{d.topic || domain?.label || d.tags?.[0] || "Analysis"}</div>
     <h2 class="title">{d.title}</h2>
     <time class="date" datetime={d.pubDate.toISOString()}>{d.pubDate.toISOString().slice(0, 10)}</time>
     <p class="desc">{d.excerpt || d.description}</p>

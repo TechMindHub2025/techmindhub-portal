@@ -1,4 +1,5 @@
 ---
+import domains from "../data/editorial-domains.json";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { getCollection } from "astro:content";
 
@@ -105,6 +106,16 @@ const topTags = [...tagCounts.entries()]
         <p class="moduleText" style="margin-top:12px;">
           Tags are the primary navigation layer — the archive stays clean, searchable, and easy to maintain.
         </p>
+      </article>
+
+      <!-- Visual language -->
+      <article class="moduleCard reveal" id="visual-language">
+        <h2 class="moduleTitle">Our visual language</h2>
+        <p class="moduleText">Colour families identify editorial directions. A cover introduces the central idea; illustrations inside the article help explain it. Related images share a visual motif, with different levels of detail.</p>
+        <p class="moduleText">Conceptual artwork is distinguished from apparatus diagrams. Sources, reported findings and their limits are explained in the article. Written topic labels accompany every colour cue.</p>
+        <ul class="palette-key" aria-label="Editorial colour families">
+          {domains.map(domain => <li><span class="palette-key__swatch" style={`background:${domain.accent}`} aria-hidden="true"></span><span>{domain.label}</span></li>)}
+        </ul>
       </article>
 
       <!-- Publishing workflow -->

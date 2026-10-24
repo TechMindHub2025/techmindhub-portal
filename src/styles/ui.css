@@ -900,3 +900,10 @@ select:focus-visible {
   .topbar .navlink { padding: 9px 10px; }
   footer { flex-wrap: wrap; }
 }
+
+/* A domain label accompanies every colour cue. */
+.editorial-card__eyebrow { color: #153E50; }
+.editorial-card[style] .editorial-card__eyebrow { align-self: flex-start; background: var(--domain-surface, #eef3f8); border-left: 3px solid var(--domain-accent, #43627a); padding: 5px 8px; }
+.palette-key { display: grid; gap: 9px; list-style: none; padding: 0; margin: 16px 0 0; }
+.palette-key li { display: flex; align-items: center; gap: 10px; font-size: 13px; line-height: 1.4; }
+.palette-key__swatch { width: 14px; height: 14px; flex: 0 0 14px; border-radius: 50%; border: 1px solid rgba(0,0,0,.1); }

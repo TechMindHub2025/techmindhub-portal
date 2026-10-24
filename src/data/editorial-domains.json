@@ -1,0 +1,12 @@
+[
+  { "id": "ai", "label": "AI & machine learning", "accent": "#5958B2", "surface": "#F0EFFA" },
+  { "id": "software", "label": "Software & developer tools", "accent": "#80549E", "surface": "#F5EFF8" },
+  { "id": "digital-trust", "label": "Security & digital trust", "accent": "#966020", "surface": "#FBF3E6" },
+  { "id": "photonics", "label": "Photonics, physics & quantum", "accent": "#267F9E", "surface": "#EDF7FA" },
+  { "id": "robotics", "label": "Robotics & automation", "accent": "#AC5943", "surface": "#FAF0EB" },
+  { "id": "infrastructure", "label": "Infrastructure, cloud & networks", "accent": "#426F94", "surface": "#EEF3F8" },
+  { "id": "life-sciences", "label": "Life sciences & biotechnology", "accent": "#39765E", "surface": "#EEF6F0" },
+  { "id": "energy-environment", "label": "Energy, climate & environment", "accent": "#6E793D", "surface": "#F3F5E9" },
+  { "id": "space", "label": "Space & astronomy", "accent": "#70558D", "surface": "#F3EFF8" },
+  { "id": "materials", "label": "Materials & manufacturing", "accent": "#956848", "surface": "#F7F1EB" }
+]

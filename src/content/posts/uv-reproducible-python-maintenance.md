@@ -9,6 +9,7 @@ tags: ["Python", "OpenSource", "DeveloperTools", "Reproducibility", "TechMindHub
 source_url: "https://docs.astral.sh/uv/concepts/projects/sync/"
 cover_card: "https://media.techmindhub.cc/posts/uv-reproducible-python-maintenance-card-v3.png"
 cover_hero: "https://media.techmindhub.cc/posts/uv-reproducible-python-maintenance-infographic.png"
+domain: "software"
 topic: "Developer tools"
 card_alt: "A uv environment record, package boxes and circular update paths represent reproducibility and maintenance."
 cover_alt: "TechMind Hub infographic showing project requirements and a uv lockfile rebuilding Python environments, with a separate maintenance cycle."

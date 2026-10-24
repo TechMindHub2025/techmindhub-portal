@@ -43,12 +43,10 @@ The page already supplies the full title and description. Do not reproduce the w
 Andrew confirmed removal of both public Download links on October 24, 2026. Do not add article Markdown or infographic Download buttons/links to public articles. Keep editable article sources and social text in GitHub for Andrew. Publication images remain public through R2; removing a link does not make an image private. Do not create duplicate Markdown exports under `public/` for new articles. This policy does not change bucket permissions.
 
 
-## Subject-led editorial design (October 24, 2026)
+## Visual canon
 
-- Each cover needs a recognisable subject: optics can use beams and scattering; AI review can use evidence and inspection; developer tools can use packages and environment records. Do not reuse one diagram with only the headline changed.
-- Keep the complete title in HTML. Artwork may be text-free; a short product name such as uv is enough when needed. Never put body copy or performance claims into feed artwork.
-- Use `topic` for a short English section label and `card_alt` for the actual cover illustration. Keep `cover_alt` for the infographic; these describe different compositions.
-- Home, Analysis and tag pages share `PostCard.astro`. Keep the 16:9 frame and inspect covers together at 352px and 260px; essential content must also survive a centred 1200 x 630 social preview crop.
-- Introduce the article in prose before its approved infographic. Add the infographic once in the Markdown body after the opening paragraphs, using `cover_hero`'s public R2 URL. The template no longer inserts it automatically above the introduction. Do not crop or redesign approved infographics as part of a cover refresh.
-- Article pages use a compact masthead. The archive provides local title/description/topic search, tag filtering and date sorting; topic routes remain usable without JavaScript. Search is limited to article metadata, not full-text content. Revisit pagination/indexing when the archive grows; this change does not claim an architecture for thousands of full-text results.
-- Source artwork stays in the handoff ZIP with its render script. Upload only the versioned PNG covers to R2 `posts/`, verify each URL, then approve and merge the PR. No image binaries or Base64 data URLs belong in GitHub.
+The approved direction and production rules live in [VISUAL-CANON.md](VISUAL-CANON.md). Use that document before preparing publication images. The shared palette registry is `src/data/editorial-domains.json`; add directions there rather than scattering colour rules across templates. Each article receives one primary `domain`, a short `topic` label and separate alt text for its cover and inner image.
+
+The first paired review candidate is documented in [briefs/photonics-pilot.md](briefs/photonics-pilot.md). Review the pair before converting the other publications. The prior cover-only v3 ZIP is superseded as a release candidate; do not ask Andrew to upload it as the final set. Keep PR #23 draft until the final image set and its R2 URLs are verified, then obtain the required GitHub approval.
+
+Home, Analysis and tag pages share `PostCard.astro`. Article pages use a compact masthead and introduce the infographic in prose. Insert the approved infographic once in the Markdown body after the opening paragraphs, using its public R2 URL. Update `cover_hero`, `cover_alt` and a text equivalent alongside any approved infographic replacement. Do not replace existing approved illustrations merely because a draft canon or review candidate exists.
