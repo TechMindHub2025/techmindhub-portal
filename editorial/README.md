@@ -38,6 +38,6 @@ The page already supplies the full title and description. Do not reproduce the w
 - Do not invent performance figures, deployments, benchmark results or social profile URLs.
 - Build the site and check the article body, local links, metadata and media URLs before requesting release approval. Inspect the feed card and live page after deployment.
 
-## Public downloads: decision pending
+## Public article presentation
 
-Andrew requested discussion of whether article Markdown and infographic download links should remain in the public article footer. Their visibility is an editorial/distribution decision, separate from write authorization. This change does not remove links, delete exports, change bucket access, or assert that hiding links makes public files private.
+Andrew confirmed removal of both public Download links on October 24, 2026. Do not add article Markdown or infographic Download buttons/links to public articles. Keep editable article sources and social text in GitHub for Andrew. Publication images remain public through R2; removing a link does not make an image private. Do not create duplicate Markdown exports under `public/` for new articles. This policy does not change bucket permissions.

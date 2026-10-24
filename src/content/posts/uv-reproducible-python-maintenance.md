@@ -94,5 +94,3 @@ uv can make a Python environment more inspectable and repeatable. The operationa
 - [uv 0.13.5 release notes](https://github.com/astral-sh/uv/releases/tag/0.13.5)
 
 *Release context: uv 0.13.5; documentation checked for this article on October 24, 2026. Operational recommendations are TechMind Hub's assessment.*
-
-[Download article (.md)](/posts/uv-reproducible-python-maintenance-article.md) · [Download infographic (.png)](https://media.techmindhub.cc/posts/uv-reproducible-python-maintenance-infographic.png)
