@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-24",
+  "status": "prepared-awaiting-manual-r2-upload-and-github-review",
+  "canon": "1.2",
+  "bucket": "tmh-assets",
+  "prefix": "posts/",
+  "archive": "TechMindHub-three-posts-2026-10-24-images-v1.zip",
+  "assets": [
+    {
+      "slug": "nvidia-dsx-pod-deployment",
+      "role": "card",
+      "filename": "nvidia-dsx-pod-deployment-card-v1.png",
+      "url": "https://media.techmindhub.cc/posts/nvidia-dsx-pod-deployment-card-v1.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1931251,
+      "sha256": "8e02dfcc4cfadcbb43afa65d75e3a8dd33233adaf981abf4bccdc221371e69ef"
+    },
+    {
+      "slug": "nvidia-dsx-pod-deployment",
+      "role": "infographic",
+      "filename": "nvidia-dsx-pod-deployment-infographic-v1.png",
+      "url": "https://media.techmindhub.cc/posts/nvidia-dsx-pod-deployment-infographic-v1.png",
+      "width": 1122,
+      "height": 1402,
+      "bytes": 2084729,
+      "sha256": "3bad85424c10927507d63fca2a1d51f7416c2cb9a15657b450826284ea6e4d0f"
+    },
+    {
+      "slug": "ai-designed-robot-routing",
+      "role": "card",
+      "filename": "ai-designed-robot-routing-card-v1.png",
+      "url": "https://media.techmindhub.cc/posts/ai-designed-robot-routing-card-v1.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1866862,
+      "sha256": "90ba3a92146aa9538a7fa6b5a48ca31c4ab584bcee38a450de748263375a7c6f"
+    },
+    {
+      "slug": "ai-designed-robot-routing",
+      "role": "infographic",
+      "filename": "ai-designed-robot-routing-infographic-v1.png",
+      "url": "https://media.techmindhub.cc/posts/ai-designed-robot-routing-infographic-v1.png",
+      "width": 1122,
+      "height": 1402,
+      "bytes": 1927565,
+      "sha256": "0c96fc2078818c68dbf41e46d9b9d862715c5cdd32a2705877132b881aca323e"
+    },
+    {
+      "slug": "syft-release-inventory",
+      "role": "card",
+      "filename": "syft-release-inventory-card-v1.png",
+      "url": "https://media.techmindhub.cc/posts/syft-release-inventory-card-v1.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1886021,
+      "sha256": "91e3bc597c26ab3b1707f5460be3d74e4f7658ab0227752c2dcc4cc443e652f5"
+    },
+    {
+      "slug": "syft-release-inventory",
+      "role": "infographic",
+      "filename": "syft-release-inventory-infographic-v1.png",
+      "url": "https://media.techmindhub.cc/posts/syft-release-inventory-infographic-v1.png",
+      "width": 1066,
+      "height": 1476,
+      "bytes": 1930853,
+      "sha256": "8dd6b4c3c129e89dae2a16d9f09ecf26598f2124f03a52b85a9245078338f630"
+    }
+  ]
+}

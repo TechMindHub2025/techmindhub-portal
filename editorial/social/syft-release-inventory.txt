@@ -1,0 +1,32 @@
+Syft: Know What You Ship Before the Next Vulnerability Alert
+
+Could your team identify every deployed release containing a particular dependency without rebuilding those releases?
+
+Syft generates a Software Bill of Materials: a machine-readable inventory of discovered software components. It supports container images, directories and archives, with output formats including SPDX and CycloneDX.
+
+This is an established Apache-2.0 open-source tool. As checked on October 24, 2026, its latest release was v1.55.0, published on October 19.
+
+For a first experiment, follow the documented installation options and scan a small project directory:
+
+syft ./my-project -o cyclonedx-json=project.cdx.json
+
+Compare the inventory with dependencies you expect to find. Then repeat the exercise against the actual release artifact. A source directory and a packaged container answer different questions.
+
+Syft generates inventory; vulnerability matching is a separate step, supported by tools such as Grype. An SBOM alone does not establish application security.
+
+Our assessment: preserve the inventory with the artifact’s immutable identifier, scanner version and relevant configuration. Then define who investigates findings and how a component can be traced to a deployment and maintenance owner.
+
+Coverage needs testing too. Missing metadata or an unrecognised component remains a limitation to investigate, rather than evidence of absence.
+
+A useful pilot can start with one service: generate its release inventory and ask a colleague to trace one listed component back to the exact artifact, deployment and person responsible for a change.
+
+Full analysis and sources:
+https://techmindhub.cc/posts/syft-release-inventory/
+
+Project and documentation:
+https://github.com/anchore/syft
+https://oss.anchore.com/docs/guides/sbom/getting-started/
+Release context:
+https://github.com/anchore/syft/releases/tag/v1.55.0
+
+#OpenSource #SoftwareSupplyChain #SBOM #DevSecOps #TechMindHub
