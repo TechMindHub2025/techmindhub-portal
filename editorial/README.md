@@ -16,7 +16,7 @@ Last confirmed with Andrew: October 24, 2026.
 
 - GitHub holds site code, article Markdown and social text.
 - Publication images belong in the existing Cloudflare R2 bucket `tmh-assets` and are served from `https://media.techmindhub.cc`.
-- The current manual upload prefix is `posts/`. Use absolute HTTPS image URLs in article metadata and download links.
+- The current manual upload prefix is `posts/`. Use absolute HTTPS image URLs in article metadata and article content.
 - Upload images as ordinary files, not as multi-megabyte Base64 payloads passed through conversation/tool outputs.
 - Use versioned filenames for changed images, for example `posts/<slug>-card-v2.png`, and retain the previous asset until the new release is verified.
 - Upload and verify the public asset before merging a PR that references its new URL. Do not claim a working upload based only on the dashboard.
@@ -30,7 +30,7 @@ Last confirmed with Andrew: October 24, 2026.
 | Article / social infographic | Vertical 4:5 where appropriate | Explain the topic at readable full size. Preserve the approved image without arbitrary cropping. This is a separate composition from the feed card. |
 | Social link preview | Prefer a dedicated 1200 x 630 version when needed | Check the actual preview crop. A feed card may be reused only when its essential content survives that crop. |
 
-The page already supplies the full title and description. Do not reproduce the whole article inside a thumbnail. Match the established navy, cyan, white and amber visual palette. A large export is not evidence of thumbnail readability: inspect the actual small previews.
+The page already supplies the full title and description. Do not reproduce the whole article inside a thumbnail. Use a light editorial base with subject-specific composition and palette; keep TechMind Hub recognisable through typography, spacing and small brand accents. Dark scenes are appropriate when they serve the subject, not as the default for every post. A large export is not evidence of thumbnail readability: inspect the actual small previews.
 
 ## Sources and review
 
@@ -41,3 +41,14 @@ The page already supplies the full title and description. Do not reproduce the w
 ## Public article presentation
 
 Andrew confirmed removal of both public Download links on October 24, 2026. Do not add article Markdown or infographic Download buttons/links to public articles. Keep editable article sources and social text in GitHub for Andrew. Publication images remain public through R2; removing a link does not make an image private. Do not create duplicate Markdown exports under `public/` for new articles. This policy does not change bucket permissions.
+
+
+## Subject-led editorial design (October 24, 2026)
+
+- Each cover needs a recognisable subject: optics can use beams and scattering; AI review can use evidence and inspection; developer tools can use packages and environment records. Do not reuse one diagram with only the headline changed.
+- Keep the complete title in HTML. Artwork may be text-free; a short product name such as uv is enough when needed. Never put body copy or performance claims into feed artwork.
+- Use `topic` for a short English section label and `card_alt` for the actual cover illustration. Keep `cover_alt` for the infographic; these describe different compositions.
+- Home, Analysis and tag pages share `PostCard.astro`. Keep the 16:9 frame and inspect covers together at 352px and 260px; essential content must also survive a centred 1200 x 630 social preview crop.
+- Introduce the article in prose before its approved infographic. Add the infographic once in the Markdown body after the opening paragraphs, using `cover_hero`'s public R2 URL. The template no longer inserts it automatically above the introduction. Do not crop or redesign approved infographics as part of a cover refresh.
+- Article pages use a compact masthead. The archive provides local title/description/topic search, tag filtering and date sorting; topic routes remain usable without JavaScript. Search is limited to article metadata, not full-text content. Revisit pagination/indexing when the archive grows; this change does not claim an architecture for thousands of full-text results.
+- Source artwork stays in the handoff ZIP with its render script. Upload only the versioned PNG covers to R2 `posts/`, verify each URL, then approve and merge the PR. No image binaries or Base64 data URLs belong in GitHub.

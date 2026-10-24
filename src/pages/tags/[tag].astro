@@ -1,4 +1,5 @@
 ---
+import PostCard from "../../components/PostCard.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { getCollection } from "astro:content";
 
@@ -59,45 +60,7 @@ const normalizeAsset = (src?: string) => {
       </header>
 
       <section class="grid reveal">
-        {posts.map((post) => {
-          const href = postHref(post.slug);
-          const cover = post.data.cover_card || post.data.cover_hero;
-          const coverSrc = normalizeAsset(cover);
-
-          return (
-            <article class="card">
-              <a class="cardLink" href={href} aria-label={post.data.title}></a>
-
-              {coverSrc ? (
-                <img class="cover" src={coverSrc} alt={post.data.title} loading="lazy" />
-              ) : null}
-
-              <div class="cardBody">
-                <h2 class="title">{post.data.title}</h2>
-
-                <time class="date" datetime={post.data.pubDate.toISOString()}>
-                  {post.data.pubDate.toISOString().slice(0, 10)}
-                </time>
-
-                <p class="desc">{post.data.description}</p>
-
-                <div class="metaRow">
-                  <div class="tags">
-                    {(post.data.tags ?? []).slice(0, 6).map((t) => (
-                      <a class="pill" href={tagHref(t)}>#{t}</a>
-                    ))}
-                  </div>
-
-                  {post.data.source_url ? (
-                    <a class="source" href={post.data.source_url} target="_blank" rel="noreferrer">
-                      Source ↗
-                    </a>
-                  ) : null}
-                </div>
-              </div>
-            </article>
-          );
-        })}
+        {posts.map((post) => <PostCard post={post} />)}
       </section>
 
       {otherTags.length ? (

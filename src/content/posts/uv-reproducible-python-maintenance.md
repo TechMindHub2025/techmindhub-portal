@@ -7,8 +7,10 @@ status: "published"
 canonical_id: "2026-10-24-uv-reproducible-python-maintenance"
 tags: ["Python", "OpenSource", "DeveloperTools", "Reproducibility", "TechMindHub"]
 source_url: "https://docs.astral.sh/uv/concepts/projects/sync/"
-cover_card: "https://media.techmindhub.cc/posts/uv-reproducible-python-maintenance-card-v2.png"
+cover_card: "https://media.techmindhub.cc/posts/uv-reproducible-python-maintenance-card-v3.png"
 cover_hero: "https://media.techmindhub.cc/posts/uv-reproducible-python-maintenance-infographic.png"
+topic: "Developer tools"
+card_alt: "A uv environment record, package boxes and circular update paths represent reproducibility and maintenance."
 cover_alt: "TechMind Hub infographic showing project requirements and a uv lockfile rebuilding Python environments, with a separate maintenance cycle."
 ---
 
@@ -17,6 +19,8 @@ A small Python automation can become important long before anyone treats it as p
 [Astral's uv](https://github.com/astral-sh/uv) brings dependency management, project environments and Python installation into one command-line tool. It is open source, available under either the MIT or Apache 2.0 licence. Its practical value extends beyond installation speed: it can make environment decisions easier to record and review.
 
 That benefit has a boundary. Rebuilding a known environment and deciding when to change it are different responsibilities. A lockfile can faithfully reproduce an environment whose dependencies no longer meet the team's maintenance policy.
+
+![TechMind Hub infographic showing project requirements and a uv lockfile rebuilding Python environments, with a separate maintenance cycle.](https://media.techmindhub.cc/posts/uv-reproducible-python-maintenance-infographic.png)
 
 ## What the repository should describe
 

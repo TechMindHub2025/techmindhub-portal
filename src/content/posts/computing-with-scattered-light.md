@@ -7,14 +7,18 @@ status: "published"
 canonical_id: "2026-10-24-computing-with-scattered-light"
 tags: ["Photonics", "AdvancedComputing", "ReservoirComputing", "Research", "TechMindHub"]
 source_url: "https://doi.org/10.1002/adco.70012"
-cover_card: "https://media.techmindhub.cc/posts/computing-with-scattered-light-card.png"
+cover_card: "https://media.techmindhub.cc/posts/computing-with-scattered-light-card-v3.png"
 cover_hero: "https://media.techmindhub.cc/posts/computing-with-scattered-light-infographic.png"
+topic: "Photonics"
+card_alt: "Conceptual illustration of light entering a scattering block and forming a pattern on a sensor."
 cover_alt: "Conceptual illustration of optical encoding, scattering and camera readout, with an electronic feedback path returning to the modulator."
 ---
 
 Light scattered through an optical system can look like a loss of information: a structured input becomes a complicated pattern. Reservoir computing asks a different question. Could a repeatable physical transformation provide useful features for interpreting a signal that changes over time?
 
 A [study by Geon Kim and YongKeun Park](https://doi.org/10.1002/adco.70012), first published in *Advanced Computing* on October 22, 2026, investigates how to operate such a reservoir. The engineering interest is the relationship between controllable settings and useful behaviour, rather than the spectacle of computation performed with light.
+
+![Conceptual illustration of optical encoding, scattering and camera readout, with an electronic feedback path returning to the modulator.](https://media.techmindhub.cc/posts/computing-with-scattered-light-infographic.png)
 
 ## What a reservoir contributes
 
