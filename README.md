@@ -1,43 +1,32 @@
-# Astro Starter Kit: Minimal
+# TechMind Hub
+
+Astro site published to https://techmindhub.cc through GitHub Pages.
+
+Start with [AGENTS.md](AGENTS.md), the [publishing workflow](editorial/README.md)
+and the [visual canon](editorial/VISUAL-CANON.md). The
+[approved reference](editorial/REFERENCE.md) records examples and check coverage.
+
+## Development and validation
+
+Use Node 20 and Python 3 (standard library only).
 
 ```sh
-npm create astro@latest -- --template minimal
+npm ci
+npm run dev
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+Before review:
 
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
+```sh
+npm run validate
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+This builds the site, tests the publication guard against known regressions, and
+checks every generated HTML page. `npm run check:publication` can recheck an
+existing build. PR checks also reject publication image binaries in the diff;
+the Pages workflow validates before uploading its deployment artifact.
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Code, article Markdown and editorial briefs live here. Publication images live
+in Cloudflare R2; do not add them to the repository or embed them as Base64.
+Andrew approves the final PR head in GitHub before release. See the publishing
+workflow for image upload, factual review, visual QA and deployment verification.

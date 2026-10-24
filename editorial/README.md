@@ -2,6 +2,11 @@
 
 Last confirmed with Andrew: October 24, 2026.
 
+Start every session with [../AGENTS.md](../AGENTS.md). Approved examples, automated
+check coverage and the rule-change process are in [REFERENCE.md](REFERENCE.md).
+Run `npm run validate` before opening a PR. Use the repository PR template;
+automation complements factual and visual review, not replaces it.
+
 ## Ownership and release
 
 - Communicate with Andrew in Russian. Publish editorial content in English.
@@ -54,4 +59,4 @@ Home, Analysis and tag pages share `PostCard.astro`. Article order is title/meta
 
 Do not publish working image explanations, production notes or an “Illustration summary” paragraph. Keep those details in editorial briefs. Scientific findings, limitations and source references still belong in the article where relevant to its argument. A general visual refresh must not silently change the established article order.
 
-Before review, inspect the rendered Home and all three article pages: no stray template delimiters or closing tags should become text; Home must retain Latest, Topics, discussion links and footer; each article must show exactly one infographic before its first body paragraph. A successful build alone is not evidence that the rendered content is clean.
+Before review, inspect the rendered Home and every changed article; shared template changes require all published articles: no stray template delimiters or closing tags should become text; Home must retain Latest, Topics, discussion links and footer; each article must show exactly one infographic before its first body paragraph. A successful build alone is not evidence that the rendered content is clean.

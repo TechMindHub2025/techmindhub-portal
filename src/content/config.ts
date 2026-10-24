@@ -42,6 +42,24 @@ const posts = defineCollection({
         facebook: z.string().url().optional(),
       })
       .optional(),
+  }).superRefine((data, ctx) => {
+    if (data.status !== "published") return;
+    for (const key of ["domain", "topic", "card_alt", "cover_alt"] as const) {
+      if (!data[key]?.trim()) {
+        ctx.addIssue({ code: z.ZodIssueCode.custom, path: [key], message: "Published posts require this field under the visual canon." });
+      }
+    }
+    for (const key of ["cover_card", "cover_hero"] as const) {
+      try {
+        const url = new URL(data[key]);
+        if (url.protocol !== "https:" || url.host !== "media.techmindhub.cc" || url.username || url.password || !url.pathname.startsWith("/posts/") || url.pathname === "/posts/") throw new Error("Not a publication R2 URL");
+      } catch {
+        ctx.addIssue({ code: z.ZodIssueCode.custom, path: [key], message: "Published image must use https://media.techmindhub.cc/posts/<versioned-file>." });
+      }
+    }
+    if (data.cover_card === data.cover_hero) {
+      ctx.addIssue({ code: z.ZodIssueCode.custom, path: ["cover_hero"], message: "Cover and infographic need separate compositions and URLs." });
+    }
   }),
 });
 
