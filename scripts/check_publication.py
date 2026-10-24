@@ -64,11 +64,11 @@ class Document(HTMLParser):
         self.stack[-1].children.append(data)
 
 
-def r2_image(url):
+def r2_image(url, extension=".webp"):
     try:
         value = urlsplit(url)
         return (value.scheme == "https" and value.netloc == "media.techmindhub.cc"
-                and value.path.startswith("/posts/") and len(value.path) > len("/posts/"))
+                and value.path.startswith("/posts/") and value.path.endswith(extension))
     except ValueError:
         return False
 
@@ -100,7 +100,7 @@ def check_page(html, *, home=False, article=False):
         if node.has_class("editorial-card"):
             images = [n for n in node.walk() if n.tag == "img"]
             if not images or any(not r2_image(n.attrs.get("src", "")) for n in images):
-                errors.append("publication card image must use media.techmindhub.cc/posts/")
+                errors.append("publication card needs a WebP URL on media.techmindhub.cc/posts/")
             if any(not (n.attrs.get("alt") or "").strip() for n in images):
                 errors.append("publication card needs useful alt text")
 
@@ -113,6 +113,12 @@ def check_page(html, *, home=False, article=False):
             errors.append("Home is missing its footer")
 
     if article:
+        og = [n.attrs.get("content", "") for n in nodes
+              if n.tag == "meta" and n.attrs.get("property") == "og:image"]
+        twitter = [n.attrs.get("content", "") for n in nodes
+                   if n.tag == "meta" and n.attrs.get("name") == "twitter:image"]
+        if len(og) != 1 or not r2_image(og[0], ".jpg") or twitter != og:
+            errors.append("article needs matching dedicated R2 JPEG OG and Twitter previews")
         posts = [n for n in nodes if n.tag == "article" and n.has_class("post")]
         if len(posts) != 1:
             return errors + ["article route must contain exactly one post"]
@@ -139,7 +145,7 @@ def check_page(html, *, home=False, article=False):
             else:
                 src = images[0].attrs.get("src", "")
                 if not r2_image(src):
-                    errors.append("article infographic must use media.techmindhub.cc/posts/")
+                    errors.append("article infographic needs a WebP URL on media.techmindhub.cc/posts/")
                 if not (images[0].attrs.get("alt") or "").strip():
                     errors.append("article infographic needs useful alt text")
                 if any(n.tag == "img" and n.attrs.get("src") == src for n in body.walk()):

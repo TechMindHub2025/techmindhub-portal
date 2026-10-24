@@ -1,6 +1,13 @@
-# TechMind Hub visual canon — v1.2
+# TechMind Hub visual canon — v1.3
 
 Approved direction with Andrew on October 24, 2026; revised the same day to require generated designer-led covers and editorial infographics, with sources retained in the article rather than on the images. Andrew authorised preparation of the complete three-publication replacement set. Publication still follows the normal R2 verification and human GitHub review workflow.
+
+Revision 2026-10-25: Andrew approved separate original-PNG archives and optimized
+web delivery. Existing artwork is preserved; conversion is an export operation,
+not a new generation. Follow [IMAGE-DELIVERY.md](IMAGE-DELIVERY.md): 800px-wide
+WebP feed cards, native-size lossless WebP infographics and dedicated 1200×630
+JPEG social link previews. `cover_og` identifies the latter. Verify decoded
+infographic pixels against the original and inspect every resized/cropped export.
 
 ## One publication, one visual argument
 
@@ -75,6 +82,6 @@ Keep the source bibliography, author attribution, IDs, source links and detailed
 
 ## Storage and release
 
-Code, this canon, registry, article Markdown and text briefs belong in GitHub. Publication image binaries belong in Cloudflare R2 `tmh-assets/posts/`; never send large Base64 payloads through tool outputs or store them in article code. Keep source artwork and prompts with the review package when available. Do not add public Download controls or duplicate article exports. Do not overwrite live approved images while a new pair is under review.
+Code, this canon, registry, article Markdown and text briefs belong in GitHub. Web-delivery image binaries belong in Cloudflare R2 `tmh-assets/posts/`; original generated PNGs are delivered separately to Andrew for his archive. Never send large Base64 payloads through tool outputs or store them in article code. Keep prompts and provenance with the review package. Do not add public Download controls or duplicate article exports. Do not overwrite live approved images while new delivery files are under review. Remove superseded PNGs only after the originals are saved and the approved web migration is verified live.
 
 The previous cover-only v3 ZIP and the first SVG photonics pilot are superseded. The prepared replacement set is `TechMindHub-Cloudflare-images-canon-v2.zip`: exactly six PNG files (one cover and one infographic per article), with no source/document files in the upload archive. Its exact names, sizes, hashes and public URLs are recorded in `editorial/releases/2026-10-24-canon-v2.json`. PR #23 published that set after R2 verification and Andrew's approval. Future article image URLs and alt descriptions must match their approved asset set; verify the public URLs and obtain Andrew's approval on the final PR head before merging. Retain previous R2 images until the new deployment is verified.

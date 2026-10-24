@@ -33,7 +33,8 @@ The guard checks all generated HTML, including future publications:
 - publication source contains no embedded image data URL, and `public/` contains
   no duplicate Markdown exports;
 - published content metadata requires a registered domain, topic, alt text and
-  separate R2 cover/infographic URLs through Astro's schema;
+  separate R2 WebP card/infographic URLs and a dedicated JPEG `cover_og` through
+  Astro's schema; generated OG/Twitter metadata must agree on that JPEG;
 - PR diffs add or change no publication image binaries under `src/` or
   `public/posts/`. Existing historical files are not deleted by this policy.
 

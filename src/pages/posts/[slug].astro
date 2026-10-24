@@ -21,7 +21,7 @@ if (post.data.status !== "published") {
 
 const { title, description, pubDate, tags, source_url, cover_hero, cover_alt, social } = post.data;
 const { Content } = await render(post);
-const ogImage = new URL(post.data.cover_card, "https://techmindhub.cc").href;
+const ogImage = new URL(post.data.cover_og!, "https://techmindhub.cc").href;
 ---
 
 <BaseLayout title={title} description={description} ogImage={ogImage} ogType="article" compactHeader>

@@ -5,14 +5,17 @@ import tempfile
 import unittest
 from check_publication import check_image_diff, check_page, check_sources
 
-IMAGE = '<img src="https://media.techmindhub.cc/posts/example-v2.png" alt="Conceptual optical loop">'
+IMAGE = '<img src="https://media.techmindhub.cc/posts/example-web-v1.webp" alt="Conceptual optical loop">'
+PREVIEW = 'https://media.techmindhub.cc/posts/example-og-web-v1.jpg'
 HEADER = '<header class="post__header"><h1>Example</h1><p>Deck</p></header>'
 HERO = f'<figure class="post__hero">{IMAGE}</figure>'
 BODY = '<div class="post__content"><p>Article text.</p></div>'
 
 
 def article(content):
-    return f'<article class="post">{content}</article>'
+    return (f'<head><meta property="og:image" content="{PREVIEW}">'
+            f'<meta name="twitter:image" content="{PREVIEW}"></head>'
+            f'<article class="post">{content}</article>')
 
 
 class PublicationChecks(unittest.TestCase):
@@ -74,8 +77,25 @@ class PublicationChecks(unittest.TestCase):
     def test_r2_cards_and_image_data_urls(self):
         card = f'<a class="editorial-card">{IMAGE}</a>'
         self.assertEqual([], check_page(card))
-        self.assertTrue(check_page(card.replace('https://media.techmindhub.cc/posts/example-v2.png', '/posts/local.png')))
+        self.assertTrue(check_page(card.replace('https://media.techmindhub.cc/posts/example-web-v1.webp', '/posts/local.png')))
         self.assertTrue(check_page('<img src="data:image/png;base64,abc">'))
+
+    def test_original_png_cannot_replace_web_delivery(self):
+        html = article(HEADER + HERO + BODY).replace('example-web-v1.webp', 'original.png')
+        self.assertIn('article infographic needs a WebP URL on media.techmindhub.cc/posts/',
+                      check_page(html, article=True))
+        self.assertTrue(check_page(f'<article class="editorial-card">{IMAGE}</article>'.replace('.webp', '.png')))
+
+    def test_social_preview_is_dedicated_jpeg(self):
+        valid = article(HEADER + HERO + BODY)
+        for html in (valid.replace(PREVIEW, PREVIEW.replace('.jpg', '.png')),
+                     valid.replace('property="og:image"', 'property="unused"'),
+                     valid.replace('name="twitter:image"', 'name="unused"'),
+                     valid.replace('name="twitter:image" content="'+PREVIEW+'"',
+                                   'name="twitter:image" content="https://media.techmindhub.cc/posts/other.jpg"')):
+            with self.subTest(html=html):
+                self.assertIn('article needs matching dedicated R2 JPEG OG and Twitter previews',
+                              check_page(html, article=True))
 
     def test_source_policy_and_image_diff(self):
         with tempfile.TemporaryDirectory() as directory:
