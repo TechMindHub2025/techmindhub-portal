@@ -6,7 +6,10 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "test:publication": "python3 -m unittest discover -s scripts -p 'test_publication.py'",
+    "check:publication": "python3 scripts/check_publication.py",
+    "validate": "npm run build && npm run test:publication && npm run check:publication"
   },
   "dependencies": {
     "@astrojs/mdx": "^4.3.13",

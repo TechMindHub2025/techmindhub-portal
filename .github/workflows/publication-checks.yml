@@ -1,0 +1,31 @@
+name: Publication checks
+
+on:
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Validate publication
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - name: Install dependencies
+        run: npm ci
+      - name: Validate built publication
+        run: npm run validate
+      - name: Keep publication image binaries out of GitHub
+        env:
+          PUBLICATION_BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        run: python3 scripts/check_publication.py --base "$PUBLICATION_BASE_SHA"
