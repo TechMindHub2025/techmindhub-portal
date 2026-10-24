@@ -21,10 +21,6 @@ A small Python automation can become important long before anyone treats it as p
 
 That benefit has a boundary. Rebuilding a known environment and deciding when to change it are different responsibilities. A lockfile can faithfully reproduce an environment whose dependencies no longer meet the team's maintenance policy.
 
-![A conceptual uv environment and package blocks illustrate recording, rebuilding and deliberately maintaining a Python setup.](https://media.techmindhub.cc/posts/uv-reproducible-python-maintenance-infographic-canon-v2.png)
-
-**Illustration summary.** Record the requirements, lockfile and Python choice. Rebuild the reviewed environment consistently. Review updates and test behaviour before release. The container and packages are visual metaphors, not a product interface; reproducibility alone does not update or secure the environment.
-
 ## What the repository should describe
 
 In uv's [project workflow](https://docs.astral.sh/uv/guides/projects/), `pyproject.toml` declares the project's requirements, while `uv.lock` records the resolved dependency choices. Both belong in version control. The generated `.venv` directory does not: it is the local environment reconstructed from those inputs.

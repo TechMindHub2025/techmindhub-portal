@@ -19,10 +19,6 @@ An AI monitor can examine an agent's behaviour and flag suspicious actions. That
 
 An [external pilot by METR and Redwood Research](https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/), published on October 22, provides a concrete reason to keep those questions separate. The exercise ran from July 21 to August 11, 2026, and examined OpenAI's internal misalignment monitoring as it existed on and before July 21. Its results do not establish the expanded system's current coverage.
 
-![Layered records and magnifying lenses illustrate coverage, detection and response in AI monitoring.](https://media.techmindhub.cc/posts/who-monitors-the-ai-monitor-infographic-canon-v2.png)
-
-**Illustration summary.** Coverage asks whether the relevant evidence arrives. Detection asks what the monitor recognises. Response asks whether a person can intervene in time. A monitor cannot assess evidence it never receives. These are our evaluation questions; the image is conceptual and does not depict a demonstrated attack or establish current OpenAI system coverage.
-
 ## What the external review establishes
 
 The evaluators had access to internal code, documentation and staff. They identified monitoring gaps and potential routes around safeguards. One gap concerned context compaction. OpenAI staff had independently identified it before the exercise and fixed it during the work. Other findings included ways monitoring could potentially be subverted.

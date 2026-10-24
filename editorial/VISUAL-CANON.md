@@ -1,4 +1,4 @@
-# TechMind Hub visual canon — v1.1
+# TechMind Hub visual canon — v1.2
 
 Approved direction with Andrew on October 24, 2026; revised the same day to require generated designer-led covers and editorial infographics, with sources retained in the article rather than on the images. Andrew authorised preparation of the complete three-publication replacement set. Publication still follows the normal R2 verification and human GitHub review workflow.
 
@@ -46,7 +46,7 @@ Use the exact English words from the reviewed brief. Inspect generated letters a
 | Social link preview | 1200 x 630 | Export separately when crop safety is uncertain; never stretch a 16:9 image into this ratio. |
 | Optional social adaptation | Platform-specific | Compose deliberately; do not squeeze the complete infographic into an unsuitable frame. |
 
-For cover reuse in 1200 x 630, keep essential content inside a safe region of at least 6% from all edges and test the actual crop. Keep native generated output when its aspect ratio closely matches the target; do not stretch it to force pixel dimensions. Scale text and labels for their displayed size. A single large infographic may require an accessible text equivalent in the article. When too much material is needed, use two clear figures rather than smaller type.
+For cover reuse in 1200 x 630, keep essential content inside a safe region of at least 6% from all edges and test the actual crop. Keep native generated output when its aspect ratio closely matches the target; do not stretch it to force pixel dimensions. Scale text and labels for their displayed size. Use concise descriptive alt text for editorial images. Keep any additional production explanation in the brief; do not automatically append it to the public article. When too much material is needed, use two clear figures rather than smaller type.
 
 ## Accuracy and accessibility
 
@@ -54,8 +54,12 @@ For cover reuse in 1200 x 630, keep essential content inside a safe region of at
 - Every arrow must have a defined direction and meaning. Distinguish optical paths, electronic feedback and readout. Do not ask the image generator to invent precise apparatus diagrams or quantitative charts. These editorial infographics use conceptual artwork and reviewed explanatory text. If a story needs a precise technical figure, handle it as a separate source-grounded figure; do not silently substitute a code-made editorial image for the generated visual the user requested.
 - Attribute reported findings to the authors; include task, scope and denominator with performance figures. Keep source links, author attribution, research identifiers and detailed scope in the article text. Do not print author names, arXiv IDs, DOIs, source URLs, bibliography blocks or source footnotes on editorial covers or infographics. Do not turn a task result into a universal superiority claim.
 - Do not invent measured curves, numerical axes, laboratory photographs, equipment, guarantees or replication. Distinguish proposed evaluation criteria from findings.
-- Write `card_alt` for the cover and `cover_alt` for the inner illustration. Long figure descriptions or text equivalents belong in the article. Never make the only explanation available as raster text.
+- Write `card_alt` for the cover and `cover_alt` for the inner illustration. Keep useful scientific explanation in the article itself and use concise descriptive alt text. Production descriptions and generic “Illustration summary” paragraphs stay in editorial briefs, not the public article.
 - Check text contrast on the actual background, labels without relying on colour, spelling, units, source identifiers and mobile readability.
+
+## Public article order
+
+Andrew confirmed the established order on October 24, 2026: title and metadata → infographic → article text. The template renders the image declared by `cover_hero` once before the Markdown body. Do not repeat that image in Markdown, move it below introductory paragraphs, or add a visible production caption as part of a design refresh. Keep `cover_alt` useful for screen readers. Research sources, methodological limits and substantive argument remain in the article; internal visual-production notes stay in briefs.
 
 ## Common production brief
 
@@ -73,4 +77,4 @@ Keep the source bibliography, author attribution, IDs, source links and detailed
 
 Code, this canon, registry, article Markdown and text briefs belong in GitHub. Publication image binaries belong in Cloudflare R2 `tmh-assets/posts/`; never send large Base64 payloads through tool outputs or store them in article code. Keep source artwork and prompts with the review package when available. Do not add public Download controls or duplicate article exports. Do not overwrite live approved images while a new pair is under review.
 
-The previous cover-only v3 ZIP and the first SVG photonics pilot are superseded. The prepared replacement set is `TechMindHub-Cloudflare-images-canon-v2.zip`: exactly six PNG files (one cover and one infographic per article), with no source/document files in the upload archive. Its exact names, sizes, hashes and public URLs are recorded in `editorial/releases/2026-10-24-canon-v2.json`. New article URLs and text equivalents must match that set. Keep PR #23 draft until the files are uploaded to R2 and their public URLs verified, then obtain Andrew's approval on the final PR head before merging. Retain previous R2 images until the new deployment is verified.
+The previous cover-only v3 ZIP and the first SVG photonics pilot are superseded. The prepared replacement set is `TechMindHub-Cloudflare-images-canon-v2.zip`: exactly six PNG files (one cover and one infographic per article), with no source/document files in the upload archive. Its exact names, sizes, hashes and public URLs are recorded in `editorial/releases/2026-10-24-canon-v2.json`. PR #23 published that set after R2 verification and Andrew's approval. Future article image URLs and alt descriptions must match their approved asset set; verify the public URLs and obtain Andrew's approval on the final PR head before merging. Retain previous R2 images until the new deployment is verified.

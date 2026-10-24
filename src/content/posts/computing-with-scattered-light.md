@@ -19,10 +19,6 @@ Light scattered through an optical system can look like a loss of information: a
 
 A [study by Geon Kim and YongKeun Park](https://doi.org/10.1002/adco.70012), first published in *Advanced Computing* on October 22, 2026, investigates how to operate such a reservoir. The engineering interest is the relationship between controllable settings and useful behaviour, rather than the spectacle of computation performed with light.
 
-![Conceptual light-scattering artwork illustrating a hybrid loop, operating-regime tuning and whole-system evaluation.](https://media.techmindhub.cc/posts/computing-with-scattered-light-infographic-canon-v2.png)
-
-**Illustration summary.** The illustration presents three themes: optical processing works with electronic feedback; dynamics, input coupling and interconnectivity affect the operating regime; evaluation should include acquisition, feedback and readout. The translucent planes and glowing loop are an artistic metaphor, not a photograph or layout of the apparatus.
-
 ## What a reservoir contributes
 
 The standard reservoir-computing approach uses a dynamical system to transform an input sequence into internal states. A trained readout then maps those states to a prediction or classification. A [research perspective in Nature Communications](https://www.nature.com/articles/s41467-024-45187-1) describes this separation between a comparatively fixed processing system and an adaptable output layer.
