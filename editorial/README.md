@@ -35,6 +35,7 @@ The page already supplies the full title and description. Do not reproduce the w
 ## Sources and review
 
 - Prefer primary sources and distinguish their findings from TechMind Hub's assessment.
+- External HTTP(S) links open in a new tab with `target="_blank"` and `rel="noopener noreferrer"`. Markdown/MDX links receive these attributes at build time via `src/lib/rehype-external-links.mjs`, including future posts. Keep relative links, fragments, `mailto:`/`tel:` and links on `techmindhub.cc` or `www.techmindhub.cc` in their normal context. External anchors authored directly in Astro templates must carry the same attributes. Check generated HTML across all pages before release; do not rely on client-side JavaScript for this behaviour.
 - Do not invent performance figures, deployments, benchmark results or social profile URLs.
 - Build the site and check the article body, local links, metadata and media URLs before requesting release approval. Inspect the feed card and live page after deployment.
 
