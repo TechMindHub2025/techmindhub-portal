@@ -1,0 +1,45 @@
+{
+  "slug": "ai-research-reproducibility",
+  "base_sha": "3bb19b7e9ec6aa9baeb98fd57abf3ee53cbaa544",
+  "checked": "2026-10-25",
+  "source": {
+    "url": "https://www.nature.com/articles/s44488-026-00015-x",
+    "title": "The shift toward open and reproducible AI research",
+    "authors": [
+      "Kevin L. Coakley",
+      "Thijs Snelleman",
+      "Holger Hoos",
+      "Odd Erik Gundersen"
+    ],
+    "journal": "Communications AI & Computing",
+    "publication_date": "2026-10-22",
+    "evidence_period": "2014–2024"
+  },
+  "claims_and_limits": [
+    "56,800 main-conference papers across AAAI, ICLR, ICML, IJCAI and NeurIPS; 52,328 classified as empirical underpin documentation analysis.",
+    "Documented joint open-code/open-dataset proportion 11% to 64%. Do not describe all 56,800 papers as rerun or all code links as checked.",
+    "Seven Boolean documentation indicators; separate research-type/affiliation classifiers. LLM-assisted extraction checked against human annotations. No claim of perfect accuracy.",
+    "Open-code classification uses mention of a code link, not accessibility verification. Binary indicators do not capture completeness; partial code counts.",
+    "Estimated reproducibility 28% to 64% combines documentation category proportions with prior-study reproduction rates assumed constant across venues and years. No direct corpus-scale replication and no measurement of current frontier models.",
+    "No independent execution of this research pipeline by TechMind Hub. Practical reproduction/adoption workflow and example are explicitly editorial analysis.",
+    "Source's linked Zenodo/peer-review-report pages could not be retrieved by search tool; do not claim archive/pipeline or peer-review report independently examined."
+  ],
+  "visual": {
+    "domain": "ai",
+    "accent": "#5958B2",
+    "surface": "#F0EFFA",
+    "central_question": "Can another engineer recover the claimed behaviour from shared research artifacts?",
+    "argument": "Documented openness, estimated reproducibility and application fit are separate evidence questions.",
+    "shared_motif": "Open research folio, folded violet ribbon form, unfinished matching outline; conceptual art, not an apparatus or measured graph.",
+    "cover_phrase": "Can You Reproduce It?",
+    "cover_prompt": "Use case: stylized-concept. Create ONE finished landscape editorial cover for TechMind Hub, 16:9 around 1672x941 or similar high native resolution. Light professional magazine art: pearl white/lavender #F0EFFA, soft indigo #5958B2, ink-dark humanist sans-serif, quiet natural shadows, airy negative space. Topic: whether shared AI research artifacts allow an independent engineer to reproduce a result. Different visual concept from cybersecurity and model-deployment art: no amber cube, enclosing rings, chips, robots, brains, servers or hacker motifs.\nSubject: an elegant open research folio on a pale drafting desk, with layered translucent lavender pages, restrained abstract geometric recipe marks (NOT a graph, not legible code). From the folio a graceful folded violet ribbon form extends into a freestanding modular paper sculpture; next to it is a pale translucent outline of a matching form waiting to be reconstructed. A conceptual metaphor for recovering a result from documentation; not real scientific apparatus, not proof that an experiment succeeded. One striking coherent visual object, refined material realism, a little editorial surrealism. Place objects mostly on right and lower centre; headline dominates upper left.\nOnly these exact English text strings:\n\"AI RESEARCH\" small category\n\"Can You Reproduce It?\" very large 2-line headline\n\"TECHMIND HUB\" restrained small signature near bottom.\nNo other text. No charts, data points, percentages, numerical axes, source footers, authors, identifiers, URL or decorative numbers. Keep all text and essential artwork inside an 8% crop-safe inset; short phrase must be readable at 260px width. Deliberate composition, not a generic stack of UI cards. The 1200x630 centre crop must preserve all lettering.",
+    "infographic_prompt": "Use case: infographic-diagram. Recompose the supplied TechMind Hub infographic for MOBILE READABILITY. Retain the exact same violet folded-paper research folio metaphor, light lavender #F0EFFA and indigo #5958B2 palette, restrained elegant material realism and conceptual scientific editorial character. Retain portrait 4:5 around 1200x1500. The current small explanations inside narrow boxes are too small. REBUILD THE LAYOUT: larger explanatory copy, less title dominance, generous whitespace, fewer words. Do not repeat a dense card grid.\nPriority: All essential explanatory text at least 42px in a 1200px-wide image. Use full-width lines or wrap short text deliberately. Artwork should occupy only about one quarter of height, leaving adequate space for explanations. Main title around 80px, not 160px.\nExact final text, no additions:\n\"AI RESEARCH\"\n\"Open science\"\n\"From artifacts to evidence\"\n\"Documentation, 2014–2024\"\n\"Observed\"\n\"More code and data sharing\"\n\"Estimated\"\n\"Higher reproducibility\"\n\"Experiments were not rerun at scale.\"\n\"Test one central result\"\n\"Pin code and data\"\n\"Rebuild the environment\"\n\"Compare the claimed behaviour\"\n\"Test application fit separately.\"\n\"TECHMIND HUB\"\nRecommended organization: small category and modest title/subtitle; scope line; a spacious two-column comparison (Observed / Estimated) with each large label and its one short explanation, text much larger than in input; caveat full width in bold, wrapped to two lines if needed; shared folio/ribbon artwork with incomplete matching outline; lower heading and THREE BIG FULL-WIDTH STEP ROWS with minimal small icons at the left, not three narrow columns. Footer statement visibly large. Keep every essential phrase readable at 375px width. No numbers except year range, no graphs, percentages, source notes, author names, URLs or decorative section numbering. The artwork is a conceptual metaphor and must not suggest the researchers actually reproduced the corpus.",
+    "superseded_infographic_prompt": "Use case: infographic-diagram. Create ONE finished portrait TechMind Hub editorial infographic, native 4:5 around 1200x1500. The supplied cover is a visual reference for shared motif only; produce an independent explanatory composition. Pearl white/lavender #F0EFFA, indigo #5958B2, ink-dark clean humanist sans-serif, airy light background, refined folded violet ribbon sculpture and open research folio. Conceptual editorial art, not real apparatus. NO quantitative chart or invented data.\nMOBILE-READABLE: concise copy, large explanatory lettering, around 50-65 words; essential body letters at least 40px high in a 1200px-wide image. Title should not consume disproportionate space. No dense paragraphs, no tiny labels.\nExact text:\nsmall category \"AI RESEARCH\"\ntitle \"Open science\"\nsubtitle \"From artifacts to evidence\"\nupper heading \"What the study measured\"\n\"Documentation, 2014–2024\"\n\"Observed: more code and data sharing\"\n\"Estimated: higher reproducibility\"\nclear caveat \"Experiments were not rerun at scale.\"\nBelow: a beautiful open research folio with the shared folded violet ribbon motif, transitioning toward a separate partially reconstructed matching form. This illustrates the distinction between available instructions and independent execution, not measured success.\nlower heading \"Test one central result\"\nThree large clear lines with minimal purposeful icons:\n\"Pin code and data\"\n\"Rebuild the environment\"\n\"Compare the claimed behaviour\"\nfooter statement, readable \"Application fit needs a separate test.\"\nrestrained signature \"TECHMIND HUB\".\nOnly these words; keep exact spellings. No source footer, bibliography, URLs, research IDs, author names, section numbers or decorative badges. Do not claim all AI research is reproducible; do not imply the authors reran 56,800 experiments. Keep the observed-versus-estimated distinction visually explicit without relying only on colour.",
+    "qa": "Large mobile explanations in v2; inspect 352/260 card previews, JPEG crop, desktop and narrow-viewport article. No charts, sources or IDs on artwork."
+  },
+  "outputs": {
+    "article": "src/content/posts/ai-research-reproducibility.md",
+    "social": "editorial/social/ai-research-reproducibility.txt",
+    "release": "editorial/releases/2026-10-25-ai-research-reproducibility-v1.json"
+  }
+}

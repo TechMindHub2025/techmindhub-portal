@@ -1,0 +1,126 @@
+{
+  "slug": "ai-research-reproducibility",
+  "publication_date": "2026-10-25",
+  "checked_date": "2026-10-25",
+  "source_publication_date": "2026-10-22",
+  "source_evidence_period": "2014\u20132024",
+  "status": "prepared; awaiting manual R2 upload, public verification and AR1314 final-head approval",
+  "assets": [
+    {
+      "filename": "ai-research-reproducibility-card-v1.png",
+      "bytes": 1947971,
+      "width": 1672,
+      "height": 941,
+      "sha256": "e371876160d53122d74ceced890f127e84bcf1ea822419901c19c711da288ab5",
+      "url": null
+    },
+    {
+      "filename": "ai-research-reproducibility-infographic-v2.png",
+      "bytes": 1837745,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "3df807baca55577fe5834ba49c1474765bffb1f582b916a1c3ad142ad6080256",
+      "url": null
+    },
+    {
+      "filename": "ai-research-reproducibility-card-web-v1.webp",
+      "bytes": 337510,
+      "width": 800,
+      "height": 450,
+      "sha256": "3faa86c95e5f1f2568fb192af3d2c0139cb256db99b419e0357e3345c1a75c97",
+      "url": "https://media.techmindhub.cc/posts/ai-research-reproducibility-card-web-v1.webp"
+    },
+    {
+      "filename": "ai-research-reproducibility-infographic-web-v2.webp",
+      "bytes": 1293436,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "977938b6cb5de4e3a2cd738865f3c339ba26729ee84254b20fdd5e6b4eb3209a",
+      "url": "https://media.techmindhub.cc/posts/ai-research-reproducibility-infographic-web-v2.webp"
+    },
+    {
+      "filename": "ai-research-reproducibility-og-web-v1.jpg",
+      "bytes": 259836,
+      "width": 1200,
+      "height": 630,
+      "sha256": "dbdacec50f0ba58003a7123545d17eab151f742e4d2c1d327ce5b7b66e5e8f7f",
+      "url": "https://media.techmindhub.cc/posts/ai-research-reproducibility-og-web-v1.jpg"
+    }
+  ],
+  "archives": {
+    "Originals-PNG": {
+      "filename": "TechMindHub-AI-Research-2026-10-25-Originals-PNG.zip",
+      "bytes": 3514328,
+      "sha256": "0ccd717121ea0d990a5fd87406dde8b2614334652989b08696632001ca504493"
+    },
+    "Cloudflare-Web": {
+      "filename": "TechMindHub-AI-Research-2026-10-25-Cloudflare-Web.zip",
+      "bytes": 1889084,
+      "sha256": "ac72d11a3d01b112c88a2606653fc3a1a43810d0bdcd44a680b5b427b9775c3a"
+    }
+  },
+  "encoding": {
+    "card": "800px width; LANCZOS; native aspect; WebP lossless method 6",
+    "infographic": "native size; WebP lossless method 6",
+    "og": "1200x630 centre crop; JPEG quality 95; 4:4:4"
+  },
+  "verification": {
+    "original_png_bytes_unchanged": true,
+    "infographic_rgba_equality": true,
+    "card_rgba_equality_to_resized_master": true,
+    "public_asset_checks": "Not attempted before upload"
+  },
+  "visual_revision": "Infographic v2 enlarges explanations and uses full-width steps; first generated candidate excluded.",
+  "validation": {
+    "command": "npm run validate",
+    "result": "passed",
+    "pages": 43,
+    "articles": 8,
+    "tests": 12,
+    "browser": "Supported managed preview; separate static QA copy uses exactly the final images locally while production metadata retains canonical R2 URLs. No early requests to missing R2 files.",
+    "viewports": [
+      "1363px desktop",
+      "390px iframe; 375px content width with scrollbar"
+    ],
+    "routes": [
+      "/",
+      "/posts/",
+      "/posts/ai-research-reproducibility/",
+      "/tags/AIResearch/",
+      "/tags/OpenScience/",
+      "/tags/Reproducibility/",
+      "/tags/MachineLearning/",
+      "/tags/Engineering/",
+      "/tags/TechMindHub/"
+    ],
+    "checks": [
+      "one infographic before body; image loaded",
+      "no horizontal overflow",
+      "new card loads on home, archive and affected tags",
+      "external source click creates a new tab at the Nature article; original remains open",
+      "cover at 352px and 260px and JPEG crop inspected"
+    ],
+    "screenshots": [
+      {
+        "filename": "article-desktop.jpg",
+        "sha256": "7a83c21635ee522e031ddd9969da4e4f89af57f049dbed2cf4076d2f4e2342fd",
+        "location": "Publishing chat review evidence; not committed as publication assets"
+      },
+      {
+        "filename": "article-mobile.jpg",
+        "sha256": "428b41e1d35d27689d34f8313c829778e117a5f4c2dd1ee9315fa2f46c338707",
+        "location": "Publishing chat review evidence; not committed as publication assets"
+      },
+      {
+        "filename": "home-desktop.jpg",
+        "sha256": "ca794edf3438c798556975bb50d517ca3a4b78fac680611f22ebcbd86df0e2ce",
+        "location": "Publishing chat review evidence; not committed as publication assets"
+      },
+      {
+        "filename": "tag-mobile.jpg",
+        "sha256": "72b35e98e4bd264994a95bd04ac41d29bdec024400c110fe34720ae924305722",
+        "location": "Publishing chat review evidence; not committed as publication assets"
+      }
+    ]
+  }
+}
