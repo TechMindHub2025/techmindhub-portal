@@ -1,0 +1,44 @@
+{
+  "slug": "kimi-k3-1-pro-capability-trade-off",
+  "checked": "2026-10-25",
+  "base_sha": "a0cc846bce80952e6c00a8bcee93133d7670696f",
+  "sources": [
+    {
+      "url": "https://www.kimi.com/en/blog/kimi-k3-1-pro",
+      "publisher": "Moonshot AI",
+      "scope": "Developer's own account of intervention, internal evaluation and availability. Page text does not expose an explicit publication date; avoid asserting October 24 as verified from this page."
+    },
+    {
+      "url": "https://www.kimi.com/code/docs/en/kimi-code/whats-new.html",
+      "publisher": "Moonshot AI",
+      "release_entry": "October 23, 2026",
+      "scope": "Kimi Code rollout is distinct from promised weights release."
+    }
+  ],
+  "claim_limits": [
+    "81.0% versus 90.5% on internal xdev-bench-hard; pass@3, supplied source, hint and binary; no hard timeouts/output token limits.",
+    "No independently reproduced cyber test or real-world attack-success claim.",
+    "Weights promised by November 4, 2026; do not treat delivery, licence or hosting requirements as verified.",
+    "Deployment acceptance tests and hypothetical examples are TechMind Hub analysis. No claims of having tested the model."
+  ],
+  "visual": {
+    "domain": "digital-trust",
+    "accent": "#966020",
+    "surface": "#FBF3E6",
+    "central_question": "Who maintains effective controls when model weights are distributed?",
+    "argument": "Training-level capability reduction and deployment-level permission controls require distinct evidence.",
+    "shared_motif": "Translucent amber computational module with enclosed/distributed architectural frames; conceptual illustration, not real apparatus.",
+    "cover_phrase": "Who Holds Control?",
+    "cover_prompt": "Use case: stylized-concept. Asset type: TechMind Hub editorial feed cover. Create ONE finished landscape 16:9 raster image, native high resolution around 1536x864. Light professional editorial art, warm ivory #FBF3E6, amber #966020 and deep charcoal typography; spacious, sophisticated humanist sans-serif. The topic is Kimi K3.1 Pro and how control changes when model weights move from a hosted provider to another operator. One sculptural central amber translucent computational module, bridging two distinct architectural settings on a white drafting surface: left a single elegant enclosing amber circular frame, right several separate smaller neutral open frames. This is a conceptual governance metaphor, not real apparatus, not a logo. Restrained thin connections, beautiful translucent materials and soft natural shadows; no sci-fi brain, robot, hacker, padlock, terminal or code text. Main headline in large bold dark letters on the upper left, exact text \"Who Holds Control?\" Across a single line or two compact lines, dominate the left half; the main object occupies right half and lower middle with ample breathing space. Small category at top \"SECURITY & DIGITAL TRUST\". Small model label \"Kimi K3.1 Pro\". Tiny restrained signature \"TECHMIND HUB\" at lower left. Only these exact text strings. Generous 9% safe margins on all sides, all essential letters/objects survive centered 1200x630 crop from the cover. The short headline must remain legible when image is 260px wide. No graphs, numbers, scientific claims, bibliography, URLs, author names or numbered badges. Do not imply that the model is harmless or that self-hosting has no safeguards.",
+    "infographic_prompt": "Use case: infographic-diagram. Create one finished portrait TechMind Hub editorial infographic, 4:5 around 1200x1500. The provided cover is a style/subject reference. Preserve warm ivory #FBF3E6, amber #966020, charcoal humanist sans-serif, translucent amber computational module and elegant enclosure motif. This must be MOBILE-READABLE: about 50 words, very large explanatory type, absolutely no tiny paragraph text. Essential explanatory letters should be at least 40px high in a 1200px-wide image, no micro-labels. Much smaller title than a poster so body text has room. Clean spacious hierarchy; conceptual illustration, not real hardware diagram.\nLayout:\nTop small category \"SECURITY & DIGITAL TRUST\".\nTitle \"Kimi K3.1 Pro\" and subtitle \"Capability and control\".\nUpper text, large:\n\"Training intervention\"\n\"Reported reduction in cyber capability\"\n\"An internal test is not a deployment guarantee.\"\nMiddle: Two SIMPLE separate amber-module scenes side by side. Left module within one amber circular frame, right module within independent neutral operator frame. Only two short texts per scene, large enough at mobile size:\n\"Hosted service\"\n\"Provider operates the service\"\nand\n\"Self-hosted model\"\n\"Operator controls deployment\"\nBottom, large heading \"Evaluate the deployment\"\nThree LARGE spaced words with minimal accompanying line icons, each given ample width: \"Performance\" \"Permissions\" \"Recovery\".\nOne readable status line near bottom: \"Weights promised by Nov 4, 2026\".\nSmall signature \"TECHMIND HUB\".\nThese are the ONLY text strings. No extra fine print, labels, source notes, numbered badges, authors, URLs, benchmark charts or invented guarantees. Do not imply that self-hosting has no safeguards or that training ensures harmlessness. Avoid monumental oversize title wasting space. Keep core explanatory copy visibly large. Refined editorial publication design, not a cramped dashboard.",
+    "reference": "Use generated cover as reference for infographic; independent composition.",
+    "qa": "v1 small explanatory labels were too dense in a 390px iframe viewport; v2 reduces copy and enlarges explanatory text. Final v2 reviewed again.",
+    "superseded_infographic_prompt": "Use case: infographic-diagram. Asset type: finished TechMind Hub editorial infographic. One portrait approximately 4:5 image at high native resolution around 1200x1500. Use the supplied cover ONLY as style and shared conceptual amber-module reference; create a distinct portrait explanation, not a crop. Light ivory #FBF3E6, amber #966020, charcoal humanist sans-serif, generous white space, crisp publication typography, soft translucent materials. Conceptual governance illustration, NOT an exact network or apparatus diagram. No numeric charts.\nExact image copy:\nSmall eyebrow \"SECURITY & DIGITAL TRUST\"\nMain title \"Kimi K3.1 Pro\"\nSubtitle \"Capability and control\"\nOpening line \"Training controls address one part of the risk.\"\nSection heading \"Evaluate the training intervention\"\nTwo short lines \"Targeted cyber training material removed\" and \"Lower internal benchmark result\"\nCaveat \"A measured reduction is not a deployment guarantee.\"\nCentral large visual: the same amber computational module in two clearly separate architectural settings, TWO calm aligned columns, labels under each:\n\"Hosted service\"\n\"Provider operates the model\"\n\"Access rules • Monitoring • Updates\"\nand\n\"Self-hosted model\"\n\"Operator controls the deployment\"\n\"Tools • Permissions • Modifications\"\nBottom heading \"Evaluate the complete deployment\"\nThree generously spaced lines \"Test task performance\" / \"Verify permission boundaries\" / \"Rehearse recovery\"\nSmall status line \"Hosted access available\"\nSecond small status line \"Weights promised by Nov 4, 2026\"\nRestrained footer signature \"TECHMIND HUB\".\nDesign deliberate hierarchy, big readable type and no crowded card grid. Keep sentences as exact copy, no invented labels, no section numbers, no source notes, bibliography, URLs or author names. The two operator settings are a conceptual comparison, not a claimed description of product implementation. Do not imply self-hosting removes all safeguards or training makes misuse impossible."
+  },
+  "outputs": {
+    "article": "src/content/posts/kimi-k3-1-pro-capability-trade-off.md",
+    "social": "editorial/social/kimi-k3-1-pro-capability-trade-off.txt",
+    "release": "editorial/releases/2026-10-25-kimi-k3-1-pro-v1.json"
+  },
+  "approval": "Proceed with routine pair under established canon; R2 verified and AR1314 approval on final head required before merge."
+}
