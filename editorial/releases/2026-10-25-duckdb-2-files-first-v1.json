@@ -1,0 +1,123 @@
+{
+  "slug": "duckdb-2-files-first",
+  "publication_date": "2026-10-25",
+  "source_publication_date": "2026-10-21",
+  "status": "prepared; awaiting manual R2 upload, public verification and AR1314 final-head approval",
+  "assets": [
+    {
+      "filename": "duckdb-2-files-first-card-v1.png",
+      "bytes": 1717398,
+      "width": 1672,
+      "height": 941,
+      "sha256": "ee3b95039149ae327d9e6fd3c4bb7d905eeccc7e2e6d1e7a9b0ff6861ec27125",
+      "url": null
+    },
+    {
+      "filename": "duckdb-2-files-first-card-web-v1.webp",
+      "bytes": 286342,
+      "width": 800,
+      "height": 450,
+      "sha256": "8f070fd0ed3dc3ce8e3766ec909a2d95176c817809d154ed4c5fb4589592bc81",
+      "url": "https://media.techmindhub.cc/posts/duckdb-2-files-first-card-web-v1.webp"
+    },
+    {
+      "filename": "duckdb-2-files-first-infographic-v1.png",
+      "bytes": 1691547,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "9b2cd59affff1aeab115f70085fabd02cd77f8c960d1d025d6d0f80bf8c10996",
+      "url": null
+    },
+    {
+      "filename": "duckdb-2-files-first-infographic-web-v1.webp",
+      "bytes": 1154430,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "5e916c23838070e906202fafecdaa052932449583ec384a5c2ca64c95927ea6b",
+      "url": "https://media.techmindhub.cc/posts/duckdb-2-files-first-infographic-web-v1.webp"
+    },
+    {
+      "filename": "duckdb-2-files-first-og-web-v1.jpg",
+      "bytes": 187798,
+      "width": 1200,
+      "height": 630,
+      "sha256": "e84864487db5ac2aa52da6738cc3964af33f91e1e41758c0ef87cd774e85c207",
+      "url": "https://media.techmindhub.cc/posts/duckdb-2-files-first-og-web-v1.jpg"
+    }
+  ],
+  "archives": {
+    "Originals-PNG": {
+      "filename": "TechMindHub-DuckDB-2026-10-25-Originals-PNG.zip",
+      "bytes": 3055275,
+      "sha256": "f83b062589217921762dab589b5f950df0fb230bdf4573a1c27d22f39047ec92"
+    },
+    "Cloudflare-Web": {
+      "filename": "TechMindHub-DuckDB-2026-10-25-Cloudflare-Web.zip",
+      "bytes": 1623364,
+      "sha256": "b055a1e708a3c5c8f0e4d6c8e5f009219f876866b77263a09b8bd4b0c985bd15"
+    }
+  },
+  "encoding": {
+    "card": "800px width; native aspect; LANCZOS; WebP lossless method 6",
+    "infographic": "native dimensions; WebP lossless method 6",
+    "og": "1200x630 centre crop; JPEG95; 4:4:4"
+  },
+  "verification": {
+    "original_png_bytes_unchanged": true,
+    "infographic_rgba_equality": true,
+    "card_rgba_equality_to_resized_master": true,
+    "public_asset_checks": "Pending manual upload"
+  },
+  "validation": {
+    "command": "npm run validate",
+    "result": "passed",
+    "pages": 47,
+    "articles": 9,
+    "tests": 12,
+    "browser": "Managed static preview of build; QA copy alone substitutes local final assets for not-yet-uploaded R2 images. Production retains canonical URLs.",
+    "viewports": [
+      "1363px desktop",
+      "390px iframe; 375px article content with scrollbar"
+    ],
+    "routes": [
+      "/",
+      "/posts/",
+      "/posts/duckdb-2-files-first/",
+      "/tags/DuckDB/",
+      "/tags/OpenSource/",
+      "/tags/DataEngineering/",
+      "/tags/SQL/",
+      "/tags/DeveloperTools/",
+      "/tags/TechMindHub/"
+    ],
+    "checks": [
+      "one infographic before body; loaded",
+      "no horizontal overflow on desktop/mobile",
+      "new card loads on home/archive/all affected tags",
+      "external source opens separate tab; original article remains open",
+      "cover 352px/260px, infographic at375px and OG crop inspected"
+    ],
+    "screenshots": [
+      {
+        "filename": "article-desktop.jpg",
+        "sha256": "5b04505b06fa3e3d4d2ba5e08076a70f678dd35bdc3eb82b93d72aa63a4935de",
+        "location": "Publishing chat review evidence; not publication assets"
+      },
+      {
+        "filename": "article-mobile.jpg",
+        "sha256": "868438ba662fa8ce88dca1d51817673336287a6dabe14eb57999e947434d5e62",
+        "location": "Publishing chat review evidence; not publication assets"
+      },
+      {
+        "filename": "home-desktop.jpg",
+        "sha256": "43ef6044cb46b2330de5184c05820c60d4135c1f015d958db5cab0426329817e",
+        "location": "Publishing chat review evidence; not publication assets"
+      },
+      {
+        "filename": "tag-mobile.jpg",
+        "sha256": "efe9033eac83b1b2ee60ea1ad1e99492e8de73c80a5b23d2c8dbbc28095dcbb3",
+        "location": "Publishing chat review evidence; not publication assets"
+      }
+    ]
+  }
+}

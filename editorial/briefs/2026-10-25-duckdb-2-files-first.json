@@ -1,0 +1,33 @@
+{
+  "slug": "duckdb-2-files-first",
+  "base_sha": "3079a5490861e018b891bde32290e322ef3fd0a9",
+  "checked": "2026-10-25",
+  "sources": [
+    "https://github.com/duckdb/duckdb/releases/tag/v2.0.0",
+    "https://duckdb.org/2026/10/21/announcing-duckdb-200",
+    "https://duckdb.org/docs/2.0/data/parquet/overview",
+    "https://duckdb.org/2026/07/31/asynchronous-io",
+    "https://duckdb.org/docs/2.0/operations_manual/migration"
+  ],
+  "claims_and_limits": [
+    "Release October 21, 2026; LTS support at least October 2027.",
+    "Direct Parquet querying, glob and filename are established capabilities; filename virtual column default since 1.3.0.",
+    "Correct submitted SQL typographic quotes and missing wildcard to exports/*.parquet; add ORDER BY for deterministic presentation. Nonrecursive. Empty files have no result group.",
+    "No independent DuckDB runtime execution or benchmark in this article; example syntax checked against versioned documentation.",
+    "Async I/O covers Parquet, CSV and native reads per final release; July design article predates native-format completion. No generic performance multiplier claimed.",
+    "Evaluation workflow and hypothetical report are editorial assessment, not reported case study.",
+    "Migration guide distinguishes new v2-format files (unreadable by older versions) from existing files retaining format. Test queries/extensions and recovery."
+  ],
+  "visual": {
+    "domain": "software",
+    "accent": "#80549E",
+    "surface": "#F5EFF8",
+    "central_question": "What infrastructure does this file analysis actually need?",
+    "argument": "Preserve inputs, validate the answer, measure workload, then decide deployment.",
+    "shared_motif": "Folded file sheets, plum magnifying lens, consolidated result; conceptual artwork, not UI or measured graph.",
+    "cover_phrase": "Start With the Files",
+    "cover_prompt": "Use case: stylized-concept. Create ONE finished editorial landscape cover, 16:9 near 1672x941, for TechMind Hub. Light sophisticated software editorial design, warm ivory and pale lilac #F5EFF8 with plum #80549E, charcoal lettering. Central visual metaphor: several tactile folded-corner file sheets with subtle column grooves slide together beneath a large elegant plum magnifying lens, producing one crisp result sheet. This is conceptual file analysis, not an actual product UI. Organic paper engineering, fine shadows and restrained dimensional illustration, no server racks, no cyber glow. Left third very large bold humanist sans-serif exact title on two lines: \"Start With\" then \"the Files\". Small category top left: \"SOFTWARE & DEVELOPER TOOLS\". Small typographic signature bottom left: \"TECHMIND HUB\". Illustration mostly right, strong simple silhouette. Title must read at 260px thumbnail. Keep all essential art and text 8 percent inside edges for a 1200x630 centre crop. No code, no benchmark numbers, no source footers, no logos or extra words. Editorial polish, ample negative space, distinct visual hierarchy.",
+    "infographic_prompt": "Use case: infographic-diagram. Create ONE finished vertical editorial infographic, 4:5 near 1122x1402. Reference image is style and shared motif only: folded file sheets and plum magnifying lens; use a DISTINCT portrait layout. Warm ivory and pale lilac #F5EFF8, plum #80549E, charcoal humanist sans typography. Clean TechMind Hub software editorial design. Mobile legibility is critical: minimal copy, body text at least about 42px at 1122px width, major headings about 65px. Top small category \"FILE ANALYTICS\". Large title \"Query First.\" newline \"Decide With Evidence.\" Upper third compact tactile illustration of folded file sheets and plum lens, no charts or numerical measurements. Below, four spacious full-width rows separated by hairlines, simple small icons with no decorative numbers. Exact row text: \"Preserve the inputs\" / \"Keep the files and their manifest.\"; \"Check the answer\" / \"Reconcile the SQL result.\"; \"Measure the workload\" / \"Runtime, memory, temporary storage.\"; \"Define the deployment\" / \"Concurrency, permissions, recovery.\" Bottom clearly separate plum-tinted callout exact text \"DuckDB 2.0\" and \"Async I/O overlaps reads and processing.\" and \"Measure the gain on your workload.\" Tiny restrained footer signature \"TECHMIND HUB\". No arrows, source URLs, references, author names, decorative numbering or other copy. All words exact, abundant margins. This is a proposed evaluation workflow, conceptual artwork; do not invent product screenshots or precise mechanism diagrams.",
+    "review": "Exact image text inspected; thumbnail and rendered mobile review follows."
+  }
+}
