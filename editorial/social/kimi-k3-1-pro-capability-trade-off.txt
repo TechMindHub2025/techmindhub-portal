@@ -1,0 +1,26 @@
+Kimi K3.1 Pro: A Deliberate Capability Trade-Off
+
+What changes when a coding model moves from a hosted service to infrastructure controlled by another organisation?
+
+Moonshot's Kimi K3.1 Pro announcement makes that question concrete. Hosted access is available; full model weights are promised by November 4, 2026. Kimi Code's release notes date its rollout to October 23. These are separate release milestones.
+
+The company says it removed cyber-related material from mid-training data and reinforcement-learning environments while retaining general coding tasks. On its internal xdev-bench-hard evaluation, the final model solved 81.0% of problems, compared with 90.5% for a checkpoint without those measures.
+
+The conditions matter: tasks provided vulnerable source code, a bug hint and a binary. Results used pass@3, allowing up to three attempts, without hard timeouts or output-token limits. This is a developer-reported experimental comparison, not an independently established real-world attack success rate.
+
+Our assessment: a measured capability reduction addresses only part of the deployment question. With distributed weights, operators choose the tools, permissions and modifications around the model. A lower benchmark score cannot demonstrate that those boundaries will hold.
+
+Enterprise acceptance should therefore test the complete application: intended task performance, enforced permission boundaries and practical recovery procedures. Teams considering self-hosting should also review the actual licence and deployment materials when delivered.
+
+What evidence would justify giving a self-hosted coding model access to your organisation's operational tools?
+
+Full analysis:
+https://techmindhub.cc/posts/kimi-k3-1-pro-capability-trade-off/
+
+Primary source:
+https://www.kimi.com/en/blog/kimi-k3-1-pro
+
+Release documentation:
+https://www.kimi.com/code/docs/en/kimi-code/whats-new.html
+
+#AI #OpenWeightModels #Cybersecurity #AIGovernance #TechMindHub

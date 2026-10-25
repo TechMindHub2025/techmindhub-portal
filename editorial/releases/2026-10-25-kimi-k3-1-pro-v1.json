@@ -1,0 +1,116 @@
+{
+  "publication_date": "2026-10-25",
+  "checked_date": "2026-10-25",
+  "slug": "kimi-k3-1-pro-capability-trade-off",
+  "status": "prepared; awaiting manual R2 upload, public asset verification and final GitHub review",
+  "assets": [
+    {
+      "filename": "kimi-k3-1-pro-capability-trade-off-card-v1.png",
+      "bytes": 1821321,
+      "width": 1672,
+      "height": 941,
+      "sha256": "6b8b50311ec0c4b006e9e799631fbdb4a2a75ee311cda582b87c0ee606ee9651",
+      "url": null
+    },
+    {
+      "filename": "kimi-k3-1-pro-capability-trade-off-card-web-v1.webp",
+      "bytes": 341960,
+      "width": 800,
+      "height": 450,
+      "sha256": "e49a4d7d968de7d8053a37af47be83d53dfce2180ae7d44817237054df49b6f4",
+      "url": "https://media.techmindhub.cc/posts/kimi-k3-1-pro-capability-trade-off-card-web-v1.webp"
+    },
+    {
+      "filename": "kimi-k3-1-pro-capability-trade-off-og-web-v1.jpg",
+      "bytes": 282284,
+      "width": 1200,
+      "height": 630,
+      "sha256": "56664e1e07ecb87156e97332cdac0e59444265f191966a3744d93fc8023ccace",
+      "url": "https://media.techmindhub.cc/posts/kimi-k3-1-pro-capability-trade-off-og-web-v1.jpg"
+    },
+    {
+      "filename": "kimi-k3-1-pro-capability-trade-off-infographic-v2.png",
+      "bytes": 1881796,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "db1073d3793dbd1890083fe30822f47ec5db8d16b4e8415145efe72c39b49537",
+      "url": null
+    },
+    {
+      "filename": "kimi-k3-1-pro-capability-trade-off-infographic-web-v2.webp",
+      "bytes": 1385706,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "433f99012a01e6f8a261935830c4ab05cf6edf98fe67d31000da561702580b16",
+      "url": "https://media.techmindhub.cc/posts/kimi-k3-1-pro-capability-trade-off-infographic-web-v2.webp"
+    }
+  ],
+  "encoding": {
+    "card": "800px width, LANCZOS, native aspect, WebP lossless method 6",
+    "infographic": "native size, WebP lossless method 6",
+    "og": "1200x630 center crop, JPEG quality 95, 4:4:4"
+  },
+  "verification": {
+    "original_bytes_unchanged": true,
+    "infographic_rgba_pixel_equality": true,
+    "card_rgba_pixel_equality_to_resized_png": true,
+    "public_asset_checks": "not attempted before upload",
+    "infographic_revision": "v2: reduced copy and larger type after 390px-width browser review; v1 excluded from delivery"
+  },
+  "archives": {
+    "originals": "TechMindHub-Kimi-K3-1-Pro-2026-10-25-Originals-PNG.zip",
+    "web": "TechMindHub-Kimi-K3-1-Pro-2026-10-25-Cloudflare-Web.zip"
+  },
+  "validation": {
+    "command": "npm run validate",
+    "result": "passed after clearing generated Astro caches; no duplicate source file",
+    "pages": 39,
+    "articles": 7,
+    "tests": 12,
+    "browser": "Supported managed preview at terminal.local; separate QA copy substitutes same new image bytes locally before R2 upload. Production metadata retains canonical R2 URLs.",
+    "viewports": [
+      "1363px browser viewport",
+      "390px iframe (375px content width where scrollbars apply)"
+    ],
+    "routes": [
+      "/",
+      "/posts/",
+      "/posts/kimi-k3-1-pro-capability-trade-off/",
+      "/tags/AI/",
+      "/tags/OpenWeightModels/",
+      "/tags/Cybersecurity/",
+      "/tags/AIGovernance/",
+      "/tags/TechMindHub/"
+    ],
+    "checks": [
+      "new card and final infographic loaded",
+      "no horizontal overflow",
+      "one infographic before body",
+      "primary source actually opens a new tab; original article remains open",
+      "cover reviewed at 352px and 260px",
+      "dedicated JPEG center crop reviewed"
+    ],
+    "screenshots": [
+      {
+        "filename": "article-desktop-final.jpg",
+        "sha256": "b4e48e7f7b5f169ce4696493cd4523d8b2f54730832ceffe692d61af4e11d148",
+        "location": "Publishing chat review evidence; screenshots not committed as publication images"
+      },
+      {
+        "filename": "article-mobile-final.jpg",
+        "sha256": "dfa251adc1a37450b1079ecc1d86fea58b120fd6ce0f5fb8b002aaff7780e577",
+        "location": "Publishing chat review evidence; screenshots not committed as publication images"
+      },
+      {
+        "filename": "home-final.jpg",
+        "sha256": "f979f43bf42fab4614a7b382aaf6a776df56537983fced5f6ead0d917989dc71",
+        "location": "Publishing chat review evidence; screenshots not committed as publication images"
+      },
+      {
+        "filename": "tag-mobile-final.jpg",
+        "sha256": "0a862f80060cf53ffbfe563293edc559c03e2ee9b7d63ffd8173e6355b30f192",
+        "location": "Publishing chat review evidence; screenshots not committed as publication images"
+      }
+    ]
+  }
+}
