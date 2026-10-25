@@ -1,0 +1,23 @@
+DuckDB 2.0: Start With the Files, Then Decide What Infrastructure You Need
+
+DuckDB 2.0.0 LTS arrived on October 21, with support promised through at least October 2027. For a team evaluating it, a useful starting point remains small: query existing files before designing a larger pipeline.
+
+DuckDB already supports SQL directly over Parquet files. A directory of compatible exports can become a queryable dataset, with the filename column helping trace rows to their source.
+
+The new release adds asynchronous I/O for Parquet, CSV and native database reads. Keeping multiple reads in flight can help when remote storage leaves workers waiting. The architecture does not establish the speedup for your workload.
+
+Our assessment: start with one recurring report. Preserve its input files, express the calculation in SQL and reconcile the result with the current method. Then measure runtime, peak memory, temporary storage and the effort another engineer needs to reproduce the answer.
+
+Keep the evaluation boundary clear. A successful local analysis answers a different question from a shared production service with concurrent users, access controls and recovery requirements.
+
+Existing users also have migration work. Version 2.0 includes breaking changes, including a new default database format that older versions cannot read. Test representative queries, extensions and rollback before replacing a working installation.
+
+The opportunity is a shorter path from raw exports to an inspectable answer. Let measured requirements determine what infrastructure comes next.
+
+Which recurring analysis could your team simplify by querying its existing files directly?
+
+Project: https://github.com/duckdb/duckdb
+Release: https://github.com/duckdb/duckdb/releases/tag/v2.0.0
+Documentation: https://duckdb.org/docs/2.0/data/parquet/overview
+
+#DuckDB #OpenSource #DataEngineering #SQL #DeveloperTools #TechMindHub
