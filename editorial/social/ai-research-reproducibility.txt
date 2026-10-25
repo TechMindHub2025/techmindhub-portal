@@ -1,0 +1,23 @@
+AI Research Is Becoming More Open. Can Its Results Be Reproduced?
+
+A paper and a GitHub link can begin an engineering evaluation. What evidence turns them into a result your team can rely on?
+
+A peer-reviewed study published on October 22 in Communications AI & Computing analysed 56,800 papers from five major AI conferences across 2014–2024. Its documentation trends concern the 52,328 papers classified as empirical. The proportion documenting both open code and open datasets rose from 11% to 64%.
+
+That is meaningful progress, with an essential qualification: the team did not rerun experiments across the corpus. Its estimated improvement in reproducibility, from 28% to 64%, combines documentation indicators with reproduction rates from an earlier study, assumed to apply across conferences and years.
+
+The indicators also have limits. Open code meant a code link was mentioned, rather than verified as accessible; partial code could count alongside a complete repository.
+
+Our assessment: documented openness makes verification more approachable, but adoption still needs a defined engineering test. Start with one central result, identify the exact code and data, reconstruct the environment, and agree on acceptable variation before running anything. Record the interventions needed to make it work.
+
+Then test application fit separately. Reproducing a benchmark and demonstrating value on another workload answer different questions. Evaluation time and computing resources belong in the adoption budget.
+
+What would your team need beyond a paper and a GitHub link before relying on a research result?
+
+Full analysis:
+https://techmindhub.cc/posts/ai-research-reproducibility/
+
+Primary source:
+https://www.nature.com/articles/s44488-026-00015-x
+
+#AIResearch #OpenScience #Reproducibility #MachineLearning #Engineering #TechMindHub
