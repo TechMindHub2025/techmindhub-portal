@@ -1,0 +1,102 @@
+[
+  {
+    "file": "qsolid-beyond-qubit-count-card-original-v1.png",
+    "role": "original cover",
+    "bytes": 1963940,
+    "dimensions": [
+      1672,
+      941
+    ],
+    "sha256": "25ed37e0ae578ba0cc71d36af25f67fd3c3b12d395012f1b49f106858d570b16"
+  },
+  {
+    "file": "qsolid-beyond-qubit-count-infographic-original-v1.png",
+    "role": "original infographic",
+    "bytes": 1935773,
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "sha256": "70ed6fac0cc68e915025a5267f33fd8004557f9e138a8a7566c1772a6e04bc84"
+  },
+  {
+    "file": "qsolid-beyond-qubit-count-card-web-v1.webp",
+    "role": "feed card",
+    "bytes": 361618,
+    "dimensions": [
+      800,
+      450
+    ],
+    "sha256": "c0226d9fe16bfc9b80cf65800a8e6924feceef59e070e3ba76c80b756cbaf504"
+  },
+  {
+    "file": "qsolid-beyond-qubit-count-infographic-web-v1.webp",
+    "role": "article infographic",
+    "bytes": 1406504,
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "sha256": "1d8ab18499e024ce8836d4be7e9a963043e966d7f8dd0314f0eb6dea1b2730f6"
+  },
+  {
+    "file": "qsolid-beyond-qubit-count-og-web-v1.jpg",
+    "role": "social preview",
+    "bytes": 302497,
+    "dimensions": [
+      1200,
+      630
+    ],
+    "sha256": "fad1e52ae8570ed662b753061e50abfb9cbfa89a22a7ab75ab8466db3dab3e07"
+  },
+  {
+    "file": "opentelemetry-collector-outage-evidence-card-original-v1.png",
+    "role": "original cover",
+    "bytes": 1581533,
+    "dimensions": [
+      1672,
+      941
+    ],
+    "sha256": "4bf40c44e58dbc803e9fee8a247a74e0ed8df32652b555d88477cb1205c3e62d"
+  },
+  {
+    "file": "opentelemetry-collector-outage-evidence-infographic-original-v1.png",
+    "role": "original infographic",
+    "bytes": 1617895,
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "sha256": "f54825858fe2783ae1a2661e66a562ba870457b26c1e6a871df27144762c7b85"
+  },
+  {
+    "file": "opentelemetry-collector-outage-evidence-card-web-v1.webp",
+    "role": "feed card",
+    "bytes": 302520,
+    "dimensions": [
+      800,
+      450
+    ],
+    "sha256": "5d58f5496a081c9a630fe6cc2826aba3cb45010245e90b07852605fb726f94ae"
+  },
+  {
+    "file": "opentelemetry-collector-outage-evidence-infographic-web-v1.webp",
+    "role": "article infographic",
+    "bytes": 1161416,
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "sha256": "0d4d42da47568a570837091b52d2abcf5c1605b7f2a9b13e2a21b961f7a4a0b8"
+  },
+  {
+    "file": "opentelemetry-collector-outage-evidence-og-web-v1.jpg",
+    "role": "social preview",
+    "bytes": 217236,
+    "dimensions": [
+      1200,
+      630
+    ],
+    "sha256": "02d4aad16610a01fa86e3c5a1ab9e48017bbe425fb7f642bf025459d9390c0f7"
+  }
+]
