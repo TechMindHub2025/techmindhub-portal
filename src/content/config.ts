@@ -63,7 +63,12 @@ const posts = defineCollection({
     if (data.cover_card === data.cover_hero) {
       ctx.addIssue({ code: z.ZodIssueCode.custom, path: ["cover_hero"], message: "Cover and infographic need separate compositions and URLs." });
     }
+  }).transform(data => {
+    const group = domains.find(domain => domain.id === data.domain)?.tag;
+    if (!group) return data;
+    return { ...data, tags: [group, ...data.tags.filter(tag => tag.toLowerCase() !== group.toLowerCase())] };
   }),
 });
 
 export const collections = { posts };
+
