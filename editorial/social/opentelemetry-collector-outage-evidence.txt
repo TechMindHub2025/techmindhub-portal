@@ -1,0 +1,17 @@
+OpenTelemetry Collector: Can Your Monitoring Data Survive an Outage?
+
+Collector binary distributions v0.163.2 updated their Go version and CA bundle. The practical question this established project raises is broader: what happens to monitoring evidence when an exporter cannot reach its backend?
+
+The Collector can queue and retry telemetry. Those mechanisms have limits. A queue can fill, a retry window can expire, and an in-memory queue loses its contents if the Collector process crashes. Persistent storage can help queued data survive a restart, while introducing a disk dependency.
+
+Our assessment: test one traces pipeline in a safe environment. Send a counted set of spans without sampling. Interrupt the backend, restore it and reconcile the identifiers that arrive. Repeat with a Collector restart while data is queued. Record queue occupancy, missing or duplicate observations, delivery delay and resource use. Choose the acceptable result before running the experiment.
+
+The v0.163.2 release did not introduce these resilience mechanisms; the official documentation describes them. The point of the test is to learn how your selected distribution and configuration behave under a measured interruption.
+
+How many missing spans—and how much delay—would your team accept during a backend outage?
+
+Full analysis: https://techmindhub.cc/posts/opentelemetry-collector-outage-evidence/
+Release: https://github.com/open-telemetry/opentelemetry-collector-releases/releases/tag/v0.163.2
+Resilience guide: https://opentelemetry.io/docs/collector/resiliency/
+
+#OpenTelemetry #Observability #OpenSource #CloudInfrastructure #SoftwareEngineering #TechMindHub
