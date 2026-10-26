@@ -1,0 +1,20 @@
+{
+  "slug": "crusoe-power-before-compute",
+  "checked": "2026-10-26",
+  "source": "https://www.crusoe.ai/resources/newsroom/neuberger-and-crusoe-announce-700-million-facility",
+  "claims_and_limits": [
+    "October 22 announcement: $700 million facility secured by recently ordered generation equipment, to finance gas generators for behind-the-meter power.",
+    "The release does not specify purchased generating capacity, individual site schedule, borrowing terms, delivery, commissioning or operation.",
+    "Operational milestones, procurement checks and environmental comparison are TechMind Hub assessment, not Crusoe disclosures."
+  ],
+  "visual": {
+    "domain": "infrastructure",
+    "accent": "#426F94",
+    "surface": "#EEF3F8",
+    "central_question": "What does financing power equipment actually establish for future AI capacity?",
+    "shared_motif": "Generic generator beside a developing data center, with a steel-blue editorial palette and brass accents.",
+    "cover_phrase": "POWER BEFORE COMPUTE",
+    "infographic_argument": "Finance and order, deliver and install, commission and test, then operate at load are separate milestones.",
+    "status": "Conceptual artwork, not actual Crusoe facilities or measured capacity. Text and 1200x630 crop inspected."
+  }
+}
