@@ -1,0 +1,20 @@
+{
+  "slug": "qsolid-beyond-qubit-count",
+  "checked": "2026-10-26",
+  "source": "https://www.ipms.fraunhofer.de/en/press-media/press/2026/QSolid-quantum-computer.html",
+  "claims_and_limits": [
+    "Fraunhofer's October 23 report describes a tested 10-qubit system accessible to users and a 30-qubit system still under testing.",
+    "Cryogenic CMOS characterization and interposer packaging connect quantum and control chips while addressing signal and heat constraints.",
+    "Fault tolerance, computational advantage, manufacturing yield and repeated system-level reliability are not established by the release. Suggested evaluation measurements are editorial assessment."
+  ],
+  "visual": {
+    "domain": "photonics",
+    "accent": "#267F9E",
+    "surface": "#EDF7FA",
+    "central_question": "What must work together to scale a quantum computer beyond processor qubit count?",
+    "shared_motif": "A conceptual chip-to-control connection in blue-cyan with warm copper traces; precise apparatus is not depicted.",
+    "cover_phrase": "BEYOND THE QUBIT COUNT",
+    "infographic_argument": "The processor, interposer and control electronics, assembled demonstrator and repeatable machine are successive questions; the final machine is a goal, not a reported milestone.",
+    "status": "Conceptual artwork. The 10-qubit tested/access milestone and 30-qubit testing milestone are separately labelled. Native image and 1200x630 crop inspected."
+  }
+}
