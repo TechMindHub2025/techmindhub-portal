@@ -1,0 +1,16 @@
+QSolid: Scaling Quantum Computers Beyond the Qubit Count
+
+Fraunhofer IPMS reports two distinct QSolid milestones: a tested 10-qubit system accessible to users, and a 30-qubit system still under testing. The announcement also describes work on cryogenic CMOS control circuits and interposers connecting quantum and control chips.
+
+Our assessment: scaling a quantum computer is a systems-engineering problem. More qubits increase the demands on signal delivery, calibration, physical connections and the thermal budget. A component result, an assembled demonstrator and an application run are different forms of evidence.
+
+For advanced packaging, useful questions include signal behaviour at the intended temperature, heat loading and repeatability after assembly and cooling cycles. For a machine, ask what was tested together, under which operating conditions and with what errors. These are evaluation criteria, not results claimed by the consortium.
+
+Industrial semiconductor methods may help make assembly repeatable. The announcement does not yet establish manufacturing yield, a computational advantage over classical systems or fault tolerance.
+
+When assessing a quantum milestone, what would you want to know beyond the number of qubits?
+
+Full analysis: https://techmindhub.cc/posts/qsolid-beyond-qubit-count/
+Primary source: https://www.ipms.fraunhofer.de/en/press-media/press/2026/QSolid-quantum-computer.html
+
+#QuantumComputing #Semiconductors #AdvancedPackaging #CryogenicElectronics #Engineering #TechMindHub
