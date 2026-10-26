@@ -62,3 +62,16 @@ Home, Analysis and tag pages share `PostCard.astro`. Article order is title/meta
 Do not publish working image explanations, production notes or an “Illustration summary” paragraph. Keep those details in editorial briefs. Scientific findings, limitations and source references still belong in the article where relevant to its argument. A general visual refresh must not silently change the established article order.
 
 Before review, inspect the rendered Home and every changed article; shared template changes require all published articles: no stray template delimiters or closing tags should become text; Home must retain Latest, Topics, discussion links and footer; each article must show exactly one infographic before its first body paragraph. A successful build alone is not evidence that the rendered content is clean.
+
+## Discipline tags
+
+Each registry entry in `src/data/editorial-domains.json` has a canonical `tag`
+(e.g. `Software`, `Infrastructure`). The content schema automatically prepends
+that tag from the article's primary `domain` and removes case-insensitive copies
+of the same tag. Do not add or maintain a second manual category field.
+Existing topical tags remain available, including cross-discipline subjects.
+The first tag on cards and the article topic link therefore lead to the primary
+discipline; tag pages, counts and archive filters use the same normalized tags.
+Add the canonical tag when introducing a new domain. Validation checks the built
+article links, tag membership and archive filter for all published articles.
+

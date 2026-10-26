@@ -1,6 +1,7 @@
 """Check the built publication contract; no network or third-party packages."""
 
 import argparse
+import json
 from html.parser import HTMLParser
 from pathlib import Path
 import re
@@ -179,6 +180,40 @@ def check_image_diff(root, base):
             for name in result.stdout.split("\0") if name and Path(name).suffix.lower() in IMAGE_EXTENSIONS]
 
 
+def check_discipline_tags(root):
+    """Check the user-visible navigation, not just frontmatter or transform code."""
+    registry = json.loads((root / "src/data/editorial-domains.json").read_text())
+    errors = []
+    archive = (root / "dist/posts/index.html").read_text()
+    index = (root / "dist/tags/index.html").read_text()
+    for domain in registry:
+        tag = domain["tag"]
+        members = []
+        for source in (root / "src/content/posts").glob("*.md"):
+            metadata = source.read_text().split("---", 2)[1]
+            fields = dict(re.findall(r"^([a-z_]+): *(.*?) *$", metadata, re.M))
+            if fields.get("status", "").strip("\\\"'") != "published":
+                continue
+            if fields.get("domain", "").strip("\\\"'") == domain["id"]:
+                members.append(source.stem)
+        if not members:
+            continue
+        href = f"/tags/{tag}/"
+        page = root / f"dist/tags/{tag}/index.html"
+        if not page.exists() or href not in index or f'value="{tag}"' not in archive:
+            errors.append(f"{tag}: missing discipline page, index link or archive option")
+            continue
+        for slug in members:
+            article = (root / f"dist/posts/{slug}/index.html").read_text()
+            parser = Document(article)
+
+            links = [n for n in parser.root.walk() if n.tag == "a"
+                     and n.attrs.get("href") == href and n.text().strip() == f"#{tag}"]
+            if len(links) != 1 or f'/posts/{slug}/' not in page.read_text():
+                errors.append(f"{slug}: missing/duplicate #{tag} or absent from discipline page")
+    return errors
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[1])
@@ -198,6 +233,8 @@ def main():
             page.read_text(), home=str(relative) == "index.html", article=article))
     if not articles:
         errors.append("No published article routes found")
+    if articles:
+        errors.extend(check_discipline_tags(root))
     if args.base:
         errors.extend(check_image_diff(root, args.base))
     if errors:
@@ -209,3 +246,4 @@ def main():
 
 if __name__ == "__main__":
     sys.exit(main())
+
