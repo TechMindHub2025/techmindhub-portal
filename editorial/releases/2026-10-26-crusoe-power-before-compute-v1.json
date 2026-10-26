@@ -1,0 +1,47 @@
+[
+  {
+    "file": "crusoe-power-before-compute-card-original-v1.png",
+    "bytes": 2257651,
+    "dimensions": [
+      1730,
+      909
+    ],
+    "sha256": "c162e45aab2832ce9fc0dd00fc56aea147f57fe9a4798b5897c7460682199365"
+  },
+  {
+    "file": "crusoe-power-before-compute-infographic-original-v1.png",
+    "bytes": 1805165,
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "sha256": "838fd38a52ee45d78cdefbb99cc4ed2b6c9668c26e959b56437f14d8e081b333"
+  },
+  {
+    "file": "crusoe-power-before-compute-card-web-v1.webp",
+    "bytes": 383536,
+    "dimensions": [
+      800,
+      420
+    ],
+    "sha256": "3161da29e08790c69a3d48ca525c733b608f1f158ebe6ef67ada9ebfd8a4b3db"
+  },
+  {
+    "file": "crusoe-power-before-compute-infographic-web-v1.webp",
+    "bytes": 1230780,
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "sha256": "cd3f33f29cb35ca6be8a31e0c766bb8b4f2385672a11a820c85ccac5afcf3e39"
+  },
+  {
+    "file": "crusoe-power-before-compute-og-web-v1.jpg",
+    "bytes": 379063,
+    "dimensions": [
+      1200,
+      630
+    ],
+    "sha256": "0b57dd6128951d724e44df78d42ae2c322e46230a0fb98509e137f5232a808f3"
+  }
+]
