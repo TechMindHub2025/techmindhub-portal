@@ -1,0 +1,24 @@
+{
+  "slug": "opentelemetry-collector-outage-evidence",
+  "checked": "2026-10-26",
+  "sources": [
+    "https://github.com/open-telemetry/opentelemetry-collector-releases/releases/tag/v0.163.2",
+    "https://opentelemetry.io/docs/collector/resiliency/",
+    "https://opentelemetry.io/docs/collector/configuration/"
+  ],
+  "claims_and_limits": [
+    "October 21 v0.163.2 is a binary distribution maintenance release updating Go and the certificate authority bundle, not the origin of Collector resilience capabilities.",
+    "The official guides describe queues, retry windows, persistent storage, component configuration and service pipeline enablement.",
+    "The counted outage/restart procedure is an editorial test proposal; the infographic is conceptual and does not report measured span loss."
+  ],
+  "visual": {
+    "domain": "software",
+    "accent": "#80549E",
+    "surface": "#F5EFF8",
+    "central_question": "Does telemetry remain available after a backend outage and Collector restart?",
+    "shared_motif": "Plum coloured Collector buffer between sender and unavailable backend, with violet span packets.",
+    "cover_phrase": "WHEN THE BACKEND FAILS",
+    "infographic_argument": "Count spans, interrupt the backend, restart the Collector and reconcile delivery while recording bounded queue, retry and disk behaviour.",
+    "status": "Conceptual process, not a measured loss rate. Native image and 1200x630 crop inspected."
+  }
+}
