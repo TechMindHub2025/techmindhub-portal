@@ -1,0 +1,18 @@
+Crusoe’s $700 Million Power Deal: Financing the Infrastructure Before the Compute
+
+On October 22, Crusoe and Neuberger Specialty Finance announced a $700 million facility to finance gas generators for Crusoe-built and Crusoe-owned AI data centers. The facility is secured by recently ordered power generation equipment.
+
+The distinction is operationally important. Financing supports procurement; it does not establish that equipment has been delivered, installed or commissioned. The announcement gives no purchased generation capacity or site-by-site schedule, so the dollar amount cannot be translated into available compute.
+
+Our assessment: power equipment is becoming part of the financing decision earlier in the data-center development cycle. That can address a long lead time, while introducing a schedule dependency. Cooling, electrical integration, fuel arrangements and customer readiness still have to converge before a generator can support a usable service.
+
+For buyers of future AI capacity, ask for evidence at each milestone: order, delivery, installation, commissioning and sustained operation at the required load. A financing announcement and an operational power claim answer different questions.
+
+The environmental comparison also requires measured fuel use, efficiency and emissions against the relevant alternative supply. Behind-the-meter location alone cannot establish a benefit.
+
+Which power milestone would you require before trusting a promised delivery date?
+
+Full analysis: https://techmindhub.cc/posts/crusoe-power-before-compute/
+Primary source: https://www.crusoe.ai/resources/newsroom/neuberger-and-crusoe-announce-700-million-facility
+
+#AIInfrastructure #DataCenters #Energy #TechnologyEconomics #TechMindHub
