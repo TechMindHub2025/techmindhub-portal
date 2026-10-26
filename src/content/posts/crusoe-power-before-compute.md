@@ -7,7 +7,7 @@ status: "published"
 canonical_id: "2026-10-26-crusoe-power-before-compute"
 tags: ["AIInfrastructure", "DataCenters", "Energy", "TechnologyEconomics", "TechMindHub"]
 source_url: "https://www.crusoe.ai/resources/newsroom/neuberger-and-crusoe-announce-700-million-facility"
-cover_card: "https://media.techmindhub.cc/posts/crusoe-power-before-compute-card-web-v1.webp"
+cover_card: "https://media.techmindhub.cc/posts/crusoe-power-before-compute-card-web-v2.webp"
 cover_hero: "https://media.techmindhub.cc/posts/crusoe-power-before-compute-infographic-web-v1.webp"
 cover_og: "https://media.techmindhub.cc/posts/crusoe-power-before-compute-og-web-v1.jpg"
 domain: "infrastructure"

@@ -1,0 +1,15 @@
+{
+  "slug": "crusoe-power-before-compute",
+  "supersedes": "crusoe-power-before-compute-card-web-v1.webp",
+  "file": "crusoe-power-before-compute-card-web-v2.webp",
+  "public_url": "https://media.techmindhub.cc/posts/crusoe-power-before-compute-card-web-v2.webp",
+  "source": "crusoe-power-before-compute-card-original-v1.png",
+  "operation": "left-anchored 16:9 crop of 1730x909 original to 1616x909, resized to 800x450 with LANCZOS, lossless WebP method 6",
+  "dimensions": [
+    800,
+    450
+  ],
+  "bytes": 405504,
+  "sha256": "3c0ea5426d7c85d1bb2905220321a41ee8e251567a1932de8b7ca6c16f634c21",
+  "reason": "v1 800x420 displayed as letterboxed within the 16:9 editorial card."
+}
