@@ -1,0 +1,47 @@
+[
+  {
+    "file": "restic-recovery-drill-card-original-v1.png",
+    "bytes": 1846321,
+    "dimensions": [
+      1730,
+      909
+    ],
+    "sha256": "129a2a31da459e1b233592e67e7536566d0e2f4c7326aceb8ad5d7120e877222"
+  },
+  {
+    "file": "restic-recovery-drill-infographic-original-v1.png",
+    "bytes": 1353902,
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "sha256": "8d3692ab0de798596ed3bdb8cef33becd92e27b3a807b52be4d746f5383448cc"
+  },
+  {
+    "file": "restic-recovery-drill-card-web-v1.webp",
+    "bytes": 295248,
+    "dimensions": [
+      800,
+      420
+    ],
+    "sha256": "da016197a9226141c9d475fab728d66099888d5a6cfe904490aead6efa6a3b04"
+  },
+  {
+    "file": "restic-recovery-drill-infographic-web-v1.webp",
+    "bytes": 891096,
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "sha256": "9761ac41942923a193d5e7f61a544383d0641793af054eefcfb05a58201ad856"
+  },
+  {
+    "file": "restic-recovery-drill-og-web-v1.jpg",
+    "bytes": 232632,
+    "dimensions": [
+      1200,
+      630
+    ],
+    "sha256": "b035f34d746d3a0db8a1f9c80297ebad898e7fade1b8fd2280c03e776766d324"
+  }
+]
