@@ -1,0 +1,20 @@
+{
+  "slug": "cadence-maestro-design-feedback-loop",
+  "checked": "2026-10-27",
+  "source": "https://www.cadence.com/en_US/home/company/newsroom/press-releases/pr/2026/cadence-introduces-maestro-a-domain-specialized-ai-model.html",
+  "claims_and_limits": [
+    "Cadence announced Maestro on October 26; first models are for select early-access customers in Q4 2026.",
+    "Cadence reports initial improvements of up to 30% quality of results and up to fivefold token efficiency against a general-purpose foundation model; the release does not provide a reproducible protocol or broad cost accounting.",
+    "A bounded test, total-cost comparison and human acceptance gates are TechMind Hub assessment, not claims demonstrated by the release."
+  ],
+  "visual": {
+    "domain": "ai",
+    "accent": "#5958B2",
+    "surface": "#F0EFFA",
+    "central_question": "Does an agent deliver an accepted engineering design under explicit constraints?",
+    "shared_motif": "Violet chip-layout candidate, EDA evaluation screen and feedback loop; conceptual, not Cadence UI or a real design.",
+    "cover_phrase": "DESIGN MEETS VERIFICATION",
+    "infographic_argument": "A proposal is evaluated by tools, revised and reviewed for engineer acceptance; measure outcomes, time and full cost.",
+    "status": "Conceptual artwork with no measured benchmark depicted. Cover, 260px card and OG crop reviewed."
+  }
+}

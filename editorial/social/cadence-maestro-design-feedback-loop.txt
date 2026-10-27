@@ -1,0 +1,16 @@
+Cadence Maestro: Bringing AI Agents Inside the Chip-Design Workflow
+
+Cadence has announced Maestro, a portfolio of specialised models for semiconductor and system design. Select customers get early access in Q4 2026. Its proposed workflow connects models and engineering agents to EDA tools, where designs can be evaluated against constraints and revised.
+
+Cadence reports initial gains of up to 30% in quality of results and up to 5× in token efficiency against a general-purpose foundation model. The announcement does not give a reproducible benchmark protocol showing how widely those numbers apply.
+
+Our assessment: the important test is an accepted engineering result. A useful trial would keep the starting design, constraints, tool versions and evaluation budget fixed, then compare accepted outcomes, elapsed time, engineer effort and the full cost of tool calls and compute. Fewer model tokens alone do not prove a cheaper design workflow.
+
+An on-premises option also needs maintained models, integrations and evaluation tools. A deployment location cannot establish reliability by itself.
+
+Which chip-design task would you choose for a bounded first test?
+
+Full analysis: https://techmindhub.cc/posts/cadence-maestro-design-feedback-loop/
+Primary source: https://www.cadence.com/en_US/home/company/newsroom/press-releases/pr/2026/cadence-introduces-maestro-a-domain-specialized-ai-model.html
+
+#Semiconductors #ChipDesign #AgenticAI #EDA #Engineering #TechMindHub
