@@ -1,0 +1,25 @@
+{
+  "slug": "restic-recovery-drill",
+  "checked": "2026-10-27",
+  "sources": [
+    "https://github.com/restic/restic/releases/tag/v0.19.1",
+    "https://restic.readthedocs.io/en/stable/045_working_with_repos.html",
+    "https://restic.readthedocs.io/en/stable/050_restore.html"
+  ],
+  "claims_and_limits": [
+    "Restic 0.19.1 is listed as the latest release on October 27, 2026 and was published July 5; the restore workflow predates this maintenance release.",
+    "Default check verifies repository structure; --read-data additionally reads stored pack data, which may require substantial transfer.",
+    "Restore overwrites target files by default; a fresh test target is used in the proposed exercise.",
+    "The drill is an editorial procedure, not a reported product benchmark or universal recovery guarantee."
+  ],
+  "visual": {
+    "domain": "infrastructure",
+    "accent": "#426F94",
+    "surface": "#EEF3F8",
+    "central_question": "Can a team restore a chosen backup and use the result within its recovery target?",
+    "shared_motif": "A slate-blue repository yields files into an isolated folder, then inspection makes the result actionable.",
+    "cover_phrase": "RESTORE, THEN TRUST",
+    "infographic_argument": "Choose a snapshot, restore into an empty test space, verify documents, hashes, permissions and application usability.",
+    "status": "Conceptual procedure; no dates, measured outcomes or product screen are depicted. Cover and native infographic inspected."
+  }
+}
