@@ -1,0 +1,20 @@
+{
+  "slug": "robot-control-mode-switch-chattering",
+  "checked": "2026-10-27",
+  "source": "https://www.nature.com/articles/s41598-026-76691-7",
+  "claims_and_limits": [
+    "Published October 22 in Scientific Reports as an early accepted peer-reviewed article subject to later editing.",
+    "The authors report an average Chattering Index reduction exceeding 76% for both joints of a planar rehabilitation robot against hysteresis mitigation in comparative simulations while retaining tracking accuracy.",
+    "Neither physical hardware operation nor human or clinical outcomes are established. Hardware test criteria are editorial assessment."
+  ],
+  "visual": {
+    "domain": "robotics",
+    "accent": "#AC5943",
+    "surface": "#FAF0EB",
+    "central_question": "How should a team test the moment its robot controller changes modes?",
+    "shared_motif": "Generic two-joint arm and copper motion ribbon; conceptual contact, not a depiction of the study apparatus or human test.",
+    "cover_phrase": "SMOOTHER AT THE SWITCH",
+    "infographic_argument": "Switching between admittance and impedance, filtering rapid changes, and measuring chattering with tracking are separate engineering checks.",
+    "status": "Conceptual artwork. The panel's squiggle is an illustrative icon, not a measured signal. Simulation and hardware boundary stated on image. Cover, 260px card and OG crop reviewed."
+  }
+}
