@@ -1,0 +1,16 @@
+Smoother Robot Control Starts at the Transition Between Modes
+
+A Scientific Reports study examines chattering when a hybrid robot controller switches between admittance and adaptive impedance control. The authors propose an integral resonant filter in the switching loop.
+
+In a comparative simulation of a two-joint planar rehabilitation robot, they report more than 76% average reduction in their Chattering Index for both joints against a hysteresis-based method, while maintaining trajectory tracking accuracy. This was a simulation result. It does not establish hardware performance or clinical benefit.
+
+Our engineering assessment: measure the transition itself. Track commanded torque, contact force and tracking error around switching events. A filter should reduce rapid command changes without making the response too slow for the task.
+
+A hardware test needs matched trajectories, contact conditions, sampling rates and actuator limits, with filter settings documented. The reported percentage is a useful starting point for that experiment, not a general guarantee.
+
+What transition metric would you add to a robot controller's acceptance test?
+
+Full analysis: https://techmindhub.cc/posts/robot-control-mode-switch-chattering/
+Primary source: https://www.nature.com/articles/s41598-026-76691-7
+
+#Robotics #ControlEngineering #HumanRobotInteraction #Automation #Research #TechMindHub
