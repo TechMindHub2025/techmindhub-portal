@@ -1,0 +1,102 @@
+[
+  {
+    "file": "cadence-maestro-design-feedback-loop-card-original-v1.png",
+    "role": "original cover",
+    "bytes": 2010492,
+    "dimensions": [
+      1672,
+      941
+    ],
+    "sha256": "930f64b9e306d95d5c28a3ca59ff5d0a6dee8531957b60c8b586b7abdf0d4ccf"
+  },
+  {
+    "file": "cadence-maestro-design-feedback-loop-infographic-original-v1.png",
+    "role": "original infographic",
+    "bytes": 1964973,
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "sha256": "5b2d109613446ec2cc6ed187b2dc6041a9f549510a0a6794da84d82fd6c089e7"
+  },
+  {
+    "file": "cadence-maestro-design-feedback-loop-card-web-v1.webp",
+    "role": "feed card",
+    "bytes": 398248,
+    "dimensions": [
+      800,
+      450
+    ],
+    "sha256": "3849c81080dfca76e686fc238146ddb0b53136cb1a5fb29d039b88dc0651f81a"
+  },
+  {
+    "file": "cadence-maestro-design-feedback-loop-infographic-web-v1.webp",
+    "role": "article infographic",
+    "bytes": 1393360,
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "sha256": "55b6a3e1eb5bd91c7a54e73f1eb07c541fcc9a1e592396e1772e62c788b98a24"
+  },
+  {
+    "file": "cadence-maestro-design-feedback-loop-og-web-v1.jpg",
+    "role": "social preview",
+    "bytes": 346974,
+    "dimensions": [
+      1200,
+      630
+    ],
+    "sha256": "059b0a09f6b9e28d3cc06ad3923c8e21fcaa8dd3cf96b9956fe1f21ba4eec2f1"
+  },
+  {
+    "file": "robot-control-mode-switch-chattering-card-original-v1.png",
+    "role": "original cover",
+    "bytes": 1801407,
+    "dimensions": [
+      1672,
+      941
+    ],
+    "sha256": "dcb89ed73d9841ca4c6d8c6a725a3d986fdc40e3f43b805d9a4cc6289d70c2c1"
+  },
+  {
+    "file": "robot-control-mode-switch-chattering-infographic-original-v1.png",
+    "role": "original infographic",
+    "bytes": 1718366,
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "sha256": "add8576670e1c61ae097d5fef59d1ecef4c3dcd9057c00f589ce6b889a6cd900"
+  },
+  {
+    "file": "robot-control-mode-switch-chattering-card-web-v1.webp",
+    "role": "feed card",
+    "bytes": 309774,
+    "dimensions": [
+      800,
+      450
+    ],
+    "sha256": "138d441ca7b8b360f9fedac7e9180efeb20521eb469761570a18e7ec5fc535fc"
+  },
+  {
+    "file": "robot-control-mode-switch-chattering-infographic-web-v1.webp",
+    "role": "article infographic",
+    "bytes": 1157092,
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "sha256": "2aa24c2e88bfd52ae00dbbdf625583a72f5cfe3ad79589b93a1cb35e27b80652"
+  },
+  {
+    "file": "robot-control-mode-switch-chattering-og-web-v1.jpg",
+    "role": "social preview",
+    "bytes": 238813,
+    "dimensions": [
+      1200,
+      630
+    ],
+    "sha256": "db343c03850e53a1100e57342367be22f1160ad9e1a01318eb78779be0d619ee"
+  }
+]
