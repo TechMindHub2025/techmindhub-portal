@@ -1,0 +1,15 @@
+Restic: Make Recovery Part of the Backup Workflow
+
+Restic 0.19.1 is the latest listed release as of October 27. It is a maintenance release of an established backup tool. The more useful operational question is what happens after a snapshot exists: can someone restore it and make the files usable?
+
+Our engineering assessment: start with one bounded collection. List the snapshots, choose the right date and host, then restore a specific snapshot into a new, empty test directory. Open representative files, compare selected hashes when independent originals exist, inspect permissions and test an application import where relevant. Record the snapshot ID, restic version, elapsed time and undocumented steps.
+
+Restic's default repository check examines structural consistency; --read-data also reads stored data. Neither replaces a practical restore test. The restore command overwrites existing target files by default, so keep the exercise away from live paths.
+
+What would your team need to see in a restore test before trusting its backup plan?
+
+Full analysis: https://techmindhub.cc/posts/restic-recovery-drill/
+Release: https://github.com/restic/restic/releases/tag/v0.19.1
+Restore guide: https://restic.readthedocs.io/en/stable/050_restore.html
+
+#OpenSource #Backup #DisasterRecovery #Infrastructure #DeveloperTools #TechMindHub
