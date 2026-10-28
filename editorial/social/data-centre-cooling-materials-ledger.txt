@@ -1,0 +1,14 @@
+Data Centre Cooling Needs a Materials Ledger
+
+A review published October 26 in Nature Reviews Clean Technology maps PFAS uses and potential release pathways across data centre infrastructure, from manufacturing to cooling and disposal. It also identifies gaps in application-specific flow data. It does not demonstrate a universal replacement fluid.
+
+Our assessment: energy efficiency and material accountability need separate records. For each relevant cooling fluid, track quantities received, in service, added during maintenance, recovered and transferred for treatment. An unexplained difference is an accounting question to investigate, not automatically a measured environmental release.
+
+Substitutes need system-level checks for seals, components, temperatures, safety and fault conditions. End-of-life records should follow collection, contractor transfer and final treatment as separate steps.
+
+What material flow would you require a cooling supplier to document?
+
+Full analysis: https://techmindhub.cc/posts/data-centre-cooling-materials-ledger/
+Review: https://www.nature.com/articles/s44359-026-00232-8
+
+#DataCenters #Cooling #MaterialsScience #SustainableEngineering #AIInfrastructure #TechMindHub
