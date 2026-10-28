@@ -1,0 +1,24 @@
+{
+  "slug": "genie-4-interactive-worlds",
+  "checked": "2026-10-28",
+  "sources": [
+    "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+    "https://deepmind.google/models/genie/"
+  ],
+  "claims_and_limits": [
+    "October 27 announcement; trusted-tester research preview now, consumer and developer access forthcoming.",
+    "Google describes native audio, live natural-language changes, Gemini 3.8 Flash guiding the loop and Gemini Omni anchoring simulations.",
+    "The model page says a few minutes of continuous interaction and notes drift, physical/spatial and audio limitations.",
+    "The evaluation protocol in the article is our proposal, not a Google benchmark or established simulator accuracy."
+  ],
+  "visual": {
+    "domain": "ai",
+    "accent": "#5958B2",
+    "surface": "#F0EFFA",
+    "central_question": "Which generated-world properties remain stable when agents and users intervene?",
+    "shared_motif": "Violet landscape changes under guidance with cyan sound ripples and observable frames.",
+    "cover_phrase": "WORLDS IN MOTION",
+    "infographic_argument": "Generate and steer; separate agent from world; test persistent objects, spatial behavior, audio and event history.",
+    "status": "Conceptual artwork, not an actual Genie screenshot or measured accuracy claim."
+  }
+}
