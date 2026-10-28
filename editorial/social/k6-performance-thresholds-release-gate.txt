@@ -1,0 +1,15 @@
+k6: Turn Performance Expectations Into a Test Result
+
+Grafana k6 lets a team express latency and failure-rate requirements as thresholds in a JavaScript test. Unlike a failed check alone, a breached threshold returns a non-zero exit code, which can make a bounded performance test useful as a release gate.
+
+Our assessment: start with one meaningful request, a representative dataset and written criteria. A short example with two virtual users for 20 seconds can show whether the mechanism works; it cannot prove capacity. Record the application version, script, configuration and load-generator location so later comparisons mean something.
+
+Add checks for response correctness and a threshold on the checks metric when an unusable response should fail the run. Choose targets for the service rather than copying someone else's numbers.
+
+Which request best represents a performance promise your team makes to users?
+
+Full analysis: https://techmindhub.cc/posts/k6-performance-thresholds-release-gate/
+Release: https://github.com/grafana/k6/releases/tag/v2.3.0
+Guide: https://grafana.com/docs/k6/latest/using-k6/thresholds/
+
+#OpenSource #PerformanceTesting #DeveloperTools #SoftwareEngineering #TechMindHub

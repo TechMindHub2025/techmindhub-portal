@@ -1,0 +1,92 @@
+[
+  {
+    "file": "data-centre-cooling-materials-ledger-card-original-v1.png",
+    "dimensions": [
+      1672,
+      941
+    ],
+    "bytes": 2064340,
+    "sha256": "08644dbc889db0bf7daa9d2e5a502ae3477f6eaf969c306a8d42e7308982a26d"
+  },
+  {
+    "file": "data-centre-cooling-materials-ledger-infographic-original-v1.png",
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "bytes": 1644678,
+    "sha256": "374bed9a28476e63891bac4010d6a0f731a8e64526f9c8b297ada482a7cf2742"
+  },
+  {
+    "file": "data-centre-cooling-materials-ledger-card-web-v1.webp",
+    "dimensions": [
+      800,
+      450
+    ],
+    "bytes": 391620,
+    "sha256": "770a4059ccc361e253b034911ea2a3dae0d61a3750adfccf810732087bca6e2f"
+  },
+  {
+    "file": "data-centre-cooling-materials-ledger-infographic-web-v1.webp",
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "bytes": 1118320,
+    "sha256": "4b683d78bcf5c544b247a9a7f0f851a822f40e1ee6ebac63f5be892fe238061a"
+  },
+  {
+    "file": "data-centre-cooling-materials-ledger-og-web-v1.jpg",
+    "dimensions": [
+      1200,
+      630
+    ],
+    "bytes": 321092,
+    "sha256": "48eee38ccb1f99a5403f80ddea9a3885b5a0fcd0ce0ba7a8e3ed7c32a117c811"
+  },
+  {
+    "file": "k6-performance-thresholds-release-gate-card-original-v1.png",
+    "dimensions": [
+      1672,
+      941
+    ],
+    "bytes": 1253590,
+    "sha256": "5000d484d918aea40cebdd502b53b32946303721de8381e597f20f4bf28349a8"
+  },
+  {
+    "file": "k6-performance-thresholds-release-gate-infographic-original-v1.png",
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "bytes": 1289356,
+    "sha256": "7bd1c20757ebd906dac91c503787f73cda03c7bcca29697289ce89982f8750b2"
+  },
+  {
+    "file": "k6-performance-thresholds-release-gate-card-web-v1.webp",
+    "dimensions": [
+      800,
+      450
+    ],
+    "bytes": 210752,
+    "sha256": "74aad17b0844b81b5d4a67d46ab3ff915ae69d0c3fde32bc44fee3ea5d466cc0"
+  },
+  {
+    "file": "k6-performance-thresholds-release-gate-infographic-web-v1.webp",
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "bytes": 846930,
+    "sha256": "02d7ce850a58cc2c17e586344ed5fd4d6bcb94b139d45ebc75b94a18f2e23ee4"
+  },
+  {
+    "file": "k6-performance-thresholds-release-gate-og-web-v1.jpg",
+    "dimensions": [
+      1200,
+      630
+    ],
+    "bytes": 173404,
+    "sha256": "f444d95f734966e2530c9fc35624da282c252945512705584467c14625c9050a"
+  }
+]
