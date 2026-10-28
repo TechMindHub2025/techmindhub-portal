@@ -1,0 +1,47 @@
+[
+  {
+    "file": "genie-4-interactive-worlds-card-original-v1.png",
+    "dimensions": [
+      1672,
+      941
+    ],
+    "bytes": 2099935,
+    "sha256": "46159aab0118cc91c35cb395cdb578ad40926ae73a4df69a8393a4f032223321"
+  },
+  {
+    "file": "genie-4-interactive-worlds-infographic-original-v1.png",
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "bytes": 2085264,
+    "sha256": "b04d49ec5f2889449dd0ae6b4ccd27c708e8e875063c73b36869c05710802816"
+  },
+  {
+    "file": "genie-4-interactive-worlds-card-web-v1.webp",
+    "dimensions": [
+      800,
+      450
+    ],
+    "bytes": 408604,
+    "sha256": "d87126e418bb422badb63baac1ff50ad110f4b5a718395a17d32941763036e24"
+  },
+  {
+    "file": "genie-4-interactive-worlds-infographic-web-v1.webp",
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "bytes": 1591480,
+    "sha256": "aae41479b804ad630cbe4dffda0834554a8d2de1f32aba206add3d1b2ea77ecc"
+  },
+  {
+    "file": "genie-4-interactive-worlds-og-web-v1.jpg",
+    "dimensions": [
+      1200,
+      630
+    ],
+    "bytes": 344982,
+    "sha256": "d44f1490592834ca8909ff2e150b29c397d813ba9dedd8a8ba2863dae190c612"
+  }
+]
