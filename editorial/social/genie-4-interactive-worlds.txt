@@ -1,0 +1,15 @@
+Genie 4 Adds Audio and Live Direction to Generated Worlds
+
+Google DeepMind announced Genie 4 on October 27. Its research preview lets trusted testers navigate generated scenes, change them with natural language while they run, and hear native audio including ambient sound, music and dialogue. Wider access through Project Genie and developer channels is still forthcoming.
+
+Google describes Gemini 3.8 Flash as a guiding agent that observes frames and adjusts a plan while Genie generates the scene. Its model page also warns that object permanence, spatial accuracy, complex interactions, audio accuracy and long-term consistency remain open problems. Sessions currently support a few minutes of continuous interaction.
+
+Our assessment: this can accelerate creative drafts, but agent evaluation needs a different test. Separate instructions to the agent from instructions that alter the world. Keep an event log and judge outcomes against independently specified criteria. Otherwise a successful sequence may be difficult to attribute to the agent rather than a steered environment.
+
+What would you require from a generated world before using it to evaluate an autonomous agent?
+
+Full analysis: https://techmindhub.cc/posts/genie-4-interactive-worlds/
+Announcement: https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/
+Limitations: https://deepmind.google/models/genie/
+
+#AI #WorldModels #GenerativeAI #Simulation #AgenticAI #TechMindHub
