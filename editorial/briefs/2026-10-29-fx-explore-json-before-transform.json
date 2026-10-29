@@ -1,0 +1,20 @@
+{
+  "slug": "fx-explore-json-before-transform",
+  "checked": "2026-10-29",
+  "sources": [
+    "https://github.com/antonmedv/fx/releases/tag/40.0.1",
+    "https://fx.wtf/getting-started"
+  ],
+  "claims_and_limits": [
+    "Conceptual JSON exploration; no executable expression on the artwork."
+  ],
+  "visual": {
+    "domain": "software",
+    "accent": "#80549E",
+    "surface": "#F5EFF8",
+    "cover_phrase": "EXPLORE THE DATA",
+    "infographic_title": "FROM RESPONSE TO QUERY",
+    "shared_motif": "Same article-specific object across cover and explanatory image; distinct compositions.",
+    "status": "Conceptual JSON exploration; no executable expression on the artwork."
+  }
+}

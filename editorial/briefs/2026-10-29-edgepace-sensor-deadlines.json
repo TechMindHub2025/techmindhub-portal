@@ -1,0 +1,19 @@
+{
+  "slug": "edgepace-sensor-deadlines",
+  "checked": "2026-10-29",
+  "sources": [
+    "https://arxiv.org/abs/2610.37307"
+  ],
+  "claims_and_limits": [
+    "Conceptual sensor and memory contention; no safety or throughput guarantee."
+  ],
+  "visual": {
+    "domain": "ai",
+    "accent": "#5958B2",
+    "surface": "#F0EFFA",
+    "cover_phrase": "TIME FOR THE SENSORS",
+    "infographic_title": "INFERENCE WITH DEADLINES",
+    "shared_motif": "Same article-specific object across cover and explanatory image; distinct compositions.",
+    "status": "Conceptual sensor and memory contention; no safety or throughput guarantee."
+  }
+}

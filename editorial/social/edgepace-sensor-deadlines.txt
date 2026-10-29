@@ -1,0 +1,8 @@
+A local AI model may fit on a device yet compete with the sensors that make its decisions useful. EdgePace proposes pausing inference around foreground deadlines and observation freshness.
+
+In one OnePlus 13 experiment, the authors report a drop in missed camera deadlines from 66.78% to 5.83% while retaining 90.4% of model throughput. This is a preprint result for a specified workload. Our analysis asks how to test timely decisions and handle remaining misses.
+
+Read the analysis: https://techmindhub.cc/posts/edgepace-sensor-deadlines/
+Source: https://arxiv.org/abs/2610.37307
+
+#EdgeAI #ComputerArchitecture #EmbeddedSystems #LLM #SystemsEngineering #TechMindHub

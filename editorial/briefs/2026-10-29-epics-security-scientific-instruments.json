@@ -1,0 +1,20 @@
+{
+  "slug": "epics-security-scientific-instruments",
+  "checked": "2026-10-29",
+  "sources": [
+    "https://epics.anl.gov/epics/base/R7-0/11.php",
+    "https://causalsecurity.com/research/epics-base-security-research"
+  ],
+  "claims_and_limits": [
+    "Conceptual controller and scientific instrument; not a diagram of deployed EPICS hardware."
+  ],
+  "visual": {
+    "domain": "digital-trust",
+    "accent": "#966020",
+    "surface": "#FBF3E6",
+    "cover_phrase": "SECURE THE CONTROL LOOP",
+    "infographic_title": "PATCH, THEN PROVE",
+    "shared_motif": "Same article-specific object across cover and explanatory image; distinct compositions.",
+    "status": "Conceptual controller and scientific instrument; not a diagram of deployed EPICS hardware."
+  }
+}
