@@ -1,0 +1,8 @@
+Four memory-safety flaws in EPICS Base have fixes in 7.0.11. For scientific facilities, the next question is whether the upgraded controllers still work with older clients.
+
+The maintainers explicitly recommend interoperability and application testing. Our analysis follows the sequence from patch to representative acquisition, monitoring and command workflows. The autonomous discovery timing is Causal Security's reported result, not a general benchmark.
+
+Read the analysis: https://techmindhub.cc/posts/epics-security-scientific-instruments/
+Sources: https://epics.anl.gov/epics/base/R7-0/11.php · https://causalsecurity.com/research/epics-base-security-research
+
+#Cybersecurity #ScientificInfrastructure #ControlSystems #AgenticAI #OpenSource #TechMindHub
