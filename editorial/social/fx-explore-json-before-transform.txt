@@ -1,0 +1,8 @@
+Before writing a JSON transformation, inspect the response that actually arrived. fx 40 introduced live interactive queries and key completion; 40.0.1 is a maintenance release.
+
+A short workflow: open a captured response, explore its structure, preserve a useful JavaScript expression, and test what happens with missing fields or unexpected types. Extracting ten records does not prove the API should have returned ten.
+
+Read the analysis: https://techmindhub.cc/posts/fx-explore-json-before-transform/
+Project: https://github.com/antonmedv/fx · Guide: https://fx.wtf/getting-started
+
+#OpenSource #DeveloperTools #JSON #API #SoftwareEngineering #TechMindHub
