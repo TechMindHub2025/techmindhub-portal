@@ -8,7 +8,7 @@ canonical_id: "2026-10-29-fx-explore-json-before-transform"
 tags: ["OpenSource", "DeveloperTools", "JSON", "API", "SoftwareEngineering", "TechMindHub"]
 source_url: "https://github.com/antonmedv/fx/releases/tag/40.0.1"
 cover_card: "https://media.techmindhub.cc/posts/fx-explore-json-before-transform-card-web-v1.webp"
-cover_hero: "https://media.techmindhub.cc/posts/fx-explore-json-before-transform-infographic-web-v1.webp"
+cover_hero: "https://media.techmindhub.cc/posts/fx-explore-json-before-transform-infographic-web-v2.webp"
 cover_og: "https://media.techmindhub.cc/posts/fx-explore-json-before-transform-og-web-v1.jpg"
 domain: "software"
 topic: "JSON investigation"
