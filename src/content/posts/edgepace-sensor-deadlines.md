@@ -8,7 +8,7 @@ canonical_id: "2026-10-29-edgepace-sensor-deadlines"
 tags: ["EdgeAI", "ComputerArchitecture", "EmbeddedSystems", "LLM", "SystemsEngineering", "TechMindHub"]
 source_url: "https://arxiv.org/abs/2610.37307"
 cover_card: "https://media.techmindhub.cc/posts/edgepace-sensor-deadlines-card-web-v1.webp"
-cover_hero: "https://media.techmindhub.cc/posts/edgepace-sensor-deadlines-infographic-web-v1.webp"
+cover_hero: "https://media.techmindhub.cc/posts/edgepace-sensor-deadlines-infographic-web-v2.webp"
 cover_og: "https://media.techmindhub.cc/posts/edgepace-sensor-deadlines-og-web-v1.jpg"
 domain: "ai"
 topic: "Edge AI timing"
