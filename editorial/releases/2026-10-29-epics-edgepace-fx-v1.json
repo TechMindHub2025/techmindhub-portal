@@ -1,0 +1,137 @@
+[
+  {
+    "file": "epics-security-scientific-instruments-card-original-v1.png",
+    "dimensions": [
+      1672,
+      941
+    ],
+    "bytes": 2015782,
+    "sha256": "0bb019b456a15a53a290d4f3e25e88619795bebe56f01c9111999c7f4a4b9bc9"
+  },
+  {
+    "file": "epics-security-scientific-instruments-infographic-original-v1.png",
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "bytes": 1623607,
+    "sha256": "f4d886e8199675f32af45a44751a1f9e8566015172e35e46e0b3a7e4cde7ca15"
+  },
+  {
+    "file": "epics-security-scientific-instruments-card-web-v1.webp",
+    "dimensions": [
+      800,
+      450
+    ],
+    "bytes": 420792,
+    "sha256": "68f39b86bd3722c30b5eb05d370f4b4d48704989e831835550e7f4ee6cc0b953"
+  },
+  {
+    "file": "epics-security-scientific-instruments-infographic-web-v1.webp",
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "bytes": 1140596,
+    "sha256": "c5f805fd501823a9c52710691119ba13623b1424989781d1b58d2251d87f9ebf"
+  },
+  {
+    "file": "epics-security-scientific-instruments-og-web-v1.jpg",
+    "dimensions": [
+      1200,
+      630
+    ],
+    "bytes": 391405,
+    "sha256": "392ba6a6a52dd7c2028cfb6ae301d95d8edf291abc709715d4f6715b925f7aa9"
+  },
+  {
+    "file": "edgepace-sensor-deadlines-card-original-v1.png",
+    "dimensions": [
+      1672,
+      941
+    ],
+    "bytes": 2122458,
+    "sha256": "6dbb57848e7bc6146080af95ce27d6b01b3c11caa7aafe8b32b12b7e00d8df8d"
+  },
+  {
+    "file": "edgepace-sensor-deadlines-infographic-original-v1.png",
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "bytes": 1302820,
+    "sha256": "6bfa18dbfb5a45ae8e04d5c123ff002091a20868ee413642f52c51b88f48dc73"
+  },
+  {
+    "file": "edgepace-sensor-deadlines-card-web-v1.webp",
+    "dimensions": [
+      800,
+      450
+    ],
+    "bytes": 453964,
+    "sha256": "f479fda589675f06bcb303eafce5045f8673f3e0d01f204fbf4d53122a2312d1"
+  },
+  {
+    "file": "edgepace-sensor-deadlines-infographic-web-v1.webp",
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "bytes": 853688,
+    "sha256": "583f024048c0fc8449c04c2882eba6fb2c4c51043e2b05a86dbf2ea4d5cc5bf8"
+  },
+  {
+    "file": "edgepace-sensor-deadlines-og-web-v1.jpg",
+    "dimensions": [
+      1200,
+      630
+    ],
+    "bytes": 397747,
+    "sha256": "7afc5e25091f234fad6382af6716fc9776b69950df742782699c9c3edb1701d8"
+  },
+  {
+    "file": "fx-explore-json-before-transform-card-original-v1.png",
+    "dimensions": [
+      1672,
+      941
+    ],
+    "bytes": 1426719,
+    "sha256": "4138acdeb6ffb272cfdfed3994a5f3e74bb6eb09d9861f9ffe313d8eae1f40aa"
+  },
+  {
+    "file": "fx-explore-json-before-transform-infographic-original-v1.png",
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "bytes": 1632836,
+    "sha256": "3c1502f71d662e61bcd7b462fa1d1f8de6eff7f758cfc164569246b9250befa4"
+  },
+  {
+    "file": "fx-explore-json-before-transform-card-web-v1.webp",
+    "dimensions": [
+      800,
+      450
+    ],
+    "bytes": 244426,
+    "sha256": "c5919e656c15afe95b18a17037b12d267f1d715a7b36dcaa071b1fca1df3ede0"
+  },
+  {
+    "file": "fx-explore-json-before-transform-infographic-web-v1.webp",
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "bytes": 1147566,
+    "sha256": "7a58a6cd4a732ebb7fa4af9c8dfc3b40fb2b826857a44a804a5385e51a739543"
+  },
+  {
+    "file": "fx-explore-json-before-transform-og-web-v1.jpg",
+    "dimensions": [
+      1200,
+      630
+    ],
+    "bytes": 153665,
+    "sha256": "84d74ca7d7405422c60fef55d62a385f659587d79544b4881df88c2a5d2382f3"
+  }
+]
