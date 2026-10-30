@@ -1,0 +1,137 @@
+[
+  {
+    "file": "walmart-automation-beyond-warehouse-card-original-v1.png",
+    "dimensions": [
+      1672,
+      941
+    ],
+    "bytes": 2013156,
+    "sha256": "00991698fc5f15c5749cf7c592fb90cd5a9057676779a0cc697a41c87e09a278"
+  },
+  {
+    "file": "walmart-automation-beyond-warehouse-infographic-original-v1.png",
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "bytes": 2217463,
+    "sha256": "69faa74f1a1d11ed296546e3bf6b7329d5fc4ae9f7e714a0100b9ac04c18abac"
+  },
+  {
+    "file": "walmart-automation-beyond-warehouse-card-web-v1.webp",
+    "dimensions": [
+      800,
+      450
+    ],
+    "bytes": 410676,
+    "sha256": "9fddcf4d53496b95b3610b1353ae946a2e536135438cfcb11e4ecbbc4af54c6c"
+  },
+  {
+    "file": "walmart-automation-beyond-warehouse-infographic-web-v1.webp",
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "bytes": 1662018,
+    "sha256": "3f2bf7ead7458c441a1e19cfa329cb054bec8dddcc34d074d0733e9b7eff43a5"
+  },
+  {
+    "file": "walmart-automation-beyond-warehouse-og-web-v1.jpg",
+    "dimensions": [
+      1200,
+      630
+    ],
+    "bytes": 379567,
+    "sha256": "5134cf7864196132d364e1a3a8a14a8f79dc0d61d844c993a2f680f048893e47"
+  },
+  {
+    "file": "psiquantum-optical-switch-network-design-card-original-v1.png",
+    "dimensions": [
+      1672,
+      941
+    ],
+    "bytes": 1658564,
+    "sha256": "0a99d442f842889399bb24dbce35c70bde9ed74993d5603e0c86c105c9267bdc"
+  },
+  {
+    "file": "psiquantum-optical-switch-network-design-infographic-original-v1.png",
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "bytes": 1640670,
+    "sha256": "9d56a969fd127eaa6df4fb1077aded66b524d88390334eb488fe6d7caec24258"
+  },
+  {
+    "file": "psiquantum-optical-switch-network-design-card-web-v1.webp",
+    "dimensions": [
+      800,
+      450
+    ],
+    "bytes": 318924,
+    "sha256": "049bf626e8359e9808b9bef2c838c9ff9381e19e7c7e9776e393436e456fbb64"
+  },
+  {
+    "file": "psiquantum-optical-switch-network-design-infographic-web-v1.webp",
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "bytes": 1101184,
+    "sha256": "f519944bec91eb8270ee0c4e81db0803c6ed43adb7696f4672935e01d8825014"
+  },
+  {
+    "file": "psiquantum-optical-switch-network-design-og-web-v1.jpg",
+    "dimensions": [
+      1200,
+      630
+    ],
+    "bytes": 242718,
+    "sha256": "be1ab746950b791c2d292f6dd0a13f841b4593344208dd609fe96fd3af7127fa"
+  },
+  {
+    "file": "sops-versioned-encrypted-configuration-card-original-v1.png",
+    "dimensions": [
+      1730,
+      909
+    ],
+    "bytes": 1560965,
+    "sha256": "f3ea56b61f8acae03e9c8b234cd96f01014f1291f1cc20ada9b887febf4bfe64"
+  },
+  {
+    "file": "sops-versioned-encrypted-configuration-infographic-original-v1.png",
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "bytes": 1524752,
+    "sha256": "1d0e518abb4d1608cdc043488dfc0000cf3c3f0f4bdd1102d6e1f788f23fc0a4"
+  },
+  {
+    "file": "sops-versioned-encrypted-configuration-card-web-v1.webp",
+    "dimensions": [
+      800,
+      420
+    ],
+    "bytes": 239636,
+    "sha256": "4b08c86778ea5e815ffef8c7130366a7822f4fa537f2cacd65c2f601d9d59653"
+  },
+  {
+    "file": "sops-versioned-encrypted-configuration-infographic-web-v1.webp",
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "bytes": 1033984,
+    "sha256": "81bedddee54e924b711f4fa8eb403058fb854111a1538af2978c7e45c64d58c3"
+  },
+  {
+    "file": "sops-versioned-encrypted-configuration-og-web-v1.jpg",
+    "dimensions": [
+      1200,
+      630
+    ],
+    "bytes": 171111,
+    "sha256": "bb0d2887046833284d5035a0d2e4e1d1a3cc77bda20c23ff4a0ba1d800dab0b4"
+  }
+]

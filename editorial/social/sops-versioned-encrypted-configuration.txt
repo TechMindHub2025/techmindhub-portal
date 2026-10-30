@@ -1,0 +1,8 @@
+SOPS can keep the structure of an encrypted configuration file in version control while controlling who can read its values. It supports a practical workflow: review the fields beside an application change, then edit with an authorised identity.
+
+Our analysis starts with dummy credentials and follows plaintext into deployment. It also separates three tasks that are often conflated: changing recipients, rotating a file's data-encryption key and replacing the service password or token inside it.
+
+Read the analysis: https://techmindhub.cc/posts/sops-versioned-encrypted-configuration/
+Project: https://github.com/getsops/sops · Guide: https://getsops.io/docs/usage/key-management/
+
+#OpenSource #SecretsManagement #GitOps #DevSecOps #DeveloperTools #TechMindHub

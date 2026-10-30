@@ -1,0 +1,8 @@
+PsiQuantum reports an 8×8 optical circuit-switching demonstrator with typical laboratory insertion loss of 1.2 dB and reconfiguration in less than three milliseconds. Samples are going to selected prospective customers; this is not a deployed AI-cluster result.
+
+Reconfiguration time is not the delay of every packet on an established path. Our analysis asks when a circuit is worth setting up, how a scheduler handles changing traffic and what the full optical link loses beyond one switch.
+
+Read the analysis: https://techmindhub.cc/posts/psiquantum-optical-switch-network-design/
+Sources: https://www.psiquantum.com/news-import/psiquantum-unveils-optical-circuit-switch-technology-built-on-advanced-low-loss-silicon-photonics-platform · https://www.psiquantum.com/optical-circuit-switching
+
+#SiliconPhotonics #OpticalNetworking #AIInfrastructure #DataCenters #Engineering #TechMindHub
