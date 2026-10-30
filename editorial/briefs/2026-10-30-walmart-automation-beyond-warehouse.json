@@ -1,0 +1,23 @@
+{
+  "slug": "walmart-automation-beyond-warehouse",
+  "checked": "2026-10-30",
+  "sources": [
+    "https://www.symbotic.com/news/walmart-and-symbotic-expand-commercial-agreement-to-support-supply-chain-transformation/",
+    "https://www.symbotic.com/solutions/distribution-solution/"
+  ],
+  "claims_and_limits": [
+    "Commercial commitment for 25 US regional distribution centres, not evidence that new installations are complete.",
+    "Vendor describes inbound handling, storage, sequencing and pallet construction; do not assign site performance figures to the new agreement.",
+    "Artwork is a conceptual goods-flow illustration, not Symbotic equipment photography or a tested pallet layout."
+  ],
+  "visual": {
+    "domain": "robotics",
+    "accent": "#AC5943",
+    "surface": "#FAF0EB",
+    "cover_phrase": "BEYOND THE WAREHOUSE",
+    "infographic_title": "THE WHOLE FLOW",
+    "infographic_labels": ["RECEIVE", "STORE", "SEQUENCE", "REPLENISH"],
+    "shared_motif": "Mixed goods, robotic handling, storage grid and downstream store; cover and infographic use distinct compositions.",
+    "status": "Conceptual editorial artwork; no measured claim."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "psiquantum-optical-switch-network-design",
+  "checked": "2026-10-30",
+  "sources": [
+    "https://www.psiquantum.com/news-import/psiquantum-unveils-optical-circuit-switch-technology-built-on-advanced-low-loss-silicon-photonics-platform",
+    "https://www.psiquantum.com/optical-circuit-switching"
+  ],
+  "claims_and_limits": [
+    "8×8 device and typical 1.2 dB loss and under 3 ms reconfiguration are PsiQuantum laboratory reports.",
+    "Reconfiguration time is not per-packet latency on an established circuit.",
+    "Artwork is conceptual and does not depict a faithful PsiQuantum photonic schematic or full link budget."
+  ],
+  "visual": {
+    "domain": "photonics",
+    "accent": "#267F9E",
+    "surface": "#EDF7FA",
+    "cover_phrase": "ROUTING LIGHT",
+    "infographic_title": "PATH, TIME, LOSS",
+    "infographic_labels": ["ESTABLISHED PATH", "RECONFIGURATION", "END-TO-END BUDGET"],
+    "shared_motif": "Switchable luminous optical path in silicon photonics, with distinct cover and three-part explanatory image.",
+    "status": "Conceptual editorial artwork; no measured diagram."
+  }
+}
