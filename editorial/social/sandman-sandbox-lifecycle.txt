@@ -1,0 +1,10 @@
+A training worker can stop waiting for a sandbox while Kubernetes continues creating it. When retries overlap, the system needs to account for late pods and confirm that abandoned ones are removed.
+
+Amazon's Sandman preprint reports a controlled test with 11,858 concurrent tiny sandboxes. That result is specific to its test configuration. The operational lesson is about ownership across cancellation, reconciliation and cleanup.
+
+Our analysis proposes interrupting acquisition at several points, then comparing intended environments with actual resources. The important question is which sandboxes still exist, and why.
+
+Read the analysis: https://techmindhub.cc/posts/sandman-sandbox-lifecycle/
+Paper: https://arxiv.org/abs/2610.39711 · Kubernetes background: https://kubernetes.io/docs/concepts/architecture/garbage-collection/
+
+#AgenticAI #Kubernetes #AIInfrastructure #DistributedSystems #Engineering #TechMindHub

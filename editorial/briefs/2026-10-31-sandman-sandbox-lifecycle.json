@@ -1,0 +1,25 @@
+{
+  "slug": "sandman-sandbox-lifecycle",
+  "checked": "2026-10-31",
+  "sources": [
+    "https://arxiv.org/abs/2610.39711",
+    "https://arxiv.org/html/2610.39711v1",
+    "https://kubernetes.io/docs/concepts/architecture/garbage-collection/"
+  ],
+  "claims_and_limits": [
+    "The author-reported 11,858 concurrent sandboxes were tiny pods in a controlled scale test, not general capacity.",
+    "The preprint describes internal production model development and promises a future open-source release.",
+    "Containers share the host kernel; the authors do not claim malicious co-tenant isolation.",
+    "A real cancelled-create incident informed the lifecycle assessment, while the illustrated sequence is conceptual."
+  ],
+  "visual": {
+    "domain": "infrastructure",
+    "accent": "#426F94",
+    "surface": "#EEF3F8",
+    "cover_phrase": "WHO CLEANS UP?",
+    "infographic_title": "THE LIFECYCLE OUTLIVES THE REQUEST",
+    "infographic_labels": ["REQUEST", "TIMEOUT + RETRY", "RECONCILE", "CONFIRM DELETION"],
+    "shared_motif": "Contained pods and a visible ownership/reconciliation path; separate horizontal cover and vertical lifecycle figure.",
+    "status": "Conceptual lifecycle illustration, not a literal Sandman architecture diagram."
+  }
+}

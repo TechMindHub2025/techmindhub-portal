@@ -1,0 +1,23 @@
+{
+  "slug": "ruff-reviewable-automated-fixes",
+  "checked": "2026-10-31",
+  "sources": [
+    "https://github.com/astral-sh/ruff/releases/tag/0.17.3",
+    "https://docs.astral.sh/ruff/linter/"
+  ],
+  "claims_and_limits": [
+    "Release notes for v0.17.3 are dated October 26, 2026 and include an f-string-conversion bug fix.",
+    "Default automatic lint fixes are classified safe; unsafe fixes require explicit opt-in under default settings.",
+    "A lint result covers enabled rules only, and safe classification is not proof of application correctness."
+  ],
+  "visual": {
+    "domain": "software",
+    "accent": "#80549E",
+    "surface": "#F5EFF8",
+    "cover_phrase": "REVIEW THE DIFF",
+    "infographic_title": "INSPECT. FIX. VERIFY.",
+    "infographic_labels": ["INSPECT", "FIX", "VERIFY", "Unsafe fixes need explicit opt-in"],
+    "shared_motif": "Reviewable diff and a deliberate three-stage workflow; horizontal cover and vertical explanatory image are distinct.",
+    "status": "Conceptual editorial artwork, not an actual Ruff output screenshot."
+  }
+}
