@@ -1,0 +1,10 @@
+OpenAI and Google plan to support a common robots.txt signal for websites' AI-training preferences. The proposed `__usage_ai-training` token could reduce the need for a separate instruction for each participating provider.
+
+Support is still forthcoming: OpenAI targets the coming months and Google 2027. The specification is an individual Internet-Draft, and the signal expresses a use preference rather than blocking crawling.
+
+Our analysis asks what happens after retrieval. A provider needs to carry the observed preference through dataset preparation and training decisions if the shared signal is to be accountable in practice.
+
+Read the analysis: https://techmindhub.cc/posts/ai-training-shared-preference-signal/
+Sources: https://openai.com/index/helping-websites-express-ai-training-preferences/ · https://developers.google.com/search/blog/2026/10/ai-training-control · https://datatracker.ietf.org/doc/draft-kelley-aipref-training-preference-signal/
+
+#AIGovernance #OpenWeb #AITraining #WebStandards #TechMindHub

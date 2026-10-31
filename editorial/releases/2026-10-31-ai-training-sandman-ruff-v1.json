@@ -1,0 +1,137 @@
+[
+  {
+    "file": "ai-training-shared-preference-signal-card-original-v1.png",
+    "dimensions": [
+      1672,
+      941
+    ],
+    "bytes": 1524042,
+    "sha256": "b00a5f747b8bd738df661a992b231d497520055e8f7d919c0bf477e766f66715"
+  },
+  {
+    "file": "ai-training-shared-preference-signal-infographic-original-v1.png",
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "bytes": 1578395,
+    "sha256": "64d874bf7e6462bab850b1e3951a5249a895599cb1b877a2628e9e1b8683fe26"
+  },
+  {
+    "file": "ruff-reviewable-automated-fixes-card-original-v1.png",
+    "dimensions": [
+      1672,
+      941
+    ],
+    "bytes": 1555199,
+    "sha256": "9e7fdbd77b274c251ced5e09a326b7a3037cad0766681c0f5c33d842fa0abfe3"
+  },
+  {
+    "file": "ruff-reviewable-automated-fixes-infographic-original-v1.png",
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "bytes": 1652903,
+    "sha256": "54f7ec770b98235be511fd051bbaeda14dd79077ae77a38d09e927a43e31f51b"
+  },
+  {
+    "file": "sandman-sandbox-lifecycle-card-original-v1.png",
+    "dimensions": [
+      1672,
+      941
+    ],
+    "bytes": 1607753,
+    "sha256": "1ab067a8e83e07cce6f19f47025f5c0a816a6d14aab2b043e01bc01d7ac86f94"
+  },
+  {
+    "file": "sandman-sandbox-lifecycle-infographic-original-v1.png",
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "bytes": 1713680,
+    "sha256": "96748f4697fc343f1955aaaf57885a1bfe28c56958b18673d473c4208d7d22a2"
+  },
+  {
+    "file": "ai-training-shared-preference-signal-card-web-v1.webp",
+    "dimensions": [
+      800,
+      450
+    ],
+    "bytes": 269492,
+    "sha256": "e1d40aaad490d069ee46f970c6f166101a579bd5fb60f476db99aae156868967"
+  },
+  {
+    "file": "ai-training-shared-preference-signal-infographic-web-v1.webp",
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "bytes": 1026626,
+    "sha256": "280e97576acfd708daccf2b864a899b333a50e0a914f9f1d2dfa8c797b2180fe"
+  },
+  {
+    "file": "ai-training-shared-preference-signal-og-web-v1.jpg",
+    "dimensions": [
+      1200,
+      630
+    ],
+    "bytes": 213661,
+    "sha256": "cafa675fe969a8657575c6fd3486f7b06ba9e5e75e78ecb14c377ffcd7593612"
+  },
+  {
+    "file": "ruff-reviewable-automated-fixes-card-web-v1.webp",
+    "dimensions": [
+      800,
+      450
+    ],
+    "bytes": 270920,
+    "sha256": "493014ea4cedc3b6a78488e6545d925cd6413aec7e0cb0a6e085bdf129e1a814"
+  },
+  {
+    "file": "ruff-reviewable-automated-fixes-infographic-web-v1.webp",
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "bytes": 1126794,
+    "sha256": "4594d094c96ca7728139943dd190a708a462909120fc576c5c145f789c452052"
+  },
+  {
+    "file": "ruff-reviewable-automated-fixes-og-web-v1.jpg",
+    "dimensions": [
+      1200,
+      630
+    ],
+    "bytes": 192363,
+    "sha256": "1a19f48a2bb2c6c1361c5b87646d2ea35237b988ad6858750774d05260599874"
+  },
+  {
+    "file": "sandman-sandbox-lifecycle-card-web-v1.webp",
+    "dimensions": [
+      800,
+      450
+    ],
+    "bytes": 301064,
+    "sha256": "6563b77bdf1cedbf6cebee60ce1a8967d7904fa651f9188f11a657142f76f0e8"
+  },
+  {
+    "file": "sandman-sandbox-lifecycle-infographic-web-v1.webp",
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "bytes": 1191348,
+    "sha256": "d49a4b12e4b842415cc022e17095d78450af0580012e4c24b36e7b379c5b843e"
+  },
+  {
+    "file": "sandman-sandbox-lifecycle-og-web-v1.jpg",
+    "dimensions": [
+      1200,
+      630
+    ],
+    "bytes": 228218,
+    "sha256": "8beffb7e66afb95f1fcd6b07d6089681abaf2f12c8774eae8861ef7874edd363"
+  }
+]

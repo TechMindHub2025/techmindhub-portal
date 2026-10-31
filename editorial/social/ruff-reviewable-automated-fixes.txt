@@ -1,0 +1,10 @@
+Ruff makes it easy to inspect lint and format findings, then apply available fixes. A productive workflow keeps those operations distinct: inspect, review the changed diff, and test the behaviour that matters.
+
+Under default settings, `ruff check --fix .` applies fixes classified as safe. Unsafe fixes require an explicit choice. Even a safe classification describes the tool's intended transformation, not proof of correctness for a particular application.
+
+Start with a small rule set and keep the Ruff version and configuration in the project. A clean lint result then has a precise meaning: the enabled checks passed.
+
+Read the analysis: https://techmindhub.cc/posts/ruff-reviewable-automated-fixes/
+Release: https://github.com/astral-sh/ruff/releases/tag/0.17.3 · Guide: https://docs.astral.sh/ruff/linter/
+
+#Python #OpenSource #DeveloperTools #CodeQuality #SoftwareEngineering #TechMindHub
