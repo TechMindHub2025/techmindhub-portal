@@ -9,6 +9,7 @@ const posts = defineCollection({
     title: z.string(),
     description: z.string(),
     excerpt: z.string().optional(),
+    author: z.string().min(1).default("Andrew Rover"),
 
     // Accepts "2026-02-13" and coerces to Date
     pubDate: z.coerce.date(),

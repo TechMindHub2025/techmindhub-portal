@@ -19,12 +19,12 @@ if (post.data.status !== "published") {
   return Astro.redirect("/posts");
 }
 
-const { title, description, pubDate, tags, source_url, cover_hero, cover_alt, social } = post.data;
+const { title, description, pubDate, author, tags, source_url, cover_hero, cover_alt, social } = post.data;
 const { Content } = await render(post);
 const ogImage = new URL(post.data.cover_og!, "https://techmindhub.cc").href;
 ---
 
-<BaseLayout title={title} description={description} ogImage={ogImage} ogType="article" compactHeader>
+<BaseLayout title={title} description={description} author={author} ogImage={ogImage} ogType="article" compactHeader>
   <article class="post">
     <header class="post__header">
       {post.data.topic && <a class="post__topic" href={`/tags/${encodeURIComponent(tags[0])}/`}>{post.data.topic}</a>}
@@ -32,6 +32,8 @@ const ogImage = new URL(post.data.cover_og!, "https://techmindhub.cc").href;
       <p class="post__description">{description}</p>
 
       <div class="post__meta">
+        <span>By {author}</span>
+        <span class="dot">·</span>
         <time datetime={pubDate.toISOString()}>
           {pubDate.toISOString().slice(0, 10)}
         </time>

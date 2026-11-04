@@ -2,7 +2,7 @@
 title: "LLMJacking: How Stolen AI Credentials Become a Cloud Infrastructure Business"
 description: "Google and Mandiant describe unauthorized AI-resource use and proxy resale in 2026 investigations. Protecting model access requires identity, quota and billing controls together."
 excerpt: "An exposed AI credential can be converted into model calls, GPU resources and resale. Billing anomalies can be a security signal, but only if someone can act in time."
-pubDate: "2026-11-04"
+pubDate: "2026-11-04T13:02:00Z"
 status: "published"
 canonical_id: "2026-11-04-llmjacking-stolen-ai-capacity"
 tags: ["Cybersecurity", "AIInfrastructure", "CloudSecurity", "Identity", "TechMindHub"]

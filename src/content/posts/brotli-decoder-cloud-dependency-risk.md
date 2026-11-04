@@ -2,7 +2,7 @@
 title: "The Brotli Vulnerability: When a Decoder Becomes a Cloud Security Risk"
 description: "The October 2026 Brotli decoder vulnerability shows why runtime patches, container rebuilds and managed-service boundaries need separate verification."
 excerpt: "One low-level decoder can appear in several deployment paths. The repair is complete only when the affected workloads actually use corrected artifacts."
-pubDate: "2026-11-04"
+pubDate: "2026-11-04T13:02:00Z"
 status: "published"
 canonical_id: "2026-11-04-brotli-decoder-cloud-dependency-risk"
 tags: ["Cybersecurity", "CloudInfrastructure", "NodeJS", "SupplyChain", "TechMindHub"]

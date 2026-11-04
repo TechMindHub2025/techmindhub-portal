@@ -2,7 +2,7 @@
 title: "Manufacturing New Materials One Atomic Layer at a Time"
 description: "Electron-beam dehalogenation produced free-standing metal-oxide monolayers in a laboratory study. The step from patterned crystal to scalable device remains open."
 excerpt: "A focused beam can remove chlorine from an oxyhalide and leave a crystalline oxide sheet. Precision and manufacturing throughput are separate questions."
-pubDate: "2026-11-04"
+pubDate: "2026-11-04T13:02:00Z"
 status: "published"
 canonical_id: "2026-11-04-electron-beam-atomic-oxide-layers"
 tags: ["MaterialsScience", "Semiconductors", "Nanofabrication", "Research", "TechMindHub"]

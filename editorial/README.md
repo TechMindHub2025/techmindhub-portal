@@ -15,6 +15,8 @@ automation complements factual and visual review, not replaces it.
 - Merge only after the required approval applies to the current PR head. Do not replace the human review, change repository protection, or treat chat approval as satisfying GitHub rules.
 - After merge, verify the GitHub Pages deployment, live article, images and feed card.
 - Andrew takes the approved materials and publishes them manually to social media. Do not send social posts without a separate instruction.
+- Andrew Rover is the default article byline and editor. Set `author` in a post's frontmatter only when a different credited author has been reviewed; an author account is not needed to credit a contributor.
+- For new articles, set `pubDate` to a UTC timestamp when multiple releases share a calendar day. The public date remains the calendar date; the timestamp determines the Latest order.
 - Include `#TechMindHub` in social copy. Substack is outside the regular pipeline for now; do not automatically add its link.
 
 ## Media storage
