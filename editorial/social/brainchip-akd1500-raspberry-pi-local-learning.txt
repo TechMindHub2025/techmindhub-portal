@@ -1,0 +1,11 @@
+BrainChip's Raspberry Pi 5 development kit adds an AKD1500 neuromorphic coprocessor to a familiar edge platform. Its useful question is concrete: how much of a sensing task can happen as events, including learning a new class locally?
+
+A low-power chip specification cannot answer the system question. The sensor, Pi host, preprocessing, board interfaces and duty cycle all consume energy. Our analysis proposes a matched comparison with detection accuracy, false alarms, latency and energy measured together.
+
+The kit is available, while independent measurements for a representative deployment remain to be made.
+
+Read the full analysis: https://techmindhub.cc/posts/brainchip-akd1500-raspberry-pi-local-learning/
+Primary source: https://brainchip.com/press/brainchip-launches-akd1500-raspberry-pi-5-kit-giving-developers-a-direct-path-from-prototype-to-production/
+More analysis: https://arover.substack.com/
+
+#TechMindHub #Engineering #Technology

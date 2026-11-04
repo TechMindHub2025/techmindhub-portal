@@ -1,0 +1,282 @@
+{
+  "release": "2026-11-04-five-engineering-analyses-v1",
+  "web_prefix": "https://media.techmindhub.cc/posts/",
+  "files": [
+    {
+      "name": "brainchip-akd1500-raspberry-pi-local-learning-card-original-v1.png",
+      "slug": "brainchip-akd1500-raspberry-pi-local-learning",
+      "role": "card-original",
+      "bytes": 1650208,
+      "sha256": "dbe5c1e82b4d5048604c79ce45d0ee58b3301a8db179326a8c2efccbf46a5196",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "name": "brainchip-akd1500-raspberry-pi-local-learning-infographic-original-v1.png",
+      "slug": "brainchip-akd1500-raspberry-pi-local-learning",
+      "role": "infographic-original",
+      "bytes": 1902842,
+      "sha256": "24e717b231d754f7deb7117ad166458450f5035c06296315b5629893ffc268ff",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "brainchip-akd1500-raspberry-pi-local-learning-card-web-v1.webp",
+      "slug": "brainchip-akd1500-raspberry-pi-local-learning",
+      "role": "card-web",
+      "bytes": 308488,
+      "sha256": "d3dac8a7af781934c38c8e52caaf68dd844a769e515dca934a971042760fbb94",
+      "dimensions": [
+        800,
+        450
+      ]
+    },
+    {
+      "name": "brainchip-akd1500-raspberry-pi-local-learning-og-web-v1.jpg",
+      "slug": "brainchip-akd1500-raspberry-pi-local-learning",
+      "role": "og-web",
+      "bytes": 240618,
+      "sha256": "9e7ffe37a3de35a18567042d4991c276d3d86203903562da0e4cd0eb2fee741a",
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "name": "brainchip-akd1500-raspberry-pi-local-learning-infographic-web-v1.webp",
+      "slug": "brainchip-akd1500-raspberry-pi-local-learning",
+      "role": "infographic-web",
+      "bytes": 1308508,
+      "sha256": "a37812ef8933c58e7c7b840b67be21d3ac7c3dff7b76a49db337da2d039a3b98",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "intel-tencent-agent-host-infrastructure-card-original-v1.png",
+      "slug": "intel-tencent-agent-host-infrastructure",
+      "role": "card-original",
+      "bytes": 1961047,
+      "sha256": "6e0aa9e9bdf8e0aff266357a6edaef47590a312a589c84c06c70b9a96848bc4d",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "name": "intel-tencent-agent-host-infrastructure-infographic-original-v1.png",
+      "slug": "intel-tencent-agent-host-infrastructure",
+      "role": "infographic-original",
+      "bytes": 2129444,
+      "sha256": "336efce9ad5f147400e44dcf3216a51da4a0fba85f60d33824a73d2a6e1fcd38",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "intel-tencent-agent-host-infrastructure-card-web-v1.webp",
+      "slug": "intel-tencent-agent-host-infrastructure",
+      "role": "card-web",
+      "bytes": 385412,
+      "sha256": "22c33371514acc802c03ef7052a0aa266b790d6bbe1f9c0cc5494566ac459e34",
+      "dimensions": [
+        800,
+        450
+      ]
+    },
+    {
+      "name": "intel-tencent-agent-host-infrastructure-og-web-v1.jpg",
+      "slug": "intel-tencent-agent-host-infrastructure",
+      "role": "og-web",
+      "bytes": 372293,
+      "sha256": "9d215f550f9e34e97b9b45a309cd2604e3fbccc1b116d99a2d41668f2e68882c",
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "name": "intel-tencent-agent-host-infrastructure-infographic-web-v1.webp",
+      "slug": "intel-tencent-agent-host-infrastructure",
+      "role": "infographic-web",
+      "bytes": 1579132,
+      "sha256": "ea167e205c36641f2bb1aa8ae69ec86591c8448dafcf5ab4abb7a1df91eb59f3",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "one-minute-grid-synchronization-card-original-v1.png",
+      "slug": "one-minute-grid-synchronization",
+      "role": "card-original",
+      "bytes": 2331980,
+      "sha256": "701d5d91ea951b5af5147a1835d94d9da6a58b7525420cc64f4f5a4c618c65f1",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "name": "one-minute-grid-synchronization-infographic-original-v1.png",
+      "slug": "one-minute-grid-synchronization",
+      "role": "infographic-original",
+      "bytes": 1754959,
+      "sha256": "9382784a8dfd2476220e71198f1245da25ea3d5e702540f9f285e376a00f6f52",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "one-minute-grid-synchronization-card-web-v1.webp",
+      "slug": "one-minute-grid-synchronization",
+      "role": "card-web",
+      "bytes": 417510,
+      "sha256": "a2069949eef0c6443f922f257655876bd913ce48015c442e6357dabee89b5993",
+      "dimensions": [
+        800,
+        450
+      ]
+    },
+    {
+      "name": "one-minute-grid-synchronization-og-web-v1.jpg",
+      "slug": "one-minute-grid-synchronization",
+      "role": "og-web",
+      "bytes": 367164,
+      "sha256": "e44004a456701b4946ae7c6689e0cd41f9de523f9105d6bdd2f36c1e079a8912",
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "name": "one-minute-grid-synchronization-infographic-web-v1.webp",
+      "slug": "one-minute-grid-synchronization",
+      "role": "infographic-web",
+      "bytes": 1169964,
+      "sha256": "307ae9825cc630d53167c120a83f7012c43410f1fcc0e4eb0b4bce78392ce6a2",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "ferroelectric-subvolt-dram-capacitors-card-original-v1.png",
+      "slug": "ferroelectric-subvolt-dram-capacitors",
+      "role": "card-original",
+      "bytes": 1716322,
+      "sha256": "2edd396d16548e9f71195a020dcfc88b96f3e53680e8944ec29d7e85f586368f",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "name": "ferroelectric-subvolt-dram-capacitors-infographic-original-v1.png",
+      "slug": "ferroelectric-subvolt-dram-capacitors",
+      "role": "infographic-original",
+      "bytes": 1831877,
+      "sha256": "21bea002415f228d3a808f5522569f172367c311b748a9d29a358a95c40fe000",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "ferroelectric-subvolt-dram-capacitors-card-web-v1.webp",
+      "slug": "ferroelectric-subvolt-dram-capacitors",
+      "role": "card-web",
+      "bytes": 311046,
+      "sha256": "101eb661c106bd19b9683df8829c5c52cc1eda0df1ebc2ce3f52e991d1e501d7",
+      "dimensions": [
+        800,
+        450
+      ]
+    },
+    {
+      "name": "ferroelectric-subvolt-dram-capacitors-og-web-v1.jpg",
+      "slug": "ferroelectric-subvolt-dram-capacitors",
+      "role": "og-web",
+      "bytes": 249313,
+      "sha256": "80a0b84702cfc390c5672b8a1f4ad269d72a5caf942fa520db0116f7efa82adf",
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "name": "ferroelectric-subvolt-dram-capacitors-infographic-web-v1.webp",
+      "slug": "ferroelectric-subvolt-dram-capacitors",
+      "role": "infographic-web",
+      "bytes": 1260072,
+      "sha256": "67cbd9db992be0c3d0108d0ae9de45939fcbeea232abb7b5b34a64d67be56bc8",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "liquid-metal-temporal-puf-card-original-v1.png",
+      "slug": "liquid-metal-temporal-puf",
+      "role": "card-original",
+      "bytes": 1777639,
+      "sha256": "67438743bb748ad37ed9f8cfaf5fd19de9d8b58a39b978bae14f73acc3268e7b",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "name": "liquid-metal-temporal-puf-infographic-original-v1.png",
+      "slug": "liquid-metal-temporal-puf",
+      "role": "infographic-original",
+      "bytes": 1986238,
+      "sha256": "099357983884ae4a916d8281a654259f64e3a8be14204c14e7c84c53b198c41f",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "liquid-metal-temporal-puf-card-web-v1.webp",
+      "slug": "liquid-metal-temporal-puf",
+      "role": "card-web",
+      "bytes": 360644,
+      "sha256": "dea6d88aee0ede424639b2c6682af265b70b6bd4339363466634e87ab3432e65",
+      "dimensions": [
+        800,
+        450
+      ]
+    },
+    {
+      "name": "liquid-metal-temporal-puf-og-web-v1.jpg",
+      "slug": "liquid-metal-temporal-puf",
+      "role": "og-web",
+      "bytes": 302133,
+      "sha256": "3dbdde7436dfb956dfda952230484720a427262a4b40d978efb3816512c0a857",
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "name": "liquid-metal-temporal-puf-infographic-web-v1.webp",
+      "slug": "liquid-metal-temporal-puf",
+      "role": "infographic-web",
+      "bytes": 1442144,
+      "sha256": "31ca609a4d2750edfcd0596b4cf86676dd1a3e3628be6d22fee68b92cc69f042",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    }
+  ],
+  "verification": "Infographic WebP decoded RGBA pixels equal original PNG; card WebP decoded RGB pixels equal deterministic 800px resized PNG. OG JPEG is a separate 1200x630 crop."
+}

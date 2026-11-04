@@ -1,0 +1,24 @@
+{
+  "slug": "brainchip-akd1500-raspberry-pi-local-learning",
+  "checked": "2026-11-04",
+  "sources": [
+    "https://brainchip.com/press/brainchip-launches-akd1500-raspberry-pi-5-kit-giving-developers-a-direct-path-from-prototype-to-production/"
+  ],
+  "claims_and_limits": [
+    "Commercial kit and company-described on-chip class learning; no independent matched system-level power and accuracy comparison."
+  ],
+  "visual": {
+    "domain": "ai",
+    "accent": "#5958B2",
+    "surface": "#F0EFFA",
+    "cover_phrase": "EVENTS AT THE EDGE",
+    "infographic_title": "LOCAL EVENT LEARNING",
+    "infographic_labels": [
+      "SENSOR INPUT",
+      "MEANINGFUL EVENTS",
+      "ON-CHIP LEARNING",
+      "APPLICATION RESPONSE"
+    ],
+    "status": "Conceptual editorial illustration; no measured apparatus or numeric chart."
+  }
+}

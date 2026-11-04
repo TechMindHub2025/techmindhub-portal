@@ -1,0 +1,24 @@
+{
+  "slug": "intel-tencent-agent-host-infrastructure",
+  "checked": "2026-11-04",
+  "sources": [
+    "https://www.intel.cn/content/www/cn/zh/newsroom/news/client-computing/intel-tencent-launch-new-xeon-6-ai-cloud-instances.html"
+  ],
+  "claims_and_limits": [
+    "Intel/Tencent report 350 concurrent sandbox creation requests on a server within a 200 ms SLA; test conditions do not establish general capacity or regional availability."
+  ],
+  "visual": {
+    "domain": "infrastructure",
+    "accent": "#426F94",
+    "surface": "#EEF3F8",
+    "cover_phrase": "THE AGENT HOST",
+    "infographic_title": "BEYOND INFERENCE",
+    "infographic_labels": [
+      "MEMORY",
+      "ISOLATION",
+      "SANDBOX STARTUP",
+      "TAIL LATENCY"
+    ],
+    "status": "Conceptual editorial illustration; no measured apparatus or numeric chart."
+  }
+}

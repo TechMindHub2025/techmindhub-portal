@@ -1,0 +1,11 @@
+A 5 nm hafnium zirconium oxide capacitor reported in Nature Communications switches at 0.6 V and endures 10^12 bipolar cycles without hard breakdown. Engineered electrode interfaces are central to that result.
+
+The evidence changes as the story moves toward memory: capacitor behavior is measured, nanoscale switching speed is extrapolated, and proposed cell sensing is simulated. Our analysis follows that chain and the remaining work on access circuitry, variation, retention and array yield.
+
+This is an important component result, with a complete manufacturable DRAM-class array still to demonstrate.
+
+Read the full analysis: https://techmindhub.cc/posts/ferroelectric-subvolt-dram-capacitors/
+Primary source: https://www.nature.com/articles/s41467-026-78705-4
+More analysis: https://arover.substack.com/
+
+#TechMindHub #Engineering #Technology
