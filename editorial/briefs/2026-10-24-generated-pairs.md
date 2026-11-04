@@ -1,6 +1,6 @@
 # Generated artwork release — October 24, 2026
 
-Canon v1.1. Andrew requested all three pairs through the image generator, without source footers or decorative section numbers. The six ordinary PNGs in the Cloudflare archive match `editorial/releases/2026-10-24-canon-v2.json`. No image bytes are stored in GitHub.
+Canon v1.1. All three pairs were prepared through the image generator, without source footers or decorative section numbers. The six ordinary PNGs in the Cloudflare archive match `editorial/releases/2026-10-24-canon-v2.json`. No image bytes are stored in GitHub.
 
 ## Pairing and interpretation
 

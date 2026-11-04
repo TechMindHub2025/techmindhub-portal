@@ -3,7 +3,7 @@
   "status": "prepared-awaiting-manual-r2-upload-and-final-review",
   "bucket": "tmh-assets",
   "prefix": "posts/",
-  "policy": "Original PNG files delivered separately for Andrew archive; site consumes only optimized web assets. No PNG deletion before live migration verification.",
+  "policy": "Original PNG files delivered separately for separate archival use; site consumes only optimized web assets. No PNG deletion before live migration verification.",
   "profiles": {
     "card": "800px wide, aspect ratio preserved, WebP lossless after resize",
     "infographic": "Original dimensions, WebP lossless, exact decoded pixel equality",
@@ -318,7 +318,7 @@
       "bytes": 20748819,
       "sha256": "5d265732da2e6b6eb283aa76b2f85b6ae5073b8ffe16f0096560dab0afa806b7",
       "files": 12,
-      "purpose": "Andrew original archive"
+      "purpose": "original artwork archive"
     },
     {
       "filename": "TechMindHub-six-posts-Cloudflare-Web-2026-10-25.zip",
@@ -344,8 +344,8 @@
   ],
   "validation": {
     "automated": "npm run validate passed: 36 pages, 6 articles, 12 regression tests. All 18 derivative hashes and dimensions checked; original hashes verified; all six infographic RGBA buffers equal their original PNGs. ZIP integrity passed: 12 PNG originals and 18 web-only derivatives. All six article bodies and unrelated metadata match the current main; no old publication PNG filenames in generated HTML.",
-    "visual": "Six 800px cards inspected at 352px and 260px; six dedicated JPEG crops inspected. Browser QA uses an exact copy of generated HTML with final R2 media URLs mapped only in the QA copy to the matching local web files. Public R2 verification awaits Andrew upload.",
-    "release": "No merge or PNG removal until new R2 assets are verified, Andrew approves the final head, and deployed pages/metadata are checked.",
+    "visual": "Six 800px cards inspected at 352px and 260px; six dedicated JPEG crops inspected. Browser QA uses an exact copy of generated HTML with final R2 media URLs mapped only in the QA copy to the matching local web files. Public R2 verification awaits manual upload.",
+    "release": "No merge or PNG removal until new R2 assets are verified, the designated reviewer approves the final head, and deployed pages/metadata are checked.",
     "browser": "Home, archive, all six articles and six affected tag pages checked in desktop and 390px iframe viewports. All six full-size WebP infographics loaded before article text; no horizontal overflow on Home/archive/articles. Existing long SoftwareSupplyChain tag heading exceeds the narrow viewport (404px vs 375px content viewport); tag template and typography are unchanged by this migration. All six tag cards load correctly. External source click retains the article tab.",
     "screenshots": [
       "techmindhub-web-migration-archive-review.jpg",

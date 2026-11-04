@@ -1,9 +1,9 @@
 # TechMind Hub visual canon — v1.3
 
-Approved direction with Andrew on October 24, 2026; revised the same day to require generated designer-led covers and editorial infographics, with sources retained in the article rather than on the images. Andrew authorised preparation of the complete three-publication replacement set. Publication still follows the normal R2 verification and human GitHub review workflow.
+Visual direction adopted on October 24, 2026; revised the same day to require generated designer-led covers and editorial infographics, with sources retained in the article rather than on the images. The complete three-publication replacement set was prepared under this direction. Publication still follows the normal R2 verification and human GitHub review workflow.
 
-Revision 2026-10-25: Andrew approved separate original-PNG archives and optimized
-web delivery. Existing artwork is preserved; conversion is an export operation,
+Revision 2026-10-25: Separate original-PNG archives and optimized web delivery
+were approved. Existing artwork is preserved; conversion is an export operation,
 not a new generation. Follow [IMAGE-DELIVERY.md](IMAGE-DELIVERY.md): 800px-wide
 WebP feed cards, native-size lossless WebP infographics and dedicated 1200×630
 JPEG social link previews. `cover_og` identifies the latter. Verify decoded
@@ -66,13 +66,13 @@ For cover reuse in 1200 x 630, keep essential content inside a safe region of at
 
 ## Public article order
 
-Andrew confirmed the established order on October 24, 2026: title and metadata → infographic → article text. The template renders the image declared by `cover_hero` once before the Markdown body. Do not repeat that image in Markdown, move it below introductory paragraphs, or add a visible production caption as part of a design refresh. Keep `cover_alt` useful for screen readers. Research sources, methodological limits and substantive argument remain in the article; internal visual-production notes stay in briefs.
+The established order as of October 24, 2026: title and metadata → infographic → article text. The template renders the image declared by `cover_hero` once before the Markdown body. Do not repeat that image in Markdown, move it below introductory paragraphs, or add a visible production caption as part of a design refresh. Keep `cover_alt` useful for screen readers. Research sources, methodological limits and substantive argument remain in the article; internal visual-production notes stay in briefs.
 
 ## Common production brief
 
 Record: article slug and source links; primary domain and palette; central question; one-sentence visual argument; shared motif; exact cover phrase; inner-image explanation and exact labels; visual-metaphor/apparatus status; claims and limitations; alt text; role-specific sizes and crop safety; filenames and version; review status.
 
-Production sequence: verify the article and sources → agree on the paired brief → make cover and inner figure → inspect them together and at small size → review facts and typography → export versioned ordinary image files → upload to R2 → verify public URLs → obtain Andrew's GitHub review of the final PR head → merge and check deployment. Andrew approved proceeding with all three publication pairs after the initial photonics review; prepare the full set together when that scope is explicitly requested.
+Production sequence: verify the article and sources → agree on the paired brief → make cover and inner figure → inspect them together and at small size → review facts and typography → export versioned ordinary image files → upload to R2 → verify public URLs → obtain the designated reviewer's GitHub review of the final PR head → merge and check deployment. The three publication pairs proceeded together after the initial photonics review; prepare the full set together when that scope is explicitly requested.
 
 ## Generation and image text
 
@@ -82,6 +82,6 @@ Keep the source bibliography, author attribution, IDs, source links and detailed
 
 ## Storage and release
 
-Code, this canon, registry, article Markdown and text briefs belong in GitHub. Web-delivery image binaries belong in Cloudflare R2 `tmh-assets/posts/`; original generated PNGs are delivered separately to Andrew for his archive. Never send large Base64 payloads through tool outputs or store them in article code. Keep prompts and provenance with the review package. Do not add public Download controls or duplicate article exports. Do not overwrite live approved images while new delivery files are under review. Remove superseded PNGs only after the originals are saved and the approved web migration is verified live.
+Code, this canon, registry, article Markdown and text briefs belong in GitHub. Web-delivery image binaries belong in Cloudflare R2 `tmh-assets/posts/`; original generated PNGs are delivered separately for archival use. Never send large Base64 payloads through tool outputs or store them in article code. Keep prompts and provenance with the review package. Do not add public Download controls or duplicate article exports. Do not overwrite live approved images while new delivery files are under review. Remove superseded PNGs only after the originals are saved and the approved web migration is verified live.
 
-The previous cover-only v3 ZIP and the first SVG photonics pilot are superseded. The prepared replacement set is `TechMindHub-Cloudflare-images-canon-v2.zip`: exactly six PNG files (one cover and one infographic per article), with no source/document files in the upload archive. Its exact names, sizes, hashes and public URLs are recorded in `editorial/releases/2026-10-24-canon-v2.json`. PR #23 published that set after R2 verification and Andrew's approval. Future article image URLs and alt descriptions must match their approved asset set; verify the public URLs and obtain Andrew's approval on the final PR head before merging. Retain previous R2 images until the new deployment is verified.
+The previous cover-only v3 ZIP and the first SVG photonics pilot are superseded. The prepared replacement set is `TechMindHub-Cloudflare-images-canon-v2.zip`: exactly six PNG files (one cover and one infographic per article), with no source/document files in the upload archive. Its exact names, sizes, hashes and public URLs are recorded in `editorial/releases/2026-10-24-canon-v2.json`. PR #23 published that set after R2 verification and human approval. Future article image URLs and alt descriptions must match their approved asset set; verify the public URLs and obtain human approval on the final PR head before merging. Retain previous R2 images until the new deployment is verified.

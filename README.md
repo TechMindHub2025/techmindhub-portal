@@ -28,5 +28,5 @@ the Pages workflow validates before uploading its deployment artifact.
 
 Code, article Markdown and editorial briefs live here. Publication images live
 in Cloudflare R2; do not add them to the repository or embed them as Base64.
-Andrew approves the final PR head in GitHub before release. See the publishing
+The designated reviewer approves the final PR head in GitHub before release. See the publishing
 workflow for image upload, factual review, visual QA and deployment verification.

@@ -1,6 +1,6 @@
 # TechMind Hub publishing workflow
 
-Last confirmed with Andrew: October 25, 2026.
+Workflow baseline: October 25, 2026.
 
 Start every session with [../AGENTS.md](../AGENTS.md). Approved examples, automated
 check coverage and the rule-change process are in [REFERENCE.md](REFERENCE.md).
@@ -9,21 +9,21 @@ automation complements factual and visual review, not replaces it.
 
 ## Ownership and release
 
-- Communicate with Andrew in Russian. Publish editorial content in English.
+- Communicate with the project owner in Russian. Publish editorial content in English.
 - Prepare content and source changes on a separate branch and open a pull request.
-- Andrew reviews and submits GitHub approval from `AR1314`. The connected author account is `TechMindHub2025`; it cannot approve its own pull requests.
+- A designated reviewer with write access submits GitHub approval. The connected author account cannot approve its own pull requests.
 - Merge only after the required approval applies to the current PR head. Do not replace the human review, change repository protection, or treat chat approval as satisfying GitHub rules.
 - After merge, verify the GitHub Pages deployment, live article, images and feed card.
-- Andrew takes the approved materials and publishes them manually to social media. Do not send social posts without a separate instruction.
-- Andrew Rover is the default article byline and editor. Set `author` in a post's frontmatter only when a different credited author has been reviewed; an author account is not needed to credit a contributor.
+- Approved social materials are published manually. Do not send social posts without a separate instruction.
+- The site has a default article byline and editor. Set `author` in a post's frontmatter only when a different credited author has been reviewed; an author account is not needed to credit a contributor.
 - For new articles, set `pubDate` to a UTC timestamp when multiple releases share a calendar day. The public date remains the calendar date; the timestamp determines the Latest order.
-- Include `#TechMindHub` in social copy. Substack is outside the regular pipeline for now; do not automatically add its link.
+- Include `#TechMindHub` and `https://arover.substack.com/` in every social post.
 
 ## Media storage
 
 - GitHub holds site code, article Markdown and social text.
 - Publication images belong in the existing Cloudflare R2 bucket `tmh-assets` and are served from `https://media.techmindhub.cc`.
-- Follow [IMAGE-DELIVERY.md](IMAGE-DELIVERY.md). Andrew receives untouched original PNGs in a separate originals ZIP. The upload ZIP contains optimized WebP cards/infographics and JPEG social link previews only: three files per publication, nine for a three-post batch. R2 is for these web derivatives; original PNGs are archived by Andrew.
+- Follow [IMAGE-DELIVERY.md](IMAGE-DELIVERY.md). Untouched original PNGs are delivered in a separate originals ZIP. The upload ZIP contains optimized WebP cards/infographics and JPEG social link previews only: three files per publication, nine for a three-post batch. R2 is for these web derivatives; original PNGs are archived separately.
 - Published metadata uses `cover_card` and `cover_hero` WebP URLs plus a separate `cover_og` JPEG URL. Verify decoded infographic pixel equality, card readability and social-preview crop safety before review.
 - The current manual upload prefix is `posts/`. Use absolute HTTPS image URLs in article metadata and article content.
 - Upload images as ordinary files, not as multi-megabyte Base64 payloads passed through conversation/tool outputs.
@@ -50,14 +50,14 @@ The page already supplies the full title and description. Do not reproduce the w
 
 ## Public article presentation
 
-Andrew confirmed removal of both public Download links on October 24, 2026. Do not add article Markdown or infographic Download buttons/links to public articles. Keep editable article sources and social text in GitHub for Andrew. Publication images remain public through R2; removing a link does not make an image private. Do not create duplicate Markdown exports under `public/` for new articles. This policy does not change bucket permissions.
+Public Download links were removed on October 24, 2026. Do not add article Markdown or infographic Download buttons/links to public articles. Keep editable article sources and social text in GitHub for editorial review. Publication images remain public through R2; removing a link does not make an image private. Do not create duplicate Markdown exports under `public/` for new articles. This policy does not change bucket permissions.
 
 
 ## Visual canon
 
 The approved direction and production rules live in [VISUAL-CANON.md](VISUAL-CANON.md). Use that document before preparing publication images. The shared palette registry is `src/data/editorial-domains.json`; add directions there rather than scattering colour rules across templates. Each article receives one primary `domain`, a short `topic` label and separate alt text for its cover and inner image.
 
-The first paired review candidate is documented in [briefs/photonics-pilot.md](briefs/photonics-pilot.md). The cover-only v3 ZIP and SVG pilot are superseded. The PNG archives for PR #23 and PR #26 are historical original-artwork sets; do not ask Andrew to upload them as a new web release. Those releases were verified after R2 upload and human approval. The six-publication web migration is recorded in `releases/2026-10-25-web-migration-v1.json`; follow IMAGE-DELIVERY.md for current packaging. Verify image URLs before merging the human-approved final head. Sources and research IDs belong in article text; no numbered section markers or source footers on generated artwork.
+The first paired review candidate is documented in [briefs/photonics-pilot.md](briefs/photonics-pilot.md). The cover-only v3 ZIP and SVG pilot are superseded. The PNG archives for PR #23 and PR #26 are historical original-artwork sets; do not upload them as a new web release. Those releases were verified after R2 upload and human approval. The six-publication web migration is recorded in `releases/2026-10-25-web-migration-v1.json`; follow IMAGE-DELIVERY.md for current packaging. Verify image URLs before merging the human-approved final head. Sources and research IDs belong in article text; no numbered section markers or source footers on generated artwork.
 
 Home, Analysis and tag pages share `PostCard.astro`. Article order is title/metadata, the declared infographic, then the article body. The article template renders `cover_hero` exactly once before `<Content />`; do not add the same image again in the Markdown body. Keep `cover_alt` as a concise useful image description.
 

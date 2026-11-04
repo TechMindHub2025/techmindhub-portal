@@ -27,6 +27,6 @@ product-file/output comparison, with any differences, instead of new screenshots
 
 ## Release
 
-Andrew (`AR1314`) reviews the final PR head in GitHub. After any further commit,
+The designated reviewer reviews the final PR head in GitHub. After any further commit,
 obtain approval of the new head. Merge only after approval and successful checks;
 then record the Pages deployment result and live-page verification.

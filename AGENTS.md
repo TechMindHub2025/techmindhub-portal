@@ -7,10 +7,10 @@ not reconstruct decisions from chat memory or superseded drafts.
 
 ## Scope and decisions
 
-- Communicate with Andrew in Russian; publish editorial content in English.
+- Communicate with the project owner in Russian; publish editorial content in English.
 - Follow the existing canon for routine publication work. A new subject may have
   its own composition within it. Agree changes to the canon, article order,
-  storage, hosting or publishing workflow with Andrew before implementing them.
+  storage, hosting or publishing workflow with the project owner before implementing them.
 - Do not bundle unrelated visual or architecture changes into a content PR.
 - Use the existing external GitHub Pages repository. Do not move this site to a
   different host or register a replacement project as part of routine editing.
@@ -30,15 +30,15 @@ not reconstruct decisions from chat memory or superseded drafts.
 - Code, Markdown and editorial briefs go in GitHub. Publication images go in
   Cloudflare R2 `tmh-assets/posts/`, served by `https://media.techmindhub.cc`.
   Follow `editorial/IMAGE-DELIVERY.md`: original PNGs are delivered separately to
-  Andrew; R2 receives WebP cards/infographics and dedicated JPEG link previews.
+  the project owner; R2 receives WebP cards/infographics and dedicated JPEG link previews.
   Verify lossless infographic pixel equality; inspect resized cards and OG crops.
-  No image binaries or image Base64 in publication code. Andrew uploads ordinary
+  No image binaries or image Base64 in publication code. The release owner uploads ordinary
   versioned image files manually; verify public URLs before release.
 - External HTTP(S) links open a new tab with `noopener noreferrer`. Internal,
   fragment, mail and telephone links keep their normal behaviour.
 - Use primary sources, distinguish reported findings from our assessment and
-  do not invent claims. Andrew publishes social copy manually; Substack is not
-  part of the regular pipeline.
+  do not invent claims. Social copy is published manually. Include
+  `https://arover.substack.com/` and `#TechMindHub` in every social post.
 
 ## Validation and release
 
@@ -49,7 +49,7 @@ not reconstruct decisions from chat memory or superseded drafts.
   Check image loading, thumbnail readability and actual external-link behaviour.
   Attach screenshots when a PR changes the rendered product.
 - Use the PR template; mark inapplicable items with a reason, not a false tick.
-- Prepare a separate branch and PR. Andrew (`AR1314`) approves the final head in
+- Prepare a separate branch and PR. The designated reviewer approves the final head in
   GitHub. Do not self-approve, bypass review or change repository protections.
   If the head changes after review, obtain approval of the new head.
 - Merge only after that approval and successful checks. Then verify the GitHub

@@ -4,7 +4,7 @@
   "status": "prepared-for-review",
   "generation": "Built-in image generator; each infographic uses its own cover as subject/style reference. Outputs preserved natively without cropping, stretching or retouching.",
   "publication": "Title/metadata \u2192 infographic \u2192 text, rendered by the existing template. No public working captions or Download controls. Text and source attribution in article; no authors/IDs/numbered markers on art.",
-  "approval": "Andrew requested all three topics as one publication batch. R2 upload and final GitHub approval remain required before merge. No automatic social posting.",
+  "approval": "All three topics were requested as one publication batch. R2 upload and final GitHub approval remain required before merge. No automatic social posting.",
   "posts": [
     {
       "slug": "nvidia-dsx-pod-deployment",
@@ -57,7 +57,7 @@
     "covers": "All three native covers inspected at 352px and 260px. Text and image spelling reviewed visually; OCR used as an additional check.",
     "sources": "Primary source pages opened and factual boundaries retained. Robot source clicked in preview: arXiv opened in a separate tab while article remained open.",
     "preview": "Static copy of built production HTML, with only the six new media URLs mapped to exact local image copies for QA. Production source and build retain their final R2 URLs; no preview source or assets included in PR.",
-    "media": "Awaiting Andrew manual R2 upload. No public media URL has been claimed verified or probed before upload.",
+    "media": "Awaiting manual R2 upload. No public media URL has been claimed verified or probed before upload.",
     "screenshots_in_preparation_chat": [
       "techmindhub-new-cover-review-1792861173830.jpg",
       "techmindhub-new-mobile-review-1792861225285.jpg",
