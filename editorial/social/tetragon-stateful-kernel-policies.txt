@@ -1,0 +1,13 @@
+Tetragon 1.8.0 adds stateful tracing policies, command-line argument selectors and richer user-space probe and CEL capabilities. A policy can use context from an earlier observation when deciding how to treat a later process event.
+
+That flexibility creates a precise engineering obligation: define which process or workload owns the state, when it expires and how concurrent activity is separated. An overbroad correlation can generate false alerts; an overly narrow one can miss a meaningful sequence.
+
+Start with observation and controlled test cases, then measure event loss, overhead and the consequence of enforcing a mistaken match on the actual Linux fleet.
+
+What sequence would you want the kernel-level policy to recognize in your environment?
+
+Read the full analysis: https://techmindhub.cc/posts/tetragon-stateful-kernel-policies/
+Primary source: https://github.com/cilium/tetragon/releases/tag/v1.8.0
+More analysis: https://arover.substack.com/
+
+#TechMindHub #Engineering #Technology

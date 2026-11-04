@@ -1,0 +1,25 @@
+{
+  "slug": "electron-beam-atomic-oxide-layers",
+  "checked": "2026-11-04",
+  "sources": [
+    "https://www.nature.com/articles/s41563-026-02793-2",
+    "https://physics.ucas.ac.cn/index.php/zh-CN/xsxx/7023-2026-10-30-02-07-17"
+  ],
+  "claims_and_limits": [
+    "CrO areas and patterning are laboratory demonstrations; magnetic ordering is predicted by calculation, not measured."
+  ],
+  "visual": {
+    "domain": "materials",
+    "accent": "#956848",
+    "surface": "#F7F1EB",
+    "cover_phrase": "WRITING AN ATOMIC LAYER",
+    "infographic_title": "ATOMIC CONVERSION",
+    "infographic_labels": [
+      "CrOCl PRECURSOR",
+      "ELECTRON BEAM",
+      "CHLORINE REMOVAL",
+      "CrO MONOLAYER"
+    ],
+    "status": "Conceptual editorial illustration; no measured chart."
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "brotli-decoder-cloud-dependency-risk",
+  "checked": "2026-11-04",
+  "sources": [
+    "https://nodejs.org/en/blog/vulnerability/october-2026-security-releases",
+    "https://aws.amazon.com/security/security-bulletins/2026-155-aws/"
+  ],
+  "claims_and_limits": [
+    "Potential exploitation is distinct from confirmed incidents; AWS bulletin last updated November 3 and remediation varies by service and artifact."
+  ],
+  "visual": {
+    "domain": "infrastructure",
+    "accent": "#426F94",
+    "surface": "#EEF3F8",
+    "cover_phrase": "ONE LIBRARY, MANY PATHS",
+    "infographic_title": "DECODER DEPENDENCIES",
+    "infographic_labels": [
+      "COMPRESSED INPUT",
+      "SHARED DECODER",
+      "RUNTIME / IMAGE / BUILD",
+      "PATCH & REDEPLOY"
+    ],
+    "status": "Conceptual editorial illustration; no measured chart."
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "vigilsoc-ai-soc-human-control",
+  "checked": "2026-11-04",
+  "sources": [
+    "https://github.com/Vigil-SOC/vigil/releases/tag/v1.0.0",
+    "https://vigilsoc.org/blog/2026/10/30/vigilsoc-1-0-0-release/"
+  ],
+  "claims_and_limits": [
+    "GA is maintainers’ designation; roadmap items are not shipped and independent production reliability is unproven."
+  ],
+  "visual": {
+    "domain": "digital-trust",
+    "accent": "#966020",
+    "surface": "#FBF3E6",
+    "cover_phrase": "WHO APPROVES THE AGENT?",
+    "infographic_title": "AGENT AUTHORITY",
+    "infographic_labels": [
+      "SECURITY ALERT",
+      "AGENT INVESTIGATION",
+      "APPROVAL GATE",
+      "AUDIT & RESPONSE"
+    ],
+    "status": "Conceptual editorial illustration; no measured chart."
+  }
+}

@@ -1,0 +1,336 @@
+{
+  "release": "2026-11-04-six-security-materials-v1",
+  "web_prefix": "https://media.techmindhub.cc/posts/",
+  "files": [
+    {
+      "name": "vigilsoc-ai-soc-human-control-card-original-v1.png",
+      "slug": "vigilsoc-ai-soc-human-control",
+      "role": "card-original",
+      "bytes": 1900699,
+      "sha256": "59fc447e43ef3a64221d4e666ef3bdbf7dc1951790b720c058d8a23466d9ee6d",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "name": "vigilsoc-ai-soc-human-control-infographic-original-v1.png",
+      "slug": "vigilsoc-ai-soc-human-control",
+      "role": "infographic-original",
+      "bytes": 48640,
+      "sha256": "8aee77122a14efa11cc20471f9824c71aaedd5e8071a1761e326ab5b71f50f47",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "vigilsoc-ai-soc-human-control-card-web-v1.webp",
+      "slug": "vigilsoc-ai-soc-human-control",
+      "role": "card-web",
+      "bytes": 358682,
+      "sha256": "32daa38c80b0843069b874e1f63d53bb2be89842d00da4e33fc1ca4c312332db",
+      "dimensions": [
+        800,
+        450
+      ]
+    },
+    {
+      "name": "vigilsoc-ai-soc-human-control-infographic-web-v1.webp",
+      "slug": "vigilsoc-ai-soc-human-control",
+      "role": "infographic-web",
+      "bytes": 16788,
+      "sha256": "032502ac03bdef88fd9e451f9c40d40afb18a95b6c0cd90118389bbb8303b0cc",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "vigilsoc-ai-soc-human-control-og-web-v1.jpg",
+      "slug": "vigilsoc-ai-soc-human-control",
+      "role": "og-web",
+      "bytes": 289118,
+      "sha256": "c5b235b4672fb4c4b1d20d69d5f00b028b09ad05588d857ebeb3946b7f2f5474",
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "name": "brotli-decoder-cloud-dependency-risk-card-original-v1.png",
+      "slug": "brotli-decoder-cloud-dependency-risk",
+      "role": "card-original",
+      "bytes": 1495429,
+      "sha256": "36a9d36aecbce3046f9e7cdf6081216479f8d8fcd0db3ae51b82119b2db5965f",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "name": "brotli-decoder-cloud-dependency-risk-infographic-original-v1.png",
+      "slug": "brotli-decoder-cloud-dependency-risk",
+      "role": "infographic-original",
+      "bytes": 49904,
+      "sha256": "6b4749a0cabc02c6f0d726f6b9131c94e4f4acb2fb0b3af484dab0f3ea146feb",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "brotli-decoder-cloud-dependency-risk-card-web-v1.webp",
+      "slug": "brotli-decoder-cloud-dependency-risk",
+      "role": "card-web",
+      "bytes": 272774,
+      "sha256": "38c3602a1867d433b423b0fb4e8c84b8d3742eb06db31c41946493d500d41cc8",
+      "dimensions": [
+        800,
+        450
+      ]
+    },
+    {
+      "name": "brotli-decoder-cloud-dependency-risk-infographic-web-v1.webp",
+      "slug": "brotli-decoder-cloud-dependency-risk",
+      "role": "infographic-web",
+      "bytes": 18546,
+      "sha256": "ea1684834ae3b15c8fd7e922354d6e96bd9c3bab93fc11cf814d77d7db18d95f",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "brotli-decoder-cloud-dependency-risk-og-web-v1.jpg",
+      "slug": "brotli-decoder-cloud-dependency-risk",
+      "role": "og-web",
+      "bytes": 222227,
+      "sha256": "3473f05bc674ab63633b373acbd9cf8cd20751f4b314b0eef52524293771420d",
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "name": "electron-beam-atomic-oxide-layers-card-original-v1.png",
+      "slug": "electron-beam-atomic-oxide-layers",
+      "role": "card-original",
+      "bytes": 1676203,
+      "sha256": "f6221b39b8be49fa60b786112376368cb4ec315e615fdc9b21a3c3114af6bb9e",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "name": "electron-beam-atomic-oxide-layers-infographic-original-v1.png",
+      "slug": "electron-beam-atomic-oxide-layers",
+      "role": "infographic-original",
+      "bytes": 50382,
+      "sha256": "8508d711f7d5d8e1aeba49c1a8a3d8fa550c136210c7253ec24c799bc0da50b3",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "electron-beam-atomic-oxide-layers-card-web-v1.webp",
+      "slug": "electron-beam-atomic-oxide-layers",
+      "role": "card-web",
+      "bytes": 318044,
+      "sha256": "2051720a386236efd481644d35cdc6b55cd9594b47c752c5c9bd2370c06d9213",
+      "dimensions": [
+        800,
+        450
+      ]
+    },
+    {
+      "name": "electron-beam-atomic-oxide-layers-infographic-web-v1.webp",
+      "slug": "electron-beam-atomic-oxide-layers",
+      "role": "infographic-web",
+      "bytes": 17622,
+      "sha256": "7fbc8fd344d034145ee6daae70547865633e2e146927615d89007a0515148e99",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "electron-beam-atomic-oxide-layers-og-web-v1.jpg",
+      "slug": "electron-beam-atomic-oxide-layers",
+      "role": "og-web",
+      "bytes": 251466,
+      "sha256": "8b8e517fa1537ade2bed3f5ea1bb5899bb6e64c105c36bc9c4b1d5f07bc3729e",
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "name": "tetragon-stateful-kernel-policies-card-original-v1.png",
+      "slug": "tetragon-stateful-kernel-policies",
+      "role": "card-original",
+      "bytes": 1900913,
+      "sha256": "8d2eb211582073e34c669d98a02a20afd5e38b1f9219165299bdaa887c7b857d",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "name": "tetragon-stateful-kernel-policies-infographic-original-v1.png",
+      "slug": "tetragon-stateful-kernel-policies",
+      "role": "infographic-original",
+      "bytes": 49540,
+      "sha256": "33d92c43a81885f2b09a7b893dfb94a3cd1bdf9555ee9a83e3bb9155013755ec",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "tetragon-stateful-kernel-policies-card-web-v1.webp",
+      "slug": "tetragon-stateful-kernel-policies",
+      "role": "card-web",
+      "bytes": 308604,
+      "sha256": "e3f3e766e359c85d825eda48f2f7b469ea611e2df3c83b4233938f3d5c25d194",
+      "dimensions": [
+        800,
+        450
+      ]
+    },
+    {
+      "name": "tetragon-stateful-kernel-policies-infographic-web-v1.webp",
+      "slug": "tetragon-stateful-kernel-policies",
+      "role": "infographic-web",
+      "bytes": 16916,
+      "sha256": "ce71f282f05f9ab592d3139671f67617427f12cae0416e4a8e5537681b66567e",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "tetragon-stateful-kernel-policies-og-web-v1.jpg",
+      "slug": "tetragon-stateful-kernel-policies",
+      "role": "og-web",
+      "bytes": 224588,
+      "sha256": "b32b9323334052cb51f926b7803a37b9eeda76e0749b9793c78ff1e53a2b7fed",
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "name": "xcpe-firmware-supply-chain-botnet-card-original-v1.png",
+      "slug": "xcpe-firmware-supply-chain-botnet",
+      "role": "card-original",
+      "bytes": 1675225,
+      "sha256": "4db49d1c21e9603b324c3c3d1882cb59bcc965b227e0aeb4e24f879576faf1b3",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "name": "xcpe-firmware-supply-chain-botnet-infographic-original-v1.png",
+      "slug": "xcpe-firmware-supply-chain-botnet",
+      "role": "infographic-original",
+      "bytes": 45862,
+      "sha256": "76721984fbc21ad9de58e2df2d298b5d4a34f4fe53073432992d45f4e33f032e",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "xcpe-firmware-supply-chain-botnet-card-web-v1.webp",
+      "slug": "xcpe-firmware-supply-chain-botnet",
+      "role": "card-web",
+      "bytes": 308516,
+      "sha256": "645014bd40a887378d8624f8586a4eb3be3fd84796f2bfe93c6daa28bcf37fbe",
+      "dimensions": [
+        800,
+        450
+      ]
+    },
+    {
+      "name": "xcpe-firmware-supply-chain-botnet-infographic-web-v1.webp",
+      "slug": "xcpe-firmware-supply-chain-botnet",
+      "role": "infographic-web",
+      "bytes": 16314,
+      "sha256": "5ccb65a63d88ae6eadca02d3497682d6e72b25e939668048bc25752af8eb3477",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "xcpe-firmware-supply-chain-botnet-og-web-v1.jpg",
+      "slug": "xcpe-firmware-supply-chain-botnet",
+      "role": "og-web",
+      "bytes": 236704,
+      "sha256": "8823760f3ffc7585a752b527d5cfe761be532267031539b6778208deb22956a6",
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "name": "llmjacking-stolen-ai-capacity-card-original-v1.png",
+      "slug": "llmjacking-stolen-ai-capacity",
+      "role": "card-original",
+      "bytes": 1792582,
+      "sha256": "f497ea54d9e8b13169dd57e88484d0261454cff54d5b4b7fd1102e068f9d1ffe",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "name": "llmjacking-stolen-ai-capacity-infographic-original-v1.png",
+      "slug": "llmjacking-stolen-ai-capacity",
+      "role": "infographic-original",
+      "bytes": 48511,
+      "sha256": "dd18a241bd0e18a5850767f6beaa8c0c2730a6b9dc06df1d6dbd20c38365fe28",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "llmjacking-stolen-ai-capacity-card-web-v1.webp",
+      "slug": "llmjacking-stolen-ai-capacity",
+      "role": "card-web",
+      "bytes": 344990,
+      "sha256": "a35b8f814980967de122a9d37c9726d64cdc7d949a20c6040db162eca3c095ba",
+      "dimensions": [
+        800,
+        450
+      ]
+    },
+    {
+      "name": "llmjacking-stolen-ai-capacity-infographic-web-v1.webp",
+      "slug": "llmjacking-stolen-ai-capacity",
+      "role": "infographic-web",
+      "bytes": 16650,
+      "sha256": "305f947646a86229ece3848edefa3aa5cf36680541e1ca65097d8c5830b1f1c8",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "llmjacking-stolen-ai-capacity-og-web-v1.jpg",
+      "slug": "llmjacking-stolen-ai-capacity",
+      "role": "og-web",
+      "bytes": 278287,
+      "sha256": "7704f875cf3a0e826e26dc70106659f11cc37403aeac177c73f070f177791636",
+      "dimensions": [
+        1200,
+        630
+      ]
+    }
+  ]
+}

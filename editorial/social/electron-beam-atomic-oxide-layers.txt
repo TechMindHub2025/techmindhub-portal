@@ -1,0 +1,13 @@
+A Nature Materials study reports free-standing atomically thin metal oxides made by removing halogen atoms from a layered precursor with a focused electron beam. In CrOCl, chlorine removal produces CrO; the team reports single-crystal areas above 10,000 nm² and micrometer-scale patterning.
+
+The microscope becomes a local fabrication tool. The difficult next step is connecting that structural precision to measured properties, usable devices and repeatable throughput. A calculated prediction of antiferromagnetic ordering below 230 K is not a direct magnetic measurement of the fabricated sheet.
+
+The result opens an experimental route, while yield, stability, contacts and manufacturing cost remain separate questions.
+
+Which measurement would most clearly move this from a material specimen toward a working device?
+
+Read the full analysis: https://techmindhub.cc/posts/electron-beam-atomic-oxide-layers/
+Primary source: https://www.nature.com/articles/s41563-026-02793-2
+More analysis: https://arover.substack.com/
+
+#TechMindHub #Engineering #Technology
