@@ -1,0 +1,24 @@
+{
+  "slug": "one-minute-grid-synchronization",
+  "checked": "2026-11-04",
+  "sources": [
+    "https://www.nature.com/articles/s41560-026-02144-0"
+  ],
+  "claims_and_limits": [
+    "Measured mechanism and propagation; contribution of each device class to every observed grid pattern is not apportioned. No cyberattack claim."
+  ],
+  "visual": {
+    "domain": "energy-environment",
+    "accent": "#6E793D",
+    "surface": "#F3F5E9",
+    "cover_phrase": "THE ONE-MINUTE RHYTHM",
+    "infographic_title": "SYNCHRONIZED LOAD",
+    "infographic_labels": [
+      "CLOCKED CONTROL",
+      "UPS & BATTERIES",
+      "LOAD PULSE",
+      "GRID FREQUENCY"
+    ],
+    "status": "Conceptual editorial illustration; no measured apparatus or numeric chart."
+  }
+}

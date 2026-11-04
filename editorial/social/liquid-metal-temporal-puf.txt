@@ -1,0 +1,11 @@
+A liquid-metal physical unclonable function in Nature Communications creates a device-specific thermal pattern during a brief heating window. Outside its intended conditions, other patterns act as decoys.
+
+That changes the attacker's observation problem, but a temporary response alone is not a complete authentication protocol. We examine repeated queries, replay, reader integrity, enrollment errors and the cost of verifying genuine devices after field use.
+
+The reported labels and QR examples are laboratory demonstrations; independent industrial security testing remains a separate milestone.
+
+Read the full analysis: https://techmindhub.cc/posts/liquid-metal-temporal-puf/
+Primary source: https://www.nature.com/articles/s41467-026-78973-0
+More analysis: https://arover.substack.com/
+
+#TechMindHub #Engineering #Technology

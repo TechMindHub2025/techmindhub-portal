@@ -1,0 +1,24 @@
+{
+  "slug": "ferroelectric-subvolt-dram-capacitors",
+  "checked": "2026-11-04",
+  "sources": [
+    "https://www.nature.com/articles/s41467-026-78705-4"
+  ],
+  "claims_and_limits": [
+    "0.6 V and 10^12 cycling measured on capacitors; subnanosecond speed extrapolated, DRAM-cell sensing simulated, no commercial array."
+  ],
+  "visual": {
+    "domain": "materials",
+    "accent": "#956848",
+    "surface": "#F7F1EB",
+    "cover_phrase": "THE INTERFACE MATTERS",
+    "infographic_title": "FROM CAPACITOR TO CELL",
+    "infographic_labels": [
+      "ENGINEERED ELECTRODES",
+      "MEASURED SWITCHING",
+      "EXTRAPOLATED SPEED",
+      "SIMULATED READOUT"
+    ],
+    "status": "Conceptual editorial illustration; no measured apparatus or numeric chart."
+  }
+}
