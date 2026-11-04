@@ -1,0 +1,20 @@
+{
+  "slug": "intel-sap-warehouse-physical-ai",
+  "checked": "2026-11-04",
+  "sources": ["https://www.intel.com/content/www/us/en/newsroom/news/artificial-intelligence/intel-demonstrates-physical-ai-action-with-sap.html"],
+  "claims_and_limits": [
+    "Intel and SAP describe a proof of concept connecting SAP EWM requests to autonomous robot movement and status feedback.",
+    "Intel reports operational improvements in the demonstration without a generalizable comparative benchmark.",
+    "The proof of concept does not establish scaled deployment or cross-site economics."
+  ],
+  "visual": {
+    "domain": "robotics",
+    "accent": "#AC5943",
+    "surface": "#FAF0EB",
+    "cover_phrase": "TASK TO ACTION",
+    "infographic_title": "THE WAREHOUSE LOOP",
+    "infographic_labels": ["BUSINESS REQUEST", "ROBOT TASK", "PHYSICAL MOVE", "STATUS & EXCEPTIONS"],
+    "shared_motif": "A copper task path and a single warehouse mover among shelves; cover emphasizes the move, inner figure maps the conceptual feedback loop.",
+    "status": "Editorial concept based on a proof of concept, not a depiction of Intel's actual robot or a deployed warehouse."
+  }
+}

@@ -1,0 +1,11 @@
+Google Cloud's GCP-2026-071 bulletin shows how a compromised CA key can affect trust stores in operating systems, container images, SDKs and managed services.
+
+Google says its own infrastructure was not breached and its telemetry shows no evidence of exploitation against Google Cloud workloads. The customer task is to identify which trust stores their workloads actually use, apply the relevant updates and verify external TLS connections.
+
+The bulletin was published October 23 and expanded its affected-product list October 28.
+
+Read the analysis: https://techmindhub.cc/posts/emudhra-ca-cloud-trust-dependencies/
+More analysis: https://arover.substack.com/
+Primary source: https://docs.cloud.google.com/support/bulletins#GCP-2026-071
+
+#Cybersecurity #CloudSecurity #PKI #DigitalTrust #TechMindHub

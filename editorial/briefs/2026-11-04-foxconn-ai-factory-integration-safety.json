@@ -1,0 +1,20 @@
+{
+  "slug": "foxconn-ai-factory-integration-safety",
+  "checked": "2026-11-04",
+  "sources": ["https://www.prnewswire.com/news-releases/foxconn-ecosystem-enabling-token-factory-for-ai-in-spotlight-at-hon-hai-tech-day-2026-302924468.html"],
+  "claims_and_limits": [
+    "Foxconn's syndicated company release was distributed October 29 Eastern Time; the event ran October 30–31 in Taipei.",
+    "The AI data hall was simulated, while robotics and agent safety were exhibited or demonstrated.",
+    "The release provides no independent measure of integrated industrial reliability or efficiency."
+  ],
+  "visual": {
+    "domain": "infrastructure",
+    "accent": "#426F94",
+    "surface": "#EEF3F8",
+    "cover_phrase": "AI FACTORY SYSTEM",
+    "infographic_title": "THREE LAYERS, ONE SYSTEM",
+    "infographic_labels": ["COMPUTE & COOLING", "ROBOTIC WORK CELL", "AGENT SAFEGUARDS", "FEEDBACK"],
+    "shared_motif": "Blue architectural factory modules linked to a robotic work cell with a visible safety boundary; cover is a panoramic concept, inner figure separates the layers.",
+    "status": "Conceptual editorial artwork, not an actual Hon Hai facility or product rendering."
+  }
+}
