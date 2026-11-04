@@ -1,0 +1,337 @@
+{
+  "release": "2026-11-04-six-security-materials-v2",
+  "web_prefix": "https://media.techmindhub.cc/posts/",
+  "files": [
+    {
+      "name": "vigilsoc-ai-soc-human-control-card-original-v2.png",
+      "slug": "vigilsoc-ai-soc-human-control",
+      "role": "card-original",
+      "bytes": 1900699,
+      "sha256": "59fc447e43ef3a64221d4e666ef3bdbf7dc1951790b720c058d8a23466d9ee6d",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "name": "vigilsoc-ai-soc-human-control-infographic-original-v2.png",
+      "slug": "vigilsoc-ai-soc-human-control",
+      "role": "infographic-original",
+      "bytes": 1893375,
+      "sha256": "615575c4a2187f7bd293dd7238e8582ebce897de78bcb8e120ba1a417fa37e8d",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "vigilsoc-ai-soc-human-control-card-web-v2.webp",
+      "slug": "vigilsoc-ai-soc-human-control",
+      "role": "card-web",
+      "bytes": 358682,
+      "sha256": "32daa38c80b0843069b874e1f63d53bb2be89842d00da4e33fc1ca4c312332db",
+      "dimensions": [
+        800,
+        450
+      ]
+    },
+    {
+      "name": "vigilsoc-ai-soc-human-control-infographic-web-v2.webp",
+      "slug": "vigilsoc-ai-soc-human-control",
+      "role": "infographic-web",
+      "bytes": 1317754,
+      "sha256": "35d061b282b8884c10c9ee7f29079493596246bf72ee79e54beee35084337941",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "vigilsoc-ai-soc-human-control-og-web-v2.jpg",
+      "slug": "vigilsoc-ai-soc-human-control",
+      "role": "og-web",
+      "bytes": 289118,
+      "sha256": "c5b235b4672fb4c4b1d20d69d5f00b028b09ad05588d857ebeb3946b7f2f5474",
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "name": "brotli-decoder-cloud-dependency-risk-card-original-v2.png",
+      "slug": "brotli-decoder-cloud-dependency-risk",
+      "role": "card-original",
+      "bytes": 1495429,
+      "sha256": "36a9d36aecbce3046f9e7cdf6081216479f8d8fcd0db3ae51b82119b2db5965f",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "name": "brotli-decoder-cloud-dependency-risk-infographic-original-v2.png",
+      "slug": "brotli-decoder-cloud-dependency-risk",
+      "role": "infographic-original",
+      "bytes": 2064757,
+      "sha256": "47a3ba012a46094562dd582639cf2a8a78ef9a81633c6a0221def5b2fe3b8266",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "brotli-decoder-cloud-dependency-risk-card-web-v2.webp",
+      "slug": "brotli-decoder-cloud-dependency-risk",
+      "role": "card-web",
+      "bytes": 272774,
+      "sha256": "38c3602a1867d433b423b0fb4e8c84b8d3742eb06db31c41946493d500d41cc8",
+      "dimensions": [
+        800,
+        450
+      ]
+    },
+    {
+      "name": "brotli-decoder-cloud-dependency-risk-infographic-web-v2.webp",
+      "slug": "brotli-decoder-cloud-dependency-risk",
+      "role": "infographic-web",
+      "bytes": 1555976,
+      "sha256": "0b9bbcbd48b9f833c5ad45f97cea3f80c10fd5021c841900d2344047edc33205",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "brotli-decoder-cloud-dependency-risk-og-web-v2.jpg",
+      "slug": "brotli-decoder-cloud-dependency-risk",
+      "role": "og-web",
+      "bytes": 222227,
+      "sha256": "3473f05bc674ab63633b373acbd9cf8cd20751f4b314b0eef52524293771420d",
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "name": "electron-beam-atomic-oxide-layers-card-original-v2.png",
+      "slug": "electron-beam-atomic-oxide-layers",
+      "role": "card-original",
+      "bytes": 1676203,
+      "sha256": "f6221b39b8be49fa60b786112376368cb4ec315e615fdc9b21a3c3114af6bb9e",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "name": "electron-beam-atomic-oxide-layers-infographic-original-v2.png",
+      "slug": "electron-beam-atomic-oxide-layers",
+      "role": "infographic-original",
+      "bytes": 1925442,
+      "sha256": "04f356e988478a7b69650af64d22740126a8b151a6cd23a106c7da25db0e84db",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "electron-beam-atomic-oxide-layers-card-web-v2.webp",
+      "slug": "electron-beam-atomic-oxide-layers",
+      "role": "card-web",
+      "bytes": 318044,
+      "sha256": "2051720a386236efd481644d35cdc6b55cd9594b47c752c5c9bd2370c06d9213",
+      "dimensions": [
+        800,
+        450
+      ]
+    },
+    {
+      "name": "electron-beam-atomic-oxide-layers-infographic-web-v2.webp",
+      "slug": "electron-beam-atomic-oxide-layers",
+      "role": "infographic-web",
+      "bytes": 1374568,
+      "sha256": "b987af74629487feae8c54bc143dcd0b2f057682efb88b99292473215bc8bed6",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "electron-beam-atomic-oxide-layers-og-web-v2.jpg",
+      "slug": "electron-beam-atomic-oxide-layers",
+      "role": "og-web",
+      "bytes": 251466,
+      "sha256": "8b8e517fa1537ade2bed3f5ea1bb5899bb6e64c105c36bc9c4b1d5f07bc3729e",
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "name": "tetragon-stateful-kernel-policies-card-original-v2.png",
+      "slug": "tetragon-stateful-kernel-policies",
+      "role": "card-original",
+      "bytes": 1900913,
+      "sha256": "8d2eb211582073e34c669d98a02a20afd5e38b1f9219165299bdaa887c7b857d",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "name": "tetragon-stateful-kernel-policies-infographic-original-v2.png",
+      "slug": "tetragon-stateful-kernel-policies",
+      "role": "infographic-original",
+      "bytes": 1949926,
+      "sha256": "09a1b9b62cb8683cbe71b6499ac0457043bea6ce3f5bde56604617a4cb583e4e",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "tetragon-stateful-kernel-policies-card-web-v2.webp",
+      "slug": "tetragon-stateful-kernel-policies",
+      "role": "card-web",
+      "bytes": 308604,
+      "sha256": "e3f3e766e359c85d825eda48f2f7b469ea611e2df3c83b4233938f3d5c25d194",
+      "dimensions": [
+        800,
+        450
+      ]
+    },
+    {
+      "name": "tetragon-stateful-kernel-policies-infographic-web-v2.webp",
+      "slug": "tetragon-stateful-kernel-policies",
+      "role": "infographic-web",
+      "bytes": 1421080,
+      "sha256": "7fef54cc298894d3ee989dd894b58f16f342ccbc2a1e8e0e04fe0a86f35d341b",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "tetragon-stateful-kernel-policies-og-web-v2.jpg",
+      "slug": "tetragon-stateful-kernel-policies",
+      "role": "og-web",
+      "bytes": 224588,
+      "sha256": "b32b9323334052cb51f926b7803a37b9eeda76e0749b9793c78ff1e53a2b7fed",
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "name": "xcpe-firmware-supply-chain-botnet-card-original-v2.png",
+      "slug": "xcpe-firmware-supply-chain-botnet",
+      "role": "card-original",
+      "bytes": 1675225,
+      "sha256": "4db49d1c21e9603b324c3c3d1882cb59bcc965b227e0aeb4e24f879576faf1b3",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "name": "xcpe-firmware-supply-chain-botnet-infographic-original-v2.png",
+      "slug": "xcpe-firmware-supply-chain-botnet",
+      "role": "infographic-original",
+      "bytes": 1876233,
+      "sha256": "3e0a0e77513280c08643faddb394e2a686bd858181cadf515d5754e42121aa5f",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "xcpe-firmware-supply-chain-botnet-card-web-v2.webp",
+      "slug": "xcpe-firmware-supply-chain-botnet",
+      "role": "card-web",
+      "bytes": 308516,
+      "sha256": "645014bd40a887378d8624f8586a4eb3be3fd84796f2bfe93c6daa28bcf37fbe",
+      "dimensions": [
+        800,
+        450
+      ]
+    },
+    {
+      "name": "xcpe-firmware-supply-chain-botnet-infographic-web-v2.webp",
+      "slug": "xcpe-firmware-supply-chain-botnet",
+      "role": "infographic-web",
+      "bytes": 1332198,
+      "sha256": "62e3e8a39029320684925cfaafbf4ec9abce41ff906b09f97ebd162389b7aa8d",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "xcpe-firmware-supply-chain-botnet-og-web-v2.jpg",
+      "slug": "xcpe-firmware-supply-chain-botnet",
+      "role": "og-web",
+      "bytes": 236704,
+      "sha256": "8823760f3ffc7585a752b527d5cfe761be532267031539b6778208deb22956a6",
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "name": "llmjacking-stolen-ai-capacity-card-original-v2.png",
+      "slug": "llmjacking-stolen-ai-capacity",
+      "role": "card-original",
+      "bytes": 1792582,
+      "sha256": "f497ea54d9e8b13169dd57e88484d0261454cff54d5b4b7fd1102e068f9d1ffe",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "name": "llmjacking-stolen-ai-capacity-infographic-original-v2.png",
+      "slug": "llmjacking-stolen-ai-capacity",
+      "role": "infographic-original",
+      "bytes": 2181238,
+      "sha256": "042d084a2320032133310464a9997f649035c23640480004b0e487237380ebb7",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "llmjacking-stolen-ai-capacity-card-web-v2.webp",
+      "slug": "llmjacking-stolen-ai-capacity",
+      "role": "card-web",
+      "bytes": 344990,
+      "sha256": "a35b8f814980967de122a9d37c9726d64cdc7d949a20c6040db162eca3c095ba",
+      "dimensions": [
+        800,
+        450
+      ]
+    },
+    {
+      "name": "llmjacking-stolen-ai-capacity-infographic-web-v2.webp",
+      "slug": "llmjacking-stolen-ai-capacity",
+      "role": "infographic-web",
+      "bytes": 1680786,
+      "sha256": "143db062f6c3b0981448a4cc4000507aec30ecffa8e02112fe8186358ab75a3c",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "llmjacking-stolen-ai-capacity-og-web-v2.jpg",
+      "slug": "llmjacking-stolen-ai-capacity",
+      "role": "og-web",
+      "bytes": 278287,
+      "sha256": "7704f875cf3a0e826e26dc70106659f11cc37403aeac177c73f070f177791636",
+      "dimensions": [
+        1200,
+        630
+      ]
+    }
+  ],
+  "supersedes": "2026-11-04-six-security-materials-v1; do not upload the v1 image archive."
+}

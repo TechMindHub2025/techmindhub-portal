@@ -1,0 +1,13 @@
+VigilSOC 1.0.0, released October 29, brings specialized AI agents into security operations. Its announcement describes investigation and response workflows connected through MCP, with configurable approval mechanisms.
+
+The important question is where an agent's authority ends. Reading telemetry, proposing a response and disabling an account carry different consequences. A useful trial should trace every tool call to the evidence and permission that justified it, then test stale alerts, untrusted text and failed integrations.
+
+General Availability is the project's release designation, not an independent reliability benchmark. OpenCTI integration and federated detection are on its roadmap.
+
+Which security action would you allow only after a human has examined the evidence?
+
+Read the full analysis: https://techmindhub.cc/posts/vigilsoc-ai-soc-human-control/
+Primary source: https://github.com/Vigil-SOC/vigil/releases/tag/v1.0.0
+More analysis: https://arover.substack.com/
+
+#TechMindHub #Engineering #Technology

@@ -1,0 +1,13 @@
+Google Threat Intelligence Group reports a joint disruption of XCPE, a backdoor linked to more than 1.3 million Android TV set-top boxes. Google assesses with high confidence that Videostrong intentionally deployed and operated it; the reported code loaded malicious functionality after first boot.
+
+The trust problem starts before a customer installs anything. Signed firmware and a passed setup test have defined limits if a vendor-controlled component is itself malicious or activates later. Device inventories, independent reference measurements and post-boot network observation become important.
+
+Disrupting command infrastructure can reduce abuse, but it does not prove that every compromised box has been cleaned.
+
+What evidence would you require before reconnecting a formerly affected device?
+
+Read the full analysis: https://techmindhub.cc/posts/xcpe-firmware-supply-chain-botnet/
+Primary source: https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet/
+More analysis: https://arover.substack.com/
+
+#TechMindHub #Engineering #Technology

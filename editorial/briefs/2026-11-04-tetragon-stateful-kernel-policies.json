@@ -1,0 +1,26 @@
+{
+  "slug": "tetragon-stateful-kernel-policies",
+  "checked": "2026-11-04",
+  "sources": [
+    "https://github.com/cilium/tetragon/releases/tag/v1.8.0",
+    "https://tetragon.io/docs/concepts/tracing-policy/selectors/"
+  ],
+  "claims_and_limits": [
+    "Release features do not establish a general detection gain or overhead; policies need workload and kernel validation."
+  ],
+  "visual": {
+    "domain": "digital-trust",
+    "accent": "#966020",
+    "surface": "#FBF3E6",
+    "cover_phrase": "CONTEXT IN THE KERNEL",
+    "infographic_title": "STATEFUL POLICY",
+    "infographic_labels": [
+      "PROCESS EVENT",
+      "POLICY STATE",
+      "CONTEXT MATCH",
+      "OBSERVE OR ENFORCE"
+    ],
+    "status": "Generated conceptual editorial illustration with reviewed text and subject-specific mechanism; no measured chart.",
+    "version": "v2"
+  }
+}

@@ -1,0 +1,13 @@
+Google and Mandiant describe 2026 cases in which stolen cloud identities or exposed model endpoints were converted into billable AI usage. Some investigated victims accumulated more than $100,000 of fraudulent consumption in a day; intermediaries called LLM Mixers resold unauthorized access.
+
+The engineering response joins identity, resource permissions and cost telemetry. Limit which service accounts can create keys or provision capacity, set workload-specific quotas and test whether an alert can lead to containment before spending grows. Rotating one key is insufficient if an attacker has created others.
+
+The reported costs are from particular investigations, not a typical loss estimate.
+
+How quickly can your team identify and stop an unexpected spike in AI-resource use?
+
+Read the full analysis: https://techmindhub.cc/posts/llmjacking-stolen-ai-capacity/
+Primary source: https://cloud.google.com/blog/topics/threat-intelligence/llmjacking-monetizing-compromised-cloud-models/
+More analysis: https://arover.substack.com/
+
+#TechMindHub #Engineering #Technology
