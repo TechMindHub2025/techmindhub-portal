@@ -1,0 +1,172 @@
+{
+  "release": "2026-11-04-intel-foxconn-emudhra-v1",
+  "web_prefix": "https://media.techmindhub.cc/posts/",
+  "files": [
+    {
+      "name": "intel-sap-warehouse-physical-ai-card-original-v1.png",
+      "slug": "intel-sap-warehouse-physical-ai",
+      "role": "card-original",
+      "bytes": 1710075,
+      "sha256": "8b44b54400a089f695acd50be79d7a72fa6329508d1b8a4686e58a1e075fc3f1",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "name": "intel-sap-warehouse-physical-ai-infographic-original-v1.png",
+      "slug": "intel-sap-warehouse-physical-ai",
+      "role": "infographic-original",
+      "bytes": 1831037,
+      "sha256": "f4dfefaf25ccd249f117940e395b406da841ad41b02495cfbc8543432ec745e0",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "intel-sap-warehouse-physical-ai-card-web-v1.webp",
+      "slug": "intel-sap-warehouse-physical-ai",
+      "role": "card-web",
+      "bytes": 310274,
+      "sha256": "1e9789b8c215608bd9f374571fe2fa1b532efb44ccbe185c1d620de579037341",
+      "dimensions": [
+        800,
+        450
+      ]
+    },
+    {
+      "name": "intel-sap-warehouse-physical-ai-og-web-v1.jpg",
+      "slug": "intel-sap-warehouse-physical-ai",
+      "role": "og-web",
+      "bytes": 224876,
+      "sha256": "7e6d4ee34549a7dcfa7c2702e534b62cf47a43ac843ebaa472b48c2fd991b3f5",
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "name": "intel-sap-warehouse-physical-ai-infographic-web-v1.webp",
+      "slug": "intel-sap-warehouse-physical-ai",
+      "role": "infographic-web",
+      "bytes": 1282440,
+      "sha256": "d0fece7797fce995d924e04e35b2da2c55627a0a9617d95e085eee1eddd84efd",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "foxconn-ai-factory-integration-safety-card-original-v1.png",
+      "slug": "foxconn-ai-factory-integration-safety",
+      "role": "card-original",
+      "bytes": 1911634,
+      "sha256": "fb568354b5bbf8a5fa27d929059780c7fa6cccce3ef77ca13861850ac48fa82c",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "name": "foxconn-ai-factory-integration-safety-infographic-original-v1.png",
+      "slug": "foxconn-ai-factory-integration-safety",
+      "role": "infographic-original",
+      "bytes": 1868584,
+      "sha256": "e4ac9f26b38565976782046630e849b0210842904848c08ebebee1b409d65f54",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "foxconn-ai-factory-integration-safety-card-web-v1.webp",
+      "slug": "foxconn-ai-factory-integration-safety",
+      "role": "card-web",
+      "bytes": 364876,
+      "sha256": "35723a122f6d4dd9edd34bc3c9c29b92f62521c2a6b7f6302deea08b67a00b99",
+      "dimensions": [
+        800,
+        450
+      ]
+    },
+    {
+      "name": "foxconn-ai-factory-integration-safety-og-web-v1.jpg",
+      "slug": "foxconn-ai-factory-integration-safety",
+      "role": "og-web",
+      "bytes": 337753,
+      "sha256": "ee769dfbd24838b209f1af217edf8126a1669c01f3acf3d5c6ebfa80b46dd2f1",
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "name": "foxconn-ai-factory-integration-safety-infographic-web-v1.webp",
+      "slug": "foxconn-ai-factory-integration-safety",
+      "role": "infographic-web",
+      "bytes": 1319862,
+      "sha256": "8eaa22e17384d6a37d328d7567ac8ab903ae227644e812268b22fb5018072dce",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "emudhra-ca-cloud-trust-dependencies-card-original-v1.png",
+      "slug": "emudhra-ca-cloud-trust-dependencies",
+      "role": "card-original",
+      "bytes": 1500246,
+      "sha256": "39b1be4cffc0fadc81a1b549950ab11f9197e7155e6cc95eb248213a4508a219",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "name": "emudhra-ca-cloud-trust-dependencies-infographic-original-v1.png",
+      "slug": "emudhra-ca-cloud-trust-dependencies",
+      "role": "infographic-original",
+      "bytes": 1694393,
+      "sha256": "dc43ce0eb7dcc862b6b65a8567a0c92f78ed223f3f6cbb0e0dc9b47a863977b9",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "emudhra-ca-cloud-trust-dependencies-card-web-v1.webp",
+      "slug": "emudhra-ca-cloud-trust-dependencies",
+      "role": "card-web",
+      "bytes": 274040,
+      "sha256": "e184a6fc0b4a31822285616f1d76a32ca850293b2a66b18fb50094f2f4e67df9",
+      "dimensions": [
+        800,
+        450
+      ]
+    },
+    {
+      "name": "emudhra-ca-cloud-trust-dependencies-og-web-v1.jpg",
+      "slug": "emudhra-ca-cloud-trust-dependencies",
+      "role": "og-web",
+      "bytes": 196965,
+      "sha256": "ee8ba2d7e8ebca940605ff7cfcc5df8f9343d3e54d6d1277f828770aa117a7cc",
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "name": "emudhra-ca-cloud-trust-dependencies-infographic-web-v1.webp",
+      "slug": "emudhra-ca-cloud-trust-dependencies",
+      "role": "infographic-web",
+      "bytes": 1126996,
+      "sha256": "0432574a24c04ec9961eae5d332982e51eff21d0b141509d9ea4884f28f5c35a",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    }
+  ],
+  "verification": "All infographic WebP files decode pixel-identically to original PNGs; resized feed cards decode pixel-identically to deterministic resize."
+}

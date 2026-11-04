@@ -1,0 +1,20 @@
+{
+  "slug": "emudhra-ca-cloud-trust-dependencies",
+  "checked": "2026-11-04",
+  "sources": ["https://docs.cloud.google.com/support/bulletins#GCP-2026-071"],
+  "claims_and_limits": [
+    "Google was notified October 17, published bulletin October 23 and expanded affected services October 28.",
+    "Weakly generated keys of eight eMudhra subordinate CAs could be reconstructed, creating risk for unpatched TLS clients that trust them.",
+    "Google says its infrastructure was not breached and telemetry shows no exploitation against Google Cloud workloads."
+  ],
+  "visual": {
+    "domain": "digital-trust",
+    "accent": "#966020",
+    "surface": "#FBF3E6",
+    "cover_phrase": "TRUST DEPENDENCIES",
+    "infographic_title": "WHERE TRUST LIVES",
+    "infographic_labels": ["CA CERTIFICATE", "OS TRUST STORE", "CONTAINER IMAGE", "SDK", "MANAGED SERVICE"],
+    "shared_motif": "Amber certificate chain branching into separate software layers; an affected subordinate link is marked for distrust, without breach imagery.",
+    "status": "Conceptual trust-store map. No implication that Google Cloud infrastructure was compromised."
+  }
+}
