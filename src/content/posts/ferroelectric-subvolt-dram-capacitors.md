@@ -46,6 +46,8 @@ The distribution matters as much as a representative device. Thin films and thei
 
 Finally, distinguish a voltage *applied to a test capacitor* from the total voltage budget of a memory operation. The paper's 0.6 V result is a component milestone. Its simulated sensing scenario uses 1.1 V and depends on specific bit-line and circuit assumptions. Both figures can be true without implying a complete 0.6 V DRAM. Keeping those levels separate makes the next experiment much clearer.
 
+The manufacturing route also needs a baseline. If the interface treatment adds steps or narrows the process window, the improvement in electrical behavior must survive the variation and cost of high-volume fabrication. A useful follow-up would report not only the best device but the fraction of tested devices meeting switching, leakage and lifetime limits on the same wafer. That would connect a compelling materials result to the yield problem a memory maker actually faces.
+
 ## Sources
 
 - [*Nature Communications*: ferroelectric HZO capacitors](https://www.nature.com/articles/s41467-026-78705-4)
