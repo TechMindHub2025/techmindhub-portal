@@ -13,13 +13,14 @@
     "accent": "#956848",
     "surface": "#F7F1EB",
     "cover_phrase": "WRITING AN ATOMIC LAYER",
-    "infographic_title": "ATOMIC CONVERSION",
+    "infographic_title": "WRITING AN ATOMIC LAYER",
     "infographic_labels": [
       "CrOCl PRECURSOR",
       "ELECTRON BEAM",
       "CHLORINE REMOVAL",
-      "CrO MONOLAYER"
+      "CrO REGION"
     ],
-    "status": "Conceptual editorial illustration; no measured chart."
+    "status": "Generated conceptual editorial illustration with reviewed text and subject-specific mechanism; no measured chart.",
+    "version": "v2"
   }
 }

@@ -15,11 +15,12 @@
     "cover_phrase": "WHO APPROVES THE AGENT?",
     "infographic_title": "AGENT AUTHORITY",
     "infographic_labels": [
-      "SECURITY ALERT",
-      "AGENT INVESTIGATION",
-      "APPROVAL GATE",
-      "AUDIT & RESPONSE"
+      "ALERT",
+      "INVESTIGATION",
+      "HUMAN APPROVAL",
+      "RESPONSE & AUDIT"
     ],
-    "status": "Conceptual editorial illustration; no measured chart."
+    "status": "Generated conceptual editorial illustration with reviewed text and subject-specific mechanism; no measured chart.",
+    "version": "v2"
   }
 }

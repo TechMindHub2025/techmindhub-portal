@@ -12,13 +12,14 @@
     "accent": "#966020",
     "surface": "#FBF3E6",
     "cover_phrase": "STOLEN AI CAPACITY",
-    "infographic_title": "STOLEN CAPACITY",
+    "infographic_title": "STOLEN AI CAPACITY",
     "infographic_labels": [
-      "STOLEN CREDENTIAL",
-      "RESOURCE ABUSE",
+      "IDENTITY",
+      "MODEL ACCESS",
       "PROXY RESALE",
-      "COST DETECTION"
+      "COST ALERT"
     ],
-    "status": "Conceptual editorial illustration; no measured chart."
+    "status": "Generated conceptual editorial illustration with reviewed text and subject-specific mechanism; no measured chart.",
+    "version": "v2"
   }
 }

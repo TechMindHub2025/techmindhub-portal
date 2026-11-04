@@ -18,8 +18,9 @@
       "PROCESS EVENT",
       "POLICY STATE",
       "CONTEXT MATCH",
-      "OBSERVE / ENFORCE"
+      "OBSERVE OR ENFORCE"
     ],
-    "status": "Conceptual editorial illustration; no measured chart."
+    "status": "Generated conceptual editorial illustration with reviewed text and subject-specific mechanism; no measured chart.",
+    "version": "v2"
   }
 }

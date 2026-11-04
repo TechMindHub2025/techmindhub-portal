@@ -12,13 +12,14 @@
     "accent": "#966020",
     "surface": "#FBF3E6",
     "cover_phrase": "TRUST BEFORE FIRST BOOT",
-    "infographic_title": "FIRMWARE TRUST",
+    "infographic_title": "TRUST AFTER FIRST BOOT",
     "infographic_labels": [
-      "FACTORY FIRMWARE",
+      "FACTORY IMAGE",
       "FIRST BOOT",
       "REMOTE MODULES",
-      "DEVICE RESPONSE"
+      "NETWORK DISRUPTION"
     ],
-    "status": "Conceptual editorial illustration; no measured chart."
+    "status": "Generated conceptual editorial illustration with reviewed text and subject-specific mechanism; no measured chart.",
+    "version": "v2"
   }
 }

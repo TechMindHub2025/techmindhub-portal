@@ -13,13 +13,14 @@
     "accent": "#426F94",
     "surface": "#EEF3F8",
     "cover_phrase": "ONE LIBRARY, MANY PATHS",
-    "infographic_title": "DECODER DEPENDENCIES",
+    "infographic_title": "ONE LIBRARY, MANY PATHS",
     "infographic_labels": [
-      "COMPRESSED INPUT",
-      "SHARED DECODER",
-      "RUNTIME / IMAGE / BUILD",
-      "PATCH & REDEPLOY"
+      "RUNTIME",
+      "CONTAINER",
+      "BUILD IMAGE",
+      "VERIFY DEPLOYMENT"
     ],
-    "status": "Conceptual editorial illustration; no measured chart."
+    "status": "Generated conceptual editorial illustration with reviewed text and subject-specific mechanism; no measured chart.",
+    "version": "v2"
   }
 }

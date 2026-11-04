@@ -1,9 +1,9 @@
 {
-  "release": "2026-11-04-six-security-materials-v1",
+  "release": "2026-11-04-six-security-materials-v2",
   "web_prefix": "https://media.techmindhub.cc/posts/",
   "files": [
     {
-      "name": "vigilsoc-ai-soc-human-control-card-original-v1.png",
+      "name": "vigilsoc-ai-soc-human-control-card-original-v2.png",
       "slug": "vigilsoc-ai-soc-human-control",
       "role": "card-original",
       "bytes": 1900699,
@@ -14,18 +14,18 @@
       ]
     },
     {
-      "name": "vigilsoc-ai-soc-human-control-infographic-original-v1.png",
+      "name": "vigilsoc-ai-soc-human-control-infographic-original-v2.png",
       "slug": "vigilsoc-ai-soc-human-control",
       "role": "infographic-original",
-      "bytes": 48640,
-      "sha256": "8aee77122a14efa11cc20471f9824c71aaedd5e8071a1761e326ab5b71f50f47",
+      "bytes": 1893375,
+      "sha256": "615575c4a2187f7bd293dd7238e8582ebce897de78bcb8e120ba1a417fa37e8d",
       "dimensions": [
         1122,
         1402
       ]
     },
     {
-      "name": "vigilsoc-ai-soc-human-control-card-web-v1.webp",
+      "name": "vigilsoc-ai-soc-human-control-card-web-v2.webp",
       "slug": "vigilsoc-ai-soc-human-control",
       "role": "card-web",
       "bytes": 358682,
@@ -36,18 +36,18 @@
       ]
     },
     {
-      "name": "vigilsoc-ai-soc-human-control-infographic-web-v1.webp",
+      "name": "vigilsoc-ai-soc-human-control-infographic-web-v2.webp",
       "slug": "vigilsoc-ai-soc-human-control",
       "role": "infographic-web",
-      "bytes": 16788,
-      "sha256": "032502ac03bdef88fd9e451f9c40d40afb18a95b6c0cd90118389bbb8303b0cc",
+      "bytes": 1317754,
+      "sha256": "35d061b282b8884c10c9ee7f29079493596246bf72ee79e54beee35084337941",
       "dimensions": [
         1122,
         1402
       ]
     },
     {
-      "name": "vigilsoc-ai-soc-human-control-og-web-v1.jpg",
+      "name": "vigilsoc-ai-soc-human-control-og-web-v2.jpg",
       "slug": "vigilsoc-ai-soc-human-control",
       "role": "og-web",
       "bytes": 289118,
@@ -58,7 +58,7 @@
       ]
     },
     {
-      "name": "brotli-decoder-cloud-dependency-risk-card-original-v1.png",
+      "name": "brotli-decoder-cloud-dependency-risk-card-original-v2.png",
       "slug": "brotli-decoder-cloud-dependency-risk",
       "role": "card-original",
       "bytes": 1495429,
@@ -69,18 +69,18 @@
       ]
     },
     {
-      "name": "brotli-decoder-cloud-dependency-risk-infographic-original-v1.png",
+      "name": "brotli-decoder-cloud-dependency-risk-infographic-original-v2.png",
       "slug": "brotli-decoder-cloud-dependency-risk",
       "role": "infographic-original",
-      "bytes": 49904,
-      "sha256": "6b4749a0cabc02c6f0d726f6b9131c94e4f4acb2fb0b3af484dab0f3ea146feb",
+      "bytes": 2064757,
+      "sha256": "47a3ba012a46094562dd582639cf2a8a78ef9a81633c6a0221def5b2fe3b8266",
       "dimensions": [
         1122,
         1402
       ]
     },
     {
-      "name": "brotli-decoder-cloud-dependency-risk-card-web-v1.webp",
+      "name": "brotli-decoder-cloud-dependency-risk-card-web-v2.webp",
       "slug": "brotli-decoder-cloud-dependency-risk",
       "role": "card-web",
       "bytes": 272774,
@@ -91,18 +91,18 @@
       ]
     },
     {
-      "name": "brotli-decoder-cloud-dependency-risk-infographic-web-v1.webp",
+      "name": "brotli-decoder-cloud-dependency-risk-infographic-web-v2.webp",
       "slug": "brotli-decoder-cloud-dependency-risk",
       "role": "infographic-web",
-      "bytes": 18546,
-      "sha256": "ea1684834ae3b15c8fd7e922354d6e96bd9c3bab93fc11cf814d77d7db18d95f",
+      "bytes": 1555976,
+      "sha256": "0b9bbcbd48b9f833c5ad45f97cea3f80c10fd5021c841900d2344047edc33205",
       "dimensions": [
         1122,
         1402
       ]
     },
     {
-      "name": "brotli-decoder-cloud-dependency-risk-og-web-v1.jpg",
+      "name": "brotli-decoder-cloud-dependency-risk-og-web-v2.jpg",
       "slug": "brotli-decoder-cloud-dependency-risk",
       "role": "og-web",
       "bytes": 222227,
@@ -113,7 +113,7 @@
       ]
     },
     {
-      "name": "electron-beam-atomic-oxide-layers-card-original-v1.png",
+      "name": "electron-beam-atomic-oxide-layers-card-original-v2.png",
       "slug": "electron-beam-atomic-oxide-layers",
       "role": "card-original",
       "bytes": 1676203,
@@ -124,18 +124,18 @@
       ]
     },
     {
-      "name": "electron-beam-atomic-oxide-layers-infographic-original-v1.png",
+      "name": "electron-beam-atomic-oxide-layers-infographic-original-v2.png",
       "slug": "electron-beam-atomic-oxide-layers",
       "role": "infographic-original",
-      "bytes": 50382,
-      "sha256": "8508d711f7d5d8e1aeba49c1a8a3d8fa550c136210c7253ec24c799bc0da50b3",
+      "bytes": 1925442,
+      "sha256": "04f356e988478a7b69650af64d22740126a8b151a6cd23a106c7da25db0e84db",
       "dimensions": [
         1122,
         1402
       ]
     },
     {
-      "name": "electron-beam-atomic-oxide-layers-card-web-v1.webp",
+      "name": "electron-beam-atomic-oxide-layers-card-web-v2.webp",
       "slug": "electron-beam-atomic-oxide-layers",
       "role": "card-web",
       "bytes": 318044,
@@ -146,18 +146,18 @@
       ]
     },
     {
-      "name": "electron-beam-atomic-oxide-layers-infographic-web-v1.webp",
+      "name": "electron-beam-atomic-oxide-layers-infographic-web-v2.webp",
       "slug": "electron-beam-atomic-oxide-layers",
       "role": "infographic-web",
-      "bytes": 17622,
-      "sha256": "7fbc8fd344d034145ee6daae70547865633e2e146927615d89007a0515148e99",
+      "bytes": 1374568,
+      "sha256": "b987af74629487feae8c54bc143dcd0b2f057682efb88b99292473215bc8bed6",
       "dimensions": [
         1122,
         1402
       ]
     },
     {
-      "name": "electron-beam-atomic-oxide-layers-og-web-v1.jpg",
+      "name": "electron-beam-atomic-oxide-layers-og-web-v2.jpg",
       "slug": "electron-beam-atomic-oxide-layers",
       "role": "og-web",
       "bytes": 251466,
@@ -168,7 +168,7 @@
       ]
     },
     {
-      "name": "tetragon-stateful-kernel-policies-card-original-v1.png",
+      "name": "tetragon-stateful-kernel-policies-card-original-v2.png",
       "slug": "tetragon-stateful-kernel-policies",
       "role": "card-original",
       "bytes": 1900913,
@@ -179,18 +179,18 @@
       ]
     },
     {
-      "name": "tetragon-stateful-kernel-policies-infographic-original-v1.png",
+      "name": "tetragon-stateful-kernel-policies-infographic-original-v2.png",
       "slug": "tetragon-stateful-kernel-policies",
       "role": "infographic-original",
-      "bytes": 49540,
-      "sha256": "33d92c43a81885f2b09a7b893dfb94a3cd1bdf9555ee9a83e3bb9155013755ec",
+      "bytes": 1949926,
+      "sha256": "09a1b9b62cb8683cbe71b6499ac0457043bea6ce3f5bde56604617a4cb583e4e",
       "dimensions": [
         1122,
         1402
       ]
     },
     {
-      "name": "tetragon-stateful-kernel-policies-card-web-v1.webp",
+      "name": "tetragon-stateful-kernel-policies-card-web-v2.webp",
       "slug": "tetragon-stateful-kernel-policies",
       "role": "card-web",
       "bytes": 308604,
@@ -201,18 +201,18 @@
       ]
     },
     {
-      "name": "tetragon-stateful-kernel-policies-infographic-web-v1.webp",
+      "name": "tetragon-stateful-kernel-policies-infographic-web-v2.webp",
       "slug": "tetragon-stateful-kernel-policies",
       "role": "infographic-web",
-      "bytes": 16916,
-      "sha256": "ce71f282f05f9ab592d3139671f67617427f12cae0416e4a8e5537681b66567e",
+      "bytes": 1421080,
+      "sha256": "7fef54cc298894d3ee989dd894b58f16f342ccbc2a1e8e0e04fe0a86f35d341b",
       "dimensions": [
         1122,
         1402
       ]
     },
     {
-      "name": "tetragon-stateful-kernel-policies-og-web-v1.jpg",
+      "name": "tetragon-stateful-kernel-policies-og-web-v2.jpg",
       "slug": "tetragon-stateful-kernel-policies",
       "role": "og-web",
       "bytes": 224588,
@@ -223,7 +223,7 @@
       ]
     },
     {
-      "name": "xcpe-firmware-supply-chain-botnet-card-original-v1.png",
+      "name": "xcpe-firmware-supply-chain-botnet-card-original-v2.png",
       "slug": "xcpe-firmware-supply-chain-botnet",
       "role": "card-original",
       "bytes": 1675225,
@@ -234,18 +234,18 @@
       ]
     },
     {
-      "name": "xcpe-firmware-supply-chain-botnet-infographic-original-v1.png",
+      "name": "xcpe-firmware-supply-chain-botnet-infographic-original-v2.png",
       "slug": "xcpe-firmware-supply-chain-botnet",
       "role": "infographic-original",
-      "bytes": 45862,
-      "sha256": "76721984fbc21ad9de58e2df2d298b5d4a34f4fe53073432992d45f4e33f032e",
+      "bytes": 1876233,
+      "sha256": "3e0a0e77513280c08643faddb394e2a686bd858181cadf515d5754e42121aa5f",
       "dimensions": [
         1122,
         1402
       ]
     },
     {
-      "name": "xcpe-firmware-supply-chain-botnet-card-web-v1.webp",
+      "name": "xcpe-firmware-supply-chain-botnet-card-web-v2.webp",
       "slug": "xcpe-firmware-supply-chain-botnet",
       "role": "card-web",
       "bytes": 308516,
@@ -256,18 +256,18 @@
       ]
     },
     {
-      "name": "xcpe-firmware-supply-chain-botnet-infographic-web-v1.webp",
+      "name": "xcpe-firmware-supply-chain-botnet-infographic-web-v2.webp",
       "slug": "xcpe-firmware-supply-chain-botnet",
       "role": "infographic-web",
-      "bytes": 16314,
-      "sha256": "5ccb65a63d88ae6eadca02d3497682d6e72b25e939668048bc25752af8eb3477",
+      "bytes": 1332198,
+      "sha256": "62e3e8a39029320684925cfaafbf4ec9abce41ff906b09f97ebd162389b7aa8d",
       "dimensions": [
         1122,
         1402
       ]
     },
     {
-      "name": "xcpe-firmware-supply-chain-botnet-og-web-v1.jpg",
+      "name": "xcpe-firmware-supply-chain-botnet-og-web-v2.jpg",
       "slug": "xcpe-firmware-supply-chain-botnet",
       "role": "og-web",
       "bytes": 236704,
@@ -278,7 +278,7 @@
       ]
     },
     {
-      "name": "llmjacking-stolen-ai-capacity-card-original-v1.png",
+      "name": "llmjacking-stolen-ai-capacity-card-original-v2.png",
       "slug": "llmjacking-stolen-ai-capacity",
       "role": "card-original",
       "bytes": 1792582,
@@ -289,18 +289,18 @@
       ]
     },
     {
-      "name": "llmjacking-stolen-ai-capacity-infographic-original-v1.png",
+      "name": "llmjacking-stolen-ai-capacity-infographic-original-v2.png",
       "slug": "llmjacking-stolen-ai-capacity",
       "role": "infographic-original",
-      "bytes": 48511,
-      "sha256": "dd18a241bd0e18a5850767f6beaa8c0c2730a6b9dc06df1d6dbd20c38365fe28",
+      "bytes": 2181238,
+      "sha256": "042d084a2320032133310464a9997f649035c23640480004b0e487237380ebb7",
       "dimensions": [
         1122,
         1402
       ]
     },
     {
-      "name": "llmjacking-stolen-ai-capacity-card-web-v1.webp",
+      "name": "llmjacking-stolen-ai-capacity-card-web-v2.webp",
       "slug": "llmjacking-stolen-ai-capacity",
       "role": "card-web",
       "bytes": 344990,
@@ -311,18 +311,18 @@
       ]
     },
     {
-      "name": "llmjacking-stolen-ai-capacity-infographic-web-v1.webp",
+      "name": "llmjacking-stolen-ai-capacity-infographic-web-v2.webp",
       "slug": "llmjacking-stolen-ai-capacity",
       "role": "infographic-web",
-      "bytes": 16650,
-      "sha256": "305f947646a86229ece3848edefa3aa5cf36680541e1ca65097d8c5830b1f1c8",
+      "bytes": 1680786,
+      "sha256": "143db062f6c3b0981448a4cc4000507aec30ecffa8e02112fe8186358ab75a3c",
       "dimensions": [
         1122,
         1402
       ]
     },
     {
-      "name": "llmjacking-stolen-ai-capacity-og-web-v1.jpg",
+      "name": "llmjacking-stolen-ai-capacity-og-web-v2.jpg",
       "slug": "llmjacking-stolen-ai-capacity",
       "role": "og-web",
       "bytes": 278287,
@@ -332,5 +332,6 @@
         630
       ]
     }
-  ]
+  ],
+  "supersedes": "2026-11-04-six-security-materials-v1; do not upload the v1 image archive."
 }
