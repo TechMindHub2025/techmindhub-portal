@@ -741,9 +741,21 @@ select:focus-visible {
   background: linear-gradient(180deg, rgba(0,0,0,0.02), rgba(0,0,0,0));
 }
 
-/* Contact form – full-width inputs */
 .contactForm {
   width: 100%;
+  margin-top: 16px;
+}
+
+.contactFormInner {
+  width: 100%;
+}
+
+.contactForm .formRow {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.contactForm .formRow > div {
+  min-width: 0;
 }
 
 .contactForm .input {
@@ -751,44 +763,8 @@ select:focus-visible {
   box-sizing: border-box;
 }
 
-.contactForm textarea.input {
-  width: 100%;
-  box-sizing: border-box;
-}
-
 .contactForm .cf-turnstile {
-  width: 100%;
-}
-
-/* Add spacing between the intro text and the form */
-.contactForm {
-  margin-top: 16px;
-}
-
-/* Contact form – center all controls without changing their width */
-.contactFormInner {
-  display: flex;
-  flex-direction: column;
-  align-items: center;   /* center the elements themselves */
-  gap: 10px;
-}
-
-/* labels/signatures are not centered, but are readable normally */
-.contactFormInner > div,
-.contactFormInner label,
-.contactFormInner .note {
-  width: 100%;
-  max-width: 420px;      /* adjust if necessary: 380–520 */
-}
-
-.contactFormInner .cf-turnstile {
-  width: 100%;
-  max-width: 420px;
-}
-
-/* button in the center */
-.contactFormInner button.btn {
-  align-self: center;
+  max-width: 100%;
 }
 
 

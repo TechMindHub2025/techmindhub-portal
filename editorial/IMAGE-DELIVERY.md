@@ -1,7 +1,7 @@
 # Publication image delivery
 
-Agreed with Andrew on 2026-10-25: deliver original PNG artwork for his archive
-and social work, and separate optimized files for the public R2 bucket. Artwork
+Delivery profile adopted on 2026-10-25: preserve original PNG artwork in a separate
+archive for social work, and prepare optimized files for the public R2 bucket. Artwork
 continues to come from the image generator; delivery encoding is deterministic.
 
 ## Files per publication
@@ -16,7 +16,7 @@ The cover resize changes its pixel grid. Lossless encoding then preserves that
 resized result; do not describe it as identical to the full-size original.
 The JPEG preview is also a derivative, not a lossless original. Inspect the crop
 for every cover so no essential artwork or lettering is removed. The full-size
-PNG pair stays unchanged in Andrew's originals archive.
+PNG pair stays unchanged in the originals archive.
 
 Published frontmatter uses `cover_card`, `cover_hero` and `cover_og` for these three
 R2 URLs. Alt text continues to describe the same artwork. OG and Twitter metadata
@@ -32,11 +32,11 @@ use the dedicated JPEG, rather than the small feed card or a deleted PNG.
    Compare the decoded card against the deterministic resized PNG result.
 4. Inspect cards at 352px and 260px, article images on desktop/mobile and every
    social-preview crop. Record output hashes, dimensions and encoding settings.
-5. Deliver two separate ZIPs: `Originals-PNG` for Andrew (two untouched PNGs per
+5. Deliver two separate ZIPs: `Originals-PNG` for archival use (two untouched PNGs per
    article) and `Cloudflare-Web` (three web derivatives per article, flat archive,
    no source files or working notes). Only Cloudflare-Web is uploaded to `posts/`.
-6. Verify all new canonical R2 URLs, obtain Andrew's GitHub approval of the final
-   head, then merge and verify the live site as usual.
+6. Verify all new canonical R2 URLs, obtain GitHub approval of the final head
+   from the designated reviewer, then merge and verify the live site as usual.
 
 The initial lossy WebP experiment achieved smaller sizes at quality 92, but that
 was not pixel-preserving. This migration deliberately prioritizes exact pixels
@@ -50,7 +50,7 @@ The six-publication migration is recorded in
 and six JPEG social previews. The originals ZIP contains exactly 12 PNGs.
 
 Keep the previous public PNGs while the PR is pending. After the new files load,
-the approved PR deploys, and live pages/previews are verified, Andrew may remove
+the approved PR deploys, and live pages/previews are verified, the release owner may remove
 the superseded PNG objects. First ensure the originals archive is saved. Check
 the built site for old image references, including OG/Twitter metadata. Historical
 release records retain old URLs as provenance; they are not live page references.

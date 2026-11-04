@@ -1,6 +1,6 @@
 # Approved publication reference
 
-Baseline confirmed with Andrew on 2026-10-24, after PR #24, main commit
+Baseline recorded on 2026-10-24, after PR #24, main commit
 `13d11581c8040d0b464fc53e6430830eaa28ea79`. This identifies an inspectable version,
 not a requirement to freeze future article wording or copy one composition.
 
@@ -57,7 +57,7 @@ After deployment, check the live Home, archive and affected articles.
 
 ## Changing the rules
 
-Discuss proposed changes with Andrew first. Record the agreed change and reason
+Discuss proposed changes with the project owner first. Record the agreed change and reason
 in the PR, update the relevant canon/workflow document and checks together, and
-obtain Andrew's GitHub approval on the resulting final head. Do not silently
+obtain the designated reviewer's GitHub approval on the resulting final head. Do not silently
 reinterpret an exception as the new default.

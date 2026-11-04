@@ -58,7 +58,7 @@ const posts = defineCollection({
         const extension = key === "cover_og" ? ".jpg" : ".webp";
         if (!url.pathname.endsWith(extension)) throw new Error("Wrong web image format");
       } catch {
-        ctx.addIssue({ code: z.ZodIssueCode.custom, path: [key], message: "Published images need versioned R2 URLs: WebP for card/hero, JPEG for cover_og. Original PNGs stay in Andrew's archive." });
+        ctx.addIssue({ code: z.ZodIssueCode.custom, path: [key], message: "Published images need versioned R2 URLs: WebP for card/hero, JPEG for cover_og. Original PNGs stay in a separate archive." });
       }
     }
     if (data.cover_card === data.cover_hero) {
