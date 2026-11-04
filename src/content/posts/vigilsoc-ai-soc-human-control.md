@@ -2,7 +2,7 @@
 title: "VigilSOC 1.0: Can AI Agents Operate a Security Operations Center?"
 description: "VigilSOC's general-availability release raises a practical question: how should a security team bound agent authority, verify investigations and audit response actions?"
 excerpt: "An agent can assemble evidence and propose a response. The operational test is whether people can explain, constrain and reverse what it does."
-pubDate: "2026-11-04"
+pubDate: "2026-11-04T13:02:00Z"
 status: "published"
 canonical_id: "2026-11-04-vigilsoc-ai-soc-human-control"
 tags: ["Cybersecurity", "AgenticAI", "SecurityOperations", "OpenSource", "TechMindHub"]

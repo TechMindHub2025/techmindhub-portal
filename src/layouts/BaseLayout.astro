@@ -12,6 +12,7 @@ import "../styles/ui.css";
 type Props = {
   title?: string;
   description?: string;
+  author?: string;
   ogImage?: string; // absolute or /path
   ogType?: string;  // "website" | "article" etc
   noindex?: boolean;
@@ -21,6 +22,7 @@ type Props = {
 const {
   title = "TechMind Hub",
   description = "TechMind Hub — curated signals across AI, robotics, automation, and enterprise tech.",
+  author,
   ogImage = "/og.png",
   ogType = "website",
   noindex = false,
@@ -44,6 +46,7 @@ const isActive = (href: string) => {
 
     <title>{title}</title>
     <meta name="description" content={description} />
+    {author && <meta name="author" content={author} />}
     <link rel="canonical" href={canonical} />
     {noindex ? <meta name="robots" content="noindex,nofollow" /> : null}
 
@@ -112,7 +115,7 @@ const isActive = (href: string) => {
         <div>© {new Date().getFullYear()} TechMind Hub</div>
         <div class="footer-right">
           <img src="/logo.png" alt="" />
-          <span>Built on Astro + GitHub Pages</span>
+          <span>Source-linked engineering analysis</span>
         </div>
       </footer>
     </div>

@@ -2,7 +2,7 @@
 title: "Tetragon 1.8: Stateful Security Policies at the Linux Kernel Level"
 description: "Tetragon 1.8 adds stateful tracing policies and richer selectors. The practical test is whether context improves detection without unmanageable noise or overhead."
 excerpt: "A suspicious command may matter only after an earlier event. Stateful policies can connect observations, but their scope and lifecycle need explicit tests."
-pubDate: "2026-11-04"
+pubDate: "2026-11-04T13:02:00Z"
 status: "published"
 canonical_id: "2026-11-04-tetragon-stateful-kernel-policies"
 tags: ["Cybersecurity", "eBPF", "Linux", "CloudInfrastructure", "TechMindHub"]

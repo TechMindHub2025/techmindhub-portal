@@ -2,7 +2,7 @@
 title: "The XCPE Botnet: When Malware Is Built Into Devices Before They Reach Users"
 description: "Google's XCPE investigation traces a large Android set-top-box botnet to an alleged manufacturer-controlled firmware backdoor. Disruption is distinct from cleaning every device."
 excerpt: "A device can pass a conventional setup check and later activate unwanted code. The trust boundary extends into firmware and operation after first boot."
-pubDate: "2026-11-04"
+pubDate: "2026-11-04T13:02:00Z"
 status: "published"
 canonical_id: "2026-11-04-xcpe-firmware-supply-chain-botnet"
 tags: ["Cybersecurity", "Firmware", "SupplyChain", "Botnet", "TechMindHub"]
