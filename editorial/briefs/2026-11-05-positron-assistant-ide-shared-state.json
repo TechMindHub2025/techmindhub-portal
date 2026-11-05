@@ -1,0 +1,7 @@
+{
+  "slug": "positron-assistant-ide-shared-state",
+  "checked": "2026-11-05",
+  "sources": ["https://github.com/posit-dev/positron/releases/tag/2026.10.2-3", "https://positron.posit.co/release-notes", "https://positron.posit.co/assistant"],
+  "claims_and_limits": ["The October 8 feature release describes Posit Assistant operating IDE state as a preview; the October 26 patch separately addresses Electron, Node.js and certificate blocking.", "The MCP server for external agents is experimental and uses a different setting from the assistant preview.", "Availability depends on the actual provider, account and deployment setup; the illustration does not imply a guaranteed approval gate or measured productivity."],
+  "visual": {"domain": "software", "accent": "#80549E", "surface": "#F5EFF8", "cover_phrase": "THE IDE AS A TOOL", "infographic_title": "THE SHARED WORKSPACE", "infographic_labels": ["ENVIRONMENT", "DATA CONNECTION", "LIVE SESSION"], "shared_motif": "Purple data-science workstation with assistant hand and human researcher; horizontal cover and vertical state explanation are distinct.", "status": "Conceptual interface illustration; screen values and shapes are illustrative, not an actual Positron screenshot."}
+}

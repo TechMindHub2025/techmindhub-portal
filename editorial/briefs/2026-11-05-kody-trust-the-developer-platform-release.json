@@ -1,0 +1,7 @@
+{
+  "slug": "kody-trust-the-developer-platform-release",
+  "checked": "2026-11-05",
+  "sources": ["https://github.com/kody-hq/kody/releases/tag/v2026.11.03", "https://github.com/kody-hq/kody/pull/4804", "https://github.com/kody-hq/kody/pull/4752", "https://github.com/kody-hq/kody/pull/4797", "https://github.com/kody-hq/kody/pull/4765"],
+  "claims_and_limits": ["The November 3 release automates signed and notarized desktop updates for relevant main-branch changes; actual signing is verified by the release workflow.", "Owner-only organization-wide Manage spans present and future packages and apps; it is a broad permission, not a default for everyone.", "The cache and timeout changes report developer tests and observed production issues, not independently measured post-release reliability."],
+  "visual": {"domain": "software", "accent": "#80549E", "surface": "#F5EFF8", "cover_phrase": "TRUST THE RELEASE", "infographic_title": "THE CONTROL SURFACE", "infographic_labels": ["SIGNED UPDATE", "ORG-WIDE MANAGE", "BOUNDED WORKER"], "shared_motif": "Purple package seal, permission keys and bounded worker apparatus in a tactile developer workspace; horizontal cover and vertical explanation differ.", "status": "Conceptual editorial illustration, not an actual Kody interface or guarantee of security."}
+}

@@ -1,0 +1,172 @@
+{
+  "release": "2026-11-05-kody-n8n-positron-v1",
+  "web_prefix": "https://media.techmindhub.cc/posts/",
+  "files": [
+    {
+      "name": "kody-trust-the-developer-platform-release-card-original-v1.png",
+      "slug": "kody-trust-the-developer-platform-release",
+      "role": "card-original",
+      "bytes": 2219318,
+      "sha256": "45612cbb0838cd6e7c580b9429637162552d83c68877eb9eb401f38bd3f1cb90",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "name": "kody-trust-the-developer-platform-release-infographic-original-v1.png",
+      "slug": "kody-trust-the-developer-platform-release",
+      "role": "infographic-original",
+      "bytes": 2351022,
+      "sha256": "1c92d98d92b16b4c00dd8278ec7b30def47cf37038e02184645e0db2509bd983",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "kody-trust-the-developer-platform-release-card-web-v1.webp",
+      "slug": "kody-trust-the-developer-platform-release",
+      "role": "card-web",
+      "bytes": 444380,
+      "sha256": "8a897012a8a882af16f563f5329b1de1d8a5416800acd965c567384d0f4222b6",
+      "dimensions": [
+        800,
+        450
+      ]
+    },
+    {
+      "name": "kody-trust-the-developer-platform-release-og-web-v1.jpg",
+      "slug": "kody-trust-the-developer-platform-release",
+      "role": "og-web",
+      "bytes": 397237,
+      "sha256": "0de7336bd033d0c680f84aedc58d96e203ed9700e921caf9e2ab129abd6b4826",
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "name": "kody-trust-the-developer-platform-release-infographic-web-v1.webp",
+      "slug": "kody-trust-the-developer-platform-release",
+      "role": "infographic-web",
+      "bytes": 1737524,
+      "sha256": "0283d53c8954c3336ea7a91d92bc3e164c5c27fa079a5a7f683d317caba481ef",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "n8n-workflow-reliability-credential-resolution-card-original-v1.png",
+      "slug": "n8n-workflow-reliability-credential-resolution",
+      "role": "card-original",
+      "bytes": 2035791,
+      "sha256": "f16a5acca1ca0ae9d4230904ef7e8a05741bccc8289f782991f15e7f2ec8402e",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "name": "n8n-workflow-reliability-credential-resolution-infographic-original-v1.png",
+      "slug": "n8n-workflow-reliability-credential-resolution",
+      "role": "infographic-original",
+      "bytes": 2185416,
+      "sha256": "0f1b0d43395613a1677a6e43b271f62d7188bb683d924fcd2ce997c405ff053d",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "n8n-workflow-reliability-credential-resolution-card-web-v1.webp",
+      "slug": "n8n-workflow-reliability-credential-resolution",
+      "role": "card-web",
+      "bytes": 393886,
+      "sha256": "7b54c0311c7c81dbd1dae0b4f85e60d7631cd9f2811930f9a4c4e503de1458ae",
+      "dimensions": [
+        800,
+        450
+      ]
+    },
+    {
+      "name": "n8n-workflow-reliability-credential-resolution-og-web-v1.jpg",
+      "slug": "n8n-workflow-reliability-credential-resolution",
+      "role": "og-web",
+      "bytes": 352218,
+      "sha256": "22db4401d7770fe9a1f3a1a946e71ccf1ba4ef69211e28ac5593279f9008c793",
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "name": "n8n-workflow-reliability-credential-resolution-infographic-web-v1.webp",
+      "slug": "n8n-workflow-reliability-credential-resolution",
+      "role": "infographic-web",
+      "bytes": 1647516,
+      "sha256": "47f2dc5b58694fb10f1fefea1d5fe825ed2967feaf4a2ef03291ecf8574a61d1",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "positron-assistant-ide-shared-state-card-original-v1.png",
+      "slug": "positron-assistant-ide-shared-state",
+      "role": "card-original",
+      "bytes": 1927864,
+      "sha256": "011346c3e1ad36f56602c2e7a04fa86955eef51f959a68b2fc18debe440f4c5b",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "name": "positron-assistant-ide-shared-state-infographic-original-v1.png",
+      "slug": "positron-assistant-ide-shared-state",
+      "role": "infographic-original",
+      "bytes": 2046857,
+      "sha256": "0e1a3d2d434fcdea88a7a72198f65d69fe5fb13dd289391fa256ddee2d5d54af",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "positron-assistant-ide-shared-state-card-web-v1.webp",
+      "slug": "positron-assistant-ide-shared-state",
+      "role": "card-web",
+      "bytes": 384972,
+      "sha256": "2caf23c3f3c5714f05a29cdfec30dbc4d842524825b219315ace97f5efb731b6",
+      "dimensions": [
+        800,
+        450
+      ]
+    },
+    {
+      "name": "positron-assistant-ide-shared-state-og-web-v1.jpg",
+      "slug": "positron-assistant-ide-shared-state",
+      "role": "og-web",
+      "bytes": 345408,
+      "sha256": "aa7f89f9b9ff70aeac446665133b7c048e938ed25e8deacc71f54b0c471512b4",
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "name": "positron-assistant-ide-shared-state-infographic-web-v1.webp",
+      "slug": "positron-assistant-ide-shared-state",
+      "role": "infographic-web",
+      "bytes": 1462030,
+      "sha256": "5643c85b41b724c1b2e93cea77f8db02d798286f7b37f1717214a18a690c62d7",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    }
+  ],
+  "verification": "All infographic WebP files decode pixel-identically to original PNGs; resized feed cards decode pixel-identically to deterministic resize; OG files are 1200x630 JPEG quality 95 4:4:4."
+}
