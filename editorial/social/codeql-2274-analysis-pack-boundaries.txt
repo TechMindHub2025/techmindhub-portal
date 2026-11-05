@@ -1,0 +1,12 @@
+CodeQL 2.27.4: Better Analysis Models and a Safer Pack Boundary
+
+CodeQL's update refines how selected Java/Kotlin data-flow queries recognize sanitizers and guards, reduces specific Rust and C/C++ false positives, and omits files whose symlinks resolve outside a CodeQL pack root.
+
+These changes address two different questions: is a reported source-to-sink path meaningful, and does a published pack contain only files inside its intended boundary? A lower alert count alone cannot answer the first. No independent precision benchmark accompanies the release.
+
+Our analysis proposes a regression corpus of known findings and safe paths, plus inspection of actual pack contents. The CLI notes date to November 2; GitHub's public changelog is November 4.
+
+Read: https://techmindhub.cc/posts/codeql-2274-analysis-pack-boundaries/
+More analysis: https://arover.substack.com/
+
+#CodeQL #StaticAnalysis #SoftwareSecurity #TechMindHub

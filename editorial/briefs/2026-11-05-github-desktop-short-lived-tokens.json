@@ -1,0 +1,8 @@
+{
+  "slug": "github-desktop-short-lived-tokens",
+  "checked": "2026-11-05",
+  "source": "https://github.blog/changelog/2026-11-02-github-desktop-adds-short-lived-authentication-tokens",
+  "central_question": "What does a renewing short-lived Desktop token protect, and what remains exposed after credential theft?",
+  "claims_and_limits": ["GitHub announced the gradual rollout on November 2 for Desktop 3.6.10+ and eligible github.com/GHE Cloud accounts.", "Existing signed-in sessions do not automatically migrate; GHES is unsupported.", "No universal exact lifetime or independently measured incident reduction is provided. Token expiry does not prove a compromised device safe."],
+  "visual": {"domain": "digital-trust", "accent": "#966020", "cover_phrase": "A SHORTER WINDOW", "infographic_title": "A TOKEN HAS A LIFETIME", "shared_motif": "Amber desktop key and hourglass; inner timeline explains sign-in, token use, refresh, stolen-token window and rollout scope.", "status": "Conceptual threat-model timeline without a fabricated expiry duration."}
+}

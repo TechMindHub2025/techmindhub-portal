@@ -1,0 +1,8 @@
+{
+  "slug": "agile-deliberation-subjective-boundaries",
+  "checked": "2026-11-05",
+  "source": "https://research.google/blog/agile-deliberation-how-ai-helps-humans-define-the-gray-areas/",
+  "central_question": "Can interactive borderline examples help people specify a subjective visual category more consistently than a zero-shot instruction?",
+  "claims_and_limits": ["Google's November 4 blog explains a CVPR 2026 research method, rather than a newly launched product.", "Authors report 18 roughly 90-minute sessions across healthy-food and pay-to-play tasks, with better performance against selected baselines and lower reported burden.", "Small task-specific study; no universal performance guarantee or independent replication. Illustrated food judgments are conceptual, not a published dataset."],
+  "visual": {"domain": "ai", "accent": "#5958B2", "cover_phrase": "DEFINE THE GRAY AREA", "infographic_title": "HOW A CATEGORY TAKES SHAPE", "shared_motif": "Light violet reviewer and ambiguous food images; paired infographic explains concept scoping, borderline cases, rule revision and testing.", "status": "Illustrative category examples, not study stimuli or medical/nutritional guidance."}
+}

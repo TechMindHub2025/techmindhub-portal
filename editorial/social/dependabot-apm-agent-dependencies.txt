@@ -1,0 +1,12 @@
+Dependabot for APM: Treat Agent Instructions as Versioned Dependencies
+
+GitHub now opens Dependabot version-update pull requests for Agent Package Manager Git dependencies. The declaration lives in apm.yml; an existing apm.lock.yaml is updated with it.
+
+An agent package may change instructions, prompts, skills or tooling. A version pin helps reproduce a revision, but it cannot prove the instructions are safe. The useful review follows the actual diff, the agent's tool permissions and representative tasks before the update is adopted.
+
+This launch covers version updates on github.com, not security alerts. GitHub Enterprise Server support is planned for 3.24.
+
+Read: https://techmindhub.cc/posts/dependabot-apm-agent-dependencies/
+More analysis: https://arover.substack.com/
+
+#AgenticAI #Dependabot #SoftwareSupplyChain #TechMindHub

@@ -1,0 +1,12 @@
+Agile Deliberation: Defining a Category with Its Difficult Cases
+
+An image classifier for “healthy food” needs a definition. Easy positive examples rarely reveal where that definition breaks down. Google Research's Agile Deliberation asks a reviewer to judge borderline images, then uses the feedback to refine a candidate classifier.
+
+The authors report 18 interactive sessions across two subjective tasks, with better results against selected baselines and less reported effort than manual deliberation. This is a small, task-specific research study. It does not settle whose judgment should define a category or establish a production-ready moderation system.
+
+Our engineering analysis examines reviewer disagreement, held-out evaluation and how to record a change to the category itself.
+
+Read: https://techmindhub.cc/posts/agile-deliberation-subjective-boundaries/
+More analysis: https://arover.substack.com/
+
+#HumanAIInteraction #ComputerVision #ActiveLearning #TechMindHub
