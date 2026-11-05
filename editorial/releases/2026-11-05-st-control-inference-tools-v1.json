@@ -1,0 +1,180 @@
+{
+  "release": "2026-11-05-st-control-inference-tools-v1",
+  "web_prefix": "https://media.techmindhub.cc/posts/",
+  "files": [
+    {
+      "name": "stm32g5-digital-power-control-card-original-v1.png",
+      "slug": "stm32g5-digital-power-control",
+      "role": "card-original",
+      "bytes": 3084919,
+      "sha256": "8eab2578960c7dad6dd9a2b670109c89de720bc197047385bdc24d5431bca2a9",
+      "dimensions": [
+        1731,
+        909
+      ]
+    },
+    {
+      "name": "stm32g5-digital-power-control-infographic-original-v1.png",
+      "slug": "stm32g5-digital-power-control",
+      "role": "infographic-original",
+      "bytes": 2798405,
+      "sha256": "ecb329efca2bdcaaf58cbe1115c345b18318ec5659ce547b375f2d5edc86f4d8",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "stm32g5-digital-power-control-card-web-v1.webp",
+      "slug": "stm32g5-digital-power-control",
+      "role": "card-web",
+      "bytes": 457090,
+      "sha256": "20727c7efcc211124b0f9ffcb38cb333395c7326653b872263c3e640b3c74785",
+      "dimensions": [
+        800,
+        450
+      ]
+    },
+    {
+      "name": "stm32g5-digital-power-control-og-web-v1.jpg",
+      "slug": "stm32g5-digital-power-control",
+      "role": "og-web",
+      "bytes": 473253,
+      "sha256": "8d72fd7452b87975a4e9d4699fbb76b00fef665c171c96f49faeba5d3d68c12e",
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "name": "stm32g5-digital-power-control-infographic-web-v1.webp",
+      "slug": "stm32g5-digital-power-control",
+      "role": "infographic-web",
+      "bytes": 1918282,
+      "sha256": "cf04ddc1887ec25be31d9c848797c3572010e3a23487e43ecd9ad87dc29379da",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "stm32h7p-sensing-inference-control-card-original-v1.png",
+      "slug": "stm32h7p-sensing-inference-control",
+      "role": "card-original",
+      "bytes": 2706340,
+      "sha256": "bd034bd58ee666a9207bc14ae624b1b4fd3e9006c1fb1ed6bc4619e414490f9d",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "name": "stm32h7p-sensing-inference-control-infographic-original-v1.png",
+      "slug": "stm32h7p-sensing-inference-control",
+      "role": "infographic-original",
+      "bytes": 2695830,
+      "sha256": "687f10465fbcb31c20526b2ce5055a02acf4610d0226685ca08228a96df15e03",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "stm32h7p-sensing-inference-control-card-web-v1.webp",
+      "slug": "stm32h7p-sensing-inference-control",
+      "role": "card-web",
+      "bytes": 457232,
+      "sha256": "80123ebc55c78f078933b5049e100db55563ef7ca9db410bde89e33d077c469d",
+      "dimensions": [
+        800,
+        450
+      ]
+    },
+    {
+      "name": "stm32h7p-sensing-inference-control-og-web-v1.jpg",
+      "slug": "stm32h7p-sensing-inference-control",
+      "role": "og-web",
+      "bytes": 439620,
+      "sha256": "671c886e57b739c3a5c23cb2c543d3dc86c203731fcbf6cb8dc23c335e913d54",
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "name": "stm32h7p-sensing-inference-control-infographic-web-v1.webp",
+      "slug": "stm32h7p-sensing-inference-control",
+      "role": "infographic-web",
+      "bytes": 1937480,
+      "sha256": "49ba4731ae0e52ca5f5e8257b2175dffe39555a87d360c7a7903a1171abee466",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "st-edge-ai-suite-hardware-evidence-card-original-v1.png",
+      "slug": "st-edge-ai-suite-hardware-evidence",
+      "role": "card-original",
+      "bytes": 2516120,
+      "sha256": "df9b952111a35334006035462c7b57d42bf0bee9636d1c888450d94fc7d0c59e",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "name": "st-edge-ai-suite-hardware-evidence-infographic-original-v1.png",
+      "slug": "st-edge-ai-suite-hardware-evidence",
+      "role": "infographic-original",
+      "bytes": 2607982,
+      "sha256": "50d04b12e58b98cc7956154d09ce7fba0ec14e9bf36dacf2d76bd15381721362",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "st-edge-ai-suite-hardware-evidence-card-web-v1.webp",
+      "slug": "st-edge-ai-suite-hardware-evidence",
+      "role": "card-web",
+      "bytes": 407732,
+      "sha256": "c1a982061b81a709ec7e8692760169cd8c383d295117cca2263811a7e1a41e9e",
+      "dimensions": [
+        800,
+        450
+      ]
+    },
+    {
+      "name": "st-edge-ai-suite-hardware-evidence-og-web-v1.jpg",
+      "slug": "st-edge-ai-suite-hardware-evidence",
+      "role": "og-web",
+      "bytes": 358929,
+      "sha256": "74b6a79631dfe7b563a6c4102e4f5ffda3ea2c790c728bb8bbbcb1798d02e5ea",
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "name": "st-edge-ai-suite-hardware-evidence-infographic-web-v1.webp",
+      "slug": "st-edge-ai-suite-hardware-evidence",
+      "role": "infographic-web",
+      "bytes": 1790364,
+      "sha256": "d4345002d5e8ec153f2d00be37a6838fb7324584a66c999375b3808c8c4c5a30",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    }
+  ],
+  "verification": "All infographic WebP files decode pixel-identically to original PNGs; resized feed cards decode pixel-identically to deterministic resize; OG files are 1200x630 JPEG quality 95 4:4:4.",
+  "editorial_metadata": {
+    "previous_release_utc_sort_keys": {
+      "kody": "2026-11-05T10:42:41Z",
+      "positron": "2026-11-05T10:42:40Z",
+      "n8n": "2026-11-05T10:42:39Z"
+    },
+    "note": "The earlier release merged at 10:42:41 UTC. The one-second offsets are editorial ordering keys, not separately observed public publication times. n8n is classified as Software & developer tools; its previously published artwork is retained."
+  }
+}

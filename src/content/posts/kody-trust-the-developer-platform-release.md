@@ -2,7 +2,7 @@
 title: "Kody: A Developer Platform Needs Trustworthy Releases and Bounded Execution"
 description: "Kody's November release joins signed desktop delivery, owner-controlled organization grants and worker reliability fixes. The engineering question is how to keep each boundary observable."
 excerpt: "A signed update, a broad management grant and a completed run answer different questions. Kody's release is a useful case study in keeping them separate."
-pubDate: "2026-11-05"
+pubDate: "2026-11-05T10:42:41Z"
 status: "published"
 canonical_id: "2026-11-05-kody-trust-the-developer-platform-release"
 tags: ["DeveloperTools", "SoftwareSupplyChain", "AccessControl", "Reliability", "TechMindHub"]

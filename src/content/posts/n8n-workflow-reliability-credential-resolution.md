@@ -2,15 +2,15 @@
 title: "n8n 2.46.5: Why Workflow Reliability Depends on Credential and Data Resolution"
 description: "A patch to credential lookup, named properties on arrays and migration-report visibility exposes three distinct ways an automation can look healthy while behaving unexpectedly."
 excerpt: "The n8n release corrects specific lookup and expression paths. Its engineering value lies in testing the boundaries between stored configuration, runtime data and operational reports."
-pubDate: "2026-11-05"
+pubDate: "2026-11-05T10:42:39Z"
 status: "published"
 canonical_id: "2026-11-05-n8n-workflow-reliability-credential-resolution"
-tags: ["Automation", "DeveloperTools", "ApplicationSecurity", "WorkflowReliability", "TechMindHub"]
+tags: ["Automation", "DeveloperTools", "WorkflowReliability", "TechMindHub"]
 source_url: "https://github.com/n8n-io/n8n/releases/tag/n8n%402.46.5"
 cover_card: "https://media.techmindhub.cc/posts/n8n-workflow-reliability-credential-resolution-card-web-v1.webp"
 cover_hero: "https://media.techmindhub.cc/posts/n8n-workflow-reliability-credential-resolution-infographic-web-v1.webp"
 cover_og: "https://media.techmindhub.cc/posts/n8n-workflow-reliability-credential-resolution-og-web-v1.jpg"
-domain: "digital-trust"
+domain: "software"
 topic: "Workflow configuration boundaries"
 card_alt: "Amber editorial workflow scene with a credential key entering one node, an array of data continuing through the flow and an engineer observing it."
 cover_alt: "Conceptual automation scene linking scoped credential lookup, a named property on an array and the filtered visibility of archived workflows in a migration report."

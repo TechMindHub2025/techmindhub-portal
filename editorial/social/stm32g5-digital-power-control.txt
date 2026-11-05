@@ -1,0 +1,12 @@
+STM32G5: The Controller Between AI Compute and Its Power Supply
+
+AI accelerators get the attention. Their power converters must still follow changing loads, manage switching events and respond to faults.
+
+STMicroelectronics announced its STM32G5 family on November 4. It combines a 280 MHz Cortex-M33 with upgraded timing and mixed-signal peripherals. ST claims twice the compute performance of STM32G4 and points to data-centre supplies and robotic motors. That is a controller comparison, not a measured twofold efficiency improvement.
+
+Our engineering analysis follows the complete converter: sensing quality, feedback timing, SiC/GaN switching trade-offs, protection, load-range losses and serviceability. A useful evaluation compares the same power stage and workload under controlled conditions.
+
+Read the full analysis: https://techmindhub.cc/posts/stm32g5-digital-power-control/
+More analysis: https://arover.substack.com/
+
+#Semiconductors #DigitalPower #DataCenters #EmbeddedSystems #TechMindHub

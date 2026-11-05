@@ -1,0 +1,8 @@
+{
+  "slug": "st-edge-ai-suite-hardware-evidence",
+  "checked": "2026-11-05",
+  "source": "https://newsroom.st.com/media-center/press-item.html/stmicroelectronics-streamlines-ai-model-development-for-stm32-developers-n4800.html",
+  "central_question": "What makes an embedded model measurement reproducible on its target hardware?",
+  "claims_and_limits": ["Model Explorer, Dataset Factory, Model Factory and Model Bench were announced November 4; the new tools are expected late November.", "Model Bench is planned as remote benchmarking on ST's board farm, replacing Edge AI Developer Cloud.", "No independent improvement to accuracy, power or engineering time has been demonstrated."],
+  "visual": {"domain": "software", "accent": "#80549E", "surface": "#F5EFF8", "cover_phrase": "TEST ON THE TARGET", "infographic_title": "EVIDENCE ON THE BOARD", "infographic_labels": ["Find a model", "Prepare data", "Optimize for MCU", "Benchmark on hardware"], "shared_motif": "Light lilac watercolor electronics workbench with layered data and model material ending at a real-looking board; distinct cover and vertical explanatory sequence.", "status": "Conceptual future workflow, not a screenshot or measured result."}
+}

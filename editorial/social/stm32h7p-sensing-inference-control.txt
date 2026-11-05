@@ -1,0 +1,14 @@
+STM32H7P: Can Sensing, Inference and Control Share One MCU?
+
+STMicroelectronics' new STM32H7P puts a Cortex-M7, hardware signal processor and Neural-ART NPU in the same industrial controller family.
+
+The company reports up to 85 GOPS and fortyfold faster inference for its specific arc-fault model against its software implementation. Neither figure tells us the full time from sensor acquisition to a safe action. The DSP stage, transfers, memory contention, application logic and worst-case control deadlines all matter.
+
+Our analysis proposes an end-to-end test: timestamp the observation, preserve the model and preprocessing versions, measure latency under concurrent control work, and define what happens when a result arrives too late. Accuracy and thermal behaviour need separate evidence.
+
+OEM samples are available; production is planned for January 2027.
+
+Read the full analysis: https://techmindhub.cc/posts/stm32h7p-sensing-inference-control/
+More analysis: https://arover.substack.com/
+
+#EdgeAI #IndustrialAutomation #EmbeddedSystems #RealTimeControl #TechMindHub
