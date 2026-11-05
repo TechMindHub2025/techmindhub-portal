@@ -1,0 +1,11 @@
+An AI assistant that operates a data-science IDE faces a different problem from one that only suggests code: it needs to act on the actual interpreter, connection and live session.
+
+Positron's October release describes a preview in which Posit Assistant can open Parquet data, set up a Python environment, run a Shiny app and work with data connections. A separate experimental MCP server lets external coding agents use live Python and R sessions. The two capabilities have different settings and should be evaluated separately.
+
+The practical test is reproducibility: record the project, interpreter, packages and input data, then review what the assistant changed and whether a fresh environment yields the same result. This is an October feature analysis, not a new November release.
+
+Read the analysis: https://techmindhub.cc/posts/positron-assistant-ide-shared-state/
+Release: https://github.com/posit-dev/positron/releases/tag/2026.10.2-3
+More analysis: https://arover.substack.com/
+
+#DataScience #DeveloperTools #AIAssistants #Python #R #TechMindHub

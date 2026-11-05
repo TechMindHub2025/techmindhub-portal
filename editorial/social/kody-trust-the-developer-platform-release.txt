@@ -1,0 +1,11 @@
+Kody's November 3 release joins three operational controls that are easy to treat separately: a desktop update must have a verifiable origin, a broad management grant needs an accountable owner, and a long-running task needs a terminal outcome.
+
+Its new workflow publishes signed and notarized desktop updates after relevant main-branch changes. Organization Owners can grant Manage across present and future packages and apps. The developers also report bounded worker caches and clearer hosted-execution timeout behavior.
+
+These changes are inspectable implementation work, not an independent reliability benchmark. A useful acceptance test verifies the update channel, exercises a future-resource permission grant, and reconciles a timeout and retry with the actual run record.
+
+Read the analysis: https://techmindhub.cc/posts/kody-trust-the-developer-platform-release/
+Source: https://github.com/kody-hq/kody/releases/tag/v2026.11.03
+More analysis: https://arover.substack.com/
+
+#DeveloperTools #SoftwareSupplyChain #AccessControl #Reliability #TechMindHub
