@@ -50,5 +50,5 @@ The interesting result is the deliberate coupling of natural material anisotropy
 
 ## Sources
 
-- [Nature Materials, “Topological control of polaritonic flatbands in anisotropic two-dimensional metasurfaces,” October 29, 2026](https://www.nature.com/articles/s41563-026-02776-3)
+- [Nature Materials, “Topological control of polaritonic flatbands in anisotropic van der Waals metasurfaces,” October 29, 2026](https://www.nature.com/articles/s41563-026-02776-3)
 - [Author preprint and full text](https://arxiv.org/abs/2509.01258)

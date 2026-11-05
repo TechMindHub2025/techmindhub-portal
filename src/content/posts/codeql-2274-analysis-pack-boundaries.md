@@ -26,7 +26,7 @@ CodeQL queries often trace data from a source, such as an external input, to a s
 
 The 2.27.4 notes expand Java and Kotlin modeling for log-injection sanitizers in the JDK and selected Apache Commons, Guava, OWASP and Spring APIs, and improve recognition of guards relevant to path injection. These changes can suppress reports where the modeled operations really make a route safe. They cannot establish that every project uses those APIs correctly. A wrapper function, an unusual configuration or a data-flow path outside the model can still require manual analysis.
 
-The release also reduces selected Rust false positives in uncontrolled allocation, logging and cleartext-transmission queries. For C and C++, it refines handling of intentional `std::byte` pointer arithmetic and `[[maybe_unused]]`. The point is not to declare those constructs harmless in every program. It is to avoid treating specific legitimate usage patterns as evidence of a vulnerability without enough context.
+The release also reduces selected Rust false positives in uncontrolled allocation, log injection and cleartext-logging queries. For C and C++, it refines handling of intentional `std::byte` pointer arithmetic and `[[maybe_unused]]`. The point is not to declare those constructs harmless in every program. It is to avoid treating specific legitimate usage patterns as evidence of a vulnerability without enough context.
 
 Query metadata receives attention too: the CLI notes corrected CWE-730 tags for regular-expression related queries. A metadata correction may not change whether a finding appears, but it changes how downstream systems classify, report or route it. Teams that depend on a stable mapping from query identifiers to risk categories should notice these changes as well as the results themselves.
 
@@ -40,7 +40,7 @@ The infographic depicts both boundaries as conceptual illustrations. Its flow of
 
 ## Evaluating an upgrade in a real repository
 
-First, identify which analysis path your project actually runs. GitHub states that 2.27.4 is applied automatically for code scanning on github.com. Organizations using GitHub Enterprise Server 3.24 or earlier may need to update the CLI manually. Pinning and recording the analyzer version makes a comparison interpretable, particularly when analysis runs both locally and in CI.
+First, identify which analysis path your project actually runs. GitHub states that 2.27.4 is applied automatically for code scanning on github.com and will be included in GitHub Enterprise Server 3.24. Organizations using older Enterprise Server versions can update the CLI manually. Pinning and recording the analyzer version makes a comparison interpretable, particularly when analysis runs both locally and in CI.
 
 Next, compare findings against a representative baseline. Take a small set of known true findings, known safe paths and repository-specific wrappers. Check whether the revised queries reduce noise without losing paths the team expects to detect. Review dismissed alerts as well as newly created ones, and preserve the query suite and code revision. A fall in alert count alone cannot distinguish a useful correction from a missed vulnerability.
 
