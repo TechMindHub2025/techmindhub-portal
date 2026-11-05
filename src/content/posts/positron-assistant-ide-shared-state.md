@@ -2,7 +2,7 @@
 title: "Positron: When an AI Assistant Can Operate the Data Science IDE"
 description: "Positron's October release lets a preview assistant act on IDE state, while an experimental MCP server connects external agents to live sessions. Both raise reproducibility and access questions."
 excerpt: "An assistant that can open data, choose an environment and run an app needs a consistent view of the IDE and a reviewable record of its actions."
-pubDate: "2026-11-05"
+pubDate: "2026-11-05T10:42:40Z"
 status: "published"
 canonical_id: "2026-11-05-positron-assistant-ide-shared-state"
 tags: ["DataScience", "DeveloperTools", "AIAssistants", "Python", "R", "TechMindHub"]
