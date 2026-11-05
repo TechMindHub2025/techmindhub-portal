@@ -1,0 +1,11 @@
+ReS₂ Metasurfaces: A Directional Flatband for Light and Excitons
+
+A Nature Materials experiment patterns anisotropic rhenium disulfide to create optical modes whose dispersion is nearly flat along one in-plane direction and curved along another. The work also examines their coupling to polarized excitons.
+
+This is a physical demonstration of controllable light–matter interaction, not an optical processor. Our analysis separates characterization and modeling from the device evidence still needed: repeatable fabrication, coupling and loss budgets, bandwidth and integration.
+
+Primary research: https://www.nature.com/articles/s41563-026-02776-3
+Read: https://techmindhub.cc/posts/res2-topological-polaritonic-flatbands/
+More analysis: https://arover.substack.com/
+
+#Photonics #TwoDimensionalMaterials #Metasurfaces #TechMindHub

@@ -1,0 +1,8 @@
+{
+  "slug": "res2-topological-polaritonic-flatbands",
+  "checked": "2026-11-05",
+  "source": "https://www.nature.com/articles/s41563-026-02776-3",
+  "central_question": "How does patterned ReS2 anisotropy make a photonic band nearly flat along one direction and couple it to polarized excitons?",
+  "claims_and_limits": ["Nature Materials article published October 29, 2026; the user-supplied subject index was replaced by the article DOI.", "Experimental Fourier-space characterization is supported by full-wave simulation and resonant-state modeling.", "Conceptual dispersion is not measured data; no optical processor, scalable manufacturing, loss or energy benchmark is established."],
+  "visual": {"domain": "photonics", "accent": "#267F9E", "cover_phrase": "DIRECTIONAL LIGHT", "infographic_title": "A FLATBAND WITH A DIRECTION", "shared_motif": "Pale cyan patterned two-dimensional crystal and polarized light; inner illustration separates nearly flat and parabolic schematic dispersions.", "status": "Conceptual optical illustration, not a fabricated device photograph or digitized experimental graph."}
+}

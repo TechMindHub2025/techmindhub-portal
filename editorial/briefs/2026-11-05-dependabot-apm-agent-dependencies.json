@@ -1,0 +1,8 @@
+{
+  "slug": "dependabot-apm-agent-dependencies",
+  "checked": "2026-11-05",
+  "source": "https://github.blog/changelog/2026-11-03-dependabot-version-updates-support-agent-package-manager",
+  "central_question": "Can a version update PR give agent instruction dependencies a useful human review boundary?",
+  "claims_and_limits": ["November 3 GA on github.com covers APM Git dependency version updates using apm.yml and optional apm.lock.yaml.", "GHES support planned for 3.24; security alerts and security updates are not included.", "A diff is an opportunity for review, not a verification of instructions or tool permissions; depicted manifests are schematic."],
+  "visual": {"domain": "software", "accent": "#80549E", "cover_phrase": "VERSION THE AGENT", "infographic_title": "WHAT A VERSION UPDATE CAN REVIEW", "shared_motif": "Light violet dependency cards and proposed PR; inner illustration maps manifest, lockfile and human examination of changed instructions.", "status": "Conceptual package and PR, without runnable YAML or actual repository claims."}
+}

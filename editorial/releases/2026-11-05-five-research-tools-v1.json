@@ -1,0 +1,282 @@
+{
+  "release": "2026-11-05-five-research-tools-v1",
+  "web_prefix": "https://media.techmindhub.cc/posts/",
+  "files": [
+    {
+      "name": "agile-deliberation-subjective-boundaries-card-original-v1.png",
+      "slug": "agile-deliberation-subjective-boundaries",
+      "role": "card-original",
+      "bytes": 2627271,
+      "sha256": "1afa9ff458ab37b54157b77be0a859651b1adb7d21ba68d98947973132af6f22",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "name": "agile-deliberation-subjective-boundaries-infographic-original-v1.png",
+      "slug": "agile-deliberation-subjective-boundaries",
+      "role": "infographic-original",
+      "bytes": 2824438,
+      "sha256": "d7a125a3ba65704d40cdd6ed6bcb3784b19e02f9096b1117ddb38c7736c1391a",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "agile-deliberation-subjective-boundaries-card-web-v1.webp",
+      "slug": "agile-deliberation-subjective-boundaries",
+      "role": "card-web",
+      "bytes": 430094,
+      "sha256": "7f1a7bc75a0bc7db04befb02d47b471391d112017c6da499aebaf6c2fd13d1f1",
+      "dimensions": [
+        800,
+        450
+      ]
+    },
+    {
+      "name": "agile-deliberation-subjective-boundaries-og-web-v1.jpg",
+      "slug": "agile-deliberation-subjective-boundaries",
+      "role": "og-web",
+      "bytes": 378555,
+      "sha256": "153bab4a9f2ca7a01da0bde4011add8416401b8b6618bbed0a840919d2e0bbc9",
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "name": "agile-deliberation-subjective-boundaries-infographic-web-v1.webp",
+      "slug": "agile-deliberation-subjective-boundaries",
+      "role": "infographic-web",
+      "bytes": 2014116,
+      "sha256": "654ba3159b3ef53f7fc79c07fa7d049451cd7f4332cc5beb053085e301bdf129",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "res2-topological-polaritonic-flatbands-card-original-v1.png",
+      "slug": "res2-topological-polaritonic-flatbands",
+      "role": "card-original",
+      "bytes": 1999363,
+      "sha256": "0634de5bc268d08217773303a0e080366fcdf4860327a75bd51b5200f81fb718",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "name": "res2-topological-polaritonic-flatbands-infographic-original-v1.png",
+      "slug": "res2-topological-polaritonic-flatbands",
+      "role": "infographic-original",
+      "bytes": 2067861,
+      "sha256": "d0c16964d65e78cf23d39376936bae29b5a09a97e737bde5d2da2bdbc9f1cc17",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "res2-topological-polaritonic-flatbands-card-web-v1.webp",
+      "slug": "res2-topological-polaritonic-flatbands",
+      "role": "card-web",
+      "bytes": 409834,
+      "sha256": "30de60bdec8d98361e5085f0b8ac6f05734b9433ff927a98deaddaaab579715f",
+      "dimensions": [
+        800,
+        450
+      ]
+    },
+    {
+      "name": "res2-topological-polaritonic-flatbands-og-web-v1.jpg",
+      "slug": "res2-topological-polaritonic-flatbands",
+      "role": "og-web",
+      "bytes": 361929,
+      "sha256": "64559ed1f18bb2d3a73b22f74d71034ad576b8aeeb619aa93d37328e464fea04",
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "name": "res2-topological-polaritonic-flatbands-infographic-web-v1.webp",
+      "slug": "res2-topological-polaritonic-flatbands",
+      "role": "infographic-web",
+      "bytes": 1515284,
+      "sha256": "02dc538d2a304ae2c37af8c7bdf2fa03f68e779f7ab5216c3645f7ea9dab97b2",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "codeql-2274-analysis-pack-boundaries-card-original-v1.png",
+      "slug": "codeql-2274-analysis-pack-boundaries",
+      "role": "card-original",
+      "bytes": 3306741,
+      "sha256": "1d4ea2a7dceeb3d9b9d58ef046704ff54e9425251473050e491bd7db8c183648",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "name": "codeql-2274-analysis-pack-boundaries-infographic-original-v1.png",
+      "slug": "codeql-2274-analysis-pack-boundaries",
+      "role": "infographic-original",
+      "bytes": 3178371,
+      "sha256": "c775a66a5856f774dbed18076b1efa3ed7f7b0cb91cee6880d5b43f60ce18a78",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "codeql-2274-analysis-pack-boundaries-card-web-v1.webp",
+      "slug": "codeql-2274-analysis-pack-boundaries",
+      "role": "card-web",
+      "bytes": 497624,
+      "sha256": "58dbb9bf8ceb5402a370f7525f3917abe2f7ddabf2299496385d1b9c7f6beffa",
+      "dimensions": [
+        800,
+        450
+      ]
+    },
+    {
+      "name": "codeql-2274-analysis-pack-boundaries-og-web-v1.jpg",
+      "slug": "codeql-2274-analysis-pack-boundaries",
+      "role": "og-web",
+      "bytes": 512475,
+      "sha256": "89b8b9685c2b2d7a27e2fec06c124de6b28a83e0776de9bbd676e78f408273e0",
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "name": "codeql-2274-analysis-pack-boundaries-infographic-web-v1.webp",
+      "slug": "codeql-2274-analysis-pack-boundaries",
+      "role": "infographic-web",
+      "bytes": 2328508,
+      "sha256": "d12e8f25a682cd17745daef10e27f44e9d34eef0b4d8a2a2691476b389841917",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "dependabot-apm-agent-dependencies-card-original-v1.png",
+      "slug": "dependabot-apm-agent-dependencies",
+      "role": "card-original",
+      "bytes": 2128609,
+      "sha256": "f8a00202c72cc4df33936f4b04b0a493fe77bc6f35924b5d20fc1c27bc5a84f7",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "name": "dependabot-apm-agent-dependencies-infographic-original-v1.png",
+      "slug": "dependabot-apm-agent-dependencies",
+      "role": "infographic-original",
+      "bytes": 2077150,
+      "sha256": "787234c4f3674c6095129d2ac679a8bd3b1c9554083f1f1c831c4cbba63958fb",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "dependabot-apm-agent-dependencies-card-web-v1.webp",
+      "slug": "dependabot-apm-agent-dependencies",
+      "role": "card-web",
+      "bytes": 354752,
+      "sha256": "4b7b78cbb6d43f526afe35d3f27c31b645ed838ad8b96e58554c652e7bfd5734",
+      "dimensions": [
+        800,
+        450
+      ]
+    },
+    {
+      "name": "dependabot-apm-agent-dependencies-og-web-v1.jpg",
+      "slug": "dependabot-apm-agent-dependencies",
+      "role": "og-web",
+      "bytes": 286903,
+      "sha256": "f85c42a2b1b8b6106c8c1d28a4f37f004eb2f1e4e0a5cf2093cc2bce86a00fad",
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "name": "dependabot-apm-agent-dependencies-infographic-web-v1.webp",
+      "slug": "dependabot-apm-agent-dependencies",
+      "role": "infographic-web",
+      "bytes": 1515720,
+      "sha256": "3f0ee8842aa901df1248a69a28475d640e938280c22bccaa579199c2649b7ac0",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "github-desktop-short-lived-tokens-card-original-v1.png",
+      "slug": "github-desktop-short-lived-tokens",
+      "role": "card-original",
+      "bytes": 3367258,
+      "sha256": "f997ffdfe1cda43acdfb554238b486d384e744f9feb5b688c4ce4571fbfb40d5",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "name": "github-desktop-short-lived-tokens-infographic-original-v1.png",
+      "slug": "github-desktop-short-lived-tokens",
+      "role": "infographic-original",
+      "bytes": 3142248,
+      "sha256": "d455e92f978bdf7c2364dfc2d4861b399ff506f89e1cd40137bc03f5d33f8886",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "github-desktop-short-lived-tokens-card-web-v1.webp",
+      "slug": "github-desktop-short-lived-tokens",
+      "role": "card-web",
+      "bytes": 552008,
+      "sha256": "76ddc71a87cf99324c1f5400b4d6d8c5a41003331eaada530b1c01fd0b788680",
+      "dimensions": [
+        800,
+        450
+      ]
+    },
+    {
+      "name": "github-desktop-short-lived-tokens-og-web-v1.jpg",
+      "slug": "github-desktop-short-lived-tokens",
+      "role": "og-web",
+      "bytes": 661312,
+      "sha256": "a6a559e1729f994caed48f27f396ae8ec18f06794e0dbc77b8d1b1c89e6a9cf7",
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "name": "github-desktop-short-lived-tokens-infographic-web-v1.webp",
+      "slug": "github-desktop-short-lived-tokens",
+      "role": "infographic-web",
+      "bytes": 2435272,
+      "sha256": "18f11933c036d7d71d879ecd002502404d576e4abe90fd8b66bee1fdce8e13ec",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    }
+  ],
+  "verification": "All infographic WebP files decode pixel-identically to original PNGs; resized feed cards decode pixel-identically to deterministic resize; OG files are 1200x630 JPEG quality 95 4:4:4."
+}

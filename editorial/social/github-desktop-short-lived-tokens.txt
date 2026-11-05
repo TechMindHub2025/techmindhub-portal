@@ -1,0 +1,12 @@
+GitHub Desktop's Short-Lived Tokens Narrow the Credential Exposure Window
+
+GitHub Desktop 3.6.10 and later supports automatically renewed, short-lived tokens for eligible accounts in a gradual rollout. If one token is copied, its usefulness is bounded by its validity and any revocation. An attacker may still act while it is valid, and a compromised device needs its own investigation.
+
+Existing signed-in sessions do not automatically migrate. The rollout covers github.com and Enterprise Cloud, not Enterprise Server.
+
+Our analysis separates the lifetime of one token from the wider session and workstation trust boundary, and describes what an organization can check without inventing a precise expiry duration.
+
+Read: https://techmindhub.cc/posts/github-desktop-short-lived-tokens/
+More analysis: https://arover.substack.com/
+
+#Authentication #DigitalTrust #DeveloperTools #TechMindHub
