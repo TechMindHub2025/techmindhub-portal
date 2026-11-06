@@ -1,0 +1,62 @@
+{
+  "release": "2026-11-06-hive-iceberg-managed-migration-v1",
+  "web_prefix": "https://media.techmindhub.cc/posts/",
+  "files": [
+    {
+      "name": "s3-tables-hive-iceberg-managed-migration-card-original-v1.png",
+      "slug": "s3-tables-hive-iceberg-managed-migration",
+      "role": "card-original",
+      "bytes": 2525469,
+      "sha256": "e555cce5222e4360839c43e35996d3f8352c83943932679d6b084d72064fc75e",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "name": "s3-tables-hive-iceberg-managed-migration-infographic-original-v1.png",
+      "slug": "s3-tables-hive-iceberg-managed-migration",
+      "role": "infographic-original",
+      "bytes": 2704435,
+      "sha256": "1f1a96e536dfb418482b1e2038a6fc32268326095ab692f1ec77a997cb9426de",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "s3-tables-hive-iceberg-managed-migration-card-web-v1.webp",
+      "slug": "s3-tables-hive-iceberg-managed-migration",
+      "role": "card-web",
+      "bytes": 534330,
+      "sha256": "3c10006deb5d3a7d0c6161883406d7ddb19c523d734d55d6493ec1460b9f5606",
+      "dimensions": [
+        800,
+        450
+      ]
+    },
+    {
+      "name": "s3-tables-hive-iceberg-managed-migration-og-web-v1.jpg",
+      "slug": "s3-tables-hive-iceberg-managed-migration",
+      "role": "og-web",
+      "bytes": 538094,
+      "sha256": "33f7874de20a5e45cdf7047fc06eeaaa15166f30b69f97fb9a547c893d114bab",
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "name": "s3-tables-hive-iceberg-managed-migration-infographic-web-v1.webp",
+      "slug": "s3-tables-hive-iceberg-managed-migration",
+      "role": "infographic-web",
+      "bytes": 1895454,
+      "sha256": "7e0c6cc0b798e173d2f58f06e624f5c7f3f7dd4c9bd1f4b3805cc53d795b6cd4",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    }
+  ],
+  "verification": "Infographic WebP decodes pixel-identically to original PNG; feed card is a lossless encode of deterministic 800x450 resize; OG is a center-cropped 1200x630 JPEG quality 95 4:4:4."
+}
