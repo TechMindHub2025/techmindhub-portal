@@ -1,0 +1,20 @@
+{
+  "slug": "s3-tables-hive-iceberg-managed-migration",
+  "checked": "2026-11-06",
+  "source": "https://aws.amazon.com/blogs/aws/amazon-s3-tables-now-offer-managed-migration-of-apache-hive-tables-to-apache-iceberg/",
+  "central_question": "How does a managed Start, Sync and Complete migration reduce copy work while leaving schema validation, application cutover and recovery with the operator?",
+  "claims_and_limits": [
+    "The November 4 AWS announcement covers eligible Glue-registered Hive Parquet tables in the same account and Region, in selected AWS Regions.",
+    "Source workloads can keep running during the main copy; final source-write pause and cutover are operator-coordinated. A few minutes is AWS's description, not a duration guarantee.",
+    "The destination is read-only until Complete. Complete cannot be undone through the service; failed or cancelled migrations may leave committed destination data.",
+    "The source object overwrite limitation and uncopied Glue metadata constrain equivalence. Conversion has no separate fee, while copied data and subsequent usage are billable."
+  ],
+  "visual": {
+    "domain": "infrastructure",
+    "accent": "#426F94",
+    "cover_phrase": "THE CONTROLLED CUTOVER",
+    "infographic_title": "FROM HIVE TO ICEBERG",
+    "shared_motif": "Blue Parquet transfer from a live Hive/Glue source to an Iceberg destination. The cover uses a bridge; the inner artwork uses a migration desk with Start, Sync, Complete and pre-cutover verification.",
+    "status": "Conceptual editorial illustrations; timing and compatibility are explained in the article, not inferred from the drawing."
+  }
+}

@@ -1,0 +1,12 @@
+From Hive to Iceberg: AWS Makes Data Lake Migration a Managed Operation
+
+Amazon S3 Tables can now migrate eligible Hive Parquet tables registered in AWS Glue to managed Iceberg tables. Start creates a read-only destination, repeated Sync passes capture source changes, and Complete opens the destination for writes.
+
+The source can keep serving workloads during the main copy. The final write pause, validation and application switch still need an operator's plan. AWS describes a short pause, but does not guarantee one duration for every table.
+
+Our analysis examines schema policy, query checks, object overwrite limits and recovery after a failed or completed migration. Conversion has no separate fee; copying and ongoing use still have costs.
+
+Read: https://techmindhub.cc/posts/s3-tables-hive-iceberg-managed-migration/
+More analysis: https://arover.substack.com/
+
+#DataEngineering #ApacheIceberg #CloudInfrastructure #TechMindHub
