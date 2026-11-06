@@ -1,0 +1,19 @@
+{
+  "slug": "kresling-origami-ternary-mechanical-computing",
+  "checked": "2026-11-06",
+  "source": "https://www.nature.com/articles/s41467-026-79187-0",
+  "central_question": "Can multistable folded structures implement composable binary and ternary mechanical logic?",
+  "claims_and_limits": [
+    "Wang et al. report seven logic gates and binary and ternary half- and full-adders using two Kresling configurations and torsional transitions.",
+    "Published November 5, accepted October 14; the citable early-access version is subject to further edits.",
+    "Laboratory modules and conceptual illustrations do not establish processor speed, lifetime or scalable arbitrary circuit depth."
+  ],
+  "visual": {
+    "domain": "robotics",
+    "accent": "#AC5943",
+    "cover_phrase": "LOGIC IN THE FOLD",
+    "infographic_title": "FOLDS AS LOGIC",
+    "shared_motif": "Terracotta Kresling folded modules; cover is a workshop scene, inner is a separate engineering notebook showing multistability, torsion and module composition.",
+    "status": "Conceptual illustration, not a reproduction of apparatus geometry or truth tables."
+  }
+}

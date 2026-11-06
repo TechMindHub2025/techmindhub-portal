@@ -1,0 +1,12 @@
+Computing Without Electronics: Origami Structures Perform Ternary Logic
+
+A folded Kresling structure can carry a stable physical state; a torsional transition can change it. Researchers report a modular architecture with seven logic gates and binary and ternary half- and full-adders.
+
+The hard engineering questions begin when one response must become another module's input. Switching thresholds, repeatability, actuation, readout and circuit depth will determine where mechanical computation is useful.
+
+This is a research platform for programming physical behavior, not a replacement for a modern processor. Our analysis separates the demonstrated gates from the performance and durability evidence still needed.
+
+Read: https://techmindhub.cc/posts/kresling-origami-ternary-mechanical-computing/
+More analysis: https://arover.substack.com/
+
+#MechanicalComputing #Origami #TernaryLogic #Robotics #TechMindHub

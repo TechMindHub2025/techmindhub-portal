@@ -1,0 +1,19 @@
+{
+  "slug": "nickel-nitrogen-dilute-co2-electroreduction",
+  "checked": "2026-11-06",
+  "source": "https://www.nature.com/articles/s41467-026-79247-5",
+  "central_question": "Can nitrogen environments adjacent to isolated nickel sites improve reactant access during dilute-CO2 electroreduction?",
+  "claims_and_limits": [
+    "Yun et al. report pyridinic-N enrichment and propose reversible CO2 adduct formation and a local desorption-re-adsorption relay near Ni–Nx sites.",
+    "The authors discuss dilute feeds motivated by 3–15% CO2 industrial flue gas; selective CO conversion is a laboratory finding.",
+    "No industrial full-exhaust stability, system energy balance or commercial economics is established; a related pending patent is disclosed."
+  ],
+  "visual": {
+    "domain": "energy-environment",
+    "accent": "#6E793D",
+    "cover_phrase": "WHEN CO2 IS SCARCE",
+    "infographic_title": "A SCARCE REACTANT",
+    "shared_motif": "Olive laboratory flow cell and conceptual nickel/nitrogen catalyst neighborhood; inner separates scarce feed, local relay and open industrial questions.",
+    "status": "Conceptual molecular illustration, not an atomically exact structural model or plant-ready system."
+  }
+}

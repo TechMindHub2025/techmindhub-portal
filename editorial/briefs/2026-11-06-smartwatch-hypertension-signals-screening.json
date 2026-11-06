@@ -1,0 +1,19 @@
+{
+  "slug": "smartwatch-hypertension-signals-screening",
+  "checked": "2026-11-06",
+  "source": "https://research.google/blog/detecting-signs-of-hypertension-using-wearable-sensors/",
+  "central_question": "What do passive wrist signals reveal about persistent hypertension risk without measuring blood pressure directly?",
+  "claims_and_limits": [
+    "Pretraining used 492,347 hours from 2,109 participants; the distinct prospective validation had 196 people at five US sites.",
+    "Initial screening against 24-hour ABPM gave reported sensitivity 65.8% and specificity 90.0%; the separate confirmatory subset had 48 people.",
+    "The watch yields a multi-day probability score, not a cuffless blood-pressure reading or standalone clinical diagnosis; Google describes the research methods as exploratory."
+  ],
+  "visual": {
+    "domain": "life-sciences",
+    "accent": "#39765E",
+    "cover_phrase": "SIGNALS, NOT PRESSURE",
+    "infographic_title": "TWO SENSOR STREAMS",
+    "shared_motif": "Green smartwatch PPG and accelerometer signals; cover depicts a person and clinical referral, inner shows time aggregation and 24-hour cuff validation.",
+    "status": "Conceptual screening workflow, no direct BP measurement or numerical performance claim on artwork."
+  }
+}
