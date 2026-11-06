@@ -1,0 +1,12 @@
+Converting Dilute CO2 Without Purification: Engineering Catalysts at the Atomic Level
+
+In a laboratory study, researchers tuned nitrogen environments around isolated nickel sites in a carbon catalyst. Their proposed mechanism gives scarce CO2 a reversible local interaction near the reaction site, improving access for conversion to carbon monoxide under dilute-feed conditions.
+
+The result is molecular insight, not proof that a plant can use raw exhaust without treatment. Competing hydrogen evolution, real gas mixtures, durability, energy consumption and process economics still require full-system evidence.
+
+Our analysis follows the path from local chemistry to the measurements an industrial claim would need.
+
+Read: https://techmindhub.cc/posts/nickel-nitrogen-dilute-co2-electroreduction/
+More analysis: https://arover.substack.com/
+
+#Catalysis #CO2Conversion #EnergyEngineering #Materials #TechMindHub

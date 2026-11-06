@@ -1,0 +1,172 @@
+{
+  "release": "2026-11-06-three-research-v1",
+  "web_prefix": "https://media.techmindhub.cc/posts/",
+  "files": [
+    {
+      "name": "kresling-origami-ternary-mechanical-computing-card-original-v1.png",
+      "slug": "kresling-origami-ternary-mechanical-computing",
+      "role": "card-original",
+      "bytes": 2303637,
+      "sha256": "cb3256ff01b3773b96b7b8c2ec4840c8d4355657c55fcf82181ba5169166c2fc",
+      "dimensions": [
+        1731,
+        909
+      ]
+    },
+    {
+      "name": "kresling-origami-ternary-mechanical-computing-infographic-original-v1.png",
+      "slug": "kresling-origami-ternary-mechanical-computing",
+      "role": "infographic-original",
+      "bytes": 2536193,
+      "sha256": "142e2d32ff0f9b0169ef406a90461ea0f4e1789a8813eb9bd209ca1760a4f860",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "kresling-origami-ternary-mechanical-computing-card-web-v1.webp",
+      "slug": "kresling-origami-ternary-mechanical-computing",
+      "role": "card-web",
+      "bytes": 380314,
+      "sha256": "e355b168fc1a5265c362d4f20af25f21ce185f3dd7a44e2ff066c2f6884fb5e0",
+      "dimensions": [
+        800,
+        420
+      ]
+    },
+    {
+      "name": "kresling-origami-ternary-mechanical-computing-og-web-v1.jpg",
+      "slug": "kresling-origami-ternary-mechanical-computing",
+      "role": "og-web",
+      "bytes": 357347,
+      "sha256": "8283f9f93d6f90734ab3d493f84b2d80e6f4621e145359b025a29ed91e80c07a",
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "name": "kresling-origami-ternary-mechanical-computing-infographic-web-v1.webp",
+      "slug": "kresling-origami-ternary-mechanical-computing",
+      "role": "infographic-web",
+      "bytes": 1838054,
+      "sha256": "550f98ab70f0097bcb26e2dc54bcac71d3b0ff69acfae8fc2cbe07b0f7dc6340",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "smartwatch-hypertension-signals-screening-card-original-v1.png",
+      "slug": "smartwatch-hypertension-signals-screening",
+      "role": "card-original",
+      "bytes": 2242477,
+      "sha256": "76441ff4f201780dc070e31f55232bc9aebe03362182071a2369b78eaa4b5eae",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "name": "smartwatch-hypertension-signals-screening-infographic-original-v1.png",
+      "slug": "smartwatch-hypertension-signals-screening",
+      "role": "infographic-original",
+      "bytes": 2181940,
+      "sha256": "460bf924f0db0204ae404a5fdcaeb53be5fa5260de7fd53e2829066146add088",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "smartwatch-hypertension-signals-screening-card-web-v1.webp",
+      "slug": "smartwatch-hypertension-signals-screening",
+      "role": "card-web",
+      "bytes": 435596,
+      "sha256": "717218a32a2632642c40800e0a508e87dc4afba33e97feb721320c780509b31d",
+      "dimensions": [
+        800,
+        450
+      ]
+    },
+    {
+      "name": "smartwatch-hypertension-signals-screening-og-web-v1.jpg",
+      "slug": "smartwatch-hypertension-signals-screening",
+      "role": "og-web",
+      "bytes": 365562,
+      "sha256": "9c804f6bf291ffefab3624bcd475539e2d49af6911099c1791266d13903776d3",
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "name": "smartwatch-hypertension-signals-screening-infographic-web-v1.webp",
+      "slug": "smartwatch-hypertension-signals-screening",
+      "role": "infographic-web",
+      "bytes": 1569224,
+      "sha256": "ca0199c47e91de20e9110e2f136b38c8e7fb84cb15819d9185e191a9ec8fef71",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "nickel-nitrogen-dilute-co2-electroreduction-card-original-v1.png",
+      "slug": "nickel-nitrogen-dilute-co2-electroreduction",
+      "role": "card-original",
+      "bytes": 2079357,
+      "sha256": "a260480f561b076b051e7bc1e4285531c4b86d42f78e0a6e96cd6dd71d2c0501",
+      "dimensions": [
+        1732,
+        908
+      ]
+    },
+    {
+      "name": "nickel-nitrogen-dilute-co2-electroreduction-infographic-original-v1.png",
+      "slug": "nickel-nitrogen-dilute-co2-electroreduction",
+      "role": "infographic-original",
+      "bytes": 2254005,
+      "sha256": "ffedfbabbf3d6249d0ea27daac9f536e97825facf0d5e337c5c0e452f92b1f20",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "nickel-nitrogen-dilute-co2-electroreduction-card-web-v1.webp",
+      "slug": "nickel-nitrogen-dilute-co2-electroreduction",
+      "role": "card-web",
+      "bytes": 369326,
+      "sha256": "b64a00eaab0e7bfd93e80eb9ca50407003c1e0461d017678277f5f0a3ee69593",
+      "dimensions": [
+        800,
+        419
+      ]
+    },
+    {
+      "name": "nickel-nitrogen-dilute-co2-electroreduction-og-web-v1.jpg",
+      "slug": "nickel-nitrogen-dilute-co2-electroreduction",
+      "role": "og-web",
+      "bytes": 325624,
+      "sha256": "63f277f5038c40b0c41213b8c56b9b9d0056e448cdd1354cfe7f8cbf5b281963",
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "name": "nickel-nitrogen-dilute-co2-electroreduction-infographic-web-v1.webp",
+      "slug": "nickel-nitrogen-dilute-co2-electroreduction",
+      "role": "infographic-web",
+      "bytes": 1657168,
+      "sha256": "8ba282fc63f50b3dc41cc456e458aca5aaaa027f9959dc38e1c61ffb357b0628",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    }
+  ],
+  "verification": "Three infographic WebP files decode pixel-identically to the original PNGs. Feed cards are lossless encodes of deterministic 800-pixel resize; social previews are 1200x630 JPEG quality 95 4:4:4; the smartwatch cover is fitted on a matching mint background to preserve its edge text, while the other two use center crops."
+}

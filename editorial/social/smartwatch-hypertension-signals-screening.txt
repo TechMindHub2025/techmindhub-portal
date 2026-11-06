@@ -1,0 +1,12 @@
+Detecting Hypertension Without a Cuff: AI Learns From Smartwatch Signals
+
+Google Research combined smartwatch optical pulse and accelerometer signals across days to estimate the likelihood of a persistent hypertensive state. In a prospective study of 196 people against 24-hour ambulatory cuff monitoring, initial-screening sensitivity was 65.8% and specificity 90.0%.
+
+The watch did not measure blood pressure directly. Moderate sensitivity means a negative result cannot rule out hypertension; a positive signal calls for conventional clinical assessment.
+
+We examine the difference between 492,347 hours of pretraining data and the smaller clinical validation, as well as the practical questions around signal quality, follow-up and false reassurance.
+
+Read: https://techmindhub.cc/posts/smartwatch-hypertension-signals-screening/
+More analysis: https://arover.substack.com/
+
+#BiomedicalEngineering #Wearables #HealthAI #Research #TechMindHub
