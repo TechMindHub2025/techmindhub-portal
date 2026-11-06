@@ -1,0 +1,62 @@
+{
+  "release": "2026-11-06-copilot-review-metrics-v1",
+  "web_prefix": "https://media.techmindhub.cc/posts/",
+  "files": [
+    {
+      "name": "copilot-code-review-addressed-rate-card-original-v1.png",
+      "slug": "copilot-code-review-addressed-rate",
+      "role": "card-original",
+      "bytes": 2045487,
+      "sha256": "54d8f731031a6836c87da2067a9c851c598441c5a78a30887d844ae96a4f43b3",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "name": "copilot-code-review-addressed-rate-infographic-original-v1.png",
+      "slug": "copilot-code-review-addressed-rate",
+      "role": "infographic-original",
+      "bytes": 1870560,
+      "sha256": "95d3c3f646194dc0d6b51f624de4882d277efefcaed7b971fff205abed2694e1",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "copilot-code-review-addressed-rate-card-web-v1.webp",
+      "slug": "copilot-code-review-addressed-rate",
+      "role": "card-web",
+      "bytes": 393858,
+      "sha256": "b46f3c4ec07fb12aa4234b3be22e570d4a7517edcd4f40208249f7d2d382bbfb",
+      "dimensions": [
+        800,
+        450
+      ]
+    },
+    {
+      "name": "copilot-code-review-addressed-rate-og-web-v1.jpg",
+      "slug": "copilot-code-review-addressed-rate",
+      "role": "og-web",
+      "bytes": 327021,
+      "sha256": "c0f919d3479f880b0c0d87efb49f9ddf91b7b98d98f8b36390e60bd834af8c9d",
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "name": "copilot-code-review-addressed-rate-infographic-web-v1.webp",
+      "slug": "copilot-code-review-addressed-rate",
+      "role": "infographic-web",
+      "bytes": 1361844,
+      "sha256": "5af758977a42cafd20b2e9b0747bea29cff5aa82af7f15694dd4b27cd0d41510",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    }
+  ],
+  "verification": "Infographic WebP decodes pixel-identically to original PNG; card is a lossless encode of the 800-pixel LANCZOS resize; the 1200x630 JPEG quality 95 4:4:4 fits the complete cover on the software-family background to retain edge lettering."
+}

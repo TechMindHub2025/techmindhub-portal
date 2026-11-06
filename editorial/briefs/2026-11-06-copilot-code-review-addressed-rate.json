@@ -1,0 +1,22 @@
+{
+  "slug": "copilot-code-review-addressed-rate",
+  "checked": "2026-11-06",
+  "sources": [
+    "https://github.blog/changelog/2026-11-05-usage-metrics-api-adds-code-review-details-and-addressed-rate/",
+    "https://docs.github.com/en/copilot/reference/copilot-usage-metrics/copilot-usage-metrics"
+  ],
+  "central_question": "What does the addressed rate show about developer response to Copilot code review, and what does it leave unresolved?",
+  "claims_and_limits": [
+    "The new copilot_code_review object appears in enterprise and organization repos-1-day rows; comments are evaluated when a PR merges.",
+    "The numerator includes applying a suggestion, requesting a Copilot fix, editing by hand or promising a later PR, so it does not establish defect remediation.",
+    "The human change-request count has a PR-level denominator and is separate from comment addressed rate; only Copilot PR comments enter the latter."
+  ],
+  "visual": {
+    "domain": "software",
+    "accent": "#80549E",
+    "cover_phrase": "AFTER THE COMMENT",
+    "infographic_title": "COUNT THE RESPONSE",
+    "shared_motif": "Purple developer review workspace with an annotated pull request and paths representing developer responses; cover is a scene, inner image is a more detailed conceptual review board.",
+    "status": "Conceptual editorial illustration, not an API schema or an empirical scorecard. The human review branch is explicitly separate from the addressed-comment count."
+  }
+}

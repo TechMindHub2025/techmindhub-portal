@@ -1,0 +1,12 @@
+Measuring AI Code Reviews: From Suggestions to Developer Actions
+
+GitHub's new repository-level Copilot usage metrics count review comments evaluated when a pull request merges, and whether developers acted on them. The addressed rate goes beyond the number of suggestions a tool produced.
+
+Its meaning needs care. Applying a suggestion, asking Copilot for a fix, editing code and promising a later pull request all count as responses. The ratio does not establish that a defect was fixed. Human change requests are reported separately, and a daily report reflects merge dates rather than the dates comments appeared.
+
+Our engineering analysis examines the denominator, breakdowns that may not add up to the headline total, and the evidence needed to judge review quality.
+
+Read: https://techmindhub.cc/posts/copilot-code-review-addressed-rate/
+More analysis: https://arover.substack.com/
+
+#Copilot #CodeReview #DeveloperTools #EngineeringMetrics #TechMindHub
