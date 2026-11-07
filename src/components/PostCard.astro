@@ -1,5 +1,6 @@
 ---
 import domains from "../data/editorial-domains.json";
+import { formatEditorialDate } from "../lib/editorial-date";
 const { post } = Astro.props;
 const d = post.data;
 const domain = domains.find(item => item.id === d.domain);
@@ -11,7 +12,7 @@ const href = `/posts/${post.slug}/`;
   <div class="cardBody">
     <div class="editorial-card__eyebrow">{d.topic || domain?.label || d.tags?.[0] || "Analysis"}</div>
     <h2 class="title">{d.title}</h2>
-    <time class="date" datetime={d.pubDate.toISOString()}>{d.pubDate.toISOString().slice(0, 10)}</time>
+    <time class="date" datetime={d.pubDate.toISOString()}>{formatEditorialDate(d.pubDate)}</time>
     <p class="desc">{d.excerpt || d.description}</p>
     <div class="metaRow"><div class="tags">
       {(d.tags || []).filter(t => t !== "TechMindHub").slice(0, 2).map(t => <a class="pill" href={`/tags/${encodeURIComponent(t)}/`}>#{t}</a>)}

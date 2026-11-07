@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { getCollection, render } from "astro:content";
+import { formatEditorialDate } from "../../lib/editorial-date";
 
 // Build all static routes for published posts
 export async function getStaticPaths() {
@@ -35,7 +36,7 @@ const ogImage = new URL(post.data.cover_og!, "https://techmindhub.cc").href;
         <span>By {author}</span>
         <span class="dot">·</span>
         <time datetime={pubDate.toISOString()}>
-          {pubDate.toISOString().slice(0, 10)}
+          {formatEditorialDate(pubDate)}
         </time>
 
         {source_url && (
