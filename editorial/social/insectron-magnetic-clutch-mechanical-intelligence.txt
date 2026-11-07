@@ -1,0 +1,12 @@
+When Robot Mechanics Become Intelligence: INSECTRON's Magnetic Clutches
+
+The INSECTRON prototype is a 33.9 g, six-legged robot driven by two motors. Magnetic couplings connect its legs to the drivetrain: they transmit motion in ordinary walking, yield under overload and can re-engage after a disturbance. Hall-effect sensing still coordinates the two drive modules. The interesting result comes from the partnership between mechanical response and feedback control.
+
+In three controlled vertical perturbation conditions, the researchers reported recovery probabilities of 91%, 95% and 94%. Those results do not predict recovery after every real-world collision. Forward speed also dropped from 2.7 cm/s on the flat reference surface to 0.8 cm/s on a 5-degree incline.
+
+Our analysis examines the clutch threshold, the limited scope of the recovery experiment, and why a miniature robot may benefit from putting part of its response in the body.
+
+Read: https://techmindhub.cc/posts/insectron-magnetic-clutch-mechanical-intelligence/
+More analysis: https://arover.substack.com/
+
+#Robotics #EmbodiedIntelligence #MechanicalDesign #TechMindHub
