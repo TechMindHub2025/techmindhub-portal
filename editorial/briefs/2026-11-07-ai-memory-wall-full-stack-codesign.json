@@ -1,0 +1,22 @@
+{
+  "slug": "ai-memory-wall-full-stack-codesign",
+  "checked": "2026-11-07",
+  "sources": [
+    "https://blogs.nvidia.com/blog/memory-full-stack-codesign/",
+    "https://developer.nvidia.com/blog/five-ways-nvidia-co-design-maximizes-the-value-of-every-byte-in-the-ai-factory/"
+  ],
+  "central_question": "Where should AI inference state live when active generation alternates with paused tool calls?",
+  "claims_and_limits": [
+    "The vendor describes NVFP4, model distribution, routing and KV-cache tiers spanning GPU, CPU and shared storage.",
+    "NVIDIA's up to 30x throughput-per-dollar result compares Vera Rubin NVL72 with GB300 NVL72 on AgentX DeepSeek V4 Pro at 125 tokens per second per user.",
+    "Per-dollar and per-megawatt comparisons use distinct denominators; neither establishes arbitrary-model acceleration or return on investment."
+  ],
+  "visual": {
+    "domain": "infrastructure",
+    "accent": "#426F94",
+    "cover_phrase": "THE MEMORY WALL",
+    "infographic_title": "WHERE THE CONTEXT WAITS",
+    "shared_motif": "Deep-blue illustrated server cutaway, glowing active HBM and warmer CPU/storage tiers; the inner notebook traces paused KV context and its return.",
+    "status": "Conceptual editorial memory hierarchy, not a literal product diagram; benchmark annotation states the vendor, workload, comparator and units."
+  }
+}

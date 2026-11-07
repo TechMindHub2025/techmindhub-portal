@@ -1,0 +1,117 @@
+{
+  "release": "2026-11-07-sixg-memory-codesign-v1",
+  "web_prefix": "https://media.techmindhub.cc/posts/",
+  "files": [
+    {
+      "name": "goal-oriented-wireless-robotics-6g-research-card-original-v1.png",
+      "slug": "goal-oriented-wireless-robotics-6g-research",
+      "role": "card-original",
+      "bytes": 2084852,
+      "sha256": "5938f6d89c678ad5cf83c02ed2ce8dcbbca6d404c1043f9b180c9a39d12967ff",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "name": "goal-oriented-wireless-robotics-6g-research-infographic-original-v1.png",
+      "slug": "goal-oriented-wireless-robotics-6g-research",
+      "role": "infographic-original",
+      "bytes": 3152328,
+      "sha256": "38d5b0ddd4df2f8fa1e4a7c5f02b0b085d83997a11b871a0dc199151b9f03440",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "goal-oriented-wireless-robotics-6g-research-card-web-v1.webp",
+      "slug": "goal-oriented-wireless-robotics-6g-research",
+      "role": "card-web",
+      "bytes": 429658,
+      "sha256": "50871184473e64717b28d6ab3a9e003a513dfef880cda64caa6516210c75eec7",
+      "dimensions": [
+        800,
+        450
+      ]
+    },
+    {
+      "name": "goal-oriented-wireless-robotics-6g-research-og-web-v1.jpg",
+      "slug": "goal-oriented-wireless-robotics-6g-research",
+      "role": "og-web",
+      "bytes": 350127,
+      "sha256": "832e9b23384cece94c7559f65ac3e9ea4bfa87ddabe3c5988cdb24780cee595b",
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "name": "goal-oriented-wireless-robotics-6g-research-infographic-web-v1.webp",
+      "slug": "goal-oriented-wireless-robotics-6g-research",
+      "role": "infographic-web",
+      "bytes": 2239198,
+      "sha256": "c88b056ce157f2694e73ed3912fb8db3b48ae6731541a25c2c3ee83281779a07",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "ai-memory-wall-full-stack-codesign-card-original-v1.png",
+      "slug": "ai-memory-wall-full-stack-codesign",
+      "role": "card-original",
+      "bytes": 2272924,
+      "sha256": "f9b92324e98bd2afc3c73383dbf31ccc23d39835ed28b3d41b0364d3613b5756",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "name": "ai-memory-wall-full-stack-codesign-infographic-original-v1.png",
+      "slug": "ai-memory-wall-full-stack-codesign",
+      "role": "infographic-original",
+      "bytes": 2978333,
+      "sha256": "14ac735adee56b9e1707a64f6662e372f8cb813c547e7ca89b4cb3945ae394b8",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "ai-memory-wall-full-stack-codesign-card-web-v1.webp",
+      "slug": "ai-memory-wall-full-stack-codesign",
+      "role": "card-web",
+      "bytes": 493752,
+      "sha256": "d85614c7f0dfc167297e99a2ba5205f3c7359d3bc6881a1f34120f285dad4bef",
+      "dimensions": [
+        800,
+        450
+      ]
+    },
+    {
+      "name": "ai-memory-wall-full-stack-codesign-og-web-v1.jpg",
+      "slug": "ai-memory-wall-full-stack-codesign",
+      "role": "og-web",
+      "bytes": 461157,
+      "sha256": "01b62f73bb3d0519a541f820d6bcc596d2c14e7340e1b0f860e026975d74e45c",
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "name": "ai-memory-wall-full-stack-codesign-infographic-web-v1.webp",
+      "slug": "ai-memory-wall-full-stack-codesign",
+      "role": "infographic-web",
+      "bytes": 2110606,
+      "sha256": "c78037c28f70dd1c98a563fd4eb25b7c5d23256197a4acb717b80401ef868e74",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    }
+  ],
+  "verification": "Both infographic WebPs decode pixel-identically to original PNGs. Cards are lossless WebP of 800px LANCZOS resizes. OG previews fit complete covers on their domain surfaces at 1200x630, JPEG quality 95 4:4:4 to retain edge lettering."
+}

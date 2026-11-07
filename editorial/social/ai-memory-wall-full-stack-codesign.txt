@@ -1,0 +1,12 @@
+The AI Memory Wall: Why More HBM Is Not Enough
+
+Model weights and KV cache compete for GPU high-bandwidth memory. During an agent's tool call, context may remain valuable even while it produces no tokens. NVIDIA's full-stack memory analysis asks where those bytes should wait and how quickly they can return.
+
+NVFP4, weight distribution, inference routing, CPU memory and shared storage address different parts of the problem. NVIDIA reports up to 30x throughput per dollar for Vera Rubin NVL72 versus GB300 NVL72 on one AgentX DeepSeek V4 Pro workload at 125 tokens per second per user. That is a specific platform and service-level comparison, not a universal model speedup.
+
+Our analysis follows the memory hierarchy and the measurements an operator would need before accepting an economic claim for its own traffic.
+
+Read: https://techmindhub.cc/posts/ai-memory-wall-full-stack-codesign/
+More analysis: https://arover.substack.com/
+
+#AIInfrastructure #HBM #Inference #KVCache #TechMindHub
