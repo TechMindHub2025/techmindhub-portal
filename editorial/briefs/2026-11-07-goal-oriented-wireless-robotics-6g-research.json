@@ -1,0 +1,24 @@
+{
+  "slug": "goal-oriented-wireless-robotics-6g-research",
+  "checked": "2026-11-07",
+  "sources": [
+    "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/",
+    "https://arxiv.org/html/2609.15895",
+    "https://www.softbank.jp/en/corp/technology/research/topics/238/",
+    "https://eprints.whiterose.ac.uk/id/eprint/242057/1/Accepted_Network_in_a_box__ICC_2026_Yejing.pdf"
+  ],
+  "central_question": "How can a wireless system optimize a physical task rather than simply carry more bytes?",
+  "claims_and_limits": [
+    "King's College London tested semantic representations over a 5G robot-to-edge link, with up to 52.6% lower task completion time against periodic images in its setup.",
+    "SoftBank's roughly 60% maximum uplink gain is from a separate controlled neural-receiver experiment.",
+    "Leeds' 45.6% RAN-power reduction is against a full-power baseline in a four-base-station research setup; none are commercial 6G measurements."
+  ],
+  "visual": {
+    "domain": "robotics",
+    "accent": "#AC5943",
+    "cover_phrase": "SEND THE MEANING",
+    "infographic_title": "THE NETWORK IN THE CONTROL LOOP",
+    "shared_motif": "Terracotta fruit-sorting robotics workshop, a blue compact scene-graph signal and edge radio equipment; inner notebook separates the robot loop from two other experimental testbeds.",
+    "status": "Conceptual editorial illustration; not an exact rendering of experimental hardware or a standardized 6G network."
+  }
+}
