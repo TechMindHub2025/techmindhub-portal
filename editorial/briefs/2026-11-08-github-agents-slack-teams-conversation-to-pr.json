@@ -1,0 +1,19 @@
+{
+  "slug": "github-agents-slack-teams-conversation-to-pr",
+  "checked": "2026-11-08",
+  "sources": ["https://github.blog/changelog/2026-11-06-github-copilot-in-slack-and-teams-is-generally-available/", "https://docs.github.com/en/copilot/how-tos/copilot-integrations/integrate-cloud-agent-with-slack", "https://docs.github.com/en/integrations/reference/teams-permissions", "https://docs.github.com/en/integrations/reference/slack-permissions"],
+  "central_question": "How can a conversation become a reviewable coding task while retaining context and access boundaries?",
+  "claims_and_limits": [
+    "The @GitHub Slack and Teams integration is generally available; this is not a guarantee of autonomous success.",
+    "Teams Canvas provides collaborative view of plans, changes and previews; origin attribution is added to resulting issues and PRs.",
+    "A shared Slack thread may become agent context, and shared versus direct-message sessions use different identities; permission and human review remain consequential."
+  ],
+  "visual": {
+    "domain": "ai",
+    "accent": "#5958B2",
+    "cover_phrase": "FROM TALK TO CODE",
+    "infographic_title": "THE CONTEXT TRAVELS",
+    "shared_motif": "Purple team conversation flowing into a cloud coding session and a pull request, with a human reviewer at the end.",
+    "status": "Conceptual editorial illustration; not a screenshot, automatic-merge promise or exact software architecture."
+  }
+}

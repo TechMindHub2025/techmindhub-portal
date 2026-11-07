@@ -1,0 +1,12 @@
+From Team Conversations to Pull Requests: GitHub Agents Enter Slack and Teams
+
+The @GitHub integration in Slack and Microsoft Teams is generally available. A team can start an investigation, issue, coding session or pull request from a conversation. GitHub has improved repository identification and follow-up handling; Teams Canvas lets participants inspect plans, changes and previews alongside the discussion.
+
+The engineering question is how context and authority travel. A shared thread may enter the agent's task context, while the identity and permissions used for actions differ between a direct message and a shared conversation. Issues and pull requests now indicate their Slack or Teams origin, but that attribution is only a starting point for review.
+
+Our analysis follows the path from request to inspectable PR and explains why repository access, a precise task and human scrutiny remain essential. General availability does not promise autonomous success or automatic merge.
+
+Read: https://techmindhub.cc/posts/github-agents-slack-teams-conversation-to-pr/
+More analysis: https://arover.substack.com/
+
+#AgenticAI #DeveloperTools #Collaboration #TechMindHub

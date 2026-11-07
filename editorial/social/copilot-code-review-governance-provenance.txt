@@ -1,0 +1,12 @@
+Governing AI Code Reviews: From API Controls to Traceable Decisions
+
+GitHub now exposes more Copilot code review settings through REST and GraphQL APIs, from enterprise policy to repository configuration. Review records can identify Copilot's output, indicate the review effort when available, and list skills, MCP servers or custom instructions Copilot reported as sources for a comment.
+
+This is useful provenance, but it is not proof that a particular tool caused a finding or that the finding is correct. Balanced effort now involves three reviewer models and a combining model; GitHub has not supplied an independent accuracy benchmark for the change. Enterprise and organization settings endpoints also have token-type restrictions that matter for automation.
+
+Our analysis separates configuration authority, reported context and the human decision about the code itself.
+
+Read: https://techmindhub.cc/posts/copilot-code-review-governance-provenance/
+More analysis: https://arover.substack.com/
+
+#CodeReview #Copilot #DigitalTrust #DeveloperTools #TechMindHub

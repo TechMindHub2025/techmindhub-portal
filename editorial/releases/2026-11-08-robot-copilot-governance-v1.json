@@ -1,0 +1,172 @@
+{
+  "release": "2026-11-08-robot-copilot-governance-v1",
+  "web_prefix": "https://media.techmindhub.cc/posts/",
+  "files": [
+    {
+      "name": "insectron-magnetic-clutch-mechanical-intelligence-card-original-v1.png",
+      "slug": "insectron-magnetic-clutch-mechanical-intelligence",
+      "role": "card-original",
+      "bytes": 2278264,
+      "sha256": "ea9c204f4ce31676a0b02ce39470d3908b184e8023174cccf29e2fd1eede7436",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "name": "insectron-magnetic-clutch-mechanical-intelligence-infographic-original-v1.png",
+      "slug": "insectron-magnetic-clutch-mechanical-intelligence",
+      "role": "infographic-original",
+      "bytes": 2479307,
+      "sha256": "3a86093d4ada6c9b14a752dc28431c6d1b57191f22e13893c12d7c2b9d865f37",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "insectron-magnetic-clutch-mechanical-intelligence-card-web-v1.webp",
+      "slug": "insectron-magnetic-clutch-mechanical-intelligence",
+      "role": "card-web",
+      "bytes": 427948,
+      "sha256": "3a53512a26238572c22f331c31dc7c6dc9cb774d1da81f7e02b7d9a7211a3040",
+      "dimensions": [
+        800,
+        450
+      ]
+    },
+    {
+      "name": "insectron-magnetic-clutch-mechanical-intelligence-og-web-v1.jpg",
+      "slug": "insectron-magnetic-clutch-mechanical-intelligence",
+      "role": "og-web",
+      "bytes": 348229,
+      "sha256": "a6d915129318c52d6d62fe11d0208c011b13bc5efc4aecca9cf1a78c2616f5fe",
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "name": "insectron-magnetic-clutch-mechanical-intelligence-infographic-web-v1.webp",
+      "slug": "insectron-magnetic-clutch-mechanical-intelligence",
+      "role": "infographic-web",
+      "bytes": 1757900,
+      "sha256": "5ef6b431f0b694d1872eef3918a646d8e66f105ba64c1244f23e97d0e1a9d2c5",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "copilot-code-review-governance-provenance-card-original-v1.png",
+      "slug": "copilot-code-review-governance-provenance",
+      "role": "card-original",
+      "bytes": 2316583,
+      "sha256": "8f2b62b03d8b734907ed786c337f3fb6874fe74411903416e7accfe5cd1bb5ee",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "name": "copilot-code-review-governance-provenance-infographic-original-v1.png",
+      "slug": "copilot-code-review-governance-provenance",
+      "role": "infographic-original",
+      "bytes": 2309366,
+      "sha256": "38f74ea7642841060147120bb33cb47de00cc8519083dfa87057540a913d2c00",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "copilot-code-review-governance-provenance-card-web-v1.webp",
+      "slug": "copilot-code-review-governance-provenance",
+      "role": "card-web",
+      "bytes": 438506,
+      "sha256": "a24319fa1e86439309a2579dd40484df88dd6c3e64c76b48f348c5c14f20ecf3",
+      "dimensions": [
+        800,
+        450
+      ]
+    },
+    {
+      "name": "copilot-code-review-governance-provenance-og-web-v1.jpg",
+      "slug": "copilot-code-review-governance-provenance",
+      "role": "og-web",
+      "bytes": 404649,
+      "sha256": "f740e50f0812dac041dc86509a9954afdd95a1fa4c4158dd50af4c7ed5678a23",
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "name": "copilot-code-review-governance-provenance-infographic-web-v1.webp",
+      "slug": "copilot-code-review-governance-provenance",
+      "role": "infographic-web",
+      "bytes": 1694980,
+      "sha256": "980b7b63de27cddda0991d6dc99161b170d74ea2a8a4a8fdb5b0f656f9568c9b",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "github-agents-slack-teams-conversation-to-pr-card-original-v1.png",
+      "slug": "github-agents-slack-teams-conversation-to-pr",
+      "role": "card-original",
+      "bytes": 2586967,
+      "sha256": "5986dd3ba0b291d60df88f661ce5cf712dc0d2d66f9863ef1726f8a727d73122",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "name": "github-agents-slack-teams-conversation-to-pr-infographic-original-v1.png",
+      "slug": "github-agents-slack-teams-conversation-to-pr",
+      "role": "infographic-original",
+      "bytes": 2742124,
+      "sha256": "4040cb1ec8283f589c83a89bc604dd3a2c8a3dda665fdabab61c55ae9b6ace70",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "github-agents-slack-teams-conversation-to-pr-card-web-v1.webp",
+      "slug": "github-agents-slack-teams-conversation-to-pr",
+      "role": "card-web",
+      "bytes": 505056,
+      "sha256": "10432bbf07ae5c68f573ec89f3724b64619a2287d216d917e69d3937c4e09ed7",
+      "dimensions": [
+        800,
+        450
+      ]
+    },
+    {
+      "name": "github-agents-slack-teams-conversation-to-pr-og-web-v1.jpg",
+      "slug": "github-agents-slack-teams-conversation-to-pr",
+      "role": "og-web",
+      "bytes": 434165,
+      "sha256": "427c42b57397d04d08db76a44c76c3258735fd4cb835b4f8ecd3dcdceb805403",
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "name": "github-agents-slack-teams-conversation-to-pr-infographic-web-v1.webp",
+      "slug": "github-agents-slack-teams-conversation-to-pr",
+      "role": "infographic-web",
+      "bytes": 2079450,
+      "sha256": "77d232a1cd9fc100fdc84eec88c9e6f9b146fac811e4d4fc868026d9422449bc",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    }
+  ],
+  "verification": "Infographic WebP decodes pixel-identically to PNG; 800px feed card WebP preserves resized pixels; OG preview is padded to retain all text and encoded as 1200x630 JPEG quality 95 4:4:4. ZIP contents and each SHA-256 verified twice."
+}

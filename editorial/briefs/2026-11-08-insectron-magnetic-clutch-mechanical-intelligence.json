@@ -1,0 +1,19 @@
+{
+  "slug": "insectron-magnetic-clutch-mechanical-intelligence",
+  "checked": "2026-11-08",
+  "sources": ["https://www.nature.com/articles/s44182-026-00106-y"],
+  "central_question": "Which overload responses can a small robot's drivetrain handle mechanically, and what still requires feedback control?",
+  "claims_and_limits": [
+    "INSECTRON is 8.7 cm long and 33.9 g, with two motors and six legs; Hall sensors support phase feedback.",
+    "Recovery probabilities 0.91, 0.95 and 0.94 are from three controlled vertical perturbation conditions, not arbitrary outdoor impacts.",
+    "Speed 2.7 cm/s on the flat reference surface fell to 0.8 cm/s at a 5-degree incline in reported tests."
+  ],
+  "visual": {
+    "domain": "robotics",
+    "accent": "#AC5943",
+    "cover_phrase": "THE BODY RESPONDS",
+    "infographic_title": "A CLUTCH THAT YIELDS",
+    "shared_motif": "Terracotta six-legged robot and a magnified magnetic leg connection; the inner illustration shows drive, momentary slip and re-engagement.",
+    "status": "Conceptual illustration, not a faithful rendering of the laboratory prototype."
+  }
+}

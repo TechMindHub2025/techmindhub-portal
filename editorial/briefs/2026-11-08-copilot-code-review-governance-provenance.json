@@ -1,0 +1,19 @@
+{
+  "slug": "copilot-code-review-governance-provenance",
+  "checked": "2026-11-08",
+  "sources": ["https://github.blog/changelog/2026-11-06-copilot-code-review-api-management-and-review-overview-updates/", "https://docs.github.com/en/copilot/how-tos/copilot-on-github/set-up-copilot/configure-code-review"],
+  "central_question": "How can teams govern AI reviews and trace a finding without treating reported provenance as proof of correctness?",
+  "claims_and_limits": [
+    "Enterprise, organization and repository controls have distinct authority and token support.",
+    "Attribution fields describe review effort when available and sources Copilot reported for a comment; they do not establish causal influence.",
+    "Balanced uses three reviewer models plus a combining model, with no independent accuracy benchmark in the announcement."
+  ],
+  "visual": {
+    "domain": "digital-trust",
+    "accent": "#966020",
+    "cover_phrase": "WHO REVIEWED THIS?",
+    "infographic_title": "FOLLOW THE FINDING",
+    "shared_motif": "Amber layered review table, provenance lens and human reviewer; inner image separates policy, reported context and human decision.",
+    "status": "Conceptual editorial visualization, not an exact GitHub interface or causal diagram."
+  }
+}
