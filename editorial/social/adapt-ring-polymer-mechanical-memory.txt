@@ -1,0 +1,12 @@
+Materials That Remember Stress: How Adapt-Ring Polymers Strengthen Under Load
+
+Researchers report adapt-ring networks made from a sparsely crosslinked PEG network and reconfigurable crystalline domains of α-cyclodextrin. Mechanical training fragments and redistributes those domains, leaving a changed network arrangement that affects later loading.
+
+The paper reports improvements in stiffness, tensile strength, fracture energy and fatigue threshold, reaching up to an order of magnitude in specific comparisons. That maximum does not apply to every property or test condition. Reset requires solvent-induced reformation of the crystalline domains; it is not spontaneous healing of a damaged component.
+
+Our analysis separates mechanical memory from self-healing and asks what training direction, repeated use and manufacturing would mean for a real soft component.
+
+Read: https://techmindhub.cc/posts/adapt-ring-polymer-mechanical-memory/
+More analysis: https://arover.substack.com/
+
+#MaterialsScience #Polymers #MechanicalMemory #TechMindHub

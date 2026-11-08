@@ -1,0 +1,14 @@
+Quantum Computing Meets HPC: IBM, AMD and Oak Ridge Build a Co-Design Platform
+
+IBM Quantum Nighthawk r2 processors now share a research environment with Oak Ridge's Umbra HPC system, which uses AMD Instinct MI355X GPUs and fifth-generation EPYC CPUs. The systems are co-located at IBM's Poughkeepsie site to study quantum error correction and other hybrid workflows.
+
+The central engineering problem is timing. Measurements from a quantum processor need classical interpretation; a decoder must keep up if later operations depend on its results. A fast GPU kernel alone is insufficient if data acquisition, transfer and control handoffs dominate the feedback loop.
+
+This is a deployed research platform, not a completed fault-tolerant quantum computer. IBM's Starling target for 2029 remains a plan, and the launch article does not include an independent benchmark of the new platform's decoding latency.
+
+Our analysis follows the quantum-classical path and the questions researchers can now test.
+
+Read: https://techmindhub.cc/posts/ibm-amd-ornl-quantum-hpc-error-correction/
+More analysis: https://arover.substack.com/
+
+#QuantumComputing #HPC #ErrorCorrection #TechMindHub
