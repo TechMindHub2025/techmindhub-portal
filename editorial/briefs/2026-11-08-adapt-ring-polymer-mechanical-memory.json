@@ -1,0 +1,20 @@
+{
+  "slug": "adapt-ring-polymer-mechanical-memory",
+  "checked": "2026-11-08",
+  "sources": ["https://www.nature.com/articles/s41563-026-02795-0"],
+  "central_question": "How can mechanical training reorganize a polymer network into a persistent, stronger configuration?",
+  "claims_and_limits": [
+    "Adapt-ring networks combine sparsely crosslinked PEG with dense reconfigurable alpha-cyclodextrin crystalline domains.",
+    "Mechanical training improves several measured properties by up to an order of magnitude in specific comparisons, not every property of every sample at once.",
+    "The trained configuration can be reset by solvent-induced domain reformation; industrial lifetime and repeated reset behavior are not established.",
+    "C.K. and D.Z. disclose pending patent applications."
+  ],
+  "visual": {
+    "domain": "materials",
+    "accent": "#956848",
+    "cover_phrase": "STRESS LEAVES A TRACE",
+    "infographic_title": "TRAINED BY DEFORMATION",
+    "shared_motif": "Warm amber transparent polymer strip with conceptual clustered rings that fragment and redistribute under load; separate solvent reset scene.",
+    "status": "Conceptual material visualization, not a micrograph or molecular structure diagram."
+  }
+}

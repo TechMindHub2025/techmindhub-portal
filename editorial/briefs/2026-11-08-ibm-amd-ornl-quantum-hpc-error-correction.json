@@ -1,0 +1,19 @@
+{
+  "slug": "ibm-amd-ornl-quantum-hpc-error-correction",
+  "checked": "2026-11-08",
+  "sources": ["https://www.ibm.com/quantum/blog/ornl-amd-error-correction-co-design-platform"],
+  "central_question": "Can a co-located classical decoder keep pace with measurement and feedback in a quantum error-correction workflow?",
+  "claims_and_limits": [
+    "IBM Nighthawk r2 and ORNL Umbra, using AMD Instinct MI355X GPUs and fifth-generation EPYC CPUs, are co-located at IBM Poughkeepsie for research.",
+    "Low-latency quantum-classical execution is the design goal; the announcement does not provide independent new-platform latency or throughput benchmarks.",
+    "Starling by 2029 is IBM's plan, not a fault-tolerant result demonstrated by this platform."
+  ],
+  "visual": {
+    "domain": "photonics",
+    "accent": "#267F9E",
+    "cover_phrase": "THE CLASSICAL HALF",
+    "infographic_title": "THE DECODER IN THE LOOP",
+    "shared_motif": "Cyan quantum research enclosure beside CPU/GPU racks, with measurement and conditional-feedback paths; imagery is not an exact representation of the installed hardware.",
+    "status": "Conceptual quantum-classical research illustration; no quantitative system claim."
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "release": "2026-11-08-quantum-arn-v1",
+  "web_prefix": "https://media.techmindhub.cc/posts/",
+  "files": [
+    {
+      "name": "ibm-amd-ornl-quantum-hpc-error-correction-card-original-v1.png",
+      "slug": "ibm-amd-ornl-quantum-hpc-error-correction",
+      "role": "card-original",
+      "bytes": 2179534,
+      "sha256": "eb50d6a6dd4adc7458b0f2e156b2cb2d6321fe553615db766e9c96ac1aca9292",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "name": "ibm-amd-ornl-quantum-hpc-error-correction-infographic-original-v1.png",
+      "slug": "ibm-amd-ornl-quantum-hpc-error-correction",
+      "role": "infographic-original",
+      "bytes": 1990718,
+      "sha256": "0288de3e8d992b8b1cfc9428c1e08d3916c25ced6eeb9ea8b4dffefaf377a0ef",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "ibm-amd-ornl-quantum-hpc-error-correction-card-web-v1.webp",
+      "slug": "ibm-amd-ornl-quantum-hpc-error-correction",
+      "role": "card-web",
+      "bytes": 465060,
+      "sha256": "e95245b313cfaeaf69b7de9107ad2c381c7d894e6b3c38f4d1356d012400103d",
+      "dimensions": [
+        800,
+        450
+      ]
+    },
+    {
+      "name": "ibm-amd-ornl-quantum-hpc-error-correction-og-web-v1.jpg",
+      "slug": "ibm-amd-ornl-quantum-hpc-error-correction",
+      "role": "og-web",
+      "bytes": 425267,
+      "sha256": "05d083ea7b4daefb96659de2acc37bccb74ef8a972ce42f94d650f5a82bb8f5e",
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "name": "ibm-amd-ornl-quantum-hpc-error-correction-infographic-web-v1.webp",
+      "slug": "ibm-amd-ornl-quantum-hpc-error-correction",
+      "role": "infographic-web",
+      "bytes": 1526066,
+      "sha256": "0192111f874528f5e8b2b1b8f36d98f21bb76170c089e3c38bb40ce4c927de09",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "adapt-ring-polymer-mechanical-memory-card-original-v1.png",
+      "slug": "adapt-ring-polymer-mechanical-memory",
+      "role": "card-original",
+      "bytes": 2070031,
+      "sha256": "f7df39c89a81badeb2bcbb3641a1be372bcfe8e5fb69ea7f7ed7195c2a2bc0c7",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "name": "adapt-ring-polymer-mechanical-memory-infographic-original-v1.png",
+      "slug": "adapt-ring-polymer-mechanical-memory",
+      "role": "infographic-original",
+      "bytes": 2170088,
+      "sha256": "4617ff022243df03a6f3027315d4862ab4c0952ccfd19dd6a9d7962dd791a930",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "adapt-ring-polymer-mechanical-memory-card-web-v1.webp",
+      "slug": "adapt-ring-polymer-mechanical-memory",
+      "role": "card-web",
+      "bytes": 387630,
+      "sha256": "90fd672ebcba03aff8407827ff885f0541c3aba40feceb578b8c32548305fee8",
+      "dimensions": [
+        800,
+        450
+      ]
+    },
+    {
+      "name": "adapt-ring-polymer-mechanical-memory-og-web-v1.jpg",
+      "slug": "adapt-ring-polymer-mechanical-memory",
+      "role": "og-web",
+      "bytes": 312286,
+      "sha256": "35038a20898ad8468f497c561e32d3317156811817fc90c288f6d52c16a885f6",
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "name": "adapt-ring-polymer-mechanical-memory-infographic-web-v1.webp",
+      "slug": "adapt-ring-polymer-mechanical-memory",
+      "role": "infographic-web",
+      "bytes": 1588572,
+      "sha256": "e69da9bf655dc4c355450920df5b663908dfd858b0c4a2ae6169903bd105a4c1",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    }
+  ],
+  "verification": "Both article WebPs decode pixel-identically to original PNGs; cards preserve deterministic 800px resized pixels. OG is 1200x630 JPEG quality 95 4:4:4 with side padding to preserve edge lettering. ZIP contents and hashes were read and verified twice."
+}
