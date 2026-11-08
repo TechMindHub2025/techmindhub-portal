@@ -1,0 +1,117 @@
+{
+  "release": "2026-11-08-actions-overview-v1",
+  "web_prefix": "https://media.techmindhub.cc/posts/",
+  "files": [
+    {
+      "name": "github-actions-pull-request-target-default-block-card-original-v1.png",
+      "slug": "github-actions-pull-request-target-default-block",
+      "role": "card-original",
+      "bytes": 2393584,
+      "sha256": "b8f36c3beb6be64629de274fbd7e754cae092eb105632e52f4f66e32e65818f3",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "name": "github-actions-pull-request-target-default-block-infographic-original-v1.png",
+      "slug": "github-actions-pull-request-target-default-block",
+      "role": "infographic-original",
+      "bytes": 1949758,
+      "sha256": "6274ba2a6892e5f8baa32e3e4dd83281775c60045a5457a55b8809e1f4035e6e",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "github-actions-pull-request-target-default-block-card-web-v1.webp",
+      "slug": "github-actions-pull-request-target-default-block",
+      "role": "card-web",
+      "bytes": 508580,
+      "sha256": "3f2e8e07d915329d1cad8c47fcbd72aa72c589f4ccc69eedb2f9d3715c137e31",
+      "dimensions": [
+        800,
+        450
+      ]
+    },
+    {
+      "name": "github-actions-pull-request-target-default-block-infographic-web-v1.webp",
+      "slug": "github-actions-pull-request-target-default-block",
+      "role": "infographic-web",
+      "bytes": 1571926,
+      "sha256": "4bb6cdd9267961f5a0f3184a686a116ca469a87ac9c52d74b2a53f452e8be247",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "github-actions-pull-request-target-default-block-og-web-v1.jpg",
+      "slug": "github-actions-pull-request-target-default-block",
+      "role": "og-web",
+      "bytes": 518481,
+      "sha256": "efe5a4d2902dd9ddcda4e5b098a67ad112f10c50d6aef6efd03e746fdd1dcd5f",
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "name": "github-pull-request-overview-public-preview-card-original-v1.png",
+      "slug": "github-pull-request-overview-public-preview",
+      "role": "card-original",
+      "bytes": 1844596,
+      "sha256": "02416d7ad9872297aa9f7d012248b404d0b588d9e4d54ed728b39e93a65f813e",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "name": "github-pull-request-overview-public-preview-infographic-original-v1.png",
+      "slug": "github-pull-request-overview-public-preview",
+      "role": "infographic-original",
+      "bytes": 2397353,
+      "sha256": "ee1fbb49bd8f77bf89d051ee307fbadee45819b2876ef847e5e1b3495c74dccf",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "github-pull-request-overview-public-preview-card-web-v1.webp",
+      "slug": "github-pull-request-overview-public-preview",
+      "role": "card-web",
+      "bytes": 384736,
+      "sha256": "15351f50280d0bc14349a9df188bcf66a9ebe3a0e8bd56e26cce80b25c6d8a18",
+      "dimensions": [
+        800,
+        450
+      ]
+    },
+    {
+      "name": "github-pull-request-overview-public-preview-infographic-web-v1.webp",
+      "slug": "github-pull-request-overview-public-preview",
+      "role": "infographic-web",
+      "bytes": 1847702,
+      "sha256": "d08545c5dcb67ef8cb4f1af9b1f4c7fa6d2726b6f3af4ed72aaa54afa9ce4138",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "github-pull-request-overview-public-preview-og-web-v1.jpg",
+      "slug": "github-pull-request-overview-public-preview",
+      "role": "og-web",
+      "bytes": 326644,
+      "sha256": "0e336d7c5f7dd92e2a231cc11f3a629539fc6bd01a4fcb7706e9baf467110533",
+      "dimensions": [
+        1200,
+        630
+      ]
+    }
+  ],
+  "verification": "ZIP entries and SHA-256 verified; conceptual artwork is editorial, not an exact GitHub interface."
+}

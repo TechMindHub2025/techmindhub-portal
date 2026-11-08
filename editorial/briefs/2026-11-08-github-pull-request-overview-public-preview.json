@@ -1,0 +1,9 @@
+{
+  "slug": "github-pull-request-overview-public-preview",
+  "event_date": "2026-11-05",
+  "publication_date": "2026-11-05",
+  "source": "https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview/",
+  "verified": ["Opt-in public preview", "Rollout continuing through weekend", "Compact readiness summary", "Unresolved and Mine filters, newest-first comments, recent activity", "Redesigned merge box presents information in less than half the space"],
+  "limits": ["No independent review-speed or quality measurement", "Interface-space claim is not a productivity result", "Preview can change"],
+  "visual": {"domain": "software", "cover_phrase": "A CLEARER VIEW OF REVIEW", "infographic_title": "READINESS AT A GLANCE", "status": "Conceptual illustration, not an exact platform screenshot"}
+}

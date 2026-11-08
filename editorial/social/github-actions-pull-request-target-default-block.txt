@@ -1,0 +1,12 @@
+The Privileged Trigger: GitHub Actions Changes the Default for External Pull Requests
+
+On December 2, GitHub Actions is scheduled to block pull_request_target events in public repositories by default unless an applicable event policy explicitly allows them. Before then, two temporary enforcement windows on November 9 and November 16 will show maintainers which workflows depend on the trigger.
+
+The engineering problem is a trust boundary. A workflow can start because of an external contribution while running with authority from the base repository. If it executes code from that contribution with access to secrets, untrusted input has crossed into a privileged environment.
+
+Our analysis explains the evaluation period, the two brownouts and the December change. It offers a practical audit of checkout references, token permissions, secrets and narrowly scoped exceptions. A blocked run is not proof of an exploit; an allowed run is not proof of safety.
+
+Read: https://techmindhub.cc/posts/github-actions-pull-request-target-default-block/
+More analysis: https://arover.substack.com/
+
+#GitHubActions #CICD #SoftwareSupplyChain #DigitalTrust #TechMindHub

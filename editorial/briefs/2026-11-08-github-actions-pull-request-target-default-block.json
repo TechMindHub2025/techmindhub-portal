@@ -1,0 +1,9 @@
+{
+  "slug": "github-actions-pull-request-target-default-block",
+  "event_date": "2026-11-02",
+  "publication_date": "2026-11-02",
+  "source": "https://github.blog/changelog/2026-11-02-pull_request_target-blocked-by-default-december-2/",
+  "verified": ["Default block in public repositories begins December 2 unless allowed by applicable Actions event policy", "Evaluate mode before enforcement", "Brownouts November 9 and 16, 16:00–18:00 UTC", "Private and internal repositories and GitHub Enterprise Server outside announced scope"],
+  "limits": ["Trigger alone is not proof of exploitation", "Explicit allow policies remain possible", "Future dates are GitHub's announced schedule"],
+  "visual": {"domain": "digital-trust", "cover_phrase": "THE PRIVILEGED TRIGGER", "infographic_title": "THE TRUST BOUNDARY", "status": "Conceptual illustration, not a platform screenshot"}
+}
