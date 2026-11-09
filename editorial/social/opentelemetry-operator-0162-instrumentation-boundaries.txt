@@ -1,0 +1,12 @@
+OpenTelemetry Operator 0.162: New Instrumentation, a Deliberate Upgrade Boundary
+
+OpenTelemetry Operator 0.162 adds initial PHP and Ruby auto-instrumentation, both opt-in. It also blocks automatic Node.js instrumentation upgrades across 0.79.0 because HTTP, network and database semantic conventions change at that boundary.
+
+This is an older October release revisited for its practical migration lesson. An application may keep running while its telemetry changes meaning. Operators need to compare emitted data and verify that dashboards, queries and alerts still represent the intended behavior.
+
+The release also corrects authorization checks that lacked requesting-user context and preserves some Collector configurations that the Operator cannot parse. Our analysis treats these as separate changes with distinct scopes.
+
+Read: https://techmindhub.cc/posts/opentelemetry-operator-0162-instrumentation-boundaries/
+More analysis: https://arover.substack.com/
+
+#OpenTelemetry #Kubernetes #Observability #DeveloperTools #TechMindHub

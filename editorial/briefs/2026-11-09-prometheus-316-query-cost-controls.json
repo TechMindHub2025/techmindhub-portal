@@ -1,0 +1,27 @@
+{
+  "slug": "prometheus-316-query-cost-controls",
+  "event_date": "2026-11-05",
+  "source": "https://github.com/prometheus/prometheus/releases/tag/v3.16.0",
+  "verified": [
+    "Experimental estimate, actual cost report and configurable limits behind --enable-feature=query-cost",
+    "Release page published November 5, title dated November 4"
+  ],
+  "limits": [
+    "No guaranteed speedup",
+    "Example query expressions in illustration are conceptual, not measured workloads"
+  ],
+  "visual": {
+    "domain": "software",
+    "cover_phrase": "THE COST OF A QUERY",
+    "infographic_title": "BEFORE A QUERY RUNS",
+    "status": "Conceptual editorial illustration; not a product UI, apparatus photograph or quantitative data figure",
+    "shared_motif": "The same subject appears in different cover and explanatory compositions",
+    "version": "v1",
+    "card_alt_and_cover_alt": "See published frontmatter",
+    "files": [
+      "prometheus-316-query-cost-controls-card-web-v1.webp",
+      "prometheus-316-query-cost-controls-infographic-web-v1.webp",
+      "prometheus-316-query-cost-controls-og-web-v1.jpg"
+    ]
+  }
+}
