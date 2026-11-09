@@ -1,0 +1,27 @@
+{
+  "slug": "all-optical-tfln-memristor",
+  "event_date": "2026-11-06",
+  "source": "https://www.nature.com/articles/s41566-026-02048-1",
+  "verified": [
+    "Oxygen-ion implantation forms oxygen-doped and defect-rich layers in TFLN",
+    "All-optical non-volatile device results described in paper"
+  ],
+  "limits": [
+    "No processor demonstration",
+    "Cross-section is conceptual, not micrograph"
+  ],
+  "visual": {
+    "domain": "photonics",
+    "cover_phrase": "LIGHT THAT REMEMBERS",
+    "infographic_title": "A STATE WRITTEN BY LIGHT",
+    "status": "Conceptual editorial illustration; not a product UI, apparatus photograph or quantitative data figure",
+    "shared_motif": "The same subject appears in different cover and explanatory compositions",
+    "version": "v1",
+    "card_alt_and_cover_alt": "See published frontmatter",
+    "files": [
+      "all-optical-tfln-memristor-card-web-v1.webp",
+      "all-optical-tfln-memristor-infographic-web-v1.webp",
+      "all-optical-tfln-memristor-og-web-v1.jpg"
+    ]
+  }
+}

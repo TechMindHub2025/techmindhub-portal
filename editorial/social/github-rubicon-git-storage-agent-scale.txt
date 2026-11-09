@@ -1,0 +1,12 @@
+Project Rubicon: Why GitHub Separated Git Objects from Reference Consensus
+
+In internal tests, GitHub reports that its new storage architecture handled 5,000 concurrent agents and 7,200 pushes per second to one repository while keeping reads responsive. Those figures describe storage operations, not the quality of the code those agents produce.
+
+The design starts with a distinction in Git itself. Objects are immutable and can be written independently. Branch references are mutable, so competing updates need an atomic decision. Rubicon stores packs in Azure Blob Storage, commits reference and pack-manifest changes through Ref-CAS, and separates replaceable request-serving replicas from background compaction.
+
+Our analysis follows one write and one read through the architecture, explains why reference consensus is narrow, and examines the limits of GitHub's internal benchmark.
+
+Read: https://techmindhub.cc/posts/github-rubicon-git-storage-agent-scale/
+More analysis: https://arover.substack.com/
+
+#Git #DistributedSystems #AIInfrastructure #TechMindHub

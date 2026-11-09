@@ -1,0 +1,12 @@
+Prometheus 3.16: Making PromQL Query Cost Visible and Bounded
+
+A short PromQL expression can expand into substantial work across a large number of time series. Prometheus 3.16 introduces experimental cost estimation, actual-cost reporting, and configurable execution limits to make that work more visible and controllable.
+
+The feature requires --enable-feature=query-cost. A budget can constrain a costly query; it does not make the query faster or solve uncontrolled metric cardinality.
+
+Our analysis separates estimates, execution limits and actual measurements, then outlines a cautious way to evaluate thresholds against real alert, dashboard and investigation workloads. We also note other upgrade changes that can affect query statistics and Remote Write monitoring.
+
+Read: https://techmindhub.cc/posts/prometheus-316-query-cost-controls/
+More analysis: https://arover.substack.com/
+
+#Prometheus #PromQL #Observability #DeveloperTools #TechMindHub

@@ -1,0 +1,12 @@
+Light That Remembers: An All-Optical Memristor on Lithium Niobate
+
+Researchers report a photonic memory element fabricated directly in thin-film lithium niobate. Oxygen-ion implantation creates distinct material regions whose optical response can be changed and retained, allowing later readout through a microring device.
+
+The integration route is the engineering story. Optical circuits need programmable state as well as fast light transport. Building that state into an established photonic platform could simplify one materials boundary, although a device demonstration is far from a scalable processor.
+
+Our analysis distinguishes the reported multilevel memory and switching results from the unanswered questions: endurance, manufacturing variation, complete system energy, and dense integration.
+
+Read: https://techmindhub.cc/posts/all-optical-tfln-memristor/
+More analysis: https://arover.substack.com/
+
+#Photonics #OpticalMemory #Semiconductors #TechMindHub

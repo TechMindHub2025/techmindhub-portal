@@ -1,0 +1,29 @@
+{
+  "slug": "opentelemetry-operator-0162-instrumentation-boundaries",
+  "event_date": "2026-10-23",
+  "source": "https://github.com/open-telemetry/opentelemetry-operator/releases/tag/v0.162.0",
+  "verified": [
+    "PHP and Ruby instrumentation opt-in",
+    "Automatic Node.js instrumentation upgrade blocked across 0.79.0",
+    "RBAC SubjectAccessReview includes requesting user context"
+  ],
+  "limits": [
+    "October release revisited, not November launch",
+    "PHP/Ruby path and Node.js upgrade boundary are distinct",
+    "No claim of exploitable RBAC issue"
+  ],
+  "visual": {
+    "domain": "software",
+    "cover_phrase": "WHEN TELEMETRY CHANGES",
+    "infographic_title": "ONE RELEASE, TWO CHANGES",
+    "status": "Conceptual editorial illustration; not a product UI, apparatus photograph or quantitative data figure",
+    "shared_motif": "The same subject appears in different cover and explanatory compositions",
+    "version": "v1",
+    "card_alt_and_cover_alt": "See published frontmatter",
+    "files": [
+      "opentelemetry-operator-0162-instrumentation-boundaries-card-web-v1.webp",
+      "opentelemetry-operator-0162-instrumentation-boundaries-infographic-web-v1.webp",
+      "opentelemetry-operator-0162-instrumentation-boundaries-og-web-v1.jpg"
+    ]
+  }
+}

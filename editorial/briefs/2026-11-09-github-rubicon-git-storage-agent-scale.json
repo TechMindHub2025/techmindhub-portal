@@ -1,0 +1,28 @@
+{
+  "slug": "github-rubicon-git-storage-agent-scale",
+  "event_date": "2026-11-05",
+  "source": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
+  "verified": [
+    "5,000 concurrent agents and 7,200 pushes/s to one repository in internal testing",
+    "Packs uploaded to Blob Storage before reference and pack-manifest transaction in Ref-CAS",
+    "Virtual replicas are replaceable; compaction is separate"
+  ],
+  "limits": [
+    "Benchmark does not measure useful collaboration or code quality",
+    "Future optimizations are plans"
+  ],
+  "visual": {
+    "domain": "infrastructure",
+    "cover_phrase": "THE REFERENCE BOTTLENECK",
+    "infographic_title": "OBJECTS WITHOUT CONTENTION",
+    "status": "Conceptual editorial illustration; not a product UI, apparatus photograph or quantitative data figure",
+    "shared_motif": "The same subject appears in different cover and explanatory compositions",
+    "version": "v1",
+    "card_alt_and_cover_alt": "See published frontmatter",
+    "files": [
+      "github-rubicon-git-storage-agent-scale-card-web-v1.webp",
+      "github-rubicon-git-storage-agent-scale-infographic-web-v1.webp",
+      "github-rubicon-git-storage-agent-scale-og-web-v1.jpg"
+    ]
+  }
+}

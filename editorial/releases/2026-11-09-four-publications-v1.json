@@ -1,0 +1,227 @@
+{
+  "release": "2026-11-09-four-publications-v1",
+  "web_prefix": "https://media.techmindhub.cc/posts/",
+  "files": [
+    {
+      "name": "github-rubicon-git-storage-agent-scale-card-original-v1.png",
+      "slug": "github-rubicon-git-storage-agent-scale",
+      "role": "card-original",
+      "bytes": 2224731,
+      "sha256": "f9378c049468cd5da5231ed060a960f27d7040800671ce55ad453ac9992969c3",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "name": "github-rubicon-git-storage-agent-scale-infographic-original-v1.png",
+      "slug": "github-rubicon-git-storage-agent-scale",
+      "role": "infographic-original",
+      "bytes": 1936954,
+      "sha256": "5004e3aad2860d9ead5900940ae402326551db88d50ddf25c44e7ce17959c9f8",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "github-rubicon-git-storage-agent-scale-card-web-v1.webp",
+      "slug": "github-rubicon-git-storage-agent-scale",
+      "role": "card-web",
+      "bytes": 355474,
+      "sha256": "3fa791b33cdfa8664303feefe5a139b47ea6bb7030058c2bdf97c3ff92db3a4c",
+      "dimensions": [
+        800,
+        450
+      ]
+    },
+    {
+      "name": "github-rubicon-git-storage-agent-scale-infographic-web-v1.webp",
+      "slug": "github-rubicon-git-storage-agent-scale",
+      "role": "infographic-web",
+      "bytes": 1350746,
+      "sha256": "058a7657c80232af2bb77c849c7a4aa5d51f827c30ffdb083ee05fbfb5edc41d",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "github-rubicon-git-storage-agent-scale-og-web-v1.jpg",
+      "slug": "github-rubicon-git-storage-agent-scale",
+      "role": "og-web",
+      "bytes": 293550,
+      "sha256": "5528daadfba546d3b2f435e46e464b773ca47bcd35574a43f03073bcc47640a5",
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "name": "all-optical-tfln-memristor-card-original-v1.png",
+      "slug": "all-optical-tfln-memristor",
+      "role": "card-original",
+      "bytes": 1698417,
+      "sha256": "89f67d0c2958b581062ef1b46046a494d8f6c4639a179a6f4b8497a8894bda37",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "name": "all-optical-tfln-memristor-infographic-original-v1.png",
+      "slug": "all-optical-tfln-memristor",
+      "role": "infographic-original",
+      "bytes": 2092670,
+      "sha256": "e2762163adf1f983009e0abc9abf8d3f489e2862e2972a86301fb7148c5ea67d",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "all-optical-tfln-memristor-card-web-v1.webp",
+      "slug": "all-optical-tfln-memristor",
+      "role": "card-web",
+      "bytes": 295318,
+      "sha256": "f1cf080072d57bf0552ffab4383f5023b5e7975d0518462a57284e1360106032",
+      "dimensions": [
+        800,
+        450
+      ]
+    },
+    {
+      "name": "all-optical-tfln-memristor-infographic-web-v1.webp",
+      "slug": "all-optical-tfln-memristor",
+      "role": "infographic-web",
+      "bytes": 1534168,
+      "sha256": "f9e2fc04e96e1c2e63049161d21ffc73a84d7370fb696acc06a1cb765d7dbc88",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "all-optical-tfln-memristor-og-web-v1.jpg",
+      "slug": "all-optical-tfln-memristor",
+      "role": "og-web",
+      "bytes": 195782,
+      "sha256": "8a1a5f714175a5cfbff4a44e736754d86f447bb851f89ffc64ea0770169293ef",
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "name": "prometheus-316-query-cost-controls-card-original-v1.png",
+      "slug": "prometheus-316-query-cost-controls",
+      "role": "card-original",
+      "bytes": 2358855,
+      "sha256": "852af4ebf90564b05e64324e3f20f20823b3c3ea1d13f213e05d9d9fb19e7567",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "name": "prometheus-316-query-cost-controls-infographic-original-v1.png",
+      "slug": "prometheus-316-query-cost-controls",
+      "role": "infographic-original",
+      "bytes": 2665479,
+      "sha256": "eff593dbbc41ade6c3fd19ac30f394f57897fff1a8b5ee47585fb0ec11d9646d",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "prometheus-316-query-cost-controls-card-web-v1.webp",
+      "slug": "prometheus-316-query-cost-controls",
+      "role": "card-web",
+      "bytes": 389376,
+      "sha256": "8cef315a0a44e074ee53c088811102a5e9d7e993149f83aa259a2d21f4e54816",
+      "dimensions": [
+        800,
+        450
+      ]
+    },
+    {
+      "name": "prometheus-316-query-cost-controls-infographic-web-v1.webp",
+      "slug": "prometheus-316-query-cost-controls",
+      "role": "infographic-web",
+      "bytes": 1813740,
+      "sha256": "fb31f7f4dad40b4aad56c4ee65aad16625fcfab52db09968900c065153bea3ac",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "prometheus-316-query-cost-controls-og-web-v1.jpg",
+      "slug": "prometheus-316-query-cost-controls",
+      "role": "og-web",
+      "bytes": 369661,
+      "sha256": "dcf0afba247006f241257037a80606a54fd5f41366569b4f654b42730cc66263",
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "name": "opentelemetry-operator-0162-instrumentation-boundaries-card-original-v1.png",
+      "slug": "opentelemetry-operator-0162-instrumentation-boundaries",
+      "role": "card-original",
+      "bytes": 2583366,
+      "sha256": "91cb813561b6925b2de66d064ddeabbb93bce9cd2fa320585d24b4ff262ae7f9",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "name": "opentelemetry-operator-0162-instrumentation-boundaries-infographic-original-v1.png",
+      "slug": "opentelemetry-operator-0162-instrumentation-boundaries",
+      "role": "infographic-original",
+      "bytes": 2512495,
+      "sha256": "ec7010d59e2a5fed5bb1fb74be8cb50418fd33aeef62224b634a19823fb8d881",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "opentelemetry-operator-0162-instrumentation-boundaries-card-web-v1.webp",
+      "slug": "opentelemetry-operator-0162-instrumentation-boundaries",
+      "role": "card-web",
+      "bytes": 436634,
+      "sha256": "bcc1aac229757623a51db04f042a8a5c92fbded98cbdd3e9823021672b6565a2",
+      "dimensions": [
+        800,
+        450
+      ]
+    },
+    {
+      "name": "opentelemetry-operator-0162-instrumentation-boundaries-infographic-web-v1.webp",
+      "slug": "opentelemetry-operator-0162-instrumentation-boundaries",
+      "role": "infographic-web",
+      "bytes": 1784016,
+      "sha256": "9023eeeeec7536e2b43f73f5ff4e0aa3cb4b170a75c41227b922e0dd654bd971",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "opentelemetry-operator-0162-instrumentation-boundaries-og-web-v1.jpg",
+      "slug": "opentelemetry-operator-0162-instrumentation-boundaries",
+      "role": "og-web",
+      "bytes": 390359,
+      "sha256": "a69f822ce6cd96644f29c3774c6f7c2c1874b706e23f5dda86c737e0faec6ef8",
+      "dimensions": [
+        1200,
+        630
+      ]
+    }
+  ],
+  "verification": "All eight inner and card originals inspected; four card resizes decoded pixel-identical; four infographic WebP exports decoded pixel-identical; four OG crops checked. Conceptual art."
+}
