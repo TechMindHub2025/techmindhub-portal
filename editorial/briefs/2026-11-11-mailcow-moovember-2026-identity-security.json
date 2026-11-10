@@ -1,0 +1,15 @@
+{
+  "slug": "mailcow-moovember-2026-identity-security",
+  "event_date": "2026-11-05",
+  "source": "https://github.com/mailcow/mailcow-dockerized/releases/tag/2026-11",
+  "verified": ["Authenticated admin/domain admin RCE fixed", "Mailbox groups and IdP group sync", "Scoped API keys and OAuth2 migration sources", "Breaking sync-job API and request-body limits"],
+  "limits": ["Vulnerability details pending in release notes", "Backup before update", "Optional IdP offboarding is disabled by default"],
+  "visual": {
+    "domain": "software",
+    "cover_phrase": "MAIL, IDENTITY, CONTROL",
+    "status": "Conceptual mail-system cutaway, not actual mailcow architecture or UI",
+    "shared_motif": "Self-hosted mail cabinet with identity gate; inner cutaway separates group sync, key scopes, admin boundary and update preparation",
+    "version": "v1",
+    "files": ["mailcow-moovember-2026-identity-security-card-web-v1.webp", "mailcow-moovember-2026-identity-security-infographic-web-v1.webp", "mailcow-moovember-2026-identity-security-og-web-v1.jpg"]
+  }
+}
