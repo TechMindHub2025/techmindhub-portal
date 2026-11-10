@@ -1,0 +1,65 @@
+{
+  "release": "2026-11-11-actions-logs-mailcow-v1",
+  "assets": [
+    {
+      "slug": "github-actions-log-secret-scanning",
+      "role": "card",
+      "filename": "github-actions-log-secret-scanning-card-web-v1.webp",
+      "url": "https://media.techmindhub.cc/posts/github-actions-log-secret-scanning-card-web-v1.webp",
+      "bytes": 334800,
+      "width": 800,
+      "height": 450,
+      "sha256": "1269f731a0ed6537d35ade7ebd06dbf749a319138644693a4353123c3afc2718"
+    },
+    {
+      "slug": "github-actions-log-secret-scanning",
+      "role": "infographic",
+      "filename": "github-actions-log-secret-scanning-infographic-web-v1.webp",
+      "url": "https://media.techmindhub.cc/posts/github-actions-log-secret-scanning-infographic-web-v1.webp",
+      "bytes": 1465774,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "741297989fc248bc20be1a4298c9d24c5286b9f9aafa470272b7f4dee45a41eb"
+    },
+    {
+      "slug": "github-actions-log-secret-scanning",
+      "role": "og",
+      "filename": "github-actions-log-secret-scanning-og-web-v1.jpg",
+      "url": "https://media.techmindhub.cc/posts/github-actions-log-secret-scanning-og-web-v1.jpg",
+      "bytes": 242323,
+      "width": 1200,
+      "height": 630,
+      "sha256": "e2308968e2577b4104ebeb5ff06e35243b32b27ef9fc83cd64e6eafea2f61276"
+    },
+    {
+      "slug": "mailcow-moovember-2026-identity-security",
+      "role": "card",
+      "filename": "mailcow-moovember-2026-identity-security-card-web-v1.webp",
+      "url": "https://media.techmindhub.cc/posts/mailcow-moovember-2026-identity-security-card-web-v1.webp",
+      "bytes": 438458,
+      "width": 800,
+      "height": 450,
+      "sha256": "3dbc7132613b868dc80941b9e092f0631a2b9cd6da525ea49a9a31d255183c7f"
+    },
+    {
+      "slug": "mailcow-moovember-2026-identity-security",
+      "role": "infographic",
+      "filename": "mailcow-moovember-2026-identity-security-infographic-web-v1.webp",
+      "url": "https://media.techmindhub.cc/posts/mailcow-moovember-2026-identity-security-infographic-web-v1.webp",
+      "bytes": 1619088,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "1a6df53cfd4e0a9d3a3852418850b70007f100c9c2581f4f50ecfc53ebacc486"
+    },
+    {
+      "slug": "mailcow-moovember-2026-identity-security",
+      "role": "og",
+      "filename": "mailcow-moovember-2026-identity-security-og-web-v1.jpg",
+      "url": "https://media.techmindhub.cc/posts/mailcow-moovember-2026-identity-security-og-web-v1.jpg",
+      "bytes": 393640,
+      "width": 1200,
+      "height": 630,
+      "sha256": "fb52ef403c93bc2a891bc92dd8302671fbef3f9fdd4da5bbcf7ab519b423b636"
+    }
+  ]
+}

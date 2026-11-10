@@ -1,0 +1,12 @@
+mailcow's Moovember 2026 Release: Securing Administration and Connecting Mail Identity
+
+The self-hosted email update combines an important security fix with a more structured identity model. Its maintainers report a fixed remote-code-execution issue that required an authenticated administrator or domain administrator. They recommend updating promptly and backing up first; further vulnerability details were not yet disclosed in the release notes.
+
+Mailbox groups and shared mailboxes can now synchronize membership from Keycloak or LDAP/Active Directory. API keys can carry read-only or read-write access and individual IP allowlists. The release also expands failed-login counting across mail protocols and supports OAuth2-based migration from Microsoft 365 and Google.
+
+The operational work is in the boundaries: review admin access and group mappings, update sync-job API clients for the new source_id model, and check request-body and mail-size settings before rollout. The optional offboarding behavior is disabled by default.
+
+Read: https://techmindhub.cc/posts/mailcow-moovember-2026-identity-security/
+More analysis: https://arover.substack.com/
+
+#SelfHosted #EmailSecurity #IdentityManagement #TechMindHub
