@@ -1,0 +1,26 @@
+{
+  "slug": "aws-security-hub-sbom-inventory",
+  "event_date": "2026-11-06",
+  "source": "https://aws.amazon.com/about-aws/whats-new/2026/11/security-hub-sbom-inventory/",
+  "verified": [
+    "Inspector-generated SBOM inventory for scanned EC2 ECR Lambda",
+    "Included with Security Hub Essentials"
+  ],
+  "limits": [
+    "Coverage depends on Inspector",
+    "Presence does not prove exploitability"
+  ],
+  "visual": {
+    "domain": "digital-trust",
+    "cover_phrase": "WHAT RUNS WHERE",
+    "infographic_title": "FROM COMPONENT TO ASSET",
+    "status": "Conceptual editorial illustration, not a real interface or deployment diagram",
+    "shared_motif": "Cover introduces the subject; inner figure explains the mechanism in a distinct composition",
+    "version": "v1",
+    "files": [
+      "aws-security-hub-sbom-inventory-card-web-v1.webp",
+      "aws-security-hub-sbom-inventory-infographic-web-v1.webp",
+      "aws-security-hub-sbom-inventory-og-web-v1.jpg"
+    ]
+  }
+}

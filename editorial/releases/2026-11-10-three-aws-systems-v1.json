@@ -1,0 +1,172 @@
+{
+  "release": "2026-11-10-three-aws-systems-v1",
+  "web_prefix": "https://media.techmindhub.cc/posts/",
+  "files": [
+    {
+      "name": "aws-lambda-kafka-queue-consumption-card-original-v1.png",
+      "slug": "aws-lambda-kafka-queue-consumption",
+      "role": "card-original",
+      "bytes": 1867595,
+      "sha256": "d71913b44079647d35be11710acf771a24023d06d3c28ab1fe7c1c5cde544a7b",
+      "dimensions": [
+        1731,
+        909
+      ]
+    },
+    {
+      "name": "aws-lambda-kafka-queue-consumption-infographic-original-v1.png",
+      "slug": "aws-lambda-kafka-queue-consumption",
+      "role": "infographic-original",
+      "bytes": 2595068,
+      "sha256": "e42761799e5eed185d349b98f2404bfcee9d83056fa1ac0954a960a268e2fab8",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "aws-lambda-kafka-queue-consumption-card-web-v1.webp",
+      "slug": "aws-lambda-kafka-queue-consumption",
+      "role": "card-web",
+      "bytes": 340798,
+      "sha256": "c8096c8c7ab4f91190f8c8ca8ab0412b5680de260ae12b03d35b3db48821ee32",
+      "dimensions": [
+        800,
+        420
+      ]
+    },
+    {
+      "name": "aws-lambda-kafka-queue-consumption-infographic-web-v1.webp",
+      "slug": "aws-lambda-kafka-queue-consumption",
+      "role": "infographic-web",
+      "bytes": 1911172,
+      "sha256": "c6273d52fc1ac1ea5f2c99c08c6c437862d45ddb7d0a35968eb09b1f27b14760",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "aws-lambda-kafka-queue-consumption-og-web-v1.jpg",
+      "slug": "aws-lambda-kafka-queue-consumption",
+      "role": "og-web",
+      "bytes": 313681,
+      "sha256": "fc6bfed19936b98a3021475b2c3cf4314d7c48224b68c3f116ceca35388dc1b1",
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "name": "agentcore-runtime-v2-snapshot-elastic-memory-card-original-v1.png",
+      "slug": "agentcore-runtime-v2-snapshot-elastic-memory",
+      "role": "card-original",
+      "bytes": 2050262,
+      "sha256": "e6f76981840cc5e2bc78a398616746fe51411823d238fe0cdbb687a63d43da2e",
+      "dimensions": [
+        1731,
+        909
+      ]
+    },
+    {
+      "name": "agentcore-runtime-v2-snapshot-elastic-memory-infographic-original-v1.png",
+      "slug": "agentcore-runtime-v2-snapshot-elastic-memory",
+      "role": "infographic-original",
+      "bytes": 1597420,
+      "sha256": "a1a0a98a789bac608445e889c51db21993a932996b328d74177fdccbc2ee950f",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "agentcore-runtime-v2-snapshot-elastic-memory-card-web-v1.webp",
+      "slug": "agentcore-runtime-v2-snapshot-elastic-memory",
+      "role": "card-web",
+      "bytes": 360942,
+      "sha256": "b25dffcc97dc776c85ce758358d157d8643fa4f889f9c04cbb1182b8b3034c56",
+      "dimensions": [
+        800,
+        420
+      ]
+    },
+    {
+      "name": "agentcore-runtime-v2-snapshot-elastic-memory-infographic-web-v1.webp",
+      "slug": "agentcore-runtime-v2-snapshot-elastic-memory",
+      "role": "infographic-web",
+      "bytes": 1231914,
+      "sha256": "664f7f518adf178de64ea78971b4336dbae5f5c0c9dd649caa3d84c93f25f2ba",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "agentcore-runtime-v2-snapshot-elastic-memory-og-web-v1.jpg",
+      "slug": "agentcore-runtime-v2-snapshot-elastic-memory",
+      "role": "og-web",
+      "bytes": 319449,
+      "sha256": "0e3a99afe392e85bf66555906de39eba3ecea0e5f8e263ffd55527523ef1031b",
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "name": "aws-security-hub-sbom-inventory-card-original-v1.png",
+      "slug": "aws-security-hub-sbom-inventory",
+      "role": "card-original",
+      "bytes": 2514313,
+      "sha256": "b2e4ef15c44383a6bc2ee5588f22920378a81a57c8ebc6a48b95fefda378d084",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "name": "aws-security-hub-sbom-inventory-infographic-original-v1.png",
+      "slug": "aws-security-hub-sbom-inventory",
+      "role": "infographic-original",
+      "bytes": 2931242,
+      "sha256": "6e6dcf8280152330d2cf1d00f6a34cedf2513c311d0f4b6bef3eee9378fb6f20",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "aws-security-hub-sbom-inventory-card-web-v1.webp",
+      "slug": "aws-security-hub-sbom-inventory",
+      "role": "card-web",
+      "bytes": 438654,
+      "sha256": "0da9322c83dd8495876423532b4d2a4c8536a5cf099217d837f62b4cc8b33dbb",
+      "dimensions": [
+        800,
+        450
+      ]
+    },
+    {
+      "name": "aws-security-hub-sbom-inventory-infographic-web-v1.webp",
+      "slug": "aws-security-hub-sbom-inventory",
+      "role": "infographic-web",
+      "bytes": 2171918,
+      "sha256": "3fb1c0e66f1296c0047ce557e518fd5622614578a3bbb06874fef41b02b337fd",
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "aws-security-hub-sbom-inventory-og-web-v1.jpg",
+      "slug": "aws-security-hub-sbom-inventory",
+      "role": "og-web",
+      "bytes": 413639,
+      "sha256": "0e98a8fdddc0531839010bb6624cccbc66a786e4e133569fabdc17d33708841e",
+      "dimensions": [
+        1200,
+        630
+      ]
+    }
+  ],
+  "verification": "Original PNGs archived separately; infographic WebP decoded pixels equal original PNG; card losslessly encodes 800px resize; OG 1200x630 centered crop."
+}
