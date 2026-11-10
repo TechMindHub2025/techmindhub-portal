@@ -1,0 +1,26 @@
+{
+  "slug": "aws-lambda-kafka-queue-consumption",
+  "event_date": "2026-11-02",
+  "source": "https://aws.amazon.com/blogs/compute/introducing-queue-consumption-mode-for-apache-kafka-in-aws-lambda/",
+  "verified": [
+    "Self-managed Kafka ESM Queue mode, Kafka 4.2 share groups",
+    "At least once and unordered"
+  ],
+  "limits": [
+    "November 9 roundup was not launch date",
+    "Capacity bounded by pollers and broker settings"
+  ],
+  "visual": {
+    "domain": "infrastructure",
+    "cover_phrase": "BEYOND THE PARTITION",
+    "infographic_title": "ONE PARTITION, MANY WORKERS",
+    "status": "Conceptual editorial illustration, not a real interface or deployment diagram",
+    "shared_motif": "Cover introduces the subject; inner figure explains the mechanism in a distinct composition",
+    "version": "v1",
+    "files": [
+      "aws-lambda-kafka-queue-consumption-card-web-v1.webp",
+      "aws-lambda-kafka-queue-consumption-infographic-web-v1.webp",
+      "aws-lambda-kafka-queue-consumption-og-web-v1.jpg"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+AgentCore Runtime V2: Snapshot Starts and Elastic Memory for AI Agents
+
+AI agent performance depends on its runtime as well as its model. AWS AgentCore Runtime V2 prepares an initialized container snapshot and restores new instances from it. It can also reclaim unused memory during a session instead of billing continuously for the peak footprint.
+
+V2 became generally available on September 18, 2026. AWS revisited it in its November 9 roundup; this is an analysis of an existing release. In AWS's tests, P75 cold starts were around two seconds across 200 MB to 2 GB images. The per-unit memory rate is higher, so actual savings depend on the workload's memory profile. V2 requires explicit opt-in.
+
+We examine where snapshot preparation and memory reclamation help, and what to benchmark before migration.
+
+Read: https://techmindhub.cc/posts/agentcore-runtime-v2-snapshot-elastic-memory/
+More analysis: https://arover.substack.com/
+
+#AIAgents #CloudInfrastructure #Serverless #TechMindHub

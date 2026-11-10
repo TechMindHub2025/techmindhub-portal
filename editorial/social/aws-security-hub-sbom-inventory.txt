@@ -1,0 +1,12 @@
+AWS Security Hub's SBOM Inventory: Finding Software Across Compute Assets
+
+When a vulnerable package is disclosed, security teams need to know where it is installed. Security Hub now assembles an organization-wide package inventory from Amazon Inspector SBOMs for scanned EC2 instances, ECR images and Lambda functions. AWS announced the capability on November 6.
+
+The inventory connects package versions to candidate affected resources and can make the first stage of incident triage faster. Its completeness depends on Inspector coverage, however, and the presence of a package alone does not establish that a vulnerable code path is reachable.
+
+Our article follows the component-to-asset question and outlines how to test inventory coverage before relying on it in a response workflow.
+
+Read: https://techmindhub.cc/posts/aws-security-hub-sbom-inventory/
+More analysis: https://arover.substack.com/
+
+#SBOM #SoftwareSupplyChain #Cybersecurity #TechMindHub

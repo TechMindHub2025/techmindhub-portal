@@ -1,0 +1,28 @@
+{
+  "slug": "agentcore-runtime-v2-snapshot-elastic-memory",
+  "event_date": "2026-09-18",
+  "source": "https://aws.amazon.com/blogs/machine-learning/the-new-agentcore-runtime-elastic-optimized-and-consistently-fast-starts/",
+  "verified": [
+    "General availability September 18",
+    "Prepared snapshot and elastic memory",
+    "November 9 roundup says ten regions"
+  ],
+  "limits": [
+    "Older release revisited",
+    "AWS P75 tests not SLA",
+    "Memory savings workload dependent"
+  ],
+  "visual": {
+    "domain": "ai",
+    "cover_phrase": "RESTORE, THEN RUN",
+    "infographic_title": "SNAPSHOT & RECLAIM",
+    "status": "Conceptual editorial illustration, not a real interface or deployment diagram",
+    "shared_motif": "Cover introduces the subject; inner figure explains the mechanism in a distinct composition",
+    "version": "v1",
+    "files": [
+      "agentcore-runtime-v2-snapshot-elastic-memory-card-web-v1.webp",
+      "agentcore-runtime-v2-snapshot-elastic-memory-infographic-web-v1.webp",
+      "agentcore-runtime-v2-snapshot-elastic-memory-og-web-v1.jpg"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+AWS Lambda's Kafka Queue Mode: Parallelism Beyond the Partition Count
+
+A conventional Kafka consumer group assigns each partition to one consumer. Lambda's new Queue consumption mode uses Kafka share groups so several pollers can process independent records from one partition concurrently. AWS announced the feature on November 2; its November 9 roundup revisited it.
+
+The trade-off matters as much as the scaling gain. Queue mode does not preserve per-partition order, and at-least-once delivery means handlers must tolerate duplicates. It requires share groups on Kafka 4.2 or later and currently applies to self-managed Kafka event source mappings, including eligible third-party managed offerings. Broker settings and poller limits remain relevant capacity bounds.
+
+Our article explains the stream-versus-queue contract and what to measure before switching a production event pipeline.
+
+Read: https://techmindhub.cc/posts/aws-lambda-kafka-queue-consumption/
+More analysis: https://arover.substack.com/
+
+#Kafka #AWSLambda #DistributedSystems #TechMindHub
