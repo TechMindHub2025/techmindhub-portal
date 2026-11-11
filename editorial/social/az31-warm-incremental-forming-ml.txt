@@ -1,0 +1,6 @@
+Warm incremental forming of AZ31 magnesium depends on a narrow balance among temperature, step-down, speed and tool diameter. A 27-run study combines experiments with statistical and ML methods to find a process window. We examine what the measured optimum says, and where generalization stops.
+
+Full engineering analysis: https://techmindhub.cc/posts/az31-warm-incremental-forming-ml/
+More from TechMind Hub: https://arover.substack.com/
+
+#TechMindHub

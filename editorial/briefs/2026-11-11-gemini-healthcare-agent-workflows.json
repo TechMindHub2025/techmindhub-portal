@@ -1,0 +1,14 @@
+{
+  "slug": "gemini-healthcare-agent-workflows",
+  "source": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-for-healthcare",
+  "domain": "life-sciences",
+  "topic": "Healthcare agent orchestration",
+  "event_date": "2026-11-10",
+  "publication_date": "2026-11-11 Asia/Bangkok",
+  "visual": {
+    "card": "gemini-healthcare-agent-workflows-card-web-v1.webp",
+    "infographic": "gemini-healthcare-agent-workflows-infographic-web-v1.webp",
+    "og": "gemini-healthcare-agent-workflows-og-web-v1.jpg",
+    "status": "Conceptual editorial illustration; not a product screenshot"
+  }
+}

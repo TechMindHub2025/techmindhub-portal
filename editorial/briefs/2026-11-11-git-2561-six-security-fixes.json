@@ -1,0 +1,14 @@
+{
+  "slug": "git-2561-six-security-fixes",
+  "source": "https://github.blog/open-source/git/git-security-vulnerabilities-announced-7/",
+  "domain": "digital-trust",
+  "topic": "Git repository trust boundaries",
+  "event_date": "2026-11-10",
+  "publication_date": "2026-11-11 Asia/Bangkok",
+  "visual": {
+    "card": "git-2561-six-security-fixes-card-web-v1.webp",
+    "infographic": "git-2561-six-security-fixes-infographic-web-v1.webp",
+    "og": "git-2561-six-security-fixes-og-web-v1.jpg",
+    "status": "Conceptual editorial illustration; not a product screenshot"
+  }
+}

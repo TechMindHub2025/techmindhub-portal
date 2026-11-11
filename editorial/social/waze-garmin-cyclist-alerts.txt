@@ -1,0 +1,6 @@
+A proximity alert is only useful if its signal arrives in the right place and at the right time. Waze and Garmin now let cyclists opt in through LiveTrack so nearby drivers can receive a cue without seeing the cyclist’s identity or exact route. We examine the privacy boundary, latency questions and why the launch is not evidence of fewer collisions.
+
+Full engineering analysis: https://techmindhub.cc/posts/waze-garmin-cyclist-alerts/
+More from TechMind Hub: https://arover.substack.com/
+
+#TechMindHub

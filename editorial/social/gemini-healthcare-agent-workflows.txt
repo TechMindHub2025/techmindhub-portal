@@ -1,0 +1,6 @@
+Healthcare agents must preserve permissions and source provenance across medical records, policy and administrative systems. Google Cloud’s Gemini for Healthcare preview proposes a governed layer for multi-step tasks, with read-only EHR connectors and human review. We examine the architecture and the clinical evidence still needed.
+
+Full engineering analysis: https://techmindhub.cc/posts/gemini-healthcare-agent-workflows/
+More from TechMind Hub: https://arover.substack.com/
+
+#TechMindHub
