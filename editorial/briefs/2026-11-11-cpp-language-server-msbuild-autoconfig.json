@@ -1,0 +1,14 @@
+{
+  "slug": "cpp-language-server-msbuild-autoconfig",
+  "source": "https://github.blog/changelog/2026-11-10-c-language-server-now-auto-configures-msbuild-builds/",
+  "domain": "software",
+  "topic": "C++ language-server build context",
+  "event_date": "2026-11-10",
+  "publication_date": "2026-11-11 Asia/Bangkok",
+  "visual": {
+    "card": "cpp-language-server-msbuild-autoconfig-card-web-v1.webp",
+    "infographic": "cpp-language-server-msbuild-autoconfig-infographic-web-v1.webp",
+    "og": "cpp-language-server-msbuild-autoconfig-og-web-v1.jpg",
+    "status": "Conceptual editorial illustration; not a product screenshot"
+  }
+}

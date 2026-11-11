@@ -1,0 +1,6 @@
+A quiet repository can still support deployed software. From December 8, GitHub plans to pause new Dependabot alerts for most repositories inactive for a year. Existing alerts are archived, and a push restores monitoring. We examine how to inventory projects before silence is mistaken for safety.
+
+Full engineering analysis: https://techmindhub.cc/posts/dependabot-inactive-repository-alerts/
+More from TechMind Hub: https://arover.substack.com/
+
+#TechMindHub

@@ -1,0 +1,428 @@
+{
+  "release": "2026-11-11-eight-systems-v1",
+  "r2_prefix": "https://media.techmindhub.cc/posts/",
+  "files": [
+    {
+      "name": "waze-garmin-cyclist-alerts-card-web-v1.webp",
+      "url": "https://media.techmindhub.cc/posts/waze-garmin-cyclist-alerts-card-web-v1.webp",
+      "role": "card",
+      "sha256": "3fdc7da238c6a63a22c2aaa134855c92fb32347b8c60b22fd07c15996c8fc91a",
+      "bytes": 417852,
+      "dimensions": [
+        800,
+        450
+      ]
+    },
+    {
+      "name": "waze-garmin-cyclist-alerts-infographic-web-v1.webp",
+      "url": "https://media.techmindhub.cc/posts/waze-garmin-cyclist-alerts-infographic-web-v1.webp",
+      "role": "infographic",
+      "sha256": "900cfcbbc8b43bb91353ab4bd5b37f102974f8c1f7742bfbb89d3ffcfb322110",
+      "bytes": 1325960,
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "waze-garmin-cyclist-alerts-og-web-v1.jpg",
+      "url": "https://media.techmindhub.cc/posts/waze-garmin-cyclist-alerts-og-web-v1.jpg",
+      "role": "og",
+      "sha256": "b19c958182fc0d9f15788e921abf143624e63ca8f4cfc6a774aa03ff305ba2f5",
+      "bytes": 349967,
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "name": "gemini-healthcare-agent-workflows-card-web-v1.webp",
+      "url": "https://media.techmindhub.cc/posts/gemini-healthcare-agent-workflows-card-web-v1.webp",
+      "role": "card",
+      "sha256": "25aee43e77ea0315ba3ce56fbb46d98231ceac54e602e6002e99cb883c0f8e6b",
+      "bytes": 348734,
+      "dimensions": [
+        800,
+        450
+      ]
+    },
+    {
+      "name": "gemini-healthcare-agent-workflows-infographic-web-v1.webp",
+      "url": "https://media.techmindhub.cc/posts/gemini-healthcare-agent-workflows-infographic-web-v1.webp",
+      "role": "infographic",
+      "sha256": "5caee2be875354361453aa7474cd2623ab4f5f2c507f5455d73aff79b83e4a85",
+      "bytes": 1696062,
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "gemini-healthcare-agent-workflows-og-web-v1.jpg",
+      "url": "https://media.techmindhub.cc/posts/gemini-healthcare-agent-workflows-og-web-v1.jpg",
+      "role": "og",
+      "sha256": "1d6bccd1236e951fe4be03e9e65837d17a593b355219a23318042a10ec3ad0de",
+      "bytes": 276155,
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "name": "ev-battery-supply-chemistry-recycling-card-web-v1.webp",
+      "url": "https://media.techmindhub.cc/posts/ev-battery-supply-chemistry-recycling-card-web-v1.webp",
+      "role": "card",
+      "sha256": "6eae9e702def86b751f1ef6e06ab0695b4c077556c72016bf9016338b97b4ab1",
+      "bytes": 359318,
+      "dimensions": [
+        800,
+        450
+      ]
+    },
+    {
+      "name": "ev-battery-supply-chemistry-recycling-infographic-web-v1.webp",
+      "url": "https://media.techmindhub.cc/posts/ev-battery-supply-chemistry-recycling-infographic-web-v1.webp",
+      "role": "infographic",
+      "sha256": "b44db60062b8cc392f49e08feb1d07700001d394f357f2f7d10d353474e34d0a",
+      "bytes": 1978014,
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "ev-battery-supply-chemistry-recycling-og-web-v1.jpg",
+      "url": "https://media.techmindhub.cc/posts/ev-battery-supply-chemistry-recycling-og-web-v1.jpg",
+      "role": "og",
+      "sha256": "326bbaea9e4b8640f37f680758f73c64ce86cf06d2b6efff1d290d07cbc8fb8c",
+      "bytes": 306048,
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "name": "ai-guided-human-in-loop-topology-optimization-card-web-v1.webp",
+      "url": "https://media.techmindhub.cc/posts/ai-guided-human-in-loop-topology-optimization-card-web-v1.webp",
+      "role": "card",
+      "sha256": "75659690abea4556b865e5e89f9ad263f3836823bef21d1a820140e4235850cb",
+      "bytes": 368746,
+      "dimensions": [
+        800,
+        450
+      ]
+    },
+    {
+      "name": "ai-guided-human-in-loop-topology-optimization-infographic-web-v1.webp",
+      "url": "https://media.techmindhub.cc/posts/ai-guided-human-in-loop-topology-optimization-infographic-web-v1.webp",
+      "role": "infographic",
+      "sha256": "ab00ed02b1f0c5923b81e1e0ea679ff3454b5607151b36d4e8e07df7c95e8b22",
+      "bytes": 1529886,
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "ai-guided-human-in-loop-topology-optimization-og-web-v1.jpg",
+      "url": "https://media.techmindhub.cc/posts/ai-guided-human-in-loop-topology-optimization-og-web-v1.jpg",
+      "role": "og",
+      "sha256": "55b02ee57196612987f8e24c080192af7e56f4bc1501719a2675bea605ac6be7",
+      "bytes": 317724,
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "name": "az31-warm-incremental-forming-ml-card-web-v1.webp",
+      "url": "https://media.techmindhub.cc/posts/az31-warm-incremental-forming-ml-card-web-v1.webp",
+      "role": "card",
+      "sha256": "432b7416193b84dffc6efd32d1f5ce68aaa1b80a88e77766f423904584c9ffbc",
+      "bytes": 384128,
+      "dimensions": [
+        800,
+        450
+      ]
+    },
+    {
+      "name": "az31-warm-incremental-forming-ml-infographic-web-v1.webp",
+      "url": "https://media.techmindhub.cc/posts/az31-warm-incremental-forming-ml-infographic-web-v1.webp",
+      "role": "infographic",
+      "sha256": "b163aa7100d5f24fd7b9563be6b001accac13581535d2a4cd581c276f349f000",
+      "bytes": 1434976,
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "az31-warm-incremental-forming-ml-og-web-v1.jpg",
+      "url": "https://media.techmindhub.cc/posts/az31-warm-incremental-forming-ml-og-web-v1.jpg",
+      "role": "og",
+      "sha256": "196cdb9ce4df1582e7d1c5074d9bacbcb9ed06d1edb4023132db72dcf7a3015f",
+      "bytes": 318335,
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "name": "git-2561-six-security-fixes-card-web-v1.webp",
+      "url": "https://media.techmindhub.cc/posts/git-2561-six-security-fixes-card-web-v1.webp",
+      "role": "card",
+      "sha256": "d0ed34bbe613b0591533de99b1bfab9d877629fea64b6b09890b1ac6eb886a95",
+      "bytes": 373406,
+      "dimensions": [
+        800,
+        450
+      ]
+    },
+    {
+      "name": "git-2561-six-security-fixes-infographic-web-v1.webp",
+      "url": "https://media.techmindhub.cc/posts/git-2561-six-security-fixes-infographic-web-v1.webp",
+      "role": "infographic",
+      "sha256": "2afd44db513f0afbada250809a96c524ccfa24a8741c38551ee4a6ef9076faac",
+      "bytes": 1729042,
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "git-2561-six-security-fixes-og-web-v1.jpg",
+      "url": "https://media.techmindhub.cc/posts/git-2561-six-security-fixes-og-web-v1.jpg",
+      "role": "og",
+      "sha256": "ad8bc835e552254e5b05d774116fac76798043124a1085fc2ea1b54bbfe29928",
+      "bytes": 363919,
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "name": "dependabot-inactive-repository-alerts-card-web-v1.webp",
+      "url": "https://media.techmindhub.cc/posts/dependabot-inactive-repository-alerts-card-web-v1.webp",
+      "role": "card",
+      "sha256": "64cf523d2df8cc33269aac1e502b746dac07b3c3e112b9d107caefca53d0c4fb",
+      "bytes": 382966,
+      "dimensions": [
+        800,
+        450
+      ]
+    },
+    {
+      "name": "dependabot-inactive-repository-alerts-infographic-web-v1.webp",
+      "url": "https://media.techmindhub.cc/posts/dependabot-inactive-repository-alerts-infographic-web-v1.webp",
+      "role": "infographic",
+      "sha256": "ed96bf5c8119e8f0b70c75ec98d9fe47c4ce960d15308524793732d5a08f10bc",
+      "bytes": 2175268,
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "dependabot-inactive-repository-alerts-og-web-v1.jpg",
+      "url": "https://media.techmindhub.cc/posts/dependabot-inactive-repository-alerts-og-web-v1.jpg",
+      "role": "og",
+      "sha256": "78ed97372cfc3a47293c9faac35590e44c703d665c28d69cfb83cc8ca164031e",
+      "bytes": 333672,
+      "dimensions": [
+        1200,
+        630
+      ]
+    },
+    {
+      "name": "cpp-language-server-msbuild-autoconfig-card-web-v1.webp",
+      "url": "https://media.techmindhub.cc/posts/cpp-language-server-msbuild-autoconfig-card-web-v1.webp",
+      "role": "card",
+      "sha256": "a21272ca8fc66c1cbcfc0025bf29cb9420dc88e8741fd416273e4618bad21d06",
+      "bytes": 373564,
+      "dimensions": [
+        800,
+        450
+      ]
+    },
+    {
+      "name": "cpp-language-server-msbuild-autoconfig-infographic-web-v1.webp",
+      "url": "https://media.techmindhub.cc/posts/cpp-language-server-msbuild-autoconfig-infographic-web-v1.webp",
+      "role": "infographic",
+      "sha256": "f12045ce867d74ccb10cfe71bdbee2503c3bb57a3ee5c7a17078dcef556826aa",
+      "bytes": 1301558,
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "cpp-language-server-msbuild-autoconfig-og-web-v1.jpg",
+      "url": "https://media.techmindhub.cc/posts/cpp-language-server-msbuild-autoconfig-og-web-v1.jpg",
+      "role": "og",
+      "sha256": "5136bc30e89e4908dc73e53af7fbf22e6c7981bd332d97fdc45ccbefec66b291",
+      "bytes": 338336,
+      "dimensions": [
+        1200,
+        630
+      ]
+    }
+  ],
+  "originals": [
+    {
+      "name": "waze-garmin-cyclist-alerts-card-original-v1.png",
+      "sha256": "1d6aabe05f193140d326e697b3cf4a5a1d4851e24924359e143e72c8145f4ad3",
+      "bytes": 2070236,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "name": "waze-garmin-cyclist-alerts-infographic-original-v1.png",
+      "sha256": "e7d2e673afbc8c71cb3dd55e03f394dcc5da97e5fa59287c99a86d7f8b49303a",
+      "bytes": 1940515,
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "gemini-healthcare-agent-workflows-card-original-v1.png",
+      "sha256": "9aa627644ab057ac9ebc7bfde65105cdd157061f8b072334634315723984b226",
+      "bytes": 1942296,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "name": "gemini-healthcare-agent-workflows-infographic-original-v1.png",
+      "sha256": "c925543b8a819662dcb7335fe971f22876964ceec4213c43a0bb5916a5858973",
+      "bytes": 2479751,
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "ev-battery-supply-chemistry-recycling-card-original-v1.png",
+      "sha256": "af67bfad79d9672e32a9446fd9c879ef09d75bb52dc269bde66270b4db3d2152",
+      "bytes": 1925554,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "name": "ev-battery-supply-chemistry-recycling-infographic-original-v1.png",
+      "sha256": "dd4b17843593b5298c1e5ff14f0a36c1b1bd536c6eecd0bfff5035a8c11e98ce",
+      "bytes": 2905517,
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "ai-guided-human-in-loop-topology-optimization-card-original-v1.png",
+      "sha256": "95406ea22c75e9b672298650dd6a1afcc941173c930e8a16c7f73c2665484bcc",
+      "bytes": 2303473,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "name": "ai-guided-human-in-loop-topology-optimization-infographic-original-v1.png",
+      "sha256": "38139639be75ebf94d92b15bb657ed1d94d88f0bcc6d0bc60c3afaaaa929d186",
+      "bytes": 2195934,
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "az31-warm-incremental-forming-ml-card-original-v1.png",
+      "sha256": "bf889594333fbaec1fc9ecc02cfedfe440acaf6f43639a314e300278c8624e2e",
+      "bytes": 2104708,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "name": "az31-warm-incremental-forming-ml-infographic-original-v1.png",
+      "sha256": "bcd722ac1426dbd1a77a95ec2b1a37daf25e3f9a2dd47539b47748273816e179",
+      "bytes": 2092914,
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "git-2561-six-security-fixes-card-original-v1.png",
+      "sha256": "310470de2fb5ecd0c30edcae8fbd4949565c2056939a942bcbddc4452f9967c5",
+      "bytes": 1840490,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "name": "git-2561-six-security-fixes-infographic-original-v1.png",
+      "sha256": "82a62e2eb039f1ddbc153a89b6074c17f082b364a8141cf9a4f1db9754232dd6",
+      "bytes": 2450264,
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "dependabot-inactive-repository-alerts-card-original-v1.png",
+      "sha256": "1e60dbe7e429aa8026a598e013eb98d9b6c6c9a1067b188a9dd0518979e45276",
+      "bytes": 1899207,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "name": "dependabot-inactive-repository-alerts-infographic-original-v1.png",
+      "sha256": "e5006ff6877b27907adff4108f0cd593be5d96e84245fcaa5fc9e31ad3abc617",
+      "bytes": 3176466,
+      "dimensions": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "name": "cpp-language-server-msbuild-autoconfig-card-original-v1.png",
+      "sha256": "63edc2e04951bf3648b2a15315077376d0ac09ced7517c288d23606ca8e29e74",
+      "bytes": 1900059,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "name": "cpp-language-server-msbuild-autoconfig-infographic-original-v1.png",
+      "sha256": "82f2b5234de1e67f7bec582b88f1bc1bc69001601c729d4940bd7b01da730e19",
+      "bytes": 1897792,
+      "dimensions": [
+        1122,
+        1402
+      ]
+    }
+  ],
+  "archives": {
+    "web": {
+      "name": "2026-11-11-Eight-Cloudflare-Web.zip",
+      "sha256": "41e0cb7faf02813aa8b9c544fac9bf65f88cb295a411ed604700e6ff6c47e1b7",
+      "bytes": 18788012
+    },
+    "originals": {
+      "name": "2026-11-11-Eight-Originals-PNG.zip",
+      "sha256": "10d16a90bb9a4cff0d6666f92a48b1ef915d69d200d0b6977f22ce6f1f56398d",
+      "bytes": 35128298
+    }
+  }
+}

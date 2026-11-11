@@ -1,0 +1,6 @@
+Git 2.56.1 fixes six vulnerabilities, including a crafted recursive clone that can reach malicious configuration and hooks. The flaws cross different repository-input boundaries, so they should not be collapsed into one exploit story. We map the scope and the versions to check across workstations, CI and services.
+
+Full engineering analysis: https://techmindhub.cc/posts/git-2561-six-security-fixes/
+More from TechMind Hub: https://arover.substack.com/
+
+#TechMindHub

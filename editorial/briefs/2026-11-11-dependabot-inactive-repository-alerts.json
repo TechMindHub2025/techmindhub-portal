@@ -1,0 +1,14 @@
+{
+  "slug": "dependabot-inactive-repository-alerts",
+  "source": "https://github.blog/changelog/2026-11-10-dependabot-alerts-will-pause-on-inactive-repositories/",
+  "domain": "digital-trust",
+  "topic": "Dependency alert coverage and repository lifecycle",
+  "event_date": "2026-11-10",
+  "publication_date": "2026-11-11 Asia/Bangkok",
+  "visual": {
+    "card": "dependabot-inactive-repository-alerts-card-web-v1.webp",
+    "infographic": "dependabot-inactive-repository-alerts-infographic-web-v1.webp",
+    "og": "dependabot-inactive-repository-alerts-og-web-v1.jpg",
+    "status": "Conceptual editorial illustration; not a product screenshot"
+  }
+}

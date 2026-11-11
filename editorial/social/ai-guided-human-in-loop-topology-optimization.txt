@@ -1,0 +1,6 @@
+Topology optimization can produce efficient shapes that still need engineering judgment. A new study uses a preference model to highlight regions for structural edits. Its evaluation uses synthetic preferences, so real engineering benefit remains to be tested. We separate the demonstrated method from the proposed workflow.
+
+Full engineering analysis: https://techmindhub.cc/posts/ai-guided-human-in-loop-topology-optimization/
+More from TechMind Hub: https://arover.substack.com/
+
+#TechMindHub

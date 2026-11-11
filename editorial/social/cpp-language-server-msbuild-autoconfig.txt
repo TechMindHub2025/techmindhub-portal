@@ -1,0 +1,6 @@
+A C++ coding agent needs the real build context, not just the source tree. The Microsoft C++ language server for Copilot CLI now bundles MSBuild extraction to generate compilation commands automatically. We explain the semantic value, the MSBuild scope and what teams should verify.
+
+Full engineering analysis: https://techmindhub.cc/posts/cpp-language-server-msbuild-autoconfig/
+More from TechMind Hub: https://arover.substack.com/
+
+#TechMindHub

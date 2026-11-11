@@ -1,0 +1,14 @@
+{
+  "slug": "waze-garmin-cyclist-alerts",
+  "source": "https://blog.google/waze/garmin-safety-cyclists/",
+  "domain": "robotics",
+  "topic": "Connected mobility and cyclist proximity",
+  "event_date": "2026-11-10",
+  "publication_date": "2026-11-11 Asia/Bangkok",
+  "visual": {
+    "card": "waze-garmin-cyclist-alerts-card-web-v1.webp",
+    "infographic": "waze-garmin-cyclist-alerts-infographic-web-v1.webp",
+    "og": "waze-garmin-cyclist-alerts-og-web-v1.jpg",
+    "status": "Conceptual editorial illustration; not a product screenshot"
+  }
+}
