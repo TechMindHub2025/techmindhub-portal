@@ -1,0 +1,65 @@
+{
+  "release": "2026-11-13-arm32-cloudflare-token-v1",
+  "assets": [
+    {
+      "slug": "github-actions-arm32-hosted-retirement",
+      "role": "card",
+      "filename": "github-actions-arm32-hosted-retirement-card-web-v1.webp",
+      "url": "https://media.techmindhub.cc/posts/github-actions-arm32-hosted-retirement-card-web-v1.webp",
+      "bytes": 350524,
+      "width": 800,
+      "height": 450,
+      "sha256": "711ebb928bf976a11f14031325f820bfd70df4f2e349215522d4aa937abe7109"
+    },
+    {
+      "slug": "github-actions-arm32-hosted-retirement",
+      "role": "og",
+      "filename": "github-actions-arm32-hosted-retirement-og-web-v1.jpg",
+      "url": "https://media.techmindhub.cc/posts/github-actions-arm32-hosted-retirement-og-web-v1.jpg",
+      "bytes": 287080,
+      "width": 1200,
+      "height": 630,
+      "sha256": "d124b28819fa80883205b55cca5b844791dfbb876d88037a372b070210e7cf10"
+    },
+    {
+      "slug": "github-actions-arm32-hosted-retirement",
+      "role": "infographic",
+      "filename": "github-actions-arm32-hosted-retirement-infographic-web-v1.webp",
+      "url": "https://media.techmindhub.cc/posts/github-actions-arm32-hosted-retirement-infographic-web-v1.webp",
+      "bytes": 1210288,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "dc89f567b73b24b0d3f57273a320a057159072a5bdd51842527d5948be147373"
+    },
+    {
+      "slug": "cloudflare-access-service-token-secret-scanning",
+      "role": "card",
+      "filename": "cloudflare-access-service-token-secret-scanning-card-web-v1.webp",
+      "url": "https://media.techmindhub.cc/posts/cloudflare-access-service-token-secret-scanning-card-web-v1.webp",
+      "bytes": 343118,
+      "width": 800,
+      "height": 450,
+      "sha256": "0f358fd98f1883183f606817b28c1a9cef530c1932dca292362db6bef4e34159"
+    },
+    {
+      "slug": "cloudflare-access-service-token-secret-scanning",
+      "role": "og",
+      "filename": "cloudflare-access-service-token-secret-scanning-og-web-v1.jpg",
+      "url": "https://media.techmindhub.cc/posts/cloudflare-access-service-token-secret-scanning-og-web-v1.jpg",
+      "bytes": 306871,
+      "width": 1200,
+      "height": 630,
+      "sha256": "d8511b56d146df1b3ede7ce2a0da8b52ec2755e7b80b71c030f02f04771ac3a4"
+    },
+    {
+      "slug": "cloudflare-access-service-token-secret-scanning",
+      "role": "infographic",
+      "filename": "cloudflare-access-service-token-secret-scanning-infographic-web-v1.webp",
+      "url": "https://media.techmindhub.cc/posts/cloudflare-access-service-token-secret-scanning-infographic-web-v1.webp",
+      "bytes": 1201150,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "2b830f028bd1c1bb0f1838ef0b1c722edb3f348152bd17fdebf47d4bf2acce5f"
+    }
+  ]
+}
