@@ -1,0 +1,16 @@
+{
+  "slug": "github-actions-arm32-hosted-retirement",
+  "event_date": "2026-11-12",
+  "source": "https://github.blog/changelog/2026-11-12-actions-for-arm32-linux-windows-retirement/",
+  "secondary_source": "https://github.blog/changelog/2026-09-23-node-20-is-no-longer-available-in-github-actions/",
+  "verified": ["GitHub-hosted Linux and Windows runners end ARM32 job execution support by December 8, 2026", "Includes native AArch32 user-space execution", "Node 24 action runtime had already replaced Node 20; self-hosted ARM32 support separately ended"],
+  "limits": ["Does not prohibit ARM32 cross-compilation or development", "Exact migration depends on runner and tests; no universal alternative specified"],
+  "visual": {
+    "domain": "software",
+    "cover_phrase": "THE ARM32 CI DEADLINE",
+    "status": "Conceptual editorial artwork, not a real Actions UI or hardware specification",
+    "shared_motif": "Embedded bench and CI fork, then a layered inventory and test path; alternatives require validation",
+    "version": "v1",
+    "files": ["github-actions-arm32-hosted-retirement-card-web-v1.webp", "github-actions-arm32-hosted-retirement-infographic-web-v1.webp", "github-actions-arm32-hosted-retirement-og-web-v1.jpg"]
+  }
+}

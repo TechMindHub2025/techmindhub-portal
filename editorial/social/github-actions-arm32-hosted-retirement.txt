@@ -1,0 +1,11 @@
+GitHub-hosted Actions runners on Linux and Windows will stop supporting ARM32 job execution by December 8, 2026. The change includes native AArch32 user-space execution.
+
+For embedded teams, the important distinction is between the runner, the JavaScript action runtime and the architecture of the binary being built. Cross-compilation may still produce ARM32 artifacts, but representative tests need an eligible execution environment.
+
+Inventory workflows, action dependencies and hardware tests now. Validate the replacement path, including ABI assumptions and release gates, before the deadline. This is a hosted-runner change, not the end of ARM32 development.
+
+Our analysis:
+https://techmindhub.cc/posts/github-actions-arm32-hosted-retirement/
+https://arover.substack.com/
+
+#GitHubActions #ARM32 #CICD #EmbeddedDevelopment #TechMindHub
