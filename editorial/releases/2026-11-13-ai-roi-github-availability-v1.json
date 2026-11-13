@@ -1,0 +1,65 @@
+{
+  "release": "2026-11-13-ai-roi-github-availability-v1",
+  "assets": [
+    {
+      "slug": "enterprise-ai-roi-value-at-scale",
+      "role": "card",
+      "filename": "enterprise-ai-roi-value-at-scale-card-web-v1.webp",
+      "url": "https://media.techmindhub.cc/posts/enterprise-ai-roi-value-at-scale-card-web-v1.webp",
+      "bytes": 419080,
+      "width": 800,
+      "height": 450,
+      "sha256": "7472634454e76612eb4be4087e5d3dc12b813c95afe39878ee2e35248cc75dd8"
+    },
+    {
+      "slug": "enterprise-ai-roi-value-at-scale",
+      "role": "og",
+      "filename": "enterprise-ai-roi-value-at-scale-og-web-v1.jpg",
+      "url": "https://media.techmindhub.cc/posts/enterprise-ai-roi-value-at-scale-og-web-v1.jpg",
+      "bytes": 363185,
+      "width": 1200,
+      "height": 630,
+      "sha256": "179863e3ce38bcecf1c85858109020e768a64b904779f3cd20b7a6f7f5e3cab9"
+    },
+    {
+      "slug": "enterprise-ai-roi-value-at-scale",
+      "role": "infographic",
+      "filename": "enterprise-ai-roi-value-at-scale-infographic-web-v1.webp",
+      "url": "https://media.techmindhub.cc/posts/enterprise-ai-roi-value-at-scale-infographic-web-v1.webp",
+      "bytes": 1225550,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "dfb232414c2f7aefe1d1d157db05ce0c0930b2c903019e4eaeeaeca3f658e1c1"
+    },
+    {
+      "slug": "github-october-2026-availability-failure-domains",
+      "role": "card",
+      "filename": "github-october-2026-availability-failure-domains-card-web-v1.webp",
+      "url": "https://media.techmindhub.cc/posts/github-october-2026-availability-failure-domains-card-web-v1.webp",
+      "bytes": 397526,
+      "width": 800,
+      "height": 450,
+      "sha256": "39de267f9e3f4cb94907e2f9f8556d20a119a49460a47e943e4270234555407d"
+    },
+    {
+      "slug": "github-october-2026-availability-failure-domains",
+      "role": "og",
+      "filename": "github-october-2026-availability-failure-domains-og-web-v1.jpg",
+      "url": "https://media.techmindhub.cc/posts/github-october-2026-availability-failure-domains-og-web-v1.jpg",
+      "bytes": 381246,
+      "width": 1200,
+      "height": 630,
+      "sha256": "71eeda504f42d5f0e2a1a049bd52bc8730aa1cb9569bb4c3c65b5f7edbacf8a4"
+    },
+    {
+      "slug": "github-october-2026-availability-failure-domains",
+      "role": "infographic",
+      "filename": "github-october-2026-availability-failure-domains-infographic-web-v1.webp",
+      "url": "https://media.techmindhub.cc/posts/github-october-2026-availability-failure-domains-infographic-web-v1.webp",
+      "bytes": 1365354,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "e5cb99a402f23b5d690d95d556a7ab78d10d10bc000c0bcfbb0d60e929fddea4"
+    }
+  ]
+}
