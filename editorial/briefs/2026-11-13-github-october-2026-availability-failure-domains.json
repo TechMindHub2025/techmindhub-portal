@@ -1,0 +1,15 @@
+{
+  "slug": "github-october-2026-availability-failure-domains",
+  "event_date": "2026-10-05/2026-10-30",
+  "source": "https://github.blog/news-insights/company-news/github-availability-report-october-2026/",
+  "verified": ["Eight October incidents reported by GitHub", "October 7 two write outages caused by stale retired-server records published after database routing leader election", "October 29 regional Azure network disruption affected three Central US availability zones and at least 34,128 signed-in users", "140 of 151 production services in Azure Central US as November 9"],
+  "limits": ["First-party retrospective, not independent audit", "Different incidents have different causes; do not attribute all to Azure or migration", "Regional disruption affected zones; no claim that every service or zone was completely down"],
+  "visual": {
+    "domain": "infrastructure",
+    "cover_phrase": "CAPACITY ISN'T RESILIENCE",
+    "status": "Conceptual editorial artwork, not actual GitHub topology",
+    "shared_motif": "A control room observes route and network dependencies; inner figure separately explains stale October 7 write routing and cross-zone October 29 regional network disruption",
+    "version": "v1",
+    "files": ["github-october-2026-availability-failure-domains-card-web-v1.webp", "github-october-2026-availability-failure-domains-infographic-web-v1.webp", "github-october-2026-availability-failure-domains-og-web-v1.jpg"]
+  }
+}

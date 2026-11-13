@@ -1,0 +1,12 @@
+More cloud capacity does not automatically isolate a failure.
+
+GitHub's October availability report describes eight incidents during a substantial Azure expansion. On October 7, stale database routing settings sent writes to retired servers, causing two short write outages. On October 29, a regional Azure network disruption affected all three Central US availability zones.
+
+These were distinct incidents, not a single migration failure. Together with retry cascades and shared dependency pressure elsewhere in the month, they show why routing validation, backoff, spare failover capacity and tested regional recovery matter alongside fleet growth.
+
+Our analysis separates the mechanisms and the limits of GitHub's own incident report.
+
+https://techmindhub.cc/posts/github-october-2026-availability-failure-domains/
+https://arover.substack.com/
+
+#CloudReliability #DistributedSystems #IncidentResponse #TechMindHub

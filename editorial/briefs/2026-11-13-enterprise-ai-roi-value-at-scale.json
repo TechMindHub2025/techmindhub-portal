@@ -1,0 +1,15 @@
+{
+  "slug": "enterprise-ai-roi-value-at-scale",
+  "event_date": "2026-11",
+  "source": "https://blogs.microsoft.com/blog/2026/11/12/scaling-ai-value-without-losing-control-lessons-from-frontier-firms/",
+  "verified": ["IDC survey commissioned by Microsoft, 5,204 leaders in 28 industries, fielded July 2026", "66% reported substantial or transformational results; 48% said they scaled value across units", "Frontier Firms top 10% reported average 4x ROI, slow adopters bottom 30% 2.7x"],
+  "limits": ["Executive self-report, not audited ROI", "Correlation does not establish causation", "Full analytical InfoBrief forthcoming at source publication"],
+  "visual": {
+    "domain": "ai",
+    "cover_phrase": "THE VALUE GAP",
+    "status": "Conceptual editorial artwork, not a literal economic model",
+    "shared_motif": "Isolated pilot becomes cross-unit workflow through measurement, process design and governance; inner figure specifies human review, baseline, costs and quality",
+    "version": "v1",
+    "files": ["enterprise-ai-roi-value-at-scale-card-web-v1.webp", "enterprise-ai-roi-value-at-scale-infographic-web-v1.webp", "enterprise-ai-roi-value-at-scale-og-web-v1.jpg"]
+  }
+}
