@@ -1,0 +1,95 @@
+{
+  "release": "2026-11-14-three-research-v1",
+  "assets": [
+    {
+      "slug": "sparc-shared-rescue-robot-platform",
+      "role": "card",
+      "filename": "sparc-shared-rescue-robot-platform-card-web-v1.webp",
+      "url": "https://media.techmindhub.cc/posts/sparc-shared-rescue-robot-platform-card-web-v1.webp",
+      "bytes": 390454,
+      "width": 800,
+      "height": 450,
+      "sha256": "7e8eb51d8f9aafeceb8f053f4dfdf62e7a3d40c7df9860b26b0aa4603b51db20"
+    },
+    {
+      "slug": "sparc-shared-rescue-robot-platform",
+      "role": "infographic",
+      "filename": "sparc-shared-rescue-robot-platform-infographic-web-v1.webp",
+      "url": "https://media.techmindhub.cc/posts/sparc-shared-rescue-robot-platform-infographic-web-v1.webp",
+      "bytes": 1322756,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "c640f06bdc7a83ee36d884a98ffdaf350306cea882cba7f589cedfc535395fc2"
+    },
+    {
+      "slug": "sparc-shared-rescue-robot-platform",
+      "role": "og",
+      "filename": "sparc-shared-rescue-robot-platform-og-web-v1.jpg",
+      "url": "https://media.techmindhub.cc/posts/sparc-shared-rescue-robot-platform-og-web-v1.jpg",
+      "bytes": 341590,
+      "width": 1200,
+      "height": 630,
+      "sha256": "6da296dce12438141dd85e2d252ad8f408ba8bca601da9824fb33bf55e65d02f"
+    },
+    {
+      "slug": "em-vit-online-metric-depth",
+      "role": "card",
+      "filename": "em-vit-online-metric-depth-card-web-v1.webp",
+      "url": "https://media.techmindhub.cc/posts/em-vit-online-metric-depth-card-web-v1.webp",
+      "bytes": 446110,
+      "width": 800,
+      "height": 450,
+      "sha256": "79e52c383f543c75e7cba77bd20aa996bcd8056b695fc64b29199f972b218f62"
+    },
+    {
+      "slug": "em-vit-online-metric-depth",
+      "role": "infographic",
+      "filename": "em-vit-online-metric-depth-infographic-web-v1.webp",
+      "url": "https://media.techmindhub.cc/posts/em-vit-online-metric-depth-infographic-web-v1.webp",
+      "bytes": 1515426,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "be74248da8afcbce11ad7bdcc6f7eda5b6311fe0ae9f08b084af963fdd9f9224"
+    },
+    {
+      "slug": "em-vit-online-metric-depth",
+      "role": "og",
+      "filename": "em-vit-online-metric-depth-og-web-v1.jpg",
+      "url": "https://media.techmindhub.cc/posts/em-vit-online-metric-depth-og-web-v1.jpg",
+      "bytes": 387814,
+      "width": 1200,
+      "height": 630,
+      "sha256": "eb9691c2df0df4cb2385ce1a49916f98646e6ee58d3b4fe9839eb81679f3c350"
+    },
+    {
+      "slug": "materials-agent-alexandria-synthesis-plans",
+      "role": "card",
+      "filename": "materials-agent-alexandria-synthesis-plans-card-web-v1.webp",
+      "url": "https://media.techmindhub.cc/posts/materials-agent-alexandria-synthesis-plans-card-web-v1.webp",
+      "bytes": 335164,
+      "width": 800,
+      "height": 450,
+      "sha256": "c4656858db3488dfeb00291ae4483a17dbaa0815509f3d537f9d5fe6a601646e"
+    },
+    {
+      "slug": "materials-agent-alexandria-synthesis-plans",
+      "role": "infographic",
+      "filename": "materials-agent-alexandria-synthesis-plans-infographic-web-v1.webp",
+      "url": "https://media.techmindhub.cc/posts/materials-agent-alexandria-synthesis-plans-infographic-web-v1.webp",
+      "bytes": 1355158,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "c2a03301e4308c1175d5e9adb3e4e22781d74b61337a17d22013135cb2aa7eb8"
+    },
+    {
+      "slug": "materials-agent-alexandria-synthesis-plans",
+      "role": "og",
+      "filename": "materials-agent-alexandria-synthesis-plans-og-web-v1.jpg",
+      "url": "https://media.techmindhub.cc/posts/materials-agent-alexandria-synthesis-plans-og-web-v1.jpg",
+      "bytes": 266958,
+      "width": 1200,
+      "height": 630,
+      "sha256": "0448d8df1117836d608e02cebfe40c86ef5ee42e41ef94dae094f72a0a86ef4f"
+    }
+  ]
+}

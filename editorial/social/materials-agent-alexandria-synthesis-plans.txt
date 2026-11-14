@@ -1,0 +1,10 @@
+A promising computed material is only the beginning of a laboratory question. A scientific agent described in a new preprint connects the Alexandria database, structure models and a reaction graph to screen candidates and propose synthesis routes.
+
+The environment includes about 15 million DFT calculations and a graph of 17.4 billion possible reactions. These counts describe computational resources, not materials discovered or experiments completed. The agent can reject an unsuitable route and write a testable plan with proposed precursors and conditions.
+
+No successful synthesis follows automatically from that plan. We examine how to keep the chain from calculation to proposed experiment inspectable, and why laboratory validation remains essential.
+
+https://techmindhub.cc/posts/materials-agent-alexandria-synthesis-plans/
+https://arover.substack.com/
+
+#MaterialsScience #ScientificAgents #DFT #MaterialsDiscovery #TechMindHub

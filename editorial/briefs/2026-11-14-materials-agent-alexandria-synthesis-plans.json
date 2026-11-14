@@ -1,0 +1,27 @@
+{
+  "slug": "materials-agent-alexandria-synthesis-plans",
+  "event_date": "2026-11-11",
+  "source": "https://arxiv.org/abs/2611.15451",
+  "status": "arXiv preprint, peer review not confirmed",
+  "visual": {
+    "domain": "materials",
+    "cover_phrase": "FROM DATA TO SYNTHESIS PLANS",
+    "infographic_title": "FROM CANDIDATE TO EXPERIMENT",
+    "shared_motif": "Alexandria calculations and structure/reaction tools inform screening and a proposed synthesis plan",
+    "representation": "Conceptual crystal, graph and notebook, not a lab-verified material",
+    "claims_and_limits": "15M DFT calculations and 17.4B possible reactions are computational resources; no successful synthesis demonstrated",
+    "palette": "#956848 / #F7F1EB",
+    "version": "v1",
+    "roles": [
+      "800px lossless WebP card",
+      "native lossless WebP infographic",
+      "1200x630 JPEG OG"
+    ],
+    "files": [
+      "materials-agent-alexandria-synthesis-plans-card-web-v1.webp",
+      "materials-agent-alexandria-synthesis-plans-infographic-web-v1.webp",
+      "materials-agent-alexandria-synthesis-plans-og-web-v1.jpg"
+    ]
+  },
+  "review": "Generated cover and infographic inspected at full size, card at 352px and 260px, OG crop and small infographic; public R2 upload and live review pending."
+}
