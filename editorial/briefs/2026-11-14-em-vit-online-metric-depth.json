@@ -1,0 +1,27 @@
+{
+  "slug": "em-vit-online-metric-depth",
+  "event_date": "2026-11-11",
+  "source": "https://arxiv.org/abs/2611.14958",
+  "status": "arXiv preprint, peer review not confirmed",
+  "visual": {
+    "domain": "robotics",
+    "cover_phrase": "DEPTH ON THE MOVE",
+    "infographic_title": "DEPTH, REFINED IN MOTION",
+    "shared_motif": "Robot camera relative depth is refined online from sparse LiDAR and optional ego-motion to metric depth",
+    "representation": "Conceptual depth overlay, not a measured map",
+    "claims_and_limits": "Sparse LiDAR remains necessary; comparisons are authors’ selected evaluations",
+    "palette": "#AC5943 / #FAF0EB",
+    "version": "v1",
+    "roles": [
+      "800px lossless WebP card",
+      "native lossless WebP infographic",
+      "1200x630 JPEG OG"
+    ],
+    "files": [
+      "em-vit-online-metric-depth-card-web-v1.webp",
+      "em-vit-online-metric-depth-infographic-web-v1.webp",
+      "em-vit-online-metric-depth-og-web-v1.jpg"
+    ]
+  },
+  "review": "Generated cover and infographic inspected at full size, card at 352px and 260px, OG crop and small infographic; public R2 upload and live review pending."
+}

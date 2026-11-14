@@ -1,0 +1,10 @@
+A camera can reveal which obstacle is nearer without establishing its distance in metres. EM-ViT explores how a moving robot can adapt that relative depth estimate to an unfamiliar scene.
+
+The research method refines image-based disparity with sparse LiDAR measurements and, optionally, the robot's own motion. The intended result is dense metric geometry informed by a smaller number of direct range observations.
+
+This is not sensor-free depth estimation: sparse LiDAR remains part of online supervision. Reported gains come from the authors' selected experiments, and the paper is a preprint. Our analysis follows the data path and its practical limits.
+
+https://techmindhub.cc/posts/em-vit-online-metric-depth/
+https://arover.substack.com/
+
+#Robotics #ComputerVision #SensorFusion #LiDAR #TechMindHub

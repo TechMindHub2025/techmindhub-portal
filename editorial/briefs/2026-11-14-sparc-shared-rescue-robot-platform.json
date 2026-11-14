@@ -1,0 +1,27 @@
+{
+  "slug": "sparc-shared-rescue-robot-platform",
+  "event_date": "2026-11-11",
+  "source": "https://arxiv.org/abs/2611.15443",
+  "status": "arXiv preprint, peer review not confirmed",
+  "visual": {
+    "domain": "robotics",
+    "cover_phrase": "ONE ROBOT, SHARED TESTS",
+    "infographic_title": "A COMMON RESCUE ROBOT BASE",
+    "shared_motif": "Shared robot and benchmark course; competition datasets, navigation software and early simulation assets feed comparable tests",
+    "representation": "Conceptual illustration, not a faithful photograph of the hardware",
+    "claims_and_limits": "SPARC remains under development; course evaluation is not field deployment proof",
+    "palette": "#AC5943 / #FAF0EB",
+    "version": "v1",
+    "roles": [
+      "800px lossless WebP card",
+      "native lossless WebP infographic",
+      "1200x630 JPEG OG"
+    ],
+    "files": [
+      "sparc-shared-rescue-robot-platform-card-web-v1.webp",
+      "sparc-shared-rescue-robot-platform-infographic-web-v1.webp",
+      "sparc-shared-rescue-robot-platform-og-web-v1.jpg"
+    ]
+  },
+  "review": "Generated cover and infographic inspected at full size, card at 352px and 260px, OG crop and small infographic; public R2 upload and live review pending."
+}

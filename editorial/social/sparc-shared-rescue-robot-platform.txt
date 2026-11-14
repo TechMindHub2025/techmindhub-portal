@@ -1,0 +1,10 @@
+How can rescue robotics researchers compare navigation systems when every team builds a different machine?
+
+SPARC proposes a developing RoboCup Rescue platform based on the Unitree A2-W. Its initial resources include 2026 competition datasets, an open navigation stack and early simulation assets. A more common base could help isolate the effects of perception, mapping and planning methods.
+
+The standard is still forming, including its manipulation setup and rules. Repeatable obstacle-course performance also does not establish reliability in a real disaster. Our analysis examines what shared hardware can clarify, and what it cannot.
+
+https://techmindhub.cc/posts/sparc-shared-rescue-robot-platform/
+https://arover.substack.com/
+
+#RescueRobotics #RoboCup #EmbodiedAI #OpenResearch #TechMindHub
