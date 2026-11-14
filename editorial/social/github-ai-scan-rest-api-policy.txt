@@ -1,0 +1,12 @@
+GitHub has added a repository_scan setting to its AI Scan REST API. Security teams can now configure repository scanning across organizations and repositories with scripts or infrastructure as code.
+
+The policy hierarchy matters: enterprise rules can block enablement, an organization setting is inherited, and individual repositories can opt out. A blocked combined update returns HTTP 422 without changing either setting.
+
+There is also an operational boundary. Enabling AI Scan does not start a scan. A user with write access runs it on demand, and every run consumes AI credits. Configuration coverage, scan execution and vulnerability outcomes should be tracked separately.
+
+Our analysis examines the policy and cost controls behind this public preview.
+
+https://techmindhub.cc/posts/github-ai-scan-rest-api-policy/
+https://arover.substack.com/
+
+#DevSecOps #AIScan #PolicyAsCode #GitHub #TechMindHub

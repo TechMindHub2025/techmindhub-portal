@@ -1,0 +1,12 @@
+GitHub Enterprise Server accounts can now connect to the GitHub Copilot app for remote repositories, issues and pull requests. The integration moved from an opt-in preview to general availability in app version 1.2.0.
+
+The setup starts with a GitHub.com or GHE.com sign-in, followed by adding the GHES account in Settings. Teams should then verify access and permissions with their own repositories.
+
+The key limit is architectural: cloud sessions are not available for GHES. Accessing enterprise project context through an app does not mean every cloud agent workflow is supported.
+
+Our analysis examines the integration boundary and what a hybrid development team should validate.
+
+https://techmindhub.cc/posts/copilot-app-ghes-enterprise-integration/
+https://arover.substack.com/
+
+#DeveloperTools #GitHubEnterpriseServer #Copilot #TechMindHub

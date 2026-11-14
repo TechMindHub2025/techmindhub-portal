@@ -1,0 +1,18 @@
+{
+  "slug": "copilot-app-ghes-enterprise-integration",
+  "event_date": "2026-11-13",
+  "source": "https://github.blog/changelog/2026-11-13-github-enterprise-server-support-in-the-github-copilot-app/",
+  "verified": ["Generally available after opt-in preview", "Remote repositories, issues and pull requests supported", "App 1.2.0 or later", "GitHub.com or GHE.com sign-in precedes GHES account addition", "Cloud sessions unavailable for GHES"],
+  "limits": ["No claim of cloud feature parity", "No independent productivity or security measurement"],
+  "visual": {
+    "domain": "software",
+    "cover_phrase": "THE ENTERPRISE CONNECTION",
+    "infographic_title": "GHES IN COPILOT APP",
+    "status": "Conceptual connection, not a faithful product UI or literal network topology",
+    "shared_motif": "Developer laptop connected to an on-prem enterprise server, with a separate unavailable cloud-session boundary",
+    "palette": "#80549E and #F5EFF8 with cool white and slate",
+    "generation_prompt_summary": "Landscape editorial developer workbench with laptop/server bridge; vertical infographic depicting account prerequisite, resources and cloud-session limit. Exact labels reviewed.",
+    "version": "v1",
+    "files": ["copilot-app-ghes-enterprise-integration-card-web-v1.webp", "copilot-app-ghes-enterprise-integration-infographic-web-v1.webp", "copilot-app-ghes-enterprise-integration-og-web-v1.jpg"]
+  }
+}
