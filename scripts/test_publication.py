@@ -22,6 +22,12 @@ class PublicationChecks(unittest.TestCase):
     def test_approved_order_passes(self):
         self.assertEqual([], check_page(article(HEADER + HERO + BODY), article=True))
 
+    def test_reader_follow_up_appears_only_after_body(self):
+        aside = '<aside class="post-follow"><a href="/feed.xml">Follow</a></aside>'
+        self.assertEqual([], check_page(article(HEADER + HERO + BODY + aside), article=True))
+        self.assertIn("follow-up links must appear after the article body",
+                      check_page(article(HEADER + HERO + aside + BODY), article=True))
+
     def test_moved_nested_missing_and_duplicate_hero_fail(self):
         for content in (HEADER + BODY + HERO, HEADER + BODY,
                         HEADER + HERO + HERO + BODY,

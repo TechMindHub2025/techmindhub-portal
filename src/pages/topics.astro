@@ -1,0 +1,26 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+import { categories } from "../data/discovery";
+
+const posts = await getCollection("posts", ({ data }) => data.status === "published");
+---
+<BaseLayout title="Topics — TechMind Hub" description="Browse eight broad technology categories, then explore precise technical tags in each analysis.">
+  <section class="page">
+    <header class="pageHeader">
+      <h1 class="pageTitle">Explore by topic</h1>
+      <p class="pageLead">Eight reader-facing categories organise our technical coverage. Detailed discipline and subject tags remain attached to every article.</p>
+      <div class="pageActions"><a class="tmh-btn" href="/tags/">All technical tags</a><a class="tmh-btn" href="/collections/">Thematic collections</a></div>
+    </header>
+    <div class="discovery-grid">
+      {categories.map(category => {
+        const count = posts.filter(post => (category.domains as readonly string[]).includes(post.data.domain ?? "")).length;
+        return <a class="discovery-tile" href={`/posts/?category=${category.id}`}>
+          <span class="discovery-tile__label">{category.label}</span>
+          <span>{category.description}</span>
+          <span class="discovery-tile__count">{count} {count === 1 ? "article" : "articles"} →</span>
+        </a>;
+      })}
+    </div>
+  </section>
+</BaseLayout>

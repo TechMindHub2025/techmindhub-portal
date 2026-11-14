@@ -1,0 +1,25 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+import { collections, articleInCollection } from "../../data/discovery";
+
+const posts = await getCollection("posts", ({ data }) => data.status === "published");
+---
+<BaseLayout title="Collections — TechMind Hub" description="Follow connected engineering questions across articles in curated TechMind Hub reading collections.">
+  <section class="page">
+    <header class="pageHeader">
+      <h1 class="pageTitle">Reading collections</h1>
+      <p class="pageLead">Related analyses brought together as reading paths. Collections grow as new source-linked articles are published.</p>
+    </header>
+    <div class="discovery-grid">
+      {collections.map(collection => {
+        const count = posts.filter(post => articleInCollection(post.data.tags, collection.tags)).length;
+        return <a class="discovery-tile" href={`/collections/${collection.id}/`}>
+          <span class="discovery-tile__label">{collection.label}</span>
+          <span>{collection.description}</span>
+          <span class="discovery-tile__count">Explore {count} {count === 1 ? "article" : "articles"} →</span>
+        </a>;
+      })}
+    </div>
+  </section>
+</BaseLayout>

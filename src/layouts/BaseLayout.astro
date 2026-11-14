@@ -8,6 +8,7 @@
  */
 
 import "../styles/ui.css";
+import { FACEBOOK_PAGE_URL } from "../data/social-links";
 
 type Props = {
   title?: string;
@@ -17,6 +18,7 @@ type Props = {
   ogType?: string;  // "website" | "article" etc
   noindex?: boolean;
   compactHeader?: boolean;
+  structuredData?: Record<string, unknown>;
 };
 
 const {
@@ -27,6 +29,7 @@ const {
   ogType = "website",
   noindex = false,
   compactHeader = false,
+  structuredData,
 } = Astro.props;
 
 const canonical = new URL(Astro.url.pathname, Astro.site ?? Astro.url.origin).toString();
@@ -48,6 +51,8 @@ const isActive = (href: string) => {
     <meta name="description" content={description} />
     {author && <meta name="author" content={author} />}
     <link rel="canonical" href={canonical} />
+    <link rel="alternate" type="application/rss+xml" title="TechMind Hub RSS" href="/feed.xml" />
+    {structuredData && <script type="application/ld+json" set:html={JSON.stringify(structuredData).replace(/</g, "\\u003c")} />}
     {noindex ? <meta name="robots" content="noindex,nofollow" /> : null}
 
     <!-- Favicons -->
@@ -79,8 +84,10 @@ const isActive = (href: string) => {
     <!-- Banner: desktop + mobile -->
     <div class="banner" role="presentation" aria-hidden="true">
       <picture>
-        <source media="(max-width: 720px)" srcset="/banner-mobile.png" />
-        <img src="/banner.png" alt="" />
+        <source media="(max-width: 720px)" type="image/webp" srcset="/banner-mobile.webp" width="1080" height="660" />
+        <source media="(max-width: 720px)" srcset="/banner-mobile.png" width="1080" height="660" />
+        <source type="image/webp" srcset="/banner.webp" width="2688" height="400" />
+        <img src="/banner.png" alt="" width="2688" height="400" fetchpriority="high" />
       </picture>
     </div>
 
@@ -89,7 +96,7 @@ const isActive = (href: string) => {
       <div class="wrap">
         <div class="topbar-inner">
           <a class="brand" href="/">
-            <img src="/logo.png" alt="TechMind Hub logo" />
+            <img src="/logo.webp" alt="TechMind Hub logo" width="40" height="40" />
             <div class="brand-title">
               <span>AI • Robotics • Automation • Enterprise Tech • Networks</span>
             </div>
@@ -97,9 +104,11 @@ const isActive = (href: string) => {
 
           <nav aria-label="Primary">
             <a class={"navlink " + (isActive("/") ? "active" : "")} href="/" aria-current={isActive("/") ? "page" : undefined}>Home</a>
-            <a class={"navlink " + (isActive("/posts") ? "active" : "")} href="/posts" aria-current={isActive("/posts") ? "page" : undefined}>Analysis</a>
-            <a class={"navlink " + (isActive("/tags") ? "active" : "")} href="/tags" aria-current={isActive("/tags") ? "page" : undefined}>Tags</a>
-            <a class={"navlink " + (isActive("/circle") ? "active" : "")} href="/circle" aria-current={isActive("/circle") ? "page" : undefined}>Circle</a>
+            <a class={"navlink " + (isActive("/posts") ? "active" : "")} href="/posts" aria-current={isActive("/posts") ? "page" : undefined}>Archive</a>
+            <a class={"navlink " + (isActive("/deep-dives") ? "active" : "")} href="/deep-dives" aria-current={isActive("/deep-dives") ? "page" : undefined}>Deep Dives</a>
+            <a class={"navlink " + (isActive("/topics") || isActive("/tags") ? "active" : "")} href="/topics" aria-current={isActive("/topics") ? "page" : undefined}>Topics</a>
+            <a class={"navlink " + (isActive("/collections") ? "active" : "")} href="/collections" aria-current={isActive("/collections") ? "page" : undefined}>Collections</a>
+            <a class="navlink" href={FACEBOOK_PAGE_URL} target="_blank" rel="noopener noreferrer">Facebook</a>
             <a class={"navlink " + (isActive("/about") ? "active" : "")} href="/about" aria-current={isActive("/about") ? "page" : undefined}>About</a>
           </nav>
         </div>
@@ -114,7 +123,7 @@ const isActive = (href: string) => {
       <footer>
         <div>© {new Date().getFullYear()} TechMind Hub</div>
         <div class="footer-right">
-          <img src="/logo.png" alt="" />
+          <img src="/logo.webp" alt="" width="22" height="22" loading="lazy" />
           <span>Source-linked engineering analysis</span>
         </div>
       </footer>

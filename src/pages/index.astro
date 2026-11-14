@@ -2,7 +2,8 @@
 import PostCard from "../components/PostCard.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { getCollection } from "astro:content";
-import domains from "../data/editorial-domains.json";
+import { categories, collections, articleInCollection } from "../data/discovery";
+import { FACEBOOK_PAGE_URL } from "../data/social-links";
 
 const all = await getCollection("posts", ({ data }) => data.status === "published");
 
@@ -10,11 +11,6 @@ const all = await getCollection("posts", ({ data }) => data.status === "publishe
 const posts = [...all].sort((a, b) => +new Date(b.data.pubDate) - +new Date(a.data.pubDate));
 const latest = posts.slice(0, 6);
 
-// tag cloud (top 12 by count)
-const tagCounts = new Map<string, number>();
-for (const p of posts) {
-  for (const t of p.data.tags ?? []) tagCounts.set(t, (tagCounts.get(t) ?? 0) + 1);
-}
 const pageTitle = "TechMind Hub";
 const pageDescription =
   "Source-linked engineering analysis of AI, robotics, infrastructure and emerging technology: what was demonstrated, what remains uncertain, and what to test next.";
@@ -28,11 +24,12 @@ const pageDescription =
       <div class="tmh-hero__text">
         <h1 class="tmh-h1">TechMind Hub</h1>
         <p class="tmh-lead">
-          Signals across AI, robotics, automation, and enterprise tech — distilled into actionable notes.
+          Strategic technology analysis grounded in engineering evidence. Timely briefings explain what changed; deeper research explores why it matters.
         </p>
 
         <div class="tmh-actions">
-          <a class="tmh-btn tmh-btn--primary" href="/posts">Browse Analysis</a>
+          <a class="tmh-btn tmh-btn--primary" href="/deep-dives">Explore Deep Dives</a>
+          <a class="tmh-btn" href="/posts">Latest analysis</a>
           <a class="tmh-btn" href="/about">About</a>
         </div>
 
@@ -47,9 +44,10 @@ const pageDescription =
         <div class="tmh-panel">
           <div class="tmh-panel__title">Start here</div>
           <ul class="tmh-list">
-            <li><a href="/posts">Archive (all posts)</a></li>
-                <li><a href="/about">About the analysis</a></li>
-            <li><a href="/tags">Browse by tags</a></li>
+            <li><a href="/deep-dives">Strategic research</a></li>
+            <li><a href="/collections">Connected reading collections</a></li>
+            <li><a href="/topics">Eight technology categories</a></li>
+            <li><a href="/about">Editorial method</a></li>
           </ul>
           <div class="tmh-panel__hint">
             Start with a subject, then follow the sources and the engineering questions.
@@ -74,13 +72,33 @@ const pageDescription =
     <div class="tmh-section reveal">
       <div class="tmh-section__head">
         <h2 class="tmh-h2">Topics</h2>
-        <a class="source" href="/posts">Browse →</a>
+        <a class="source" href="/topics">Browse →</a>
       </div>
 
       <div class="tmh-tagsCloud">
-        {domains.filter(d => tagCounts.has(d.tag)).map((d) => (
-          <a class="tmh-pill tmh-pill--link" href={`/tags/${encodeURIComponent(d.tag)}/`}>{d.label}</a>
+        {categories.filter(c => posts.some(p => (c.domains as readonly string[]).includes(p.data.domain ?? ""))).map((c) => (
+          <a class="tmh-pill tmh-pill--link" href={`/posts/?category=${c.id}`}>{c.label}</a>
         ))}
+      </div>
+    </div>
+
+    <div class="tmh-section reveal">
+      <div class="tmh-section__head"><h2 class="tmh-h2">Research collections</h2><a class="source" href="/collections/">All collections →</a></div>
+      <div class="discovery-grid">
+        {collections.map(collection => <a class="discovery-tile" href={`/collections/${collection.id}/`}>
+          <span class="discovery-tile__label">{collection.label}</span>
+          <span>{collection.description}</span>
+          <span class="discovery-tile__count">{posts.filter(post => articleInCollection(post.data.tags, collection.tags)).length} connected articles →</span>
+        </a>)}
+      </div>
+    </div>
+
+    <div class="tmh-section tmh-callout reveal">
+      <h2 class="tmh-h2">Follow the research</h2>
+      <p class="tmh-lead">Get new analyses in your reading list, or follow updates on the channels where you already work.</p>
+      <div class="tmh-actions">
+        <a class="tmh-btn tmh-btn--primary" href="https://arover.substack.com/" target="_blank" rel="noopener noreferrer">Read on Substack</a>
+        <a class="tmh-btn" href="/feed.xml">Subscribe via RSS</a>
       </div>
     </div>
 
@@ -88,12 +106,12 @@ const pageDescription =
     <div class="tmh-section tmh-callout reveal">
       <h2 class="tmh-h2">Where to discuss</h2>
       <p class="tmh-lead">
-        Discuss the analysis in the TechMind Hub community or explore the sources in each article.
+        Follow new research on the official Facebook Page, or explore the primary sources linked inside each article.
       </p>
 
       <div class="tmh-actions">
         <a class="tmh-btn" href="/posts">Open archive</a>
-        <a class="tmh-btn" href="/circle">Join the Circle</a>
+        <a class="tmh-btn" href={FACEBOOK_PAGE_URL} target="_blank" rel="noopener noreferrer">TechMind Hub on Facebook</a>
       </div>
     </div>
   </section>

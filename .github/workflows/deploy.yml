@@ -34,7 +34,6 @@ jobs:
         run: npm run validate
         env:
           PUBLIC_TURNSTILE_SITEKEY: ${{ secrets.PUBLIC_TURNSTILE_SITEKEY }}
-          PUBLIC_FB_CIRCLE_URL: ${{ secrets.PUBLIC_FB_CIRCLE_URL }}
           PUBLIC_FB_PROFILE_URL: ${{ secrets.PUBLIC_FB_PROFILE_URL }}
           PUBLIC_LINKEDIN_URL: ${{ secrets.PUBLIC_LINKEDIN_URL }}
 

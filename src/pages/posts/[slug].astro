@@ -2,6 +2,9 @@
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { getCollection, render } from "astro:content";
 import { formatEditorialDate } from "../../lib/editorial-date";
+import { collections, articleInCollection } from "../../data/discovery";
+import domains from "../../data/editorial-domains.json";
+import { FACEBOOK_PAGE_URL } from "../../data/social-links";
 
 // Build all static routes for published posts
 export async function getStaticPaths() {
@@ -23,13 +26,33 @@ if (post.data.status !== "published") {
 const { title, description, pubDate, author, tags, source_url, cover_hero, cover_alt, social } = post.data;
 const { Content } = await render(post);
 const ogImage = new URL(post.data.cover_og!, "https://techmindhub.cc").href;
+const articleUrl = `https://techmindhub.cc/posts/${encodeURIComponent(post.slug)}/`;
+const LINKEDIN_URL = import.meta.env.PUBLIC_LINKEDIN_URL || "https://www.linkedin.com/in/andrew-rover-799772ba/";
+const relatedCollections = collections.filter(collection => articleInCollection(tags, collection.tags));
+const broadTags = new Set(["TechMindHub", "Research", "Engineering", ...domains.map(domain => domain.tag)]);
+const related = (await getCollection("posts", ({ data }) => data.status === "published"))
+  .filter(candidate => candidate.slug !== post.slug)
+  .map(candidate => ({ post: candidate, overlap: candidate.data.tags.filter(tag => !broadTags.has(tag) && tags.includes(tag)).length }))
+  .filter(candidate => candidate.overlap > 0)
+  .sort((a, b) => b.overlap - a.overlap || +b.post.data.pubDate - +a.post.data.pubDate)
+  .slice(0, 3);
+const structuredData = {
+  "@context": "https://schema.org", "@type": "BlogPosting",
+  headline: title, description,
+  image: [ogImage],
+  datePublished: pubDate.toISOString(),
+  mainEntityOfPage: { "@type": "WebPage", "@id": articleUrl },
+  author: { "@type": "Person", name: author, ...(author === "Andrew Rover" ? { url: LINKEDIN_URL } : {}) },
+  publisher: { "@type": "Organization", name: "TechMind Hub", url: "https://techmindhub.cc/", logo: { "@type": "ImageObject", url: "https://techmindhub.cc/logo.webp" } },
+};
 ---
 
-<BaseLayout title={title} description={description} author={author} ogImage={ogImage} ogType="article" compactHeader>
+<BaseLayout title={title} description={description} author={author} ogImage={ogImage} ogType="article" compactHeader structuredData={structuredData}>
   <article class="post">
     <header class="post__header">
       {post.data.topic && <a class="post__topic" href={`/tags/${encodeURIComponent(tags[0])}/`}>{post.data.topic}</a>}
       <h1 class="post__title">{title}</h1>
+      {post.data.format === "deep-dive" && <p class="editorial-format">Deep Dive · Strategic Analysis</p>}
       <p class="post__description">{description}</p>
 
       <div class="post__meta">
@@ -58,20 +81,6 @@ const ogImage = new URL(post.data.cover_og!, "https://techmindhub.cc").href;
         </div>
       ) : null}
 
-      {(social?.linkedin || social?.facebook) && (
-        <div class="post__social">
-          {social?.linkedin && (
-            <a class="btn" href={social.linkedin} target="_blank" rel="noopener noreferrer">
-              Discuss on LinkedIn
-            </a>
-          )}
-          {social?.facebook && (
-            <a class="btn" href={social.facebook} target="_blank" rel="noopener noreferrer">
-              Discuss on Facebook
-            </a>
-          )}
-        </div>
-      )}
     </header>
 
     {cover_hero && (
@@ -83,6 +92,20 @@ const ogImage = new URL(post.data.cover_og!, "https://techmindhub.cc").href;
     <div class="post__content">
       <Content />
     </div>
+
+    <aside class="post-follow" aria-label="Follow and continue reading">
+      <h2>Follow the analysis</h2>
+      <p>For new research, engineering context and discussion, follow TechMind Hub across these channels.</p>
+      <div class="post__social">
+        <a class="tmh-btn tmh-btn--primary" href="https://arover.substack.com/" target="_blank" rel="noopener noreferrer">Substack</a>
+        <a class="tmh-btn" href={social?.facebook || FACEBOOK_PAGE_URL} target="_blank" rel="noopener noreferrer">{social?.facebook ? "Discuss on Facebook" : "TechMind Hub on Facebook"}</a>
+        <a class="tmh-btn" href={social?.linkedin || LINKEDIN_URL} target="_blank" rel="noopener noreferrer">{social?.linkedin ? "Discuss on LinkedIn" : "Andrew Rover on LinkedIn"}</a>
+        <a class="tmh-btn" href="/feed.xml">RSS feed</a>
+      </div>
+    </aside>
+
+    {relatedCollections.length > 0 && <aside class="post-related"><h2>Explore this subject</h2><div class="tmh-tagsCloud">{relatedCollections.map(collection => <a class="tmh-pill tmh-pill--link" href={`/collections/${collection.id}/`}>{collection.label}</a>)}</div></aside>}
+    {related.length > 0 && <aside class="post-related"><h2>Related analysis</h2><ul>{related.map(item => <li><a href={`/posts/${item.post.slug}/`}>{item.post.data.title}</a></li>)}</ul></aside>}
   </article>
 </BaseLayout>
 
@@ -101,6 +124,12 @@ const ogImage = new URL(post.data.cover_og!, "https://techmindhub.cc").href;
   .post__content :global(a) { color: var(--tmh-primary); text-underline-offset: .18em; }
   .post__content :global(pre) { padding: 20px; border-radius: 12px; overflow-x: auto; font-size: .9em; }
   .post__content :global(:not(pre) > code) { padding: .1em .3em; border-radius: 4px; background: #e9f0f5; font-size: .9em; }
+  .editorial-format { color: var(--tmh-primary); font-size: .8rem; letter-spacing: .09em; font-weight: 750; text-transform: uppercase; }
+  .post-follow, .post-related { border-top: 1px solid var(--tmh-border); padding: 22px 0; margin-top: 28px; }
+  .post-follow h2, .post-related h2 { font-size: 1.25rem; margin: 0 0 10px; }
+  .post-follow p { color: var(--tmh-muted); line-height: 1.5; }
+  .post-related li { margin: 9px 0; line-height: 1.5; }
+  .post-related a { color: var(--tmh-primary); }
   @media (max-width: 600px) {
     .post { padding-top: 20px; }
     .post__content { font-size: 1rem; }

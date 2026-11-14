@@ -1,0 +1,26 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import PostCard from "../../components/PostCard.astro";
+import { getCollection } from "astro:content";
+import { collections, articleInCollection } from "../../data/discovery";
+
+export function getStaticPaths() {
+  return collections.map(collection => ({ params: { slug: collection.id }, props: { collection } }));
+}
+const { collection } = Astro.props;
+const posts = (await getCollection("posts", ({ data }) => data.status === "published"))
+  .filter(post => articleInCollection(post.data.tags, collection.tags))
+  .sort((a, b) => +b.data.pubDate - +a.data.pubDate);
+---
+<BaseLayout title={`${collection.label} — TechMind Hub`} description={collection.description}>
+  <section class="page">
+    <header class="pageHeader">
+      <p class="post__topic"><a href="/collections/">← All collections</a></p>
+      <h1 class="pageTitle">{collection.label}</h1>
+      <p class="pageLead">{collection.description}</p>
+      <p class="archive-count">{posts.length} connected {posts.length === 1 ? "article" : "articles"}</p>
+    </header>
+    <div class="grid">{posts.map(post => <PostCard post={post} />)}</div>
+    {posts.length === 0 && <p class="moduleText">The first article in this collection is being prepared.</p>}
+  </section>
+</BaseLayout>
