@@ -105,6 +105,19 @@ def check_page(html, *, home=False, article=False):
                 errors.append("publication card needs a WebP URL on media.techmindhub.cc/posts/")
             if any(not (n.attrs.get("alt") or "").strip() for n in images):
                 errors.append("publication card needs useful alt text")
+            for image in images:
+                src = image.attrs.get("src", "")
+                if not r2_image(src):
+                    continue
+                path = urlsplit(src).path
+                expected = [
+                    f"https://media.techmindhub.cc/cdn-cgi/image/width={width},quality=85,format=auto{path} {width}w"
+                    for width in (320, 480, 640, 800)
+                ]
+                if (image.attrs.get("srcset") or "").split(", ") != expected:
+                    errors.append("publication card needs matching Cloudflare responsive srcset")
+                if not image.attrs.get("sizes"):
+                    errors.append("publication card needs responsive image sizes")
 
     if home:
         headings = {" ".join(n.text().split()) for n in nodes if n.tag == "h2"}

@@ -18,6 +18,19 @@ The JPEG preview is also a derivative, not a lossless original. Inspect the crop
 for every cover so no essential artwork or lettering is removed. The full-size
 PNG pair stays unchanged in the originals archive.
 
+## Responsive website delivery
+
+`PostCard.astro` keeps the reviewed 800px R2 WebP as its `src` fallback and
+provides 320, 480, 640 and 800px `srcset` variants using Cloudflare Image
+Transformations (`quality=85,format=auto`). The browser selects a width from
+the actual grid layout and its display density. Cloudflare transforms the
+existing R2 object on request; no extra variants or original PNG masters are
+uploaded to R2. The separate article infographic and dedicated JPEG social
+preview are not transformed. Check small-text legibility on cards after any
+parameter change. The Cloudflare zone must have Image Transformations enabled;
+no global Transformation Flow is required. Monitor the monthly transformation
+quota before adding more widths or transformation presets.
+
 Published frontmatter uses `cover_card`, `cover_hero` and `cover_og` for these three
 R2 URLs. Alt text continues to describe the same artwork. OG and Twitter metadata
 use the dedicated JPEG, rather than the small feed card or a deleted PNG.

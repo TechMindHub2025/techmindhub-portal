@@ -81,9 +81,21 @@ class PublicationChecks(unittest.TestCase):
             self.assertTrue(check_page(html.replace(part, ''), home=True))
 
     def test_r2_cards_and_image_data_urls(self):
-        card = f'<a class="editorial-card">{IMAGE}</a>'
+        src = 'https://media.techmindhub.cc/posts/example-web-v1.webp'
+        srcset = ', '.join(
+            f'https://media.techmindhub.cc/cdn-cgi/image/width={width},quality=85,format=auto/posts/example-web-v1.webp {width}w'
+            for width in (320, 480, 640, 800)
+        )
+        image = IMAGE.replace(' alt=', f' srcset="{srcset}" sizes="100vw" alt=')
+        card = f'<a class="editorial-card">{image}</a>'
         self.assertEqual([], check_page(card))
-        self.assertTrue(check_page(card.replace('https://media.techmindhub.cc/posts/example-web-v1.webp', '/posts/local.png')))
+        self.assertIn('publication card needs matching Cloudflare responsive srcset',
+                      check_page(f'<a class="editorial-card">{IMAGE}</a>'))
+        self.assertIn('publication card needs matching Cloudflare responsive srcset',
+                      check_page(card.replace('width=480', 'width=600')))
+        self.assertIn('publication card needs responsive image sizes',
+                      check_page(card.replace(' sizes="100vw"', '')))
+        self.assertTrue(check_page(card.replace(f'src="{src}"', 'src="/posts/local.png"')))
         self.assertTrue(check_page('<img src="data:image/png;base64,abc">'))
 
     def test_original_png_cannot_replace_web_delivery(self):
