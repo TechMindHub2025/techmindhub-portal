@@ -5,10 +5,18 @@ const { post } = Astro.props;
 const d = post.data;
 const domain = domains.find(item => item.id === d.domain);
 const href = `/posts/${post.slug}/`;
+// The R2 card is already a reviewed 800px WebP derivative. Cloudflare creates
+// smaller display variants on request; the article infographic is untouched.
+const cardPath = new URL(d.cover_card).pathname;
+const cardWidths = [320, 480, 640, 800];
+const cardSrcSet = cardWidths.map(width =>
+  `https://media.techmindhub.cc/cdn-cgi/image/width=${width},quality=85,format=auto${cardPath} ${width}w`
+).join(", ");
+const cardSizes = "(max-width: 640px) calc(100vw - 32px), (max-width: 720px) calc((100vw - 50px) / 2), (max-width: 980px) calc((100vw - 66px) / 2), (min-width: 1400px) 262px, 355px";
 ---
 <article class="card editorial-card" style={domain ? `--domain-accent:${domain.accent};--domain-surface:${domain.surface}` : undefined}>
   <a class="cardLink" href={href} aria-label={d.title}></a>
-  <img class="cover" src={d.cover_card || d.cover_hero} alt={d.card_alt || d.title} width="800" height="450" loading="lazy" decoding="async" />
+  <img class="cover" src={d.cover_card} srcset={cardSrcSet} sizes={cardSizes} alt={d.card_alt || d.title} width="800" height="450" loading="lazy" decoding="async" />
   <div class="cardBody">
     <div class="editorial-card__eyebrow">{d.topic || domain?.label || d.tags?.[0] || "Analysis"}</div>
     <h2 class="title">{d.title}</h2>
