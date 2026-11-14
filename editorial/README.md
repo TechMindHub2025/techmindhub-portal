@@ -77,3 +77,15 @@ discipline; tag pages, counts and archive filters use the same normalized tags.
 Add the canonical tag when introducing a new domain. Validation checks the built
 article links, tag membership and archive filter for all published articles.
 
+## Reader navigation, strategic analysis and discovery
+
+- The home page leads with strategic engineering analysis; timely analysis remains part of the archive. Research should be as long as its argument requires, with no word-count target.
+- `/deep-dives/` contains only published posts explicitly marked `format: "deep-dive"` in frontmatter. `format: "brief"` and the default `format: "analysis"` remain in the archive. Choose the label during editorial review; do not automatically classify a post by length.
+- `/topics/` presents eight reader-facing categories maintained in `src/data/discovery.ts`, mapped onto the ten canonical editorial domains without changing their palette or per-article discipline tag. The archive filters by category, detailed tag, format and keyword.
+- `/collections/` offers selected cross-article reading paths. Collection membership uses exact topical tags in `src/data/discovery.ts` and updates automatically when published posts match. Review collection matches for relevance when adding tags; update the curated mapping when the editorial focus changes.
+- Article pages keep the established header → one infographic → article body sequence. Only after the body may they display Substack/Facebook/LinkedIn/RSS invitations, collection links and related analysis. A verified per-post social permalink takes precedence over the channel home link. When no TechMind Hub Facebook Page URL is configured, the existing Facebook Circle is used and clearly labelled as the community, **not** the Page.
+- Set `PUBLIC_TMH_FACEBOOK_PAGE_URL` to the verified TechMind Hub Page home URL in the GitHub Pages build environment when supplied. Do not mistake the editor's personal Facebook profile or Circle for the Page.
+- The About page describes human editorial responsibility and AI-assisted research/drafting/visuals; confirm any new biographical claims with Andrew before publishing.
+- Static Astro endpoints generate `/sitemap.xml` and `/feed.xml` from the published collection. `public/robots.txt` points to the sitemap; Cloudflare-managed robots overrides may require a separate dashboard change. Every article carries BlogPosting JSON-LD with the credited author, original publication date and dedicated OG preview.
+- Verify sitemap and RSS response headers, Cloudflare robots behaviour, Google Search Console indexing, and URL Inspection **after deployment**. A successful source build does not prove Google indexing. Search Console registration and Cloudflare dashboard checks need appropriately authorised account access.
+

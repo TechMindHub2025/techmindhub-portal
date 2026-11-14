@@ -17,6 +17,9 @@ const posts = defineCollection({
     // Visibility control
     status: z.enum(["published", "draft"]).default("draft"),
 
+    // Strategic studies are intentionally opt-in; length alone does not determine format.
+    format: z.enum(["brief", "analysis", "deep-dive"]).default("analysis"),
+
     // Stable ID for dedup / tracking across channels
     canonical_id: z.string().min(1),
 

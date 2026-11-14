@@ -2,21 +2,24 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import PostCard from "../components/PostCard.astro";
 import { getCollection } from "astro:content";
+import { categories, categoryForDomain } from "../data/discovery";
 const posts = (await getCollection("posts", ({data}) => data.status === "published")).sort((a,b) => +b.data.pubDate - +a.data.pubDate || a.slug.localeCompare(b.slug));
 const allTags = [...new Set(posts.flatMap(p => p.data.tags).filter(t => t !== "TechMindHub"))].sort();
 ---
 <BaseLayout title="Analysis — TechMind Hub" description="Explore TechMind Hub analysis by topic, title and date.">
   <section class="page">
-    <header class="pageHeader"><div><h1 class="pageTitle">Analysis</h1><p class="pageLead">Explore ideas across science and technology.</p></div></header>
+    <header class="pageHeader"><div><h1 class="pageTitle">Analysis archive</h1><p class="pageLead">Source-linked briefings, engineering analysis and strategic research. Choose a broad category or narrow the results with technical tags.</p></div></header>
     <form class="archive-controls" action="/posts" method="get" hidden data-archive-controls>
       <label class="archive-search">Search articles<input type="search" name="q" placeholder="Title, topic or keyword" autocomplete="off" /></label>
-      <label>Topic<select name="tag"><option value="">All topics</option>{allTags.map(t => <option value={t}>{t}</option>)}</select></label>
+      <label>Category<select name="category"><option value="">All categories</option>{categories.map(c => <option value={c.id}>{c.label}</option>)}</select></label>
+      <label>Technical tag<select name="tag"><option value="">Any tag</option>{allTags.map(t => <option value={t}>{t}</option>)}</select></label>
+      <label>Format<select name="format"><option value="">All formats</option><option value="brief">Briefings</option><option value="analysis">Analysis</option><option value="deep-dive">Deep Dives</option></select></label>
       <label>Sort<select name="sort"><option value="newest">Newest first</option><option value="oldest">Oldest first</option></select></label>
     </form>
     <noscript><p>Browse by <a href="/tags/">topic</a>, or explore all articles below.</p></noscript>
     <p class="archive-count" data-archive-count aria-live="polite">{posts.length} articles</p>
     <div class="grid">
-      {posts.map(post => <div data-archive-entry data-search={`${post.data.title} ${post.data.description} ${post.data.topic || ""} ${post.data.tags.join(" ")}`.toLowerCase()} data-tags={JSON.stringify(post.data.tags)} data-date={post.data.pubDate.toISOString()} data-slug={post.slug}><PostCard post={post} /></div>)}
+      {posts.map(post => <div data-archive-entry data-category={categoryForDomain(post.data.domain)?.id ?? ""} data-format={post.data.format} data-search={`${post.data.title} ${post.data.description} ${post.data.topic || ""} ${post.data.tags.join(" ")}`.toLowerCase()} data-tags={JSON.stringify(post.data.tags)} data-date={post.data.pubDate.toISOString()} data-slug={post.slug}><PostCard post={post} /></div>)}
     </div>
     <p data-archive-empty hidden>No articles match. Try another keyword or choose all topics.</p>
   </section>
@@ -29,11 +32,15 @@ const allTags = [...new Set(posts.flatMap(p => p.data.tags).filter(t => t !== "T
   if (form) {
     const query = form.elements.namedItem('q') as HTMLInputElement;
     const tag = form.elements.namedItem('tag') as HTMLSelectElement;
+    const category = form.elements.namedItem('category') as HTMLSelectElement;
+    const format = form.elements.namedItem('format') as HTMLSelectElement;
     const sort = form.elements.namedItem('sort') as HTMLSelectElement;
     const readURL = () => {
       const params = new URLSearchParams(location.search);
       query.value = params.get('q') || '';
       tag.value = [...tag.options].find(o => o.value.toLowerCase() === (params.get('tag') || '').toLowerCase())?.value || '';
+      category.value = params.get('category') || '';
+      format.value = params.get('format') || '';
       sort.value = params.get('sort') === 'oldest' ? 'oldest' : 'newest';
     };
     const update = (writeURL = true) => {
@@ -42,7 +49,7 @@ const allTags = [...new Set(posts.flatMap(p => p.data.tags).filter(t => t !== "T
       entries.sort((a,b) => a.dataset.date!.localeCompare(b.dataset.date!) * (sort.value === 'oldest' ? 1 : -1) || a.dataset.slug!.localeCompare(b.dataset.slug!));
       for (const entry of entries) {
         const tags: string[] = JSON.parse(entry.dataset.tags || '[]');
-        entry.hidden = !words.every(w => entry.dataset.search!.includes(w)) || (!!tag.value && !tags.includes(tag.value));
+        entry.hidden = !words.every(w => entry.dataset.search!.includes(w)) || (!!tag.value && !tags.includes(tag.value)) || (!!category.value && entry.dataset.category !== category.value) || (!!format.value && entry.dataset.format !== format.value);
         if (!entry.hidden) visible++;
         entry.parentElement!.append(entry);
       }
@@ -52,6 +59,8 @@ const allTags = [...new Set(posts.flatMap(p => p.data.tags).filter(t => t !== "T
         const params = new URLSearchParams();
         if (query.value.trim()) params.set('q', query.value.trim());
         if (tag.value) params.set('tag', tag.value);
+        if (category.value) params.set('category', category.value);
+        if (format.value) params.set('format', format.value);
         if (sort.value === 'oldest') params.set('sort', 'oldest');
         history.replaceState(null, '', location.pathname + (params.size ? '?' + params : ''));
       }

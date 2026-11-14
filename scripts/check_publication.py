@@ -8,6 +8,7 @@ import re
 import subprocess
 import sys
 from urllib.parse import urljoin, urlsplit
+from xml.etree import ElementTree as ET
 
 SITE = "https://techmindhub.cc/"
 OWN_HOSTS = {"techmindhub.cc", "www.techmindhub.cc"}
@@ -128,6 +129,8 @@ def check_page(html, *, home=False, article=False):
         headers = [n for n in post_nodes if n.has_class("post__header")]
         heroes = [n for n in post_nodes if n.has_class("post__hero")]
         bodies = [n for n in post_nodes if n.has_class("post__content")]
+        afterwords = [n for n in post.children if isinstance(n, Element)
+                      and (n.has_class("post-follow") or n.has_class("post-related"))]
         if len(headers) != 1 or len(heroes) != 1 or len(bodies) != 1:
             errors.append("article needs exactly one header, hero and body")
         else:
@@ -137,9 +140,11 @@ def check_page(html, *, home=False, article=False):
                 errors.append("article order must be header → infographic → body")
             # Text must live in the body, not sneak between the metadata and image.
             if any((isinstance(n, str) and n.strip()) or
-                   (isinstance(n, Element) and n not in (header, hero, body)
+                   (isinstance(n, Element) and n not in (header, hero, body, *afterwords)
                     and n.tag not in NON_TEXT) for n in post.children):
                 errors.append("article has content outside its header, hero or body")
+            if any(post_nodes.index(item) < post_nodes.index(body) for item in afterwords):
+                errors.append("follow-up links must appear after the article body")
             images = [n for n in hero.walk() if n.tag == "img"]
             if len(images) != 1:
                 errors.append("hero must contain exactly one infographic")
@@ -214,6 +219,46 @@ def check_discipline_tags(root):
     return errors
 
 
+def check_discovery_outputs(root):
+    errors = []
+    dist = root / "dist"
+    sitemap = dist / "sitemap.xml"
+    feed = dist / "feed.xml"
+    robots = dist / "robots.txt"
+    for path in (sitemap, feed, robots, dist / "topics/index.html",
+                 dist / "collections/index.html", dist / "deep-dives/index.html"):
+        if not path.exists():
+            errors.append(f"Missing discovery output: {path.relative_to(dist)}")
+    if errors:
+        return errors
+    try:
+        tree = ET.parse(sitemap)
+        locs = {item.text for item in tree.findall(".//{*}loc")}
+        article_pages = list((dist / "posts").glob("*/index.html"))
+        for page in article_pages:
+            url = f"{SITE}posts/{page.parent.name}/"
+            if url not in locs:
+                errors.append(f"sitemap missing article {url}")
+            html = page.read_text()
+            scripts = re.findall(r'<script\b[^>]*type="application/ld\+json"[^>]*>(.*?)</script>', html, re.S)
+            if len(scripts) != 1:
+                errors.append(f"{page.parent.name}: missing or duplicate JSON-LD")
+            else:
+                data = json.loads(scripts[0])
+                if data.get("@type") != "BlogPosting" or data.get("mainEntityOfPage", {}).get("@id") != url:
+                    errors.append(f"{page.parent.name}: incorrect BlogPosting structured data")
+        feed_tree = ET.parse(feed)
+        guids = {item.text for item in feed_tree.findall(".//guid")}
+        expected_guids = {f"{SITE}posts/{page.parent.name}/" for page in article_pages}
+        if not expected_guids.issubset(guids):
+            errors.append("RSS feed does not cover every canonical publication")
+    except (ET.ParseError, ValueError, KeyError, TypeError) as exc:
+        errors.append(f"Invalid sitemap, RSS or JSON-LD: {exc}")
+    if "Sitemap: https://techmindhub.cc/sitemap.xml" not in robots.read_text():
+        errors.append("robots.txt missing sitemap directive")
+    return errors
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[1])
@@ -235,6 +280,7 @@ def main():
         errors.append("No published article routes found")
     if articles:
         errors.extend(check_discipline_tags(root))
+        errors.extend(check_discovery_outputs(root))
     if args.base:
         errors.extend(check_image_diff(root, args.base))
     if errors:

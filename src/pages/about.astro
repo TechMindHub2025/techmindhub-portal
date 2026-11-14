@@ -15,9 +15,7 @@ const LINKEDIN_URL =
   import.meta.env.PUBLIC_LINKEDIN_URL ||
   "https://www.linkedin.com/in/andrew-rover-799772ba/";
 
-const FB_PROFILE_URL =
-  import.meta.env.PUBLIC_FB_PROFILE_URL ||
-  "https://www.facebook.com/andrew.rover.2024";
+const FACEBOOK_PAGE_URL = import.meta.env.PUBLIC_TMH_FACEBOOK_PAGE_URL;
 
 const all = await getCollection("posts", ({ data }) => data.status === "published");
 
@@ -43,7 +41,7 @@ for (const p of all) {
 
       <div class="pageActions">
         <a class="tmh-btn tmh-btn--primary" href="/posts">Browse Analysis</a>
-        <a class="tmh-btn" href="/tags">Explore Tags</a>
+        <a class="tmh-btn" href="/topics">Explore Topics</a>
         <a class="tmh-btn" href="/circle">Join the Circle</a>
       </div>
     </header>
@@ -112,18 +110,25 @@ for (const p of all) {
 
       <!-- Author and editorial method -->
       <article class="moduleCard reveal">
-        <h2 class="moduleTitle">Author and editorial method</h2>
+        <h2 class="moduleTitle">Editor: Andrew Rover</h2>
         <p class="moduleText">
-          TechMind Hub is founded and edited by Andrew Rover. The analysis draws on original research papers, project documentation,
-          security advisories and first-party announcements. A source may describe its own results; we identify that scope rather than treating it as independent validation.
+          Andrew Rover is a technology strategist and enterprise IT practitioner with more than 25 years of experience working with infrastructure, systems architecture and technology delivery. He founded TechMind Hub as an independent publication connecting new research and product developments to practical engineering and strategic decisions.
         </p>
+        <p class="moduleText"><strong>Areas of expertise:</strong> enterprise infrastructure, systems and network architecture, technology assessment, procurement assurance, operational risk and emerging AI systems.</p>
+        <a class="btn" href={LINKEDIN_URL} target="_blank" rel="noopener noreferrer">Professional LinkedIn profile</a>
+      </article>
+
+      <article class="moduleCard reveal">
+        <h2 class="moduleTitle">Editorial method and AI disclosure</h2>
+        <p class="moduleText">Articles draw on original research papers, technical documentation, public incident reports, standards and first-party announcements. A source reporting its own result is not automatically independent verification.</p>
         <ol class="steps">
           <li>Identify the event and read the primary source</li>
           <li>Check dates, measurements and the conditions behind claims</li>
           <li>Separate reported findings from engineering interpretation</li>
           <li>Explain limits, trade-offs and useful next tests</li>
         </ol>
-        <p class="moduleText">Our commentary is analysis, not a claim that we independently reproduced every reported result. If a material error is found, we correct the article and make the change traceable.</p>
+        <p class="moduleText">AI-assisted tools may help identify leads, organise research, draft language and create explanatory visuals. Editorial judgments, source selection, factual verification and publication decisions remain under human responsibility. AI-generated diagrams are conceptual unless explicitly supported by measured data or technical documentation.</p>
+        <p class="moduleText">Analysis is not a claim of independent experimental replication. Material corrections should be reflected in the article with a clear description of what changed.</p>
       </article>
 
       <!-- Where to discuss -->
@@ -147,7 +152,7 @@ for (const p of all) {
         <div class="pillRow">
           <a class="btn" href={FB_CIRCLE_URL} target="_blank" rel="noopener noreferrer">TechMind Hub Circle</a>
           <a class="btn" href={LINKEDIN_URL} target="_blank" rel="noopener noreferrer">LinkedIn</a>
-		  <a class="btn" href={FB_PROFILE_URL} target="_blank" rel="noopener noreferrer">Facebook</a>
+          <a class="btn" href={FACEBOOK_PAGE_URL || FB_CIRCLE_URL} target="_blank" rel="noopener noreferrer">{FACEBOOK_PAGE_URL ? "TechMind Hub Facebook" : "Facebook community"}</a>
         </div>
 
         <p class="moduleText" style="margin-top:12px;">
@@ -159,8 +164,10 @@ for (const p of all) {
       <article class="moduleCard reveal">
         <h2 class="moduleTitle">Contact</h2>
         <p class="moduleText">
-          Want updates, collaborations, or to suggest a source? Send a short message.
+          Suggest an article topic, share a primary source or report a factual or technical correction. Include the article URL and a supporting reference where possible.
         </p>
+
+        <p class="moduleText">For a correction that needs supporting screenshots or documents, <a href={LINKEDIN_URL} target="_blank" rel="noopener noreferrer">contact the editor on LinkedIn</a> and identify the affected article.</p>
 
         {import.meta.env.PUBLIC_TURNSTILE_SITEKEY ? (
           <>
@@ -180,7 +187,7 @@ for (const p of all) {
 
                   <div>
                     <label class="label" for="message">Message</label>
-                    <textarea class="input" id="message" name="message" rows="5" placeholder="What’s on your mind?" required></textarea>
+                    <textarea class="input" id="message" name="message" rows="5" placeholder="Topic suggestion or correction (include the article link and evidence)" required></textarea>
                   </div>
 
                   <!-- Turnstile widget -->
@@ -259,8 +266,7 @@ for (const p of all) {
         ) : (
           <div class="callout">
             <p class="moduleText" style="margin:0;">
-              Turnstile is not configured yet.
-              Set <strong>PUBLIC_TURNSTILE_SITEKEY</strong> in your env to enable the form.
+              The direct contact form is temporarily unavailable. Please use the editor's LinkedIn profile above to suggest a topic or report a correction.
             </p>
           </div>
         )}

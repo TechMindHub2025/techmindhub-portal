@@ -1,0 +1,19 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import PostCard from "../components/PostCard.astro";
+import { getCollection } from "astro:content";
+
+const studies = (await getCollection("posts", ({ data }) => data.status === "published" && data.format === "deep-dive"))
+  .sort((a, b) => +b.data.pubDate - +a.data.pubDate);
+---
+<BaseLayout title="Deep Dives — TechMind Hub" description="Long-form strategic technology research, connecting evidence, infrastructure, governance and business consequences.">
+  <section class="page">
+    <header class="pageHeader">
+      <h1 class="pageTitle">Deep Dives</h1>
+      <p class="pageLead">Occasional long-form strategic analysis of how technology systems work, where constraints emerge and what the evidence means for decision-makers. Depth follows the question—not a target word count.</p>
+      <div class="pageActions"><a class="tmh-btn" href="/collections/">Explore reading collections</a><a class="tmh-btn" href="/posts/">All analysis and briefings</a></div>
+    </header>
+    {studies.length > 0 ? <div class="grid">{studies.map(post => <PostCard post={post} />)}</div> :
+      <div class="moduleCard"><h2 class="moduleTitle">Research in progress</h2><p class="moduleText">The first TechMind Hub deep dive is in development. In the meantime, browse connected analyses through our thematic collections.</p><a class="tmh-btn" href="/collections/">Explore collections</a></div>}
+  </section>
+</BaseLayout>
