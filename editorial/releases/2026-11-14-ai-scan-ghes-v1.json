@@ -1,0 +1,65 @@
+{
+  "release": "2026-11-14-ai-scan-ghes-v1",
+  "assets": [
+    {
+      "slug": "github-ai-scan-rest-api-policy",
+      "role": "card",
+      "filename": "github-ai-scan-rest-api-policy-card-web-v1.webp",
+      "url": "https://media.techmindhub.cc/posts/github-ai-scan-rest-api-policy-card-web-v1.webp",
+      "bytes": 487802,
+      "width": 800,
+      "height": 450,
+      "sha256": "3757035335647ff60929dfa2d529b8a5ec89900b811e2a7045604d5ebe2d57e4"
+    },
+    {
+      "slug": "github-ai-scan-rest-api-policy",
+      "role": "infographic",
+      "filename": "github-ai-scan-rest-api-policy-infographic-web-v1.webp",
+      "url": "https://media.techmindhub.cc/posts/github-ai-scan-rest-api-policy-infographic-web-v1.webp",
+      "bytes": 2141028,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "af70f4a604537475b1c35d1551a6ffc1a0b7f3412f0bd089a8dc6dbb3679af9b"
+    },
+    {
+      "slug": "github-ai-scan-rest-api-policy",
+      "role": "og",
+      "filename": "github-ai-scan-rest-api-policy-og-web-v1.jpg",
+      "url": "https://media.techmindhub.cc/posts/github-ai-scan-rest-api-policy-og-web-v1.jpg",
+      "bytes": 483016,
+      "width": 1200,
+      "height": 630,
+      "sha256": "02708af90d797a10cd9f95675060a8eeb1cdda413e2045edf4f353f408d9e48a"
+    },
+    {
+      "slug": "copilot-app-ghes-enterprise-integration",
+      "role": "card",
+      "filename": "copilot-app-ghes-enterprise-integration-card-web-v1.webp",
+      "url": "https://media.techmindhub.cc/posts/copilot-app-ghes-enterprise-integration-card-web-v1.webp",
+      "bytes": 344942,
+      "width": 800,
+      "height": 450,
+      "sha256": "f66f997da08802dadea17fbd3e63d78797c42e72da55c1d4c6d651e5fdb348d7"
+    },
+    {
+      "slug": "copilot-app-ghes-enterprise-integration",
+      "role": "infographic",
+      "filename": "copilot-app-ghes-enterprise-integration-infographic-web-v1.webp",
+      "url": "https://media.techmindhub.cc/posts/copilot-app-ghes-enterprise-integration-infographic-web-v1.webp",
+      "bytes": 1271730,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "2ed419ef9014e44e48ea046183d775dd418301468449cb66b0222a7e35b238d1"
+    },
+    {
+      "slug": "copilot-app-ghes-enterprise-integration",
+      "role": "og",
+      "filename": "copilot-app-ghes-enterprise-integration-og-web-v1.jpg",
+      "url": "https://media.techmindhub.cc/posts/copilot-app-ghes-enterprise-integration-og-web-v1.jpg",
+      "bytes": 303663,
+      "width": 1200,
+      "height": 630,
+      "sha256": "95fbd30a6b293023f4ec5a81fdb2835da2ae6769d3d9622764c94d4a03834ed4"
+    }
+  ]
+}
