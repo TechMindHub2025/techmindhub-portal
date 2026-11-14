@@ -225,7 +225,7 @@ def check_discovery_outputs(root):
     sitemap = dist / "sitemap.xml"
     feed = dist / "feed.xml"
     robots = dist / "robots.txt"
-    for path in (sitemap, feed, robots, dist / "topics/index.html",
+    for path in (sitemap, feed, dist / "feed.xsl", robots, dist / "topics/index.html",
                  dist / "collections/index.html", dist / "deep-dives/index.html"):
         if not path.exists():
             errors.append(f"Missing discovery output: {path.relative_to(dist)}")
@@ -247,6 +247,12 @@ def check_discovery_outputs(root):
                 data = json.loads(scripts[0])
                 if data.get("@type") != "BlogPosting" or data.get("mainEntityOfPage", {}).get("@id") != url:
                     errors.append(f"{page.parent.name}: incorrect BlogPosting structured data")
+        feed_source = feed.read_text()
+        if '<?xml-stylesheet type="text/xsl" href="/feed.xsl"?>' not in feed_source:
+            errors.append("RSS feed missing its browser-readable stylesheet")
+        stylesheet_root = ET.parse(dist / "feed.xsl").getroot()
+        if stylesheet_root.tag != "{http://www.w3.org/1999/XSL/Transform}stylesheet":
+            errors.append("RSS browser stylesheet must be an XSLT document")
         feed_tree = ET.parse(feed)
         guids = {item.text for item in feed_tree.findall(".//guid")}
         expected_guids = {f"{SITE}posts/{page.parent.name}/" for page in article_pages}

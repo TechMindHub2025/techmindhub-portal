@@ -3,6 +3,7 @@ from pathlib import Path
 import subprocess
 import tempfile
 import unittest
+import xml.etree.ElementTree as ET
 from check_publication import check_image_diff, check_page, check_sources
 
 IMAGE = '<img src="https://media.techmindhub.cc/posts/example-web-v1.webp" alt="Conceptual optical loop">'
@@ -19,6 +20,11 @@ def article(content):
 
 
 class PublicationChecks(unittest.TestCase):
+    def test_rss_browser_stylesheet_is_well_formed(self):
+        xsl = Path(__file__).resolve().parents[1] / "public/feed.xsl"
+        self.assertEqual("{http://www.w3.org/1999/XSL/Transform}stylesheet",
+                         ET.parse(xsl).getroot().tag)
+
     def test_approved_order_passes(self):
         self.assertEqual([], check_page(article(HEADER + HERO + BODY), article=True))
 
