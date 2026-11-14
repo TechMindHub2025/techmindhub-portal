@@ -1,0 +1,19 @@
+{
+  "slug": "github-ai-scan-rest-api-policy",
+  "event_date": "2026-11-13",
+  "source": "https://github.blog/changelog/2026-11-13-manage-ai-scan-for-repositories-using-the-rest-api/",
+  "secondary_source": "https://docs.github.com/en/rest/code-scanning/code-scanning",
+  "verified": ["repository_scan on organization and repository AI Scan REST endpoints", "Organization inheritance with repository opt-out", "Enterprise policy conflict returns HTTP 422", "Enabling does not run a scan; on-demand scans use AI credits", "Public preview; GHES unsupported"],
+  "limits": ["API control is not a quality measurement", "Eligibility depends on repository and Code Security entitlement"],
+  "visual": {
+    "domain": "digital-trust",
+    "cover_phrase": "THE SCAN POLICY",
+    "infographic_title": "CONFIGURE ≠ SCAN",
+    "status": "Conceptual policy hierarchy, not an actual product interface",
+    "shared_motif": "Architectural organization control desk and inherited repository modules, with a separate human-initiated scan and credit meter",
+    "palette": "#966020 and #FBF3E6 with charcoal and restrained teal",
+    "generation_prompt_summary": "Landscape cover with organization control and repository modules; vertical infographic with enterprise gate, organization inheritance, opt-out and on-demand paid execution. Exact labels reviewed.",
+    "version": "v1",
+    "files": ["github-ai-scan-rest-api-policy-card-web-v1.webp", "github-ai-scan-rest-api-policy-infographic-web-v1.webp", "github-ai-scan-rest-api-policy-og-web-v1.jpg"]
+  }
+}
