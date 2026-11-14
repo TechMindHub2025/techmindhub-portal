@@ -2,20 +2,16 @@
 import domains from "../data/editorial-domains.json";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { getCollection } from "astro:content";
+import { FACEBOOK_PAGE_URL } from "../data/social-links";
 
 export const prerender = true;
 
 const FORM_ACTION = import.meta.env.PUBLIC_TMH_CONTACT_FORM_ACTION;
 
-const FB_CIRCLE_URL =
-  import.meta.env.PUBLIC_FB_CIRCLE_URL ||
-  "https://www.facebook.com/groups/techmindhub";
-
 const LINKEDIN_URL =
   import.meta.env.PUBLIC_LINKEDIN_URL ||
   "https://www.linkedin.com/in/andrew-rover-799772ba/";
 
-const FACEBOOK_PAGE_URL = import.meta.env.PUBLIC_TMH_FACEBOOK_PAGE_URL;
 
 const all = await getCollection("posts", ({ data }) => data.status === "published");
 
@@ -42,7 +38,7 @@ for (const p of all) {
       <div class="pageActions">
         <a class="tmh-btn tmh-btn--primary" href="/posts">Browse Analysis</a>
         <a class="tmh-btn" href="/topics">Explore Topics</a>
-        <a class="tmh-btn" href="/circle">Join the Circle</a>
+        <a class="tmh-btn" href={FACEBOOK_PAGE_URL} target="_blank" rel="noopener noreferrer">Facebook Page</a>
       </div>
     </header>
         <div class="aboutGrid reveal">
@@ -66,7 +62,7 @@ for (const p of all) {
         <p class="moduleText">
           Engineers, operators, architects and tech leaders who need to judge the implications of a development beyond its headline.
         </p>
-        <div class="pillRow circlePillRow" style="margin-top: 18px;">
+        <div class="pillRow aboutPillRow" style="margin-top: 18px;">
           <span class="pill">CTO / Tech Lead</span>
           <span class="pill">Infra &amp; NetOps</span>
           <span class="pill">AI / Robotics</span>
@@ -135,29 +131,25 @@ for (const p of all) {
       <article class="moduleCard reveal">
         <h2 class="moduleTitle">Where to discuss</h2>
         <p class="moduleText">
-          This site is the source-linked archive. Conversations can continue in the TechMind Hub Circle and on Andrew Rover's social channels.
+          The website is the source-linked archive. New articles and shorter updates are shared on the official TechMind Hub Facebook Page and Andrew Rover's professional channels.
         </p>
         <p class="moduleText">
           The structure is intentional:
         </p>
         <ul class="moduleList">
           <li>The website — structured, source-linked archive</li>
-          <li>The Circle — moderated signal-first discussion</li>
-          <li>LinkedIn & Facebook — broader industry engagement</li>
+          <li>Facebook Page — new research and shorter technology updates</li>
+          <li>LinkedIn — professional discussion and editorial context</li>
         </ul>
         <p class="moduleText">
            Choose the layer that fits your depth.
         </p>
 
         <div class="pillRow">
-          <a class="btn" href={FB_CIRCLE_URL} target="_blank" rel="noopener noreferrer">TechMind Hub Circle</a>
           <a class="btn" href={LINKEDIN_URL} target="_blank" rel="noopener noreferrer">LinkedIn</a>
-          <a class="btn" href={FACEBOOK_PAGE_URL || FB_CIRCLE_URL} target="_blank" rel="noopener noreferrer">{FACEBOOK_PAGE_URL ? "TechMind Hub Facebook" : "Facebook community"}</a>
+          <a class="btn" href={FACEBOOK_PAGE_URL} target="_blank" rel="noopener noreferrer">TechMind Hub Facebook</a>
         </div>
 
-        <p class="moduleText" style="margin-top:12px;">
-          Community rules live on the <a href="/rules/">Circle</a> page.
-        </p>
       </article>
 
       <!-- Contact -->

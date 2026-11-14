@@ -4,6 +4,7 @@ import { getCollection, render } from "astro:content";
 import { formatEditorialDate } from "../../lib/editorial-date";
 import { collections, articleInCollection } from "../../data/discovery";
 import domains from "../../data/editorial-domains.json";
+import { FACEBOOK_PAGE_URL } from "../../data/social-links";
 
 // Build all static routes for published posts
 export async function getStaticPaths() {
@@ -27,8 +28,6 @@ const { Content } = await render(post);
 const ogImage = new URL(post.data.cover_og!, "https://techmindhub.cc").href;
 const articleUrl = `https://techmindhub.cc/posts/${encodeURIComponent(post.slug)}/`;
 const LINKEDIN_URL = import.meta.env.PUBLIC_LINKEDIN_URL || "https://www.linkedin.com/in/andrew-rover-799772ba/";
-const FACEBOOK_PAGE_URL = import.meta.env.PUBLIC_TMH_FACEBOOK_PAGE_URL;
-const FACEBOOK_CIRCLE_URL = import.meta.env.PUBLIC_FB_CIRCLE_URL || "https://www.facebook.com/groups/techmindhub";
 const relatedCollections = collections.filter(collection => articleInCollection(tags, collection.tags));
 const broadTags = new Set(["TechMindHub", "Research", "Engineering", ...domains.map(domain => domain.tag)]);
 const related = (await getCollection("posts", ({ data }) => data.status === "published"))
@@ -99,7 +98,7 @@ const structuredData = {
       <p>For new research, engineering context and discussion, follow TechMind Hub across these channels.</p>
       <div class="post__social">
         <a class="tmh-btn tmh-btn--primary" href="https://arover.substack.com/" target="_blank" rel="noopener noreferrer">Substack</a>
-        <a class="tmh-btn" href={social?.facebook || FACEBOOK_PAGE_URL || FACEBOOK_CIRCLE_URL} target="_blank" rel="noopener noreferrer">{social?.facebook ? "Discuss on Facebook" : FACEBOOK_PAGE_URL ? "TechMind Hub on Facebook" : "Facebook community"}</a>
+        <a class="tmh-btn" href={social?.facebook || FACEBOOK_PAGE_URL} target="_blank" rel="noopener noreferrer">{social?.facebook ? "Discuss on Facebook" : "TechMind Hub on Facebook"}</a>
         <a class="tmh-btn" href={social?.linkedin || LINKEDIN_URL} target="_blank" rel="noopener noreferrer">{social?.linkedin ? "Discuss on LinkedIn" : "Andrew Rover on LinkedIn"}</a>
         <a class="tmh-btn" href="/feed.xml">RSS feed</a>
       </div>

@@ -3,6 +3,7 @@ import PostCard from "../components/PostCard.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { getCollection } from "astro:content";
 import { categories, collections, articleInCollection } from "../data/discovery";
+import { FACEBOOK_PAGE_URL } from "../data/social-links";
 
 const all = await getCollection("posts", ({ data }) => data.status === "published");
 
@@ -105,12 +106,12 @@ const pageDescription =
     <div class="tmh-section tmh-callout reveal">
       <h2 class="tmh-h2">Where to discuss</h2>
       <p class="tmh-lead">
-        Discuss the analysis in the TechMind Hub community or explore the sources in each article.
+        Follow new research on the official Facebook Page, or explore the primary sources linked inside each article.
       </p>
 
       <div class="tmh-actions">
         <a class="tmh-btn" href="/posts">Open archive</a>
-        <a class="tmh-btn" href="/circle">Join the Circle</a>
+        <a class="tmh-btn" href={FACEBOOK_PAGE_URL} target="_blank" rel="noopener noreferrer">TechMind Hub on Facebook</a>
       </div>
     </div>
   </section>

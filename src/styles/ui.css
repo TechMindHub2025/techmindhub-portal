@@ -838,7 +838,7 @@ select:focus-visible {
     gap: 18px;
     align-items: start;
   }
-.circlePillRow {
+.aboutPillRow {
     margin-top: var(--space-5);
   }
 

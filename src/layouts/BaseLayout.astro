@@ -8,6 +8,7 @@
  */
 
 import "../styles/ui.css";
+import { FACEBOOK_PAGE_URL } from "../data/social-links";
 
 type Props = {
   title?: string;
@@ -107,7 +108,7 @@ const isActive = (href: string) => {
             <a class={"navlink " + (isActive("/deep-dives") ? "active" : "")} href="/deep-dives" aria-current={isActive("/deep-dives") ? "page" : undefined}>Deep Dives</a>
             <a class={"navlink " + (isActive("/topics") || isActive("/tags") ? "active" : "")} href="/topics" aria-current={isActive("/topics") ? "page" : undefined}>Topics</a>
             <a class={"navlink " + (isActive("/collections") ? "active" : "")} href="/collections" aria-current={isActive("/collections") ? "page" : undefined}>Collections</a>
-            <a class={"navlink " + (isActive("/circle") ? "active" : "")} href="/circle" aria-current={isActive("/circle") ? "page" : undefined}>Circle</a>
+            <a class="navlink" href={FACEBOOK_PAGE_URL} target="_blank" rel="noopener noreferrer">Facebook</a>
             <a class={"navlink " + (isActive("/about") ? "active" : "")} href="/about" aria-current={isActive("/about") ? "page" : undefined}>About</a>
           </nav>
         </div>

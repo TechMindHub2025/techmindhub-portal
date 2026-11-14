@@ -6,7 +6,7 @@ const escapeXML = (value: string) => value.replace(/&/g, "&amp;").replace(/</g, 
 
 export const GET: APIRoute = async () => {
   const posts = await getCollection("posts", ({ data }) => data.status === "published");
-  const staticPaths = ["/", "/posts/", "/deep-dives/", "/topics/", "/collections/", "/tags/", "/about/", "/circle/", "/rules/"];
+  const staticPaths = ["/", "/posts/", "/deep-dives/", "/topics/", "/collections/", "/tags/", "/about/"];
   const tagPaths = [...new Set(posts.flatMap(post => post.data.tags))].map(tag => `/tags/${encodeURIComponent(tag)}/`);
   const entries = [
     ...staticPaths.map(path => ({ path, lastmod: undefined as string | undefined })),
