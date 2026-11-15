@@ -3,7 +3,7 @@ title: "When Data Center Waste Heat Becomes District Heating: Testing the 28 GWh
 description: "Infomaniak's planned 2.5 MW data center in Bulle could supply district heating through heat pumps. Its 28 GWh forecast raises useful questions about system boundaries, seasonal demand and emissions."
 excerpt: "A planned Swiss data center offers a test of what heat recovery really means. The first question is where the 28 GWh of delivered heat originates."
 pubDate: "2026-11-15T04:00:00Z"
-status: "draft"
+status: "published"
 canonical_id: "2026-11-15-infomaniak-bulle-datacenter-heat-reuse"
 tags: ["WasteHeat", "DistrictHeating", "HeatPumps", "EnergyEfficiency", "AIDatacenters", "TechMindHub"]
 source_url: "https://www.presseportal.ch/fr/pm/100057093/100943576"

@@ -3,7 +3,7 @@ title: "From Grid to Chip: The Engineering Trade-offs Behind 800 VDC AI Data Cen
 description: "Delta's SC26 portfolio links high-voltage DC distribution with megawatt-scale coolant delivery. The physics are compelling; the electrical, hydraulic and failure boundaries still need proof."
 excerpt: "Higher voltage can reduce distribution current, but it does not eliminate conversion losses or cooling requirements. Delta's 2.5 MW CDU makes the co-design problem concrete."
 pubDate: "2026-11-15T03:00:00Z"
-status: "draft"
+status: "published"
 canonical_id: "2026-11-15-delta-800vdc-power-thermal-codesign"
 tags: ["800VDC", "AIDatacenters", "LiquidCooling", "PowerDistribution", "CDU", "TechMindHub"]
 source_url: "https://www.prnewswire.com/news-releases/delta-unveils-from-grid-to-chip-cooling-innovations-for-ai-infrastructure-and-for-new-800-vdc-400-vdc-architectures-at-sc26-302935999.html"

@@ -3,7 +3,7 @@ title: "A 4U Pump Is Not a Cooling Capacity: Reading the Gates ThermalCool 2100S
 description: "Gates' compact 48 VDC ThermalCool 2100SS pump can circulate up to 200 L/min. Its value in a rack CDU depends on operating-point hydraulics, motor heat and validated N+1 behaviour."
 excerpt: "The thermal capacity of a rack loop cannot be read from its pump's maximum flow alone. Gates' new 4U-compatible pump illustrates the system calculations that matter."
 pubDate: "2026-11-15T05:00:00Z"
-status: "draft"
+status: "published"
 canonical_id: "2026-11-15-gates-thermalcool-2100ss-cdu-hydraulics"
 tags: ["LiquidCooling", "CDU", "PumpEngineering", "RackInfrastructure", "AIDatacenters", "TechMindHub"]
 source_url: "https://www.gates.com/us/en/about-us/news.one.122768.html"

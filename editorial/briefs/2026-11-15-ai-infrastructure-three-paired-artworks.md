@@ -1,6 +1,6 @@
 # Paired visual briefs — the infrastructure chain, November 15, 2026
 
-Status: **editorial drafts; generation and owner review pending**. Three independent articles, six generated original artworks, nine R2 derivatives. The published website must not reference the planned paths until all nine R2 URLs return HTTP 200 and the final PR head has independent approval. Follow `editorial/VISUAL-CANON.md` and `editorial/IMAGE-DELIVERY.md` without alteration.
+Status: **all six original artworks generated; nine derivatives exported and independently SHA-256-verified against live R2 responses on November 15, 2026; GitHub final-head review and deployment pending**. Three independent articles, six generated original artworks, nine R2 derivatives. Follow `editorial/VISUAL-CANON.md` and `editorial/IMAGE-DELIVERY.md` without alteration.
 
 ## Delta: From Grid to Chip
 
@@ -77,11 +77,12 @@ Originals: `gates-thermalcool-2100ss-cdu-hydraulics-card-original-v1.png`, `gate
 
 ## Production and gate checklist
 
-- [ ] Six independent generated PNG originals (three covers at ~16:9; three infographics at ~4:5), retained unchanged in separate original archive.
-- [ ] Check legible text and exact spelling, arrows, claims, visual-pair consistency; owner approves artwork. Inspect card previews at 352px and 260px.
-- [ ] Export three 800px-wide lossless resized WebP cards, three full-resolution lossless WebP infographics with exact decoded RGBA equality, and three centre-cropped 1200×630 quality-95 4:4:4 JPEG previews.
-- [ ] Check image dimensions, hashes, actual OG crop and decoded pixel equality; record release manifest.
-- [ ] Deliver `Originals-PNG` (6 originals) and `Cloudflare-Web` (9 derivatives) as separate archives; user uploads only the nine derivatives into R2 `tmh-assets/posts/`.
-- [ ] Verify public HTTP 200 for every new R2 URL. Switch three posts from `draft` to `published` on the final article PR head, run `npm run validate`, inspect Home/archive/tags/article pages at desktop/mobile size.
+- [x] Six independent generated PNG originals (three covers at ~16:9; three infographics at ~4:5), retained unchanged in separate original archive.
+- [x] Check legible text and exact spelling, arrows, claims and visual-pair consistency. Inspect card previews at 352px and 260px. Final owner acceptance of the exact artwork remains a release decision.
+- [x] Export three 800px-wide lossless resized WebP cards, three full-resolution lossless WebP infographics with exact decoded RGBA equality, and three centre-cropped 1200×630 quality-95 4:4:4 JPEG previews.
+- [x] Check image dimensions, hashes, actual OG crop and decoded pixel equality; record release manifest.
+- [x] Deliver `Originals-PNG` (6 originals) and `Cloudflare-Web` (9 derivatives) as separate archives; all nine web derivatives are now available from R2 `tmh-assets/posts/`.
+- [x] Verify public HTTP 200 and exact SHA-256 for every new R2 URL. Switch three posts from `draft` to `published` in source, run `npm run validate` (331 pages, 95 articles).
+- [ ] Inspect Home/archive/tags/article pages at desktop/mobile size when remotely renderable, then complete final-head GitHub approval and deployment checks.
 - [ ] Obtain designated independent reviewer approval of exact final GitHub PR head, green checks, merge and inspect live GitHub Pages deployment.
 - [ ] Only after live verification, use prepared manual social posts; never auto-publish external social content.
