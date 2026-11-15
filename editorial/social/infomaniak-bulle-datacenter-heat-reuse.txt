@@ -1,0 +1,14 @@
+Can a 2.5 MW data center deliver 28 GWh of district heating in a year?
+
+Infomaniak and Gruyère Energie have proposed a 170-rack data center in Bulle, Switzerland, with closed-loop liquid cooling and heat pumps connecting server waste heat to the local heating network. Commissioning is targeted for 2028, subject to approvals.
+
+The 28 GWh figure is a forecast, not measured output. For comparison, a 2.5 MW IT load running at full power every hour of a year would consume 21.9 GWh. The larger heating forecast is not impossible: heat-pump electricity contributes to delivered heat. But the published announcement does not yet give the full annual energy balance, seasonal COP or demand profile.
+
+Emissions accounting matters too. The projected 7,500 tonnes of CO2 avoided is measured against a heating-oil scenario, not necessarily against the existing, predominantly renewable district network.
+
+Our engineering analysis asks which meters and operating data would make this project genuinely verifiable.
+
+https://techmindhub.cc/posts/infomaniak-bulle-datacenter-heat-reuse/
+https://arover.substack.com/
+
+#DataCenters #HeatRecovery #DistrictHeating #EnergyEngineering #TechMindHub

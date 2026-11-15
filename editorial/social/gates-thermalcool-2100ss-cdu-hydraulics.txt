@@ -1,0 +1,14 @@
+A pump's maximum flow is not a rack's cooling capacity.
+
+Gates has introduced the ThermalCool 2100SS, a 4U-compatible liquid-cooling pump designed for rack CDU integration. Its published limits include up to 200 L/min, 3 bar differential pressure, 48 VDC input and a 2.1 kW motor. Global availability is expected in early 2027.
+
+The useful engineering question is what happens at the actual duty point. Flow must be evaluated against circuit pressure losses; heat transport also depends on coolant properties and temperature rise. Using water for illustration, 200 L/min could carry roughly 70 kW at a 5°C temperature rise. That is not a certified CDU capacity.
+
+The integrated liquid-cooled motor also transfers its own heat into the circuit. Parallel pump capability makes N+1 possible, but valves, controls, duty sizing and failover tests determine whether redundancy actually works.
+
+Our analysis unpacks the specifications without treating a product announcement as field evidence.
+
+https://techmindhub.cc/posts/gates-thermalcool-2100ss-cdu-hydraulics/
+https://arover.substack.com/
+
+#LiquidCooling #CDU #DataCenterEngineering #PumpDesign #TechMindHub

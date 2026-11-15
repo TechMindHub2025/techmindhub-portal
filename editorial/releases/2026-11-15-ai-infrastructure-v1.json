@@ -1,0 +1,175 @@
+{
+  "release": "2026-11-15-ai-infrastructure-v1",
+  "originals": [
+    {
+      "slug": "delta-800vdc-power-thermal-codesign",
+      "role": "original-card",
+      "filename": "delta-800vdc-power-thermal-codesign-card-original-v1.png",
+      "r2_url": null,
+      "bytes": 2261127,
+      "width": 1672,
+      "height": 941,
+      "sha256": "076eb30eaa54802796f29b76066ed72088725a2faff1c360bec881a59b192a0a"
+    },
+    {
+      "slug": "delta-800vdc-power-thermal-codesign",
+      "role": "original-infographic",
+      "filename": "delta-800vdc-power-thermal-codesign-infographic-original-v1.png",
+      "r2_url": null,
+      "bytes": 2121602,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "e3251ea95420a1fcf7e850fdbffaa36e134265e076cbb96b7a4b60fb2195f7f5"
+    },
+    {
+      "slug": "infomaniak-bulle-datacenter-heat-reuse",
+      "role": "original-card",
+      "filename": "infomaniak-bulle-datacenter-heat-reuse-card-original-v1.png",
+      "r2_url": null,
+      "bytes": 2620675,
+      "width": 1672,
+      "height": 941,
+      "sha256": "1e78ec8984b963e00192b4ab76e78977d8a90d2d933ceac8620a4ed5bb47bc54"
+    },
+    {
+      "slug": "infomaniak-bulle-datacenter-heat-reuse",
+      "role": "original-infographic",
+      "filename": "infomaniak-bulle-datacenter-heat-reuse-infographic-original-v1.png",
+      "r2_url": null,
+      "bytes": 2641204,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "e9cd74db5ec01156d3ef93a7da88dbba58d055baeba14bf430f02d9a915c1522"
+    },
+    {
+      "slug": "gates-thermalcool-2100ss-cdu-hydraulics",
+      "role": "original-card",
+      "filename": "gates-thermalcool-2100ss-cdu-hydraulics-card-original-v1.png",
+      "r2_url": null,
+      "bytes": 2084787,
+      "width": 1672,
+      "height": 941,
+      "sha256": "7cbf749a6cce56b5e5ac24303bcfb0a55cf68eb9b9489b7f006054d7d1c81de6"
+    },
+    {
+      "slug": "gates-thermalcool-2100ss-cdu-hydraulics",
+      "role": "original-infographic",
+      "filename": "gates-thermalcool-2100ss-cdu-hydraulics-infographic-original-v1.png",
+      "r2_url": null,
+      "bytes": 2092496,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "8315c3d140750658ad649c2f884baf35c4a86a4f7963b3f249a25ae0d45cdd25"
+    }
+  ],
+  "assets": [
+    {
+      "slug": "delta-800vdc-power-thermal-codesign",
+      "role": "card",
+      "filename": "delta-800vdc-power-thermal-codesign-card-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/delta-800vdc-power-thermal-codesign-card-web-v1.webp",
+      "bytes": 388524,
+      "width": 800,
+      "height": 450,
+      "sha256": "ab198fe18acbc7dee04350265707cf78c52a542ad1a46bfa0cd7ec4f99182ee3"
+    },
+    {
+      "slug": "delta-800vdc-power-thermal-codesign",
+      "role": "infographic",
+      "filename": "delta-800vdc-power-thermal-codesign-infographic-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/delta-800vdc-power-thermal-codesign-infographic-web-v1.webp",
+      "bytes": 1533856,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "7b80a5f81757ec9697399be90a36807dba842d09bd70da4b2213a229014689cd"
+    },
+    {
+      "slug": "delta-800vdc-power-thermal-codesign",
+      "role": "og",
+      "filename": "delta-800vdc-power-thermal-codesign-og-web-v1.jpg",
+      "r2_url": "https://media.techmindhub.cc/posts/delta-800vdc-power-thermal-codesign-og-web-v1.jpg",
+      "bytes": 345843,
+      "width": 1200,
+      "height": 630,
+      "sha256": "4d8f5068af3d7201116a2e40e92710865acf1a1b68ab47eabdc9e8f4c7c9a3c5",
+      "original_crop_box": [
+        0,
+        31,
+        1672,
+        909
+      ]
+    },
+    {
+      "slug": "infomaniak-bulle-datacenter-heat-reuse",
+      "role": "card",
+      "filename": "infomaniak-bulle-datacenter-heat-reuse-card-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/infomaniak-bulle-datacenter-heat-reuse-card-web-v1.webp",
+      "bytes": 474168,
+      "width": 800,
+      "height": 450,
+      "sha256": "32a2c46bc21df8d09275cf38499f2a90179472d76cbbc2007b4965a81b114010"
+    },
+    {
+      "slug": "infomaniak-bulle-datacenter-heat-reuse",
+      "role": "infographic",
+      "filename": "infomaniak-bulle-datacenter-heat-reuse-infographic-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/infomaniak-bulle-datacenter-heat-reuse-infographic-web-v1.webp",
+      "bytes": 1936848,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "30cab1670d94f03f5cc87269c8812ac94ac64c10a39e41a85c4a820b23b4d651"
+    },
+    {
+      "slug": "infomaniak-bulle-datacenter-heat-reuse",
+      "role": "og",
+      "filename": "infomaniak-bulle-datacenter-heat-reuse-og-web-v1.jpg",
+      "r2_url": "https://media.techmindhub.cc/posts/infomaniak-bulle-datacenter-heat-reuse-og-web-v1.jpg",
+      "bytes": 462689,
+      "width": 1200,
+      "height": 630,
+      "sha256": "99fc3585514e12ce19cd5889fd42b686569c9424ad1b8e5c69195e9ad80376b7",
+      "original_crop_box": [
+        0,
+        31,
+        1672,
+        909
+      ]
+    },
+    {
+      "slug": "gates-thermalcool-2100ss-cdu-hydraulics",
+      "role": "card",
+      "filename": "gates-thermalcool-2100ss-cdu-hydraulics-card-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/gates-thermalcool-2100ss-cdu-hydraulics-card-web-v1.webp",
+      "bytes": 370766,
+      "width": 800,
+      "height": 450,
+      "sha256": "ab9bb43feec981e53b7dd6ed4e6db8c12f2c63bdd445f8d21fb6d372dadc5b47"
+    },
+    {
+      "slug": "gates-thermalcool-2100ss-cdu-hydraulics",
+      "role": "infographic",
+      "filename": "gates-thermalcool-2100ss-cdu-hydraulics-infographic-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/gates-thermalcool-2100ss-cdu-hydraulics-infographic-web-v1.webp",
+      "bytes": 1466454,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "e05c1755a7ac2b3e125f22260fcb48efd5c765a5c8a07f6937eb2da30dd24bee"
+    },
+    {
+      "slug": "gates-thermalcool-2100ss-cdu-hydraulics",
+      "role": "og",
+      "filename": "gates-thermalcool-2100ss-cdu-hydraulics-og-web-v1.jpg",
+      "r2_url": "https://media.techmindhub.cc/posts/gates-thermalcool-2100ss-cdu-hydraulics-og-web-v1.jpg",
+      "bytes": 299604,
+      "width": 1200,
+      "height": 630,
+      "sha256": "bebb5eb9547d3605b6f73ab2ac8ac6889a47b8ca4a657c5185391444ddbfa246",
+      "original_crop_box": [
+        0,
+        31,
+        1672,
+        909
+      ]
+    }
+  ]
+}
