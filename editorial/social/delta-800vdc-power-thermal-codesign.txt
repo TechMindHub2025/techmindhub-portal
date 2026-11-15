@@ -1,0 +1,14 @@
+High-density AI infrastructure is forcing power delivery and thermal design into the same engineering conversation.
+
+Delta's SC26 announcement brings this into focus: an 800 VDC-powered 2.5 MW liquid-to-liquid CDU, emerging 800 VDC and ±400 VDC distribution architectures, and liquid cooling for power components alongside compute.
+
+Higher voltage can reduce current and conductor losses. It does not, on its own, prove better end-to-end facility efficiency. Pump energy, conversion stages, protection and the required coolant temperatures remain part of the same equation.
+
+There is also an availability question: the CDU announcement specifies three hot-swappable pumps in a 3+0 arrangement. Hot swapping is not equivalent to proven N+1 resilience at full load.
+
+The analysis examines the hydraulic and electrical boundaries that would need independent validation before this becomes a deployment standard.
+
+https://techmindhub.cc/posts/delta-800vdc-power-thermal-codesign/
+https://arover.substack.com/
+
+#AIDatacenters #800VDC #LiquidCooling #Infrastructure #TechMindHub
