@@ -1,0 +1,14 @@
+Liquid cooling in the tropics is a reliability problem as much as a heat-removal problem.
+
+Singapore introduced SS 726:2026 in August to address direct liquid cooling in tropical data centers. Official public material discusses cooling-loop design, coolant quality, material selection, commissioning, monitoring, corrosion and microbial risks.
+
+One important boundary: the published scope explicitly excludes rear-door heat exchangers and two-phase or hybrid single-/two-phase systems. The standard is not a universal approval for every water-cooled rack.
+
+The full standard is a paid 70-page document. The analysis distinguishes what the public scope and government factsheet establish from practical engineering considerations such as condensation, fluid monitoring and safe maintenance.
+
+This is a standards analysis, not a new November launch or a claim of mandatory certification.
+
+https://techmindhub.cc/posts/singapore-ss726-tropical-liquid-cooling-standard/
+https://arover.substack.com/
+
+#DataCenterStandards #TropicalDataCenters #LiquidCooling #Singapore #TechMindHub

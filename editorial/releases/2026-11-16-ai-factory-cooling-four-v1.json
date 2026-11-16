@@ -1,0 +1,231 @@
+{
+  "release": "2026-11-16-ai-factory-cooling-four-v1",
+  "originals": [
+    {
+      "slug": "schneider-gigabyte-vera-rubin-pod-infrastructure",
+      "role": "original-card",
+      "filename": "schneider-gigabyte-vera-rubin-pod-infrastructure-card-original-v1.png",
+      "r2_url": null,
+      "bytes": 2598525,
+      "width": 1672,
+      "height": 941,
+      "sha256": "81f94796a7e1f75c2eeb6e8363f2642f687e74f54136404b05dbb6c42bd007a9"
+    },
+    {
+      "slug": "schneider-gigabyte-vera-rubin-pod-infrastructure",
+      "role": "original-infographic",
+      "filename": "schneider-gigabyte-vera-rubin-pod-infrastructure-infographic-original-v1.png",
+      "r2_url": null,
+      "bytes": 2063962,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "dc04cd20c14ccd2aaebd400520e1e520b890f5b901ddcea3de68234dda8fe652"
+    },
+    {
+      "slug": "schneider-cooling-orchestration-supervisory-control",
+      "role": "original-card",
+      "filename": "schneider-cooling-orchestration-supervisory-control-card-original-v1.png",
+      "r2_url": null,
+      "bytes": 2261722,
+      "width": 1672,
+      "height": 941,
+      "sha256": "62370d0ea4b2b34a31fb00094cebdb35ad2514af964f46a8d90be106853b27a3"
+    },
+    {
+      "slug": "schneider-cooling-orchestration-supervisory-control",
+      "role": "original-infographic",
+      "filename": "schneider-cooling-orchestration-supervisory-control-infographic-original-v1.png",
+      "r2_url": null,
+      "bytes": 1960153,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "6e7e47442612aee78d7a6c772c8a656e0ccc13f14d9f15bc15ae6d369a46feca"
+    },
+    {
+      "slug": "supermicro-sc26-hybrid-rack-cooling",
+      "role": "original-card",
+      "filename": "supermicro-sc26-hybrid-rack-cooling-card-original-v1.png",
+      "r2_url": null,
+      "bytes": 2209499,
+      "width": 1672,
+      "height": 941,
+      "sha256": "e3acd6232b5e1ee63200080f97d2895dae158cf19895fa7cd24303bc4f10f065"
+    },
+    {
+      "slug": "supermicro-sc26-hybrid-rack-cooling",
+      "role": "original-infographic",
+      "filename": "supermicro-sc26-hybrid-rack-cooling-infographic-original-v1.png",
+      "r2_url": null,
+      "bytes": 2148212,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "90fa3a996e944bbbb2140905c3093dad73a18f4d8c335c4c9de0d6b3ece91ff4"
+    },
+    {
+      "slug": "singapore-ss726-tropical-liquid-cooling-standard",
+      "role": "original-card",
+      "filename": "singapore-ss726-tropical-liquid-cooling-standard-card-original-v1.png",
+      "r2_url": null,
+      "bytes": 2723690,
+      "width": 1672,
+      "height": 941,
+      "sha256": "974e8008f4c459d1a76087d70170b2d50a3aff47c34881985102300256311644"
+    },
+    {
+      "slug": "singapore-ss726-tropical-liquid-cooling-standard",
+      "role": "original-infographic",
+      "filename": "singapore-ss726-tropical-liquid-cooling-standard-infographic-original-v1.png",
+      "r2_url": null,
+      "bytes": 1877050,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "36aae9e8fe61cdfe8d4cbffa5afe21ffb23c695a0a054eaa2463cbfb2e9e9936"
+    }
+  ],
+  "assets": [
+    {
+      "slug": "schneider-gigabyte-vera-rubin-pod-infrastructure",
+      "role": "card",
+      "filename": "schneider-gigabyte-vera-rubin-pod-infrastructure-card-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/schneider-gigabyte-vera-rubin-pod-infrastructure-card-web-v1.webp",
+      "bytes": 440974,
+      "width": 800,
+      "height": 450,
+      "sha256": "72cfad55e8d7ca0951939f6791c30750bfb6e481a26766cc628b56851b6b0c4e"
+    },
+    {
+      "slug": "schneider-gigabyte-vera-rubin-pod-infrastructure",
+      "role": "infographic",
+      "filename": "schneider-gigabyte-vera-rubin-pod-infrastructure-infographic-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/schneider-gigabyte-vera-rubin-pod-infrastructure-infographic-web-v1.webp",
+      "bytes": 1455290,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "501b21f4a1e794b7783d3cfb1494a1d897bb11c74c80b7e152d0bc5c20ecccd7"
+    },
+    {
+      "slug": "schneider-gigabyte-vera-rubin-pod-infrastructure",
+      "role": "og",
+      "filename": "schneider-gigabyte-vera-rubin-pod-infrastructure-og-web-v1.jpg",
+      "r2_url": "https://media.techmindhub.cc/posts/schneider-gigabyte-vera-rubin-pod-infrastructure-og-web-v1.jpg",
+      "bytes": 438146,
+      "width": 1200,
+      "height": 630,
+      "sha256": "ec51e66c9a1fb71ab878805fd8b47104ef0f0999070039c9d7dd2e783a1f28a9",
+      "original_crop_box": [
+        0,
+        31,
+        1672,
+        909
+      ]
+    },
+    {
+      "slug": "schneider-cooling-orchestration-supervisory-control",
+      "role": "card",
+      "filename": "schneider-cooling-orchestration-supervisory-control-card-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/schneider-cooling-orchestration-supervisory-control-card-web-v1.webp",
+      "bytes": 432242,
+      "width": 800,
+      "height": 450,
+      "sha256": "dbc9f784a258ba5636850309d9aaddf3398a4d030eea078d1435093b7af96cf5"
+    },
+    {
+      "slug": "schneider-cooling-orchestration-supervisory-control",
+      "role": "infographic",
+      "filename": "schneider-cooling-orchestration-supervisory-control-infographic-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/schneider-cooling-orchestration-supervisory-control-infographic-web-v1.webp",
+      "bytes": 1355798,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "672053f5d9d777055e0e9a58271e29884b17361e3bfc73006f13ec0a7a61bbf1"
+    },
+    {
+      "slug": "schneider-cooling-orchestration-supervisory-control",
+      "role": "og",
+      "filename": "schneider-cooling-orchestration-supervisory-control-og-web-v1.jpg",
+      "r2_url": "https://media.techmindhub.cc/posts/schneider-cooling-orchestration-supervisory-control-og-web-v1.jpg",
+      "bytes": 421230,
+      "width": 1200,
+      "height": 630,
+      "sha256": "992ca43971a3fd596c6a8cc66e2a072d4d795b3e0c2fc6ce0f490b2ec8881cfc",
+      "original_crop_box": [
+        0,
+        31,
+        1672,
+        909
+      ]
+    },
+    {
+      "slug": "supermicro-sc26-hybrid-rack-cooling",
+      "role": "card",
+      "filename": "supermicro-sc26-hybrid-rack-cooling-card-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/supermicro-sc26-hybrid-rack-cooling-card-web-v1.webp",
+      "bytes": 419920,
+      "width": 800,
+      "height": 450,
+      "sha256": "d1db1b605e607899c94f75b7d979fbaf2ba327f5ef645a4928c3ca39089800a7"
+    },
+    {
+      "slug": "supermicro-sc26-hybrid-rack-cooling",
+      "role": "infographic",
+      "filename": "supermicro-sc26-hybrid-rack-cooling-infographic-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/supermicro-sc26-hybrid-rack-cooling-infographic-web-v1.webp",
+      "bytes": 1600880,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "a996c8763a1b385f8ecd0dee141477789861b11ab4667a8ee5dfdbe4be8562ae"
+    },
+    {
+      "slug": "supermicro-sc26-hybrid-rack-cooling",
+      "role": "og",
+      "filename": "supermicro-sc26-hybrid-rack-cooling-og-web-v1.jpg",
+      "r2_url": "https://media.techmindhub.cc/posts/supermicro-sc26-hybrid-rack-cooling-og-web-v1.jpg",
+      "bytes": 389258,
+      "width": 1200,
+      "height": 630,
+      "sha256": "99512e12dea8309d787e5e5b44a75f75e5c6e72b019b707b99d793b0ef11497b",
+      "original_crop_box": [
+        0,
+        31,
+        1672,
+        909
+      ]
+    },
+    {
+      "slug": "singapore-ss726-tropical-liquid-cooling-standard",
+      "role": "card",
+      "filename": "singapore-ss726-tropical-liquid-cooling-standard-card-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/singapore-ss726-tropical-liquid-cooling-standard-card-web-v1.webp",
+      "bytes": 512706,
+      "width": 800,
+      "height": 450,
+      "sha256": "ddb0b818b69fc5082397a252b6df2181b9c314df7a7c54a6edad60c58ae0ef22"
+    },
+    {
+      "slug": "singapore-ss726-tropical-liquid-cooling-standard",
+      "role": "infographic",
+      "filename": "singapore-ss726-tropical-liquid-cooling-standard-infographic-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/singapore-ss726-tropical-liquid-cooling-standard-infographic-web-v1.webp",
+      "bytes": 1344670,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "bb986b93b5d84dcf5423f22e85722e31270cc9edf3001a51716be7f8f4725fbe"
+    },
+    {
+      "slug": "singapore-ss726-tropical-liquid-cooling-standard",
+      "role": "og",
+      "filename": "singapore-ss726-tropical-liquid-cooling-standard-og-web-v1.jpg",
+      "r2_url": "https://media.techmindhub.cc/posts/singapore-ss726-tropical-liquid-cooling-standard-og-web-v1.jpg",
+      "bytes": 486243,
+      "width": 1200,
+      "height": 630,
+      "sha256": "7d9bfbd59982cf55c41d7f1878c955b238e15dd7bb5c541d48468ee5d0e7db4a",
+      "original_crop_box": [
+        0,
+        31,
+        1672,
+        909
+      ]
+    }
+  ]
+}
