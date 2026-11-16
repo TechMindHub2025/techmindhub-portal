@@ -1,0 +1,61 @@
+name: Async merge approved publication
+
+on:
+  # Andrew's AR1314 approval is the release signal. CI may finish before or
+  # after approval, so both events re-evaluate the current PR state.
+  pull_request_review:
+    types: [submitted]
+  workflow_run:
+    workflows: [Publication checks]
+    types: [completed]
+  # Recovery and preview for a PR approved before this workflow was installed.
+  workflow_dispatch:
+    inputs:
+      pr_number:
+        description: Existing approved TechMind Hub PR number
+        required: true
+        type: number
+      resume_uuid:
+        description: Optional async merge UUID to poll without resubmitting
+        required: false
+        type: string
+      dry_run:
+        description: Check approval and CI only (no merge request)
+        required: true
+        default: true
+        type: boolean
+
+permissions:
+  actions: read
+  contents: write
+  pull-requests: read
+
+# Serialize all releases into main. The GitHub async endpoint also returns
+# HTTP 409 with the existing UUID for an already-pending merge request.
+concurrency:
+  group: techmindhub-async-merge-main
+  cancel-in-progress: false
+
+jobs:
+  merge:
+    if: >-
+      (github.event_name == 'pull_request_review' &&
+       github.event.review.state == 'approved' &&
+       github.event.review.user.login == 'AR1314') ||
+      (github.event_name == 'workflow_run' &&
+       github.event.workflow_run.name == 'Publication checks' &&
+       github.event.workflow_run.conclusion == 'success') ||
+      github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      # Do not check out the PR head: this runs a trusted script from main.
+      - name: Checkout trusted release tooling
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: false
+      - name: Merge approved release asynchronously
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/async_merge.py
