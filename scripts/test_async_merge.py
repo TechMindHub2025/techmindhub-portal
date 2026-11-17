@@ -1,6 +1,8 @@
 """Offline release-gate and idempotency tests; no GitHub writes or network."""
 
 import unittest
+from pathlib import Path
+from tempfile import TemporaryDirectory
 
 from async_merge import (
     APIError,
@@ -12,6 +14,7 @@ from async_merge import (
     merge_uuid,
     preflight,
     pr_url,
+    signal_pages_deploy,
 )
 
 
@@ -176,6 +179,27 @@ class AsyncMergeTests(unittest.TestCase):
         self.assertIsNone(merge_uuid({"status": "pending"}))
         self.assertIsNone(merge_uuid({"details": {"uuid": "not-a-uuid"}}))
         self.assertEqual(merge_uuid({"details": {"uuid": UUID}}), UUID)
+
+    def test_pages_dispatch_output_requires_confirmed_merge(self):
+        with TemporaryDirectory() as temp:
+            path = str(Path(temp) / "release-output")
+            for result in (
+                "skipped: already merged",
+                "skipped: awaiting AR1314 approval of current head",
+                "dry run: approved and CI-passed",
+                "enqueued (not merged; follow queue status)",
+            ):
+                self.assertFalse(signal_pages_deploy(result, path))
+                self.assertFalse(Path(path).exists())
+            self.assertTrue(signal_pages_deploy("merged", path))
+            self.assertEqual(Path(path).read_text(), "merged=true\n")
+            self.assertTrue(signal_pages_deploy("merged (confirmed after ambiguous transport error)", path))
+            self.assertEqual(Path(path).read_text(), "merged=true\nmerged=true\n")
+
+    def test_pages_dispatch_fails_closed_without_output_file(self):
+        with self.assertRaisesRegex(MergeError, "GITHUB_OUTPUT"):
+            signal_pages_deploy("merged", None)
+        self.assertFalse(signal_pages_deploy("skipped: already merged", None))
 
     def test_release_event_filters_and_manual_dry_run(self):
         approve = {"review": {"state": "approved", "user": {"login": "AR1314"}}, "pull_request": {"number": 71}}
