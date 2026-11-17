@@ -36,10 +36,10 @@
       "role": "original-infographic",
       "filename": "fluke-last-mile-power-quality-survey-infographic-original-v1.png",
       "r2_url": null,
-      "bytes": 1849042,
+      "bytes": 1805938,
       "width": 1122,
       "height": 1402,
-      "sha256": "3ac60f1aed7dc3bb385534dcead292fb8014ca8234f6da617a31ac45fb0f00c5"
+      "sha256": "07700f58a6d493c30c18a0a2745e21a743dbdbf5283c3f7bdc9e474fe127d5ae"
     },
     {
       "slug": "digital-realty-singapore-ai-cooling-lab",
@@ -56,10 +56,10 @@
       "role": "original-infographic",
       "filename": "digital-realty-singapore-ai-cooling-lab-infographic-original-v1.png",
       "r2_url": null,
-      "bytes": 2269304,
+      "bytes": 2198623,
       "width": 1122,
       "height": 1402,
-      "sha256": "caed0a39c55f2d05a19840032fc4db32f8b7c11fe8839646ce94423451210c24"
+      "sha256": "affc90fcc82b35df3c24e43304c556ed70c885b3440aeff4760edbca7d52303f"
     },
     {
       "slug": "nvent-cx121-modular-cdu",
@@ -174,10 +174,10 @@
       "role": "infographic",
       "filename": "fluke-last-mile-power-quality-survey-infographic-web-v1.webp",
       "r2_url": "https://media.techmindhub.cc/posts/fluke-last-mile-power-quality-survey-infographic-web-v1.webp",
-      "bytes": 1259184,
+      "bytes": 1232230,
       "width": 1122,
       "height": 1402,
-      "sha256": "5ad9eb8d16d9f5f2e81117f3f8ccb6d710e1a5b61c59e4185d486bed187f3de1"
+      "sha256": "9a749960d478d6f7a126888ca2df2c49c144e9580a8ee1a7bd1b379402fecf27"
     },
     {
       "slug": "fluke-last-mile-power-quality-survey",
@@ -210,10 +210,10 @@
       "role": "infographic",
       "filename": "digital-realty-singapore-ai-cooling-lab-infographic-web-v1.webp",
       "r2_url": "https://media.techmindhub.cc/posts/digital-realty-singapore-ai-cooling-lab-infographic-web-v1.webp",
-      "bytes": 1725002,
+      "bytes": 1677092,
       "width": 1122,
       "height": 1402,
-      "sha256": "025d26ca208283f0e7c643647d24c32383993ca0638dae5a3087c3e83e1d15ae"
+      "sha256": "6de219272604e5eb0d3a708ae7b5274363bfd2361bf72f8a76e51e83dafada25"
     },
     {
       "slug": "digital-realty-singapore-ai-cooling-lab",
