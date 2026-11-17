@@ -1,0 +1,10 @@
+What should be tested before a 150 kW-plus AI rack enters production?
+
+Digital Realty has opened a multi-vendor Innovation Lab in its operating SIN11 data center in Singapore. It lists chilled-water cooling, liquid-to-liquid and liquid-to-air paths, parallel UPS and BMS/EPMS monitoring.
+
+The engineering value lies in checking interfaces: flow and temperature, residual air heat, failover, alarms and service isolation. The supported rack-density figure is not an independent endurance test or a facility PUE result. Our analysis outlines what a meaningful acceptance programme would measure.
+
+https://techmindhub.cc/posts/digital-realty-singapore-ai-cooling-lab/
+https://arover.substack.com/
+
+#DataCenters #AIInfrastructure #Engineering #TechMindHub

@@ -1,0 +1,10 @@
+Where should an AI facility convert AC to an 800 V DC distribution path?
+
+nVent's MAVERICK concept places a separate conversion and protection rack beside the IT rack, receiving existing facility AC supply. That suggests a staged retrofit boundary without assuming a complete building-wide redesign.
+
+The design review still has to cover DC fault interruption, selective protection, upstream UPS integration, conductor sizing and actual conversion losses. No independent efficiency or TCO comparison accompanies the SC26 showcase. We examine the boundary rather than treating a higher voltage as an automatic system-level saving.
+
+https://techmindhub.cc/posts/nvent-maverick-800vdc-power-rack/
+https://arover.substack.com/
+
+#DataCenters #AIInfrastructure #Engineering #TechMindHub
