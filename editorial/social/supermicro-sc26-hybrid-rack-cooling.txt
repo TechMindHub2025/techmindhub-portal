@@ -1,0 +1,12 @@
+Direct-to-chip cooling and rear-door heat exchangers solve different thermal problems.
+
+Supermicro's SC26 portfolio includes in-row and sidecar CDUs as well as rear-door exchangers, supporting a range of AI and HPC configurations. A cold plate collects heat at a processor. A rear-door exchanger removes heat from rack exhaust air. These paths can complement one another, but they are not interchangeable.
+
+For an existing data hall, the decision depends on residual air load, fluid supply temperatures, piping, structural limits and how pumps, fans and controls behave during failures.
+
+The SC26 page describes a technology portfolio, not an independent efficiency comparison or a documented new deployment. The analysis follows the heat from the component to the final facility sink and identifies what would need testing before a retrofit.
+
+https://techmindhub.cc/posts/supermicro-sc26-hybrid-rack-cooling/
+https://arover.substack.com/
+
+#Supercomputing #HPC #DirectLiquidCooling #RearDoorCooling #TechMindHub
