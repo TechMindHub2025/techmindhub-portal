@@ -26,7 +26,7 @@ on:
         type: boolean
 
 permissions:
-  actions: read
+  actions: write
   contents: write
   pull-requests: read
 
@@ -56,6 +56,17 @@ jobs:
           ref: main
           persist-credentials: false
       - name: Merge approved release asynchronously
+        id: release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python3 scripts/async_merge.py
+      # GITHUB_TOKEN-authored merges do not trigger push-based workflows.
+      # workflow_dispatch explicitly starts the existing Pages build.
+      - name: Deploy confirmed merge to GitHub Pages
+        if: ${{ always() && steps.release.outputs.merged == 'true' }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh api --method POST \
+            "repos/${GITHUB_REPOSITORY}/actions/workflows/deploy.yml/dispatches" \
+            -f ref=main
