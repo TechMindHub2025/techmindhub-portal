@@ -69,10 +69,26 @@ as a failed release; it does not bypass or silently retry the rejected merge.
 
 ## Deployment and limitations
 
-Successful merge triggers the **existing** `Deploy Astro to GitHub Pages`
-workflow via `push` to `main`. The async merge workflow does not claim that
-the GitHub Pages deployment or live images have been verified. The release
-owner still performs live QA after deployment.
+GitHub does **not** trigger a `push` workflow when a PR is merged using
+the default `GITHUB_TOKEN` inside an Actions job. The release script therefore
+signals `merged=true` only after GitHub confirms `merged: true` on a fresh
+PR read. The merge workflow then uses `workflow_dispatch` to start the
+**existing** `Deploy Astro to GitHub Pages` workflow on `main` with
+`actions: write` permission. It never dispatches for a dry run, skipped PR
+or unconfirmed `enqueued` state. No branch-protection bypass or extra
+credential is required.
+
+The deploy request alone is **not** proof of a successful GitHub Pages build
+or live publication. After each release, check that the Pages run completed
+successfully **for the merged main commit**, then open the live new articles,
+feed cards, images and `feed.xml`. Do not report a release as live until
+those checks pass.
+
+Recovery for releases merged before this fix: run the existing
+**Actions → Deploy Astro to GitHub Pages → Run workflow → main** once,
+then verify its success and the live pages. Re-running the async merge for
+an already-merged PR is deliberately a no-op; it does not silently
+re-dispatch deployment.
 
 Only the new workflow **after it reaches `main`** can automatically handle new
 approval and CI events. Existing approved PRs, including #70 and #71 from the
