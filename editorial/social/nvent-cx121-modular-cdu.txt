@@ -1,0 +1,10 @@
+The most important number on a coolant distribution unit is not always its maximum MW rating.
+
+nVent has announced the modular CX121 CDU with a stated maximum operating performance of 2.3 MW, with production expected late in 2026 and pre-orders underway. Its role is to transfer rack heat across a facility boundary under specified flow and temperature conditions.
+
+We examine parallel modules, common-cause failures and why a design point matters. The separate OCP Brazos liquid-to-air CDU in the same announcement addresses a different retrofit path. Neither product announcement constitutes an independent field test.
+
+https://techmindhub.cc/posts/nvent-cx121-modular-cdu/
+https://arover.substack.com/
+
+#DataCenters #AIInfrastructure #Engineering #TechMindHub

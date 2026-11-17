@@ -1,0 +1,10 @@
+A data center can have grid capacity and still struggle at the final electrical distribution stages.
+
+In a Fluke-commissioned survey of 1,300 professionals across six countries, 78% reported electrical issues contributing to disruption, delay, downtime or near misses in the previous year. Only 33% considered their infrastructure fully ready for high-density AI loads.
+
+These are self-reported responses, not a measured global outage rate. We examine how power-quality measurements, event logs and load transitions can turn a broad concern into a testable diagnosis.
+
+https://techmindhub.cc/posts/fluke-last-mile-power-quality-survey/
+https://arover.substack.com/
+
+#DataCenters #AIInfrastructure #Engineering #TechMindHub

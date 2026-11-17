@@ -1,0 +1,10 @@
+Before a campus can scale compute, it has to secure a credible electrical path.
+
+Digital Realty says its dedicated 110 kV underground connection from Karben to Digital Park Fechenheim is online. The roughly 16 km project was built over about 20 months and is designed for up to 300 MVA. The campus could eventually comprise 11 data centers and up to 200 MW of IT capacity.
+
+Those numbers describe different boundaries. A 300 MVA connection is not 300 MW of present IT consumption, and a dedicated line does not by itself establish independent redundant feeds. Our analysis follows the planning and commissioning questions behind the headline capacity.
+
+https://techmindhub.cc/posts/digital-realty-frankfurt-110kv-power-connection/
+https://arover.substack.com/
+
+#DataCenters #AIInfrastructure #Engineering #TechMindHub

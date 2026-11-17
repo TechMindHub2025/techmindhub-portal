@@ -1,0 +1,343 @@
+{
+  "release": "2026-11-17-six-power-infrastructure-v1",
+  "originals": [
+    {
+      "slug": "digital-realty-frankfurt-110kv-power-connection",
+      "role": "original-card",
+      "filename": "digital-realty-frankfurt-110kv-power-connection-card-original-v1.png",
+      "r2_url": null,
+      "bytes": 2449665,
+      "width": 1672,
+      "height": 941,
+      "sha256": "d403e81f4e8250f089c9e3602b32fcde6a08828d156b05d3b8ccd34d42fd4de2"
+    },
+    {
+      "slug": "digital-realty-frankfurt-110kv-power-connection",
+      "role": "original-infographic",
+      "filename": "digital-realty-frankfurt-110kv-power-connection-infographic-original-v1.png",
+      "r2_url": null,
+      "bytes": 2550031,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "2620c7f75d94f81a4ee23793dbf1717644631ff97cb7430de257721ca33b1481"
+    },
+    {
+      "slug": "fluke-last-mile-power-quality-survey",
+      "role": "original-card",
+      "filename": "fluke-last-mile-power-quality-survey-card-original-v1.png",
+      "r2_url": null,
+      "bytes": 1890952,
+      "width": 1672,
+      "height": 941,
+      "sha256": "4b439e19469e54e99cb9fbbe579688fa0e551e033c0d48021634056db442ab49"
+    },
+    {
+      "slug": "fluke-last-mile-power-quality-survey",
+      "role": "original-infographic",
+      "filename": "fluke-last-mile-power-quality-survey-infographic-original-v1.png",
+      "r2_url": null,
+      "bytes": 1805938,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "07700f58a6d493c30c18a0a2745e21a743dbdbf5283c3f7bdc9e474fe127d5ae"
+    },
+    {
+      "slug": "digital-realty-singapore-ai-cooling-lab",
+      "role": "original-card",
+      "filename": "digital-realty-singapore-ai-cooling-lab-card-original-v1.png",
+      "r2_url": null,
+      "bytes": 2195035,
+      "width": 1672,
+      "height": 941,
+      "sha256": "0473a51d6251719e92eb88aac0a81aa95c925b2de3c589f1787f5183900fcd49"
+    },
+    {
+      "slug": "digital-realty-singapore-ai-cooling-lab",
+      "role": "original-infographic",
+      "filename": "digital-realty-singapore-ai-cooling-lab-infographic-original-v1.png",
+      "r2_url": null,
+      "bytes": 2198623,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "affc90fcc82b35df3c24e43304c556ed70c885b3440aeff4760edbca7d52303f"
+    },
+    {
+      "slug": "nvent-cx121-modular-cdu",
+      "role": "original-card",
+      "filename": "nvent-cx121-modular-cdu-card-original-v1.png",
+      "r2_url": null,
+      "bytes": 2228945,
+      "width": 1672,
+      "height": 941,
+      "sha256": "90ff3af0af043e54936a79801d33ef3281ee0f3a7aa079a1cf04c2b336215827"
+    },
+    {
+      "slug": "nvent-cx121-modular-cdu",
+      "role": "original-infographic",
+      "filename": "nvent-cx121-modular-cdu-infographic-original-v1.png",
+      "r2_url": null,
+      "bytes": 1858348,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "543cebc394e03b4a5f45d9353b189a034b51474c5bf684850eced8f617e1666c"
+    },
+    {
+      "slug": "vertiv-powernexus-mv-ups",
+      "role": "original-card",
+      "filename": "vertiv-powernexus-mv-ups-card-original-v1.png",
+      "r2_url": null,
+      "bytes": 2324827,
+      "width": 1672,
+      "height": 941,
+      "sha256": "5b2dc69773e2c7a6e87b439abe25e69a512e2a452d6be4ebae312a3e29055108"
+    },
+    {
+      "slug": "vertiv-powernexus-mv-ups",
+      "role": "original-infographic",
+      "filename": "vertiv-powernexus-mv-ups-infographic-original-v1.png",
+      "r2_url": null,
+      "bytes": 2122386,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "04ae05865b1ec64c0ff31cbead677bdf9dd9e64fe452810432024348136dfa30"
+    },
+    {
+      "slug": "nvent-maverick-800vdc-power-rack",
+      "role": "original-card",
+      "filename": "nvent-maverick-800vdc-power-rack-card-original-v1.png",
+      "r2_url": null,
+      "bytes": 1994271,
+      "width": 1672,
+      "height": 941,
+      "sha256": "06addfa9381295af23c59f1c017d78a9125adedeb066fb5476ba1580740c359e"
+    },
+    {
+      "slug": "nvent-maverick-800vdc-power-rack",
+      "role": "original-infographic",
+      "filename": "nvent-maverick-800vdc-power-rack-infographic-original-v1.png",
+      "r2_url": null,
+      "bytes": 2027881,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "e69b470e53e675053e18492a2e5594b84631803d209e71a07761e7df82ddd17e"
+    }
+  ],
+  "assets": [
+    {
+      "slug": "digital-realty-frankfurt-110kv-power-connection",
+      "role": "card",
+      "filename": "digital-realty-frankfurt-110kv-power-connection-card-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/digital-realty-frankfurt-110kv-power-connection-card-web-v1.webp",
+      "bytes": 427990,
+      "width": 800,
+      "height": 450,
+      "sha256": "460bca00ef52800ff5cb7093d2847149a08ab555f624d06f6b81bd735167668c"
+    },
+    {
+      "slug": "digital-realty-frankfurt-110kv-power-connection",
+      "role": "infographic",
+      "filename": "digital-realty-frankfurt-110kv-power-connection-infographic-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/digital-realty-frankfurt-110kv-power-connection-infographic-web-v1.webp",
+      "bytes": 1805994,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "78084a405016d1a22956c3114593a17b795546abf0bf2dfbc37feac98030d378"
+    },
+    {
+      "slug": "digital-realty-frankfurt-110kv-power-connection",
+      "role": "og",
+      "filename": "digital-realty-frankfurt-110kv-power-connection-og-web-v1.jpg",
+      "r2_url": "https://media.techmindhub.cc/posts/digital-realty-frankfurt-110kv-power-connection-og-web-v1.jpg",
+      "bytes": 383330,
+      "width": 1200,
+      "height": 630,
+      "sha256": "7bb2bcf401bbd5a2e7825c3a3d22e97790821946e47076b371a088a97584e172",
+      "original_crop_box": [
+        0,
+        31,
+        1672,
+        909
+      ]
+    },
+    {
+      "slug": "fluke-last-mile-power-quality-survey",
+      "role": "card",
+      "filename": "fluke-last-mile-power-quality-survey-card-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/fluke-last-mile-power-quality-survey-card-web-v1.webp",
+      "bytes": 361304,
+      "width": 800,
+      "height": 450,
+      "sha256": "9d439e2a58c4bb7eeaf328fe8846eb26c07dfbd245421589dd5d37de12fbeb00"
+    },
+    {
+      "slug": "fluke-last-mile-power-quality-survey",
+      "role": "infographic",
+      "filename": "fluke-last-mile-power-quality-survey-infographic-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/fluke-last-mile-power-quality-survey-infographic-web-v1.webp",
+      "bytes": 1232230,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "9a749960d478d6f7a126888ca2df2c49c144e9580a8ee1a7bd1b379402fecf27"
+    },
+    {
+      "slug": "fluke-last-mile-power-quality-survey",
+      "role": "og",
+      "filename": "fluke-last-mile-power-quality-survey-og-web-v1.jpg",
+      "r2_url": "https://media.techmindhub.cc/posts/fluke-last-mile-power-quality-survey-og-web-v1.jpg",
+      "bytes": 300510,
+      "width": 1200,
+      "height": 630,
+      "sha256": "f505c20391127541a596fae434425d94ae37551bb7a7edadf06e857996f7613c",
+      "original_crop_box": [
+        0,
+        31,
+        1672,
+        909
+      ]
+    },
+    {
+      "slug": "digital-realty-singapore-ai-cooling-lab",
+      "role": "card",
+      "filename": "digital-realty-singapore-ai-cooling-lab-card-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/digital-realty-singapore-ai-cooling-lab-card-web-v1.webp",
+      "bytes": 397244,
+      "width": 800,
+      "height": 450,
+      "sha256": "bcc13b847bbb71b425426aef362770f8a95dcb0f3765a0652b86bbc0b5bceb71"
+    },
+    {
+      "slug": "digital-realty-singapore-ai-cooling-lab",
+      "role": "infographic",
+      "filename": "digital-realty-singapore-ai-cooling-lab-infographic-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/digital-realty-singapore-ai-cooling-lab-infographic-web-v1.webp",
+      "bytes": 1677092,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "6de219272604e5eb0d3a708ae7b5274363bfd2361bf72f8a76e51e83dafada25"
+    },
+    {
+      "slug": "digital-realty-singapore-ai-cooling-lab",
+      "role": "og",
+      "filename": "digital-realty-singapore-ai-cooling-lab-og-web-v1.jpg",
+      "r2_url": "https://media.techmindhub.cc/posts/digital-realty-singapore-ai-cooling-lab-og-web-v1.jpg",
+      "bytes": 376087,
+      "width": 1200,
+      "height": 630,
+      "sha256": "c6bfb76211f136bf1706120f3894ee74901d986872790fcead9d99259afdfc73",
+      "original_crop_box": [
+        0,
+        31,
+        1672,
+        909
+      ]
+    },
+    {
+      "slug": "nvent-cx121-modular-cdu",
+      "role": "card",
+      "filename": "nvent-cx121-modular-cdu-card-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/nvent-cx121-modular-cdu-card-web-v1.webp",
+      "bytes": 392490,
+      "width": 800,
+      "height": 450,
+      "sha256": "d682c7d446d1b3c177bfa652f77e0665c9c1d41efab066d352e1bf507280a43e"
+    },
+    {
+      "slug": "nvent-cx121-modular-cdu",
+      "role": "infographic",
+      "filename": "nvent-cx121-modular-cdu-infographic-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/nvent-cx121-modular-cdu-infographic-web-v1.webp",
+      "bytes": 1316914,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "648be54c581c5a3db1bf20b5e04c8ebf1164244425aff8328faf9870b02ae99b"
+    },
+    {
+      "slug": "nvent-cx121-modular-cdu",
+      "role": "og",
+      "filename": "nvent-cx121-modular-cdu-og-web-v1.jpg",
+      "r2_url": "https://media.techmindhub.cc/posts/nvent-cx121-modular-cdu-og-web-v1.jpg",
+      "bytes": 362418,
+      "width": 1200,
+      "height": 630,
+      "sha256": "cb92f1173a51524b6c5d30f4d622787d6addecaa0ea0f7dc140e71e3bdee298f",
+      "original_crop_box": [
+        0,
+        31,
+        1672,
+        909
+      ]
+    },
+    {
+      "slug": "vertiv-powernexus-mv-ups",
+      "role": "card",
+      "filename": "vertiv-powernexus-mv-ups-card-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/vertiv-powernexus-mv-ups-card-web-v1.webp",
+      "bytes": 431320,
+      "width": 800,
+      "height": 450,
+      "sha256": "1f32f49303791544301f621791245b2206388cef038bc7a649e5862cedf0b789"
+    },
+    {
+      "slug": "vertiv-powernexus-mv-ups",
+      "role": "infographic",
+      "filename": "vertiv-powernexus-mv-ups-infographic-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/vertiv-powernexus-mv-ups-infographic-web-v1.webp",
+      "bytes": 1528828,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "8592bf4014451f3ffbc96cc36440c534833e8afc83c6792167d22ea503c9d5db"
+    },
+    {
+      "slug": "vertiv-powernexus-mv-ups",
+      "role": "og",
+      "filename": "vertiv-powernexus-mv-ups-og-web-v1.jpg",
+      "r2_url": "https://media.techmindhub.cc/posts/vertiv-powernexus-mv-ups-og-web-v1.jpg",
+      "bytes": 403020,
+      "width": 1200,
+      "height": 630,
+      "sha256": "07a273eff7069b35d94eab020c1e4e8e325f0ce742a25d71a3afbffb24e386dc",
+      "original_crop_box": [
+        0,
+        31,
+        1672,
+        909
+      ]
+    },
+    {
+      "slug": "nvent-maverick-800vdc-power-rack",
+      "role": "card",
+      "filename": "nvent-maverick-800vdc-power-rack-card-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/nvent-maverick-800vdc-power-rack-card-web-v1.webp",
+      "bytes": 330982,
+      "width": 800,
+      "height": 450,
+      "sha256": "e6b7e2f5c9de927f33ff6f51ac3788084c59263f2033a143cdee55eb7cac2a9f"
+    },
+    {
+      "slug": "nvent-maverick-800vdc-power-rack",
+      "role": "infographic",
+      "filename": "nvent-maverick-800vdc-power-rack-infographic-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/nvent-maverick-800vdc-power-rack-infographic-web-v1.webp",
+      "bytes": 1378016,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "76c1ab2fdec233035b9c12ea07a3e7d25a4139f1a9fb3d9e1d59296335fb7d0e"
+    },
+    {
+      "slug": "nvent-maverick-800vdc-power-rack",
+      "role": "og",
+      "filename": "nvent-maverick-800vdc-power-rack-og-web-v1.jpg",
+      "r2_url": "https://media.techmindhub.cc/posts/nvent-maverick-800vdc-power-rack-og-web-v1.jpg",
+      "bytes": 282081,
+      "width": 1200,
+      "height": 630,
+      "sha256": "0b0b11e5aae6e5c134464c728149ff6bb60296256f34674503212ce2f92b6377",
+      "original_crop_box": [
+        0,
+        31,
+        1672,
+        909
+      ]
+    }
+  ]
+}
