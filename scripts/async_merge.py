@@ -251,6 +251,17 @@ def event_target(event: dict, event_name: str) -> tuple[list[int], str | None, b
     return [], None, False
 
 
+def signal_pages_deploy(result: str, output_path: str | None) -> bool:
+    """Request deployment only after GitHub confirms the PR is merged."""
+    if result not in ("merged", "merged (confirmed after ambiguous transport error)"):
+        return False
+    if not output_path:
+        raise MergeError("GITHUB_OUTPUT is required after a confirmed merge.")
+    with open(output_path, "a", encoding="utf-8") as stream:
+        stream.write("merged=true\n")
+    return True
+
+
 def main() -> int:
     if os.environ.get("GITHUB_REPOSITORY") != REPOSITORY:
         raise MergeError("Wrong repository; merge disabled.")
@@ -267,7 +278,10 @@ def main() -> int:
     for number in numbers:
         if number <= 0:
             raise MergeError("Invalid PR number.")
-        print(f"PR #{number}: {merge_approved(api, number, resume_uuid=resume_uuid, dry_run=dry_run)}")
+        result = merge_approved(api, number, resume_uuid=resume_uuid, dry_run=dry_run)
+        print(f"PR #{number}: {result}")
+        if signal_pages_deploy(result, os.environ.get("GITHUB_OUTPUT")):
+            print("Confirmed merge: Pages deployment will be dispatched.")
     return 0
 
 
