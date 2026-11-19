@@ -1,0 +1,10 @@
+Quantum error correction depends on a large classical research workload: evaluating decoders against many sampled error patterns.
+
+IBM and AMD have released Pelagos, an open-source, GPU-accelerated framework for those studies. Their reported tests reached roughly 7.5× speedup across eight GPUs for the GPU decoding stage relative to one GPU. That ratio does not describe an entire experiment or a quantum computer's performance.
+
+Our analysis separates decoder evaluation from real-time quantum-classical operation and asks what reproducible scaling would need to measure.
+
+https://techmindhub.cc/posts/ibm-amd-pelagos-quantum-decoder-evaluation/
+https://arover.substack.com/
+
+#QuantumComputing #HPC #OpenSource #TechMindHub

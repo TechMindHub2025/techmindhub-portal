@@ -1,0 +1,10 @@
+What happens when radio access and AI workloads compete for the same computing infrastructure?
+
+Vodafone opened an AI-RAN test hub in Málaga, while VodafoneThree announced planned laboratory and field trials in the UK. The research spans AI-assisted radio algorithms, shared GPU/CPU compute, and edge applications. Vodafone intends to compare platforms and benchmark radio performance before wider decisions.
+
+These are experiments and plans, not measured improvements in a deployed commercial network. Our analysis focuses on latency, resource isolation, power and spectral efficiency as the meaningful evaluation boundaries.
+
+https://techmindhub.cc/posts/vodafone-malaga-ai-ran-test-hub/
+https://arover.substack.com/
+
+#Telecommunications #AIRAN #EdgeComputing #TechMindHub

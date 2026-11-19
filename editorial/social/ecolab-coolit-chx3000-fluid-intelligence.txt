@@ -1,0 +1,10 @@
+Liquid cooling reliability is also a question of what happens to the liquid over time.
+
+Ecolab and CoolIT unveiled the CHx 3000, a 3 MW-rated coolant distribution unit integrated with 3D TRASAR fluid monitoring. The engineering proposition is to observe fluid condition alongside flow and temperature as dense AI systems operate.
+
+A product rating is not a measured result at every site. Independent performance, water-use and long-duration reliability data were not provided in the announcement. We examine the practical evidence operators would need before procurement and deployment.
+
+https://techmindhub.cc/posts/ecolab-coolit-chx3000-fluid-intelligence/
+https://arover.substack.com/
+
+#DataCenters #LiquidCooling #Infrastructure #TechMindHub

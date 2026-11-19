@@ -1,0 +1,12 @@
+A WAF can see a malformed HTTP request. It cannot see every route to a vulnerable Java decoder.
+
+Java4Shell (CVE-2026-114938) is a critical memory-corruption vulnerability in OpenJDK's Base64 decoding path. Cloudflare's analysis describes edge rules for several HTTP locations, while also explaining gaps involving nested data, non-HTTP protocols and outbound Java clients.
+
+The operational priority is to identify affected runtime builds and install the vendor's fix. Edge rules can add temporary protection for covered traffic; they do not repair the runtime.
+
+We examine the trust boundary and a practical response sequence.
+
+https://techmindhub.cc/posts/java4shell-openjdk-runtime-waf-boundaries/
+https://arover.substack.com/
+
+#Java #RuntimeSecurity #DevSecOps #TechMindHub

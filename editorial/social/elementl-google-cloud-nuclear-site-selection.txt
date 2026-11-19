@@ -1,0 +1,10 @@
+The first bottleneck for a nuclear project may be a defensible shortlist of sites.
+
+Elementl Power and Google Cloud are building Lattice, beginning with Atlas, a tool that screens geographic, environmental and infrastructure characteristics across potential locations. Elementl says preliminary desktop analysis could move from months to days or weeks.
+
+That is a company claim about early research, not a measured reduction in reactor construction time. A useful shortlist still needs traceable data, human engineering judgment, regulatory review and local validation. Our analysis explores where AI-assisted screening can help and what remains unproven.
+
+https://techmindhub.cc/posts/elementl-google-cloud-nuclear-site-selection/
+https://arover.substack.com/
+
+#NuclearEnergy #EnergyInfrastructure #AppliedAI #TechMindHub

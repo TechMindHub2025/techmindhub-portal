@@ -1,0 +1,12 @@
+Can AI improve a chip design after formal and physical checks?
+
+OpenAI reports model-proposed changes to Jalapeño blocks that reduced estimated standard-cell area by 13% in a vector unit and 10% in a matrix unit, with silicon bring-up confirming the optimizations. It also reports PPA gains of up to 14% on selected AMD GPU IP against optimized baselines.
+
+These are block-level results, not whole-processor efficiency claims. The important engineering sequence runs from SystemVerilog RTL through behavioral equivalence, synthesis and implementation. RISC-V benchmark scores answer a different, less production-complete question.
+
+Our analysis examines the verification loop and the measurement boundaries.
+
+https://techmindhub.cc/posts/openai-ai-optimized-chip-design/
+https://arover.substack.com/
+
+#Semiconductors #ChipDesign #AI #TechMindHub
