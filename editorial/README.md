@@ -12,11 +12,14 @@ automation complements factual and visual review, not replaces it.
 - Communicate with the project owner in Russian. Publish editorial content in English.
 - Prepare content and source changes on a separate branch and open a pull request.
 - A designated reviewer with write access submits GitHub approval. The connected author account cannot approve its own pull requests.
-- Merge only after the required approval applies to the current PR head. Do not replace the human review, change repository protection, or treat chat approval as satisfying GitHub rules.
-- After merge, verify the GitHub Pages deployment, live article, images and feed card.
-- The automatic post-approval merge workflow, fail-closed recovery and dry-run
-  procedure are described in [ASYNC-MERGE.md](ASYNC-MERGE.md). It does not
-  replace human approval or live deployment checks.
+- The designated reviewer's approval must apply to the current PR head;
+  publication checks must pass. Do not replace human review or change protections.
+- After that approval, the publishing assistant merges the PR through the
+  connected GitHub integration and verifies Pages, live articles, images and feed.
+  The reviewer does not need to open Actions or manually run a workflow.
+  The existing `Deploy Astro to GitHub Pages` workflow starts on pushes to `main`.
+  If a merge cannot be performed, report the blocker instead of inventing a
+  manual release step or bypassing branch protection.
 - Approved social materials are published manually. Do not send social posts without a separate instruction.
 - The site has a default article byline and editor. Set `author` in a post's frontmatter only when a different credited author has been reviewed; an author account is not needed to credit a contributor.
 - For new articles, set `pubDate` to a UTC timestamp when multiple releases share a calendar day. The public date remains the calendar date; the timestamp determines the Latest order.
