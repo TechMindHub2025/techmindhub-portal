@@ -1,0 +1,10 @@
+A coding agent's security depends on the reach of the commands and tools it can run.
+
+OpenAI's technical account of the Codex sandbox describes filesystem permission profiles, network policy and platform-specific enforcement on macOS, Linux and Windows. It also notes an important operational boundary: a stdio MCP server is not automatically sandboxed when started by the harness.
+
+Our analysis asks how teams should test the actual workspace, file and network permissions of their tool chain. The architecture reduces exposure, but its description is not an independent security audit or a guarantee against prompt injection.
+
+https://techmindhub.cc/posts/openai-codex-sandbox-architecture/
+https://arover.substack.com/
+
+#AIAgents #Sandbox #Cybersecurity #TechMindHub

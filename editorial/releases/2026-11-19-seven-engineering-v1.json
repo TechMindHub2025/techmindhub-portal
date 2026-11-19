@@ -1,0 +1,399 @@
+{
+  "release": "2026-11-19-seven-engineering-v1",
+  "originals": [
+    {
+      "slug": "openai-ai-optimized-chip-design",
+      "role": "original-card",
+      "filename": "openai-ai-optimized-chip-design-card-original-v1.png",
+      "r2_url": null,
+      "bytes": 2590759,
+      "width": 1672,
+      "height": 941,
+      "sha256": "08b625aa4497c2e4b30c5b9708ed386b004da7778129b92ff426cb5135f8800e"
+    },
+    {
+      "slug": "openai-ai-optimized-chip-design",
+      "role": "original-infographic",
+      "filename": "openai-ai-optimized-chip-design-infographic-original-v1.png",
+      "r2_url": null,
+      "bytes": 1648053,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "7b4f90882c2c9c880d24b4859e20d54705f478758dd9b97884cc4ce8021b60e8"
+    },
+    {
+      "slug": "java4shell-openjdk-runtime-waf-boundaries",
+      "role": "original-card",
+      "filename": "java4shell-openjdk-runtime-waf-boundaries-card-original-v1.png",
+      "r2_url": null,
+      "bytes": 1701709,
+      "width": 1672,
+      "height": 941,
+      "sha256": "669d13c9965cfa1ea76ecf49874892ff50273dd2dfb5afb76c4f5aef2df5dbd4"
+    },
+    {
+      "slug": "java4shell-openjdk-runtime-waf-boundaries",
+      "role": "original-infographic",
+      "filename": "java4shell-openjdk-runtime-waf-boundaries-infographic-original-v1.png",
+      "r2_url": null,
+      "bytes": 1940192,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "d55aaac3a9e2a9cb36b9e9839be25caee204efecf533918e5e1de7881ad9f406"
+    },
+    {
+      "slug": "ibm-amd-pelagos-quantum-decoder-evaluation",
+      "role": "original-card",
+      "filename": "ibm-amd-pelagos-quantum-decoder-evaluation-card-original-v1.png",
+      "r2_url": null,
+      "bytes": 2347835,
+      "width": 1672,
+      "height": 941,
+      "sha256": "fb9cd1c778d6e6568ed6f2c2ef5ca93d3eeec62fc1ac1131afe4db791839fc01"
+    },
+    {
+      "slug": "ibm-amd-pelagos-quantum-decoder-evaluation",
+      "role": "original-infographic",
+      "filename": "ibm-amd-pelagos-quantum-decoder-evaluation-infographic-original-v1.png",
+      "r2_url": null,
+      "bytes": 1967773,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "7b3879964b1ee6e9c1270329018a522cdb733f77dcc79db233b82a21583a10ed"
+    },
+    {
+      "slug": "ecolab-coolit-chx3000-fluid-intelligence",
+      "role": "original-card",
+      "filename": "ecolab-coolit-chx3000-fluid-intelligence-card-original-v1.png",
+      "r2_url": null,
+      "bytes": 2208671,
+      "width": 1672,
+      "height": 941,
+      "sha256": "3467e56e02b152f7dfa0ad2d76db9568244cbf5f4d0dbfd3846979b369ed7de3"
+    },
+    {
+      "slug": "ecolab-coolit-chx3000-fluid-intelligence",
+      "role": "original-infographic",
+      "filename": "ecolab-coolit-chx3000-fluid-intelligence-infographic-original-v1.png",
+      "r2_url": null,
+      "bytes": 2335087,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "1354c03c8258dfb0aa08a42f37e92e175782a896e4cb56d4904b38f4365be830"
+    },
+    {
+      "slug": "vodafone-malaga-ai-ran-test-hub",
+      "role": "original-card",
+      "filename": "vodafone-malaga-ai-ran-test-hub-card-original-v1.png",
+      "r2_url": null,
+      "bytes": 2426350,
+      "width": 1672,
+      "height": 941,
+      "sha256": "aa6044176683e55256a82820c356c7bfc4dbe6932832fa9c1d88aeefb47d8684"
+    },
+    {
+      "slug": "vodafone-malaga-ai-ran-test-hub",
+      "role": "original-infographic",
+      "filename": "vodafone-malaga-ai-ran-test-hub-infographic-original-v1.png",
+      "r2_url": null,
+      "bytes": 1871840,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "4303a9f26726180e09949d381fca91850d220b1160e94b95dffe5007a8f37e5d"
+    },
+    {
+      "slug": "openai-codex-sandbox-architecture",
+      "role": "original-card",
+      "filename": "openai-codex-sandbox-architecture-card-original-v1.png",
+      "r2_url": null,
+      "bytes": 1711451,
+      "width": 1672,
+      "height": 941,
+      "sha256": "90c0a012448d8c6e9b1afa51230488e3de29c1526eaa4e7b0c1c5333bff36ed1"
+    },
+    {
+      "slug": "openai-codex-sandbox-architecture",
+      "role": "original-infographic",
+      "filename": "openai-codex-sandbox-architecture-infographic-original-v1.png",
+      "r2_url": null,
+      "bytes": 2217458,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "86499122f1b85108c806f5efa5ad253a1f522fb68e983bd8cc6f3ed57e93419b"
+    },
+    {
+      "slug": "elementl-google-cloud-nuclear-site-selection",
+      "role": "original-card",
+      "filename": "elementl-google-cloud-nuclear-site-selection-card-original-v1.png",
+      "r2_url": null,
+      "bytes": 3709506,
+      "width": 1672,
+      "height": 941,
+      "sha256": "405de9c523b2ca1f9dba7a964b32c70c5bc8d3a86e34e51f6ed96b68348e7dc9"
+    },
+    {
+      "slug": "elementl-google-cloud-nuclear-site-selection",
+      "role": "original-infographic",
+      "filename": "elementl-google-cloud-nuclear-site-selection-infographic-original-v1.png",
+      "r2_url": null,
+      "bytes": 2543086,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "022ee78feac6dc59fdbc8c0ea5e478917f8be20365c103520a50982ac48433c7"
+    }
+  ],
+  "assets": [
+    {
+      "slug": "ecolab-coolit-chx3000-fluid-intelligence",
+      "role": "card",
+      "filename": "ecolab-coolit-chx3000-fluid-intelligence-card-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/ecolab-coolit-chx3000-fluid-intelligence-card-web-v1.webp",
+      "bytes": 434132,
+      "width": 800,
+      "height": 450,
+      "sha256": "bd31a59b8152ece5b6c4b1eb3b040ab3f9c7b5ae17af6a012bc2f56918707609"
+    },
+    {
+      "slug": "ecolab-coolit-chx3000-fluid-intelligence",
+      "role": "infographic",
+      "filename": "ecolab-coolit-chx3000-fluid-intelligence-infographic-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/ecolab-coolit-chx3000-fluid-intelligence-infographic-web-v1.webp",
+      "bytes": 1714948,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "e887f093a4b5012dc137dbe9e44b6d47a9b458786ca74cc590642cd60917b31c"
+    },
+    {
+      "slug": "ecolab-coolit-chx3000-fluid-intelligence",
+      "role": "og",
+      "filename": "ecolab-coolit-chx3000-fluid-intelligence-og-web-v1.jpg",
+      "r2_url": "https://media.techmindhub.cc/posts/ecolab-coolit-chx3000-fluid-intelligence-og-web-v1.jpg",
+      "bytes": 397784,
+      "width": 1200,
+      "height": 630,
+      "sha256": "af8fa40f298a3aa7d4b25b64d57bb2b8458a17f3312b433c6ffe4d7284a1f56a",
+      "original_crop_box": [
+        0,
+        31,
+        1672,
+        909
+      ]
+    },
+    {
+      "slug": "elementl-google-cloud-nuclear-site-selection",
+      "role": "card",
+      "filename": "elementl-google-cloud-nuclear-site-selection-card-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/elementl-google-cloud-nuclear-site-selection-card-web-v1.webp",
+      "bytes": 592272,
+      "width": 800,
+      "height": 450,
+      "sha256": "d5afaadb4c2ede1688041acae5674a97375f455ec60a5f8c270b6b03d258789c"
+    },
+    {
+      "slug": "elementl-google-cloud-nuclear-site-selection",
+      "role": "infographic",
+      "filename": "elementl-google-cloud-nuclear-site-selection-infographic-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/elementl-google-cloud-nuclear-site-selection-infographic-web-v1.webp",
+      "bytes": 1782174,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "18232d37fbb0f2a535e45783e9dd1116223f448dcf1f1360a766dc156ab6bd48"
+    },
+    {
+      "slug": "elementl-google-cloud-nuclear-site-selection",
+      "role": "og",
+      "filename": "elementl-google-cloud-nuclear-site-selection-og-web-v1.jpg",
+      "r2_url": "https://media.techmindhub.cc/posts/elementl-google-cloud-nuclear-site-selection-og-web-v1.jpg",
+      "bytes": 624502,
+      "width": 1200,
+      "height": 630,
+      "sha256": "41aa4a065507e26a9b1f7d21bf6e3bcde22b4f336aca81148f7f574c3c74d294",
+      "original_crop_box": [
+        0,
+        31,
+        1672,
+        909
+      ]
+    },
+    {
+      "slug": "ibm-amd-pelagos-quantum-decoder-evaluation",
+      "role": "card",
+      "filename": "ibm-amd-pelagos-quantum-decoder-evaluation-card-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/ibm-amd-pelagos-quantum-decoder-evaluation-card-web-v1.webp",
+      "bytes": 472978,
+      "width": 800,
+      "height": 450,
+      "sha256": "cffcbd0aea8fc44e787a040296c09004c64460d07028454c4cf4d585210de685"
+    },
+    {
+      "slug": "ibm-amd-pelagos-quantum-decoder-evaluation",
+      "role": "infographic",
+      "filename": "ibm-amd-pelagos-quantum-decoder-evaluation-infographic-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/ibm-amd-pelagos-quantum-decoder-evaluation-infographic-web-v1.webp",
+      "bytes": 1423582,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "98eb32427f43088809febdd719f42aeaa146ba73294b8d8bbf228cfc021a9d8a"
+    },
+    {
+      "slug": "ibm-amd-pelagos-quantum-decoder-evaluation",
+      "role": "og",
+      "filename": "ibm-amd-pelagos-quantum-decoder-evaluation-og-web-v1.jpg",
+      "r2_url": "https://media.techmindhub.cc/posts/ibm-amd-pelagos-quantum-decoder-evaluation-og-web-v1.jpg",
+      "bytes": 435528,
+      "width": 1200,
+      "height": 630,
+      "sha256": "60d3082a715eb17411c1c296f82ffbd6c1b9ef01fec1bdb500075ac71161f4cb",
+      "original_crop_box": [
+        0,
+        31,
+        1672,
+        909
+      ]
+    },
+    {
+      "slug": "java4shell-openjdk-runtime-waf-boundaries",
+      "role": "card",
+      "filename": "java4shell-openjdk-runtime-waf-boundaries-card-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/java4shell-openjdk-runtime-waf-boundaries-card-web-v1.webp",
+      "bytes": 301726,
+      "width": 800,
+      "height": 450,
+      "sha256": "5607456ce03d5c03fa501fa2958178bb4cfd13b16da6ebf4fe27528f8f50b92f"
+    },
+    {
+      "slug": "java4shell-openjdk-runtime-waf-boundaries",
+      "role": "infographic",
+      "filename": "java4shell-openjdk-runtime-waf-boundaries-infographic-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/java4shell-openjdk-runtime-waf-boundaries-infographic-web-v1.webp",
+      "bytes": 1445856,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "6d2f175fc6612e381ee4fe17b84d2d28bb209ffb9645d201fddd500793e93bc6"
+    },
+    {
+      "slug": "java4shell-openjdk-runtime-waf-boundaries",
+      "role": "og",
+      "filename": "java4shell-openjdk-runtime-waf-boundaries-og-web-v1.jpg",
+      "r2_url": "https://media.techmindhub.cc/posts/java4shell-openjdk-runtime-waf-boundaries-og-web-v1.jpg",
+      "bytes": 232258,
+      "width": 1200,
+      "height": 630,
+      "sha256": "0d83c3a438883c9e5284e86a8096f6eb9dcee7eddea8e10cb9eeac89a4900956",
+      "original_crop_box": [
+        0,
+        31,
+        1672,
+        909
+      ]
+    },
+    {
+      "slug": "openai-ai-optimized-chip-design",
+      "role": "card",
+      "filename": "openai-ai-optimized-chip-design-card-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/openai-ai-optimized-chip-design-card-web-v1.webp",
+      "bytes": 508348,
+      "width": 800,
+      "height": 450,
+      "sha256": "9f29a869c222a0e02916e0507c465c63e216412378796f1499d68e266a254da3"
+    },
+    {
+      "slug": "openai-ai-optimized-chip-design",
+      "role": "infographic",
+      "filename": "openai-ai-optimized-chip-design-infographic-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/openai-ai-optimized-chip-design-infographic-web-v1.webp",
+      "bytes": 1121090,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "774c70def60f7fb900f71315809b01230e4d63b196b31563f7a98829901d9605"
+    },
+    {
+      "slug": "openai-ai-optimized-chip-design",
+      "role": "og",
+      "filename": "openai-ai-optimized-chip-design-og-web-v1.jpg",
+      "r2_url": "https://media.techmindhub.cc/posts/openai-ai-optimized-chip-design-og-web-v1.jpg",
+      "bytes": 506970,
+      "width": 1200,
+      "height": 630,
+      "sha256": "136f805a65e7d570e6b69becffda2a30cc019a16bdba4a8878ce133310a4db68",
+      "original_crop_box": [
+        0,
+        31,
+        1672,
+        909
+      ]
+    },
+    {
+      "slug": "openai-codex-sandbox-architecture",
+      "role": "card",
+      "filename": "openai-codex-sandbox-architecture-card-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/openai-codex-sandbox-architecture-card-web-v1.webp",
+      "bytes": 306638,
+      "width": 800,
+      "height": 450,
+      "sha256": "4a597ba1a55f4505ff44e4b1360ac768f0a43e0178d7de31c2b6dff963bcdce6"
+    },
+    {
+      "slug": "openai-codex-sandbox-architecture",
+      "role": "infographic",
+      "filename": "openai-codex-sandbox-architecture-infographic-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/openai-codex-sandbox-architecture-infographic-web-v1.webp",
+      "bytes": 1569276,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "e221de0a99e8ca378eaa8cc28bc9a5879d92b1bbb505680c2d7bca945100fa95"
+    },
+    {
+      "slug": "openai-codex-sandbox-architecture",
+      "role": "og",
+      "filename": "openai-codex-sandbox-architecture-og-web-v1.jpg",
+      "r2_url": "https://media.techmindhub.cc/posts/openai-codex-sandbox-architecture-og-web-v1.jpg",
+      "bytes": 231434,
+      "width": 1200,
+      "height": 630,
+      "sha256": "9f518fdf502ff7855797b3544d4447b7f6be84eb21c3c36bbeed7941633e9ca5",
+      "original_crop_box": [
+        0,
+        31,
+        1672,
+        909
+      ]
+    },
+    {
+      "slug": "vodafone-malaga-ai-ran-test-hub",
+      "role": "card",
+      "filename": "vodafone-malaga-ai-ran-test-hub-card-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/vodafone-malaga-ai-ran-test-hub-card-web-v1.webp",
+      "bytes": 474044,
+      "width": 800,
+      "height": 450,
+      "sha256": "db56b08dd67d451d38cc52c5fcecb508b78ecbb78a9213da4da370a3eca08f5a"
+    },
+    {
+      "slug": "vodafone-malaga-ai-ran-test-hub",
+      "role": "infographic",
+      "filename": "vodafone-malaga-ai-ran-test-hub-infographic-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/vodafone-malaga-ai-ran-test-hub-infographic-web-v1.webp",
+      "bytes": 1333056,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "73d8670eeaf6ae1c9166f63984d68dfff33fa4ee6f56a63c270c5db3e15b43d7"
+    },
+    {
+      "slug": "vodafone-malaga-ai-ran-test-hub",
+      "role": "og",
+      "filename": "vodafone-malaga-ai-ran-test-hub-og-web-v1.jpg",
+      "r2_url": "https://media.techmindhub.cc/posts/vodafone-malaga-ai-ran-test-hub-og-web-v1.jpg",
+      "bytes": 451332,
+      "width": 1200,
+      "height": 630,
+      "sha256": "dc066f3e8f9468fc59c59304356ba6a14e3715728794eccb6963343b33a8c931",
+      "original_crop_box": [
+        0,
+        31,
+        1672,
+        909
+      ]
+    }
+  ]
+}
