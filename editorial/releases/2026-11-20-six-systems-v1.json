@@ -1,0 +1,307 @@
+{
+  "release": "2026-11-20-six-systems-v1",
+  "originals": [
+    {
+      "slug": "apache-axis-confluence-ncentral-exploitation",
+      "role": "original-card",
+      "filename": "apache-axis-confluence-ncentral-exploitation-card-original-v1.png",
+      "r2_url": null,
+      "bytes": 2394550,
+      "width": 1672,
+      "height": 941,
+      "sha256": "783e4f8a9f8b8a256d4772091ce7df14f3f1e491cc0dbf101db6303ad5c96fa9"
+    },
+    {
+      "slug": "apache-axis-confluence-ncentral-exploitation",
+      "role": "original-infographic",
+      "filename": "apache-axis-confluence-ncentral-exploitation-infographic-original-v1.png",
+      "r2_url": null,
+      "bytes": 1833854,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "7ac49b0504bcf5b4f7f4dd0fa731502e31c78d077aa2f93bf215b4dcd0adef70"
+    },
+    {
+      "slug": "github-ghe-oidc-audit-s3-streaming",
+      "role": "original-card",
+      "filename": "github-ghe-oidc-audit-s3-streaming-card-original-v1.png",
+      "r2_url": null,
+      "bytes": 1642939,
+      "width": 1672,
+      "height": 941,
+      "sha256": "e6e3f2c070b894595de08ee4723cdd457c65824606caba8e6c09ba85f45ab2ca"
+    },
+    {
+      "slug": "github-ghe-oidc-audit-s3-streaming",
+      "role": "original-infographic",
+      "filename": "github-ghe-oidc-audit-s3-streaming-infographic-original-v1.png",
+      "r2_url": null,
+      "bytes": 1871127,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "94cc037ad485259314b17b716cfb392eff2619b9a40db1267165f611edf51691"
+    },
+    {
+      "slug": "amd-unsloth-local-npu-agents",
+      "role": "original-card",
+      "filename": "amd-unsloth-local-npu-agents-card-original-v1.png",
+      "r2_url": null,
+      "bytes": 1683151,
+      "width": 1672,
+      "height": 941,
+      "sha256": "73d5c4983778006bcb1899a6787d0ae776d3db56612e47c0c383e8a6b4336af1"
+    },
+    {
+      "slug": "amd-unsloth-local-npu-agents",
+      "role": "original-infographic",
+      "filename": "amd-unsloth-local-npu-agents-infographic-original-v1.png",
+      "r2_url": null,
+      "bytes": 1874207,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "e306b04d40e2a3188c25ffffb4c7c4843683467cdd9ba42b2c9eece95bacc3ff"
+    },
+    {
+      "slug": "azure-cobalt-200-arm-cloud-cpu",
+      "role": "original-card",
+      "filename": "azure-cobalt-200-arm-cloud-cpu-card-original-v1.png",
+      "r2_url": null,
+      "bytes": 1932322,
+      "width": 1672,
+      "height": 941,
+      "sha256": "5627451de68f2c79fe4f6e6285eda019be7f7650a9befd7dffc33b6d28dbc5e1"
+    },
+    {
+      "slug": "azure-cobalt-200-arm-cloud-cpu",
+      "role": "original-infographic",
+      "filename": "azure-cobalt-200-arm-cloud-cpu-infographic-original-v1.png",
+      "r2_url": null,
+      "bytes": 1820797,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "fcc5e2e27d2bcbb3a430b634d0ff52626878cbf453492f57aba33ff48c5ac701"
+    },
+    {
+      "slug": "oak-ridge-lux-ai-hpc-science",
+      "role": "original-card",
+      "filename": "oak-ridge-lux-ai-hpc-science-card-original-v1.png",
+      "r2_url": null,
+      "bytes": 2154509,
+      "width": 1672,
+      "height": 941,
+      "sha256": "4261497f9e6d209f486fe6d03b6842d44e16d4d0720740d648f927609e30f8d3"
+    },
+    {
+      "slug": "oak-ridge-lux-ai-hpc-science",
+      "role": "original-infographic",
+      "filename": "oak-ridge-lux-ai-hpc-science-infographic-original-v1.png",
+      "r2_url": null,
+      "bytes": 2364780,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "aea61a67954ff0401e18a3d250f89a71cd78647be63773778c055bf720aa6078"
+    },
+    {
+      "slug": "amd-taalas-specialized-inference-silicon",
+      "role": "original-card",
+      "filename": "amd-taalas-specialized-inference-silicon-card-original-v1.png",
+      "r2_url": null,
+      "bytes": 1945328,
+      "width": 1672,
+      "height": 941,
+      "sha256": "0a080453e87e9092efcd663121323dfa2febba339d077344a9ade08b93e76a86"
+    },
+    {
+      "slug": "amd-taalas-specialized-inference-silicon",
+      "role": "original-infographic",
+      "filename": "amd-taalas-specialized-inference-silicon-infographic-original-v1.png",
+      "r2_url": null,
+      "bytes": 1674646,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "d8091d584cab862e944b02357b5e9fa749c555faaf77215edc8333556fa82701"
+    }
+  ],
+  "web": [
+    {
+      "slug": "apache-axis-confluence-ncentral-exploitation",
+      "role": "card",
+      "filename": "apache-axis-confluence-ncentral-exploitation-card-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/apache-axis-confluence-ncentral-exploitation-card-web-v1.webp",
+      "bytes": 407832,
+      "width": 800,
+      "height": 450,
+      "sha256": "c01ddd37a87818d9807cef5d55ea4570079491f7659a0821f43f7d507dafd623"
+    },
+    {
+      "slug": "apache-axis-confluence-ncentral-exploitation",
+      "role": "infographic",
+      "filename": "apache-axis-confluence-ncentral-exploitation-infographic-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/apache-axis-confluence-ncentral-exploitation-infographic-web-v1.webp",
+      "bytes": 1273020,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "26d480dd8b83e31d120d02470ebce87dbd49e5df9e2cf48a1341ee96bd746d91"
+    },
+    {
+      "slug": "apache-axis-confluence-ncentral-exploitation",
+      "role": "og",
+      "filename": "apache-axis-confluence-ncentral-exploitation-og-web-v1.jpg",
+      "r2_url": "https://media.techmindhub.cc/posts/apache-axis-confluence-ncentral-exploitation-og-web-v1.jpg",
+      "bytes": 359396,
+      "width": 1200,
+      "height": 630,
+      "sha256": "d86618d3892bbf4b8ced9981d43e532dd4518ef717acfc889b520b5f34b4dd99"
+    },
+    {
+      "slug": "github-ghe-oidc-audit-s3-streaming",
+      "role": "card",
+      "filename": "github-ghe-oidc-audit-s3-streaming-card-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/github-ghe-oidc-audit-s3-streaming-card-web-v1.webp",
+      "bytes": 279524,
+      "width": 800,
+      "height": 450,
+      "sha256": "7b9e6baf34a9d32e8f6d63a0f5b8f20519d619dc803dbb19d2da9a49d6b82884"
+    },
+    {
+      "slug": "github-ghe-oidc-audit-s3-streaming",
+      "role": "infographic",
+      "filename": "github-ghe-oidc-audit-s3-streaming-infographic-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/github-ghe-oidc-audit-s3-streaming-infographic-web-v1.webp",
+      "bytes": 1288446,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "8f127a622510c2e9445f6644c4ae6b9e400f41fb01d05e5d14e0810f72aa3cd9"
+    },
+    {
+      "slug": "github-ghe-oidc-audit-s3-streaming",
+      "role": "og",
+      "filename": "github-ghe-oidc-audit-s3-streaming-og-web-v1.jpg",
+      "r2_url": "https://media.techmindhub.cc/posts/github-ghe-oidc-audit-s3-streaming-og-web-v1.jpg",
+      "bytes": 211316,
+      "width": 1200,
+      "height": 630,
+      "sha256": "524f0bd834a884585ed401bfe837f4429b5a976f6ed24571bdce610d7d084e4a"
+    },
+    {
+      "slug": "amd-unsloth-local-npu-agents",
+      "role": "card",
+      "filename": "amd-unsloth-local-npu-agents-card-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/amd-unsloth-local-npu-agents-card-web-v1.webp",
+      "bytes": 313308,
+      "width": 800,
+      "height": 450,
+      "sha256": "8d393b004c9d0bbcd9871d143dc9d975e95b6f8ee5d2a10d22ecc2a23887edfa"
+    },
+    {
+      "slug": "amd-unsloth-local-npu-agents",
+      "role": "infographic",
+      "filename": "amd-unsloth-local-npu-agents-infographic-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/amd-unsloth-local-npu-agents-infographic-web-v1.webp",
+      "bytes": 1282586,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "85aa8852c68564f5627fe02778b2a6921e7d8cb7f6d3f9771432d4058e803967"
+    },
+    {
+      "slug": "amd-unsloth-local-npu-agents",
+      "role": "og",
+      "filename": "amd-unsloth-local-npu-agents-og-web-v1.jpg",
+      "r2_url": "https://media.techmindhub.cc/posts/amd-unsloth-local-npu-agents-og-web-v1.jpg",
+      "bytes": 238527,
+      "width": 1200,
+      "height": 630,
+      "sha256": "fc3f0f9571463a468592a3416371784086e1f158015671a389623c6b5322e27b"
+    },
+    {
+      "slug": "azure-cobalt-200-arm-cloud-cpu",
+      "role": "card",
+      "filename": "azure-cobalt-200-arm-cloud-cpu-card-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/azure-cobalt-200-arm-cloud-cpu-card-web-v1.webp",
+      "bytes": 370066,
+      "width": 800,
+      "height": 450,
+      "sha256": "7db0b3ea7b15d97d3dff1fc00e0d41ea3cc8628a6496066a9a045cadeb3ee85b"
+    },
+    {
+      "slug": "azure-cobalt-200-arm-cloud-cpu",
+      "role": "infographic",
+      "filename": "azure-cobalt-200-arm-cloud-cpu-infographic-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/azure-cobalt-200-arm-cloud-cpu-infographic-web-v1.webp",
+      "bytes": 1229884,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "290252a5f80bdf812ba364984ad99968496c13bdbb5ca9883cc39b33dd8b975e"
+    },
+    {
+      "slug": "azure-cobalt-200-arm-cloud-cpu",
+      "role": "og",
+      "filename": "azure-cobalt-200-arm-cloud-cpu-og-web-v1.jpg",
+      "r2_url": "https://media.techmindhub.cc/posts/azure-cobalt-200-arm-cloud-cpu-og-web-v1.jpg",
+      "bytes": 337332,
+      "width": 1200,
+      "height": 630,
+      "sha256": "4533023bd14a13a5f5beadad2ed62d485257bd9c668ae21941d8c3999bff749a"
+    },
+    {
+      "slug": "oak-ridge-lux-ai-hpc-science",
+      "role": "card",
+      "filename": "oak-ridge-lux-ai-hpc-science-card-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/oak-ridge-lux-ai-hpc-science-card-web-v1.webp",
+      "bytes": 410102,
+      "width": 800,
+      "height": 450,
+      "sha256": "5ea4eff87b1cb09c4b7ddaae203afee67b7d70e9450c5b0e0b1009135afbb83b"
+    },
+    {
+      "slug": "oak-ridge-lux-ai-hpc-science",
+      "role": "infographic",
+      "filename": "oak-ridge-lux-ai-hpc-science-infographic-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/oak-ridge-lux-ai-hpc-science-infographic-web-v1.webp",
+      "bytes": 1703234,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "b47b236d5007a81bf69708bdf5e79b7119239ec6ac258d05d1b3ab6d53f90c2d"
+    },
+    {
+      "slug": "oak-ridge-lux-ai-hpc-science",
+      "role": "og",
+      "filename": "oak-ridge-lux-ai-hpc-science-og-web-v1.jpg",
+      "r2_url": "https://media.techmindhub.cc/posts/oak-ridge-lux-ai-hpc-science-og-web-v1.jpg",
+      "bytes": 397350,
+      "width": 1200,
+      "height": 630,
+      "sha256": "3b64458b40f78c6dbf92e713aee06980774ea810a84968a001e32cfa9ea27570"
+    },
+    {
+      "slug": "amd-taalas-specialized-inference-silicon",
+      "role": "card",
+      "filename": "amd-taalas-specialized-inference-silicon-card-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/amd-taalas-specialized-inference-silicon-card-web-v1.webp",
+      "bytes": 329002,
+      "width": 800,
+      "height": 450,
+      "sha256": "837cce0c56054b56419beee508a223bd1b99b00dacbbeb1ae4e40b8158508205"
+    },
+    {
+      "slug": "amd-taalas-specialized-inference-silicon",
+      "role": "infographic",
+      "filename": "amd-taalas-specialized-inference-silicon-infographic-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/amd-taalas-specialized-inference-silicon-infographic-web-v1.webp",
+      "bytes": 1089368,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "9c36f57e0a172625f3eb43d872a28684ac76b21186a7098d91b9ea638ddb4fad"
+    },
+    {
+      "slug": "amd-taalas-specialized-inference-silicon",
+      "role": "og",
+      "filename": "amd-taalas-specialized-inference-silicon-og-web-v1.jpg",
+      "r2_url": "https://media.techmindhub.cc/posts/amd-taalas-specialized-inference-silicon-og-web-v1.jpg",
+      "bytes": 283938,
+      "width": 1200,
+      "height": 630,
+      "sha256": "2e32608ed0a634fced2fb71167269dea590ead7c250305e3166eb7cf98b9f386"
+    }
+  ]
+}

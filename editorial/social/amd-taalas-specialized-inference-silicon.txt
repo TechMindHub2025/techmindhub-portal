@@ -1,0 +1,11 @@
+AMD adds a specialized inference path.
+
+The Taalas acquisition is complete, but no Taalas-derived AMD accelerator or independently tested performance result has been announced. The strategic question is when a purpose-built inference architecture outperforms a flexible GPU system after model changes, software integration and deployment economics are included.
+
+Read the engineering analysis: https://techmindhub.cc/posts/amd-taalas-specialized-inference-silicon/
+
+Which workloads justify specialized inference silicon in your view?
+
+More from Andrew Rover: https://arover.substack.com/
+
+#Semiconductors #AIAccelerators #Inference #TechMindHub
