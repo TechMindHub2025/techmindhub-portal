@@ -1,0 +1,11 @@
+Audit logs without a long-lived cloud key.
+
+GitHub Enterprise Cloud with data residency now supports S3 audit streaming through OIDC. Temporary AWS credentials reduce key custody, while IAM trust conditions, stream continuity and the actual S3 destination remain critical. Residency of the source does not determine residency of the export.
+
+Read the engineering analysis: https://techmindhub.cc/posts/github-ghe-oidc-audit-s3-streaming/
+
+What monitoring would tell your team that an audit stream has silently stopped?
+
+More from Andrew Rover: https://arover.substack.com/
+
+#CloudSecurity #OIDC #AuditLogs #TechMindHub

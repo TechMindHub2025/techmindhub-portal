@@ -1,0 +1,11 @@
+Lux opens to scientific users at Oak Ridge.
+
+The HPE-built system combines AMD CPUs, MI355X GPUs, networking and ROCm for AI and high-performance computing. Its No. 14 TOP500 debut measures a particular HPC benchmark. Scientific value will depend on moving data through simulation, model training and experimental validation.
+
+Read the engineering analysis: https://techmindhub.cc/posts/oak-ridge-lux-ai-hpc-science/
+
+What metric best captures a supercomputer’s contribution to actual research?
+
+More from Andrew Rover: https://arover.substack.com/
+
+#HPC #AIForScience #Supercomputing #TechMindHub

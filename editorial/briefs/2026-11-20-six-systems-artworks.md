@@ -1,0 +1,14 @@
+# November 20, 2026 — six engineering image pairs
+
+Generated editorial artwork; conceptual unless a source-grounded mechanism is explicitly stated in the article. The original PNG pairs are preserved unchanged in the separate archive. The Cloudflare archive contains only six 800px lossless WebP cards, six native-size pixel-identical lossless WebP infographics and six dedicated 1200 × 630 JPEG previews. Release metadata and hashes: `editorial/releases/2026-11-20-six-systems-v1.json`.
+
+| Slug | Domain cue | Central visual argument and shared motif | Exact cover phrase | Inner composition |
+| --- | --- | --- | --- | --- |
+| `apache-axis-confluence-ncentral-exploitation` | Digital trust ochre | An old SOAP conduit remains reachable within a modern application. | LEGACY PATH | An observed sequence from optional API exposure through execution and credential search to cloud sign-in; possible exposure is distinguished from the observed incident. |
+| `github-ghe-oidc-audit-s3-streaming` | Infrastructure blue | A temporary identity token conveys an audit stream into S3. | OIDC AUDIT | Four-stage token and credential flow, with IAM trust and chosen data destination as separate boundaries. |
+| `amd-unsloth-local-npu-agents` | AI violet | A local model server makes a laptop NPU reachable to compatible apps. | LOCAL INFERENCE | Compatible agent apps call an API; the serving layer routes supported inference to XDNA 2 while CPU/GPU remain separate resources. |
+| `azure-cobalt-200-arm-cloud-cpu` | Infrastructure blue | A custom CPU enters the cloud VM fleet. | COBALT 200 | Portability, sizing, representative benchmark and price/energy lenses surround the processor as evaluation criteria. |
+| `oak-ridge-lux-ai-hpc-science` | Infrastructure blue | Scientific data and simulations meet GPU computation. | LUX FOR SCIENCE | Experiment and simulation feed training; output returns to validation over shared networking and storage. |
+| `amd-taalas-specialized-inference-silicon` | AI violet | Flexible and specialized compute are complementary architecture choices. | PURPOSE-BUILT INFERENCE | Forked comparison asks about model flexibility, deployment volume, software integration and economics without invented performance claims. |
+
+The cover and inner image have different compositions and detail levels. The imagery is editorial illustration, not a photograph or faithful drawing of a vendor's device. The arrows in the inner images indicate the named process flow, not measured performance. Source names, author names, URLs, detailed caveats and dates remain in the article. Text, contrast and imagery were reviewed together; cards were inspected at 352px and 260px, JPEG crops at 1200 × 630, and full-size infographics for wording and conceptual correctness. No generated figures are used as quantitative evidence.

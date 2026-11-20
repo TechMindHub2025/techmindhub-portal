@@ -1,0 +1,11 @@
+Cobalt 200 reaches Azure customers.
+
+Arm says Azure VMs on Microsoft’s new custom processor are generally available and reports up to 50% better CPU performance than Cobalt 100 in selected comparisons. The economic test still needs an Arm64-compatible workload, representative traffic, VM pricing and latency targets.
+
+Read the engineering analysis: https://techmindhub.cc/posts/azure-cobalt-200-arm-cloud-cpu/
+
+Where would a custom Arm VM make a measurable difference in your fleet?
+
+More from Andrew Rover: https://arover.substack.com/
+
+#Semiconductors #CloudInfrastructure #Arm64 #TechMindHub

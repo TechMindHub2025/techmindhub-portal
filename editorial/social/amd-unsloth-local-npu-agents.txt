@@ -1,0 +1,11 @@
+A local NPU path for AI agents.
+
+AMD and Unsloth connected Unsloth Desktop to XDNA 2 NPUs through Lemonade and FastFlowLM. More than 100 compatible applications can call the local API; their entire workflows do not run on the NPU. Model support, memory, latency and energy per completed task will determine practical value.
+
+Read the engineering analysis: https://techmindhub.cc/posts/amd-unsloth-local-npu-agents/
+
+Which agent workload would you measure first on CPU, GPU and NPU?
+
+More from Andrew Rover: https://arover.substack.com/
+
+#EdgeAI #NPU #AIInfrastructure #TechMindHub
