@@ -1,0 +1,8 @@
+Stanford researchers put a roughly half-millimeter, light-powered wireless sensor inside a reaction vessel. It can report temperature about every half-second, offering a time-resolved view across many small experiments.
+
+Temperature can signal reaction dynamics, but it does not identify chemical composition directly. Optical access, packaging, calibration and chemical compatibility remain practical tests. Where would continuous in-vessel telemetry change your experimental workflow?
+
+Read the analysis: https://techmindhub.cc/posts/stanford-optical-wireless-reaction-sensor/
+More from the editor: https://arover.substack.com/
+
+#Photonics #Sensors #AutomatedScience #TechMindHub

@@ -1,0 +1,8 @@
+A chaotic simulator can look convincing for a few steps and then produce impossible, unbounded states. MIT researchers describe an energy-aware projection that keeps model trajectories within physical bounds under its assumptions.
+
+Boundedness is a valuable stability property, but it is not a guarantee of a correct long-range forecast. A production evaluation still needs predictive skill and an accurate model of the system’s constraints. How should physical validity and forecast accuracy be reported side by side?
+
+Read the analysis: https://techmindhub.cc/posts/mit-chaotic-model-physical-bounds/
+More from the editor: https://arover.substack.com/
+
+#ScientificAI #Simulation #TechMindHub

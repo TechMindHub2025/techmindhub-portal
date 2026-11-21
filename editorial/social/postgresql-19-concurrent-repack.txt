@@ -1,0 +1,8 @@
+PostgreSQL 19 introduces REPACK (CONCURRENTLY), allowing a table to be reorganized while ordinary reads and writes continue. This changes the maintenance-window tradeoff; it does not remove I/O, WAL, free-space and replication costs.
+
+The release also adds pg_plan_advice for plan control and WAIT FOR LSN for a specific read-your-writes pattern on replicas. Each needs a representative workload test. Which maintenance metric would you watch first before repacking a large live table?
+
+Read the analysis: https://techmindhub.cc/posts/postgresql-19-concurrent-repack/
+More from the editor: https://arover.substack.com/
+
+#PostgreSQL #Databases #TechMindHub
