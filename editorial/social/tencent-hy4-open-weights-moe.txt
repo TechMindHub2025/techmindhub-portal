@@ -1,0 +1,8 @@
+Tencent Hy4 is a 770-billion-parameter mixture-of-experts model with about 49 billion parameters active per token. Sparse activation reduces per-token work relative to activating the entire model, while storage, memory traffic and serving topology still reflect its full scale.
+
+The weights are available under the Tencent Hy License. Benchmark claims require independent checks under a specified context length, hardware configuration and concurrency. Which workload would reveal the real serving cost for your team?
+
+Read the analysis: https://techmindhub.cc/posts/tencent-hy4-open-weights-moe/
+More from the editor: https://arover.substack.com/
+
+#OpenWeights #Inference #TechMindHub

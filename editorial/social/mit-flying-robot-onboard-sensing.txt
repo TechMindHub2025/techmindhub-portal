@@ -1,0 +1,8 @@
+MIT moved sensing and computation onto a tiny flapping-wing robot, reducing its dependence on an external motion-capture system for feedback. Its power still comes through a tether.
+
+That distinction separates autonomy of perception and control from energy autonomy. At insect scale, every sensor and processor competes with lift and control margin. Which onboard capability would you prioritize before attempting untethered flight?
+
+Read the analysis: https://techmindhub.cc/posts/mit-flying-robot-onboard-sensing/
+More from the editor: https://arover.substack.com/
+
+#Robotics #EmbeddedSystems #TechMindHub

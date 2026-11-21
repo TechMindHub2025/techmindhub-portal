@@ -1,0 +1,8 @@
+CVE-2026-123890 targets the vCenter identity boundary. Google Threat Intelligence reports observed exploitation; Broadcom rates the authentication bypass 9.8 CVSS and has released version-specific fixes. A reachable management endpoint and SRP-6a session-key disclosure can lead to a privileged vCenter session.
+
+A vulnerable management server warrants patching and an identity-focused investigation, but it does not prove that every guest VM was accessed. Which management-plane events are preserved long enough for your incident response?
+
+Read the analysis: https://techmindhub.cc/posts/vmware-vcenter-srp-auth-bypass/
+More from the editor: https://arover.substack.com/
+
+#VMware #Cybersecurity #Virtualization #TechMindHub

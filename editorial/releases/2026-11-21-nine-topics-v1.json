@@ -1,0 +1,511 @@
+{
+  "release": "2026-11-21-nine-topics-v1",
+  "originals": [
+    {
+      "slug": "aws-cairn-agent-zero-day",
+      "role": "original-card",
+      "filename": "aws-cairn-agent-zero-day-card-original-v1.png",
+      "r2_url": null,
+      "bytes": 1856415,
+      "width": 1672,
+      "height": 941,
+      "sha256": "d2e45654dda8c79a848325a6b28d6a277f662842fa3b73984fa4b81086aaa470"
+    },
+    {
+      "slug": "aws-cairn-agent-zero-day",
+      "role": "original-infographic",
+      "filename": "aws-cairn-agent-zero-day-infographic-original-v1.png",
+      "r2_url": null,
+      "bytes": 1851126,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "34eca7b773aa32c810df0cf7e03286c70a1b95c3162d5ad80b04faaf1f7d190f"
+    },
+    {
+      "slug": "aws-sts-scoped-credentials-agents",
+      "role": "original-card",
+      "filename": "aws-sts-scoped-credentials-agents-card-original-v1.png",
+      "r2_url": null,
+      "bytes": 1565986,
+      "width": 1672,
+      "height": 941,
+      "sha256": "2c4db4736885b0b7cb06490a1858f820c05f2eab634032740beb6e82e1ef83f1"
+    },
+    {
+      "slug": "aws-sts-scoped-credentials-agents",
+      "role": "original-infographic",
+      "filename": "aws-sts-scoped-credentials-agents-infographic-original-v1.png",
+      "r2_url": null,
+      "bytes": 1641156,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "85d15b1ddd9dd1c67f6ace92a9094881b769999538dc3a1f421979cacb986ec9"
+    },
+    {
+      "slug": "vmware-vcenter-srp-auth-bypass",
+      "role": "original-card",
+      "filename": "vmware-vcenter-srp-auth-bypass-card-original-v1.png",
+      "r2_url": null,
+      "bytes": 1953772,
+      "width": 1672,
+      "height": 941,
+      "sha256": "e2245c99d2ceb176477b54fac20487584e24c781f6b19856ce649d1ae7dad3bd"
+    },
+    {
+      "slug": "vmware-vcenter-srp-auth-bypass",
+      "role": "original-infographic",
+      "filename": "vmware-vcenter-srp-auth-bypass-infographic-original-v1.png",
+      "r2_url": null,
+      "bytes": 1928649,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "31db44c3bbf30cea8931b3a2e29af047139a49e1cace033253415a623c110036"
+    },
+    {
+      "slug": "postgresql-19-concurrent-repack",
+      "role": "original-card",
+      "filename": "postgresql-19-concurrent-repack-card-original-v1.png",
+      "r2_url": null,
+      "bytes": 1697907,
+      "width": 1672,
+      "height": 941,
+      "sha256": "1c64efcae2eef426f3c348003f6dde12da6fd5e8d569bd6e62e5b357ad2b1721"
+    },
+    {
+      "slug": "postgresql-19-concurrent-repack",
+      "role": "original-infographic",
+      "filename": "postgresql-19-concurrent-repack-infographic-original-v1.png",
+      "r2_url": null,
+      "bytes": 1739471,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "e63a6323a763c40d99690b2130eb8aed6076a13419470e7b54acc0711dee75cb"
+    },
+    {
+      "slug": "mit-chaotic-model-physical-bounds",
+      "role": "original-card",
+      "filename": "mit-chaotic-model-physical-bounds-card-original-v1.png",
+      "r2_url": null,
+      "bytes": 1891385,
+      "width": 1672,
+      "height": 941,
+      "sha256": "5457240fae3fa2decb70ff585e6fbf90eeaec3a6c50cd5b75698d949f839fa4a"
+    },
+    {
+      "slug": "mit-chaotic-model-physical-bounds",
+      "role": "original-infographic",
+      "filename": "mit-chaotic-model-physical-bounds-infographic-original-v1.png",
+      "r2_url": null,
+      "bytes": 1917791,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "46caaab56149e6c3b751dc2e2b58b07e8f9b528a8eee4e506fc25e0b3fa58043"
+    },
+    {
+      "slug": "tencent-hy4-open-weights-moe",
+      "role": "original-card",
+      "filename": "tencent-hy4-open-weights-moe-card-original-v1.png",
+      "r2_url": null,
+      "bytes": 1548963,
+      "width": 1672,
+      "height": 941,
+      "sha256": "a38f39c74c29d5de5b346bfd52171ee729e7d2fbf999d16a72c7490c2616fc13"
+    },
+    {
+      "slug": "tencent-hy4-open-weights-moe",
+      "role": "original-infographic",
+      "filename": "tencent-hy4-open-weights-moe-infographic-original-v1.png",
+      "r2_url": null,
+      "bytes": 1725323,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "eab0919cb04c195f06de1b1542cdc4ff0c9d785a3a6f88f1435d08f67e28ef3c"
+    },
+    {
+      "slug": "mit-flying-robot-onboard-sensing",
+      "role": "original-card",
+      "filename": "mit-flying-robot-onboard-sensing-card-original-v1.png",
+      "r2_url": null,
+      "bytes": 1868228,
+      "width": 1672,
+      "height": 941,
+      "sha256": "ad1293e1ced2aa25fb8227c8ffa9ac00846ea086ffd7c4f8c36245523cd2651a"
+    },
+    {
+      "slug": "mit-flying-robot-onboard-sensing",
+      "role": "original-infographic",
+      "filename": "mit-flying-robot-onboard-sensing-infographic-original-v1.png",
+      "r2_url": null,
+      "bytes": 1905544,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "32c01c1664e2a3354ebcd672b34bb27f2f5fc010538bdd940a559630877efa80"
+    },
+    {
+      "slug": "penn-state-semiconductor-research-tools",
+      "role": "original-card",
+      "filename": "penn-state-semiconductor-research-tools-card-original-v1.png",
+      "r2_url": null,
+      "bytes": 1699137,
+      "width": 1672,
+      "height": 941,
+      "sha256": "788d879e22d8ad708481311a1aea2a26abf7d0090a87342027294c9ebe678283"
+    },
+    {
+      "slug": "penn-state-semiconductor-research-tools",
+      "role": "original-infographic",
+      "filename": "penn-state-semiconductor-research-tools-infographic-original-v1.png",
+      "r2_url": null,
+      "bytes": 2098469,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "5ea31de6141615cd63ba00e66be7d2d1cb0d80356bd943322f5461319c481d33"
+    },
+    {
+      "slug": "stanford-optical-wireless-reaction-sensor",
+      "role": "original-card",
+      "filename": "stanford-optical-wireless-reaction-sensor-card-original-v1.png",
+      "r2_url": null,
+      "bytes": 1646321,
+      "width": 1672,
+      "height": 941,
+      "sha256": "490d53247d6f90af2c92977241acd6d6e2932abd000eec03d33458f990524bcd"
+    },
+    {
+      "slug": "stanford-optical-wireless-reaction-sensor",
+      "role": "original-infographic",
+      "filename": "stanford-optical-wireless-reaction-sensor-infographic-original-v1.png",
+      "r2_url": null,
+      "bytes": 1929096,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "76d64bc866dec7181da04ad1d5080c07299eddc1c112b4f94e69988f11140daa"
+    }
+  ],
+  "web": [
+    {
+      "slug": "aws-cairn-agent-zero-day",
+      "role": "card",
+      "filename": "aws-cairn-agent-zero-day-card-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/aws-cairn-agent-zero-day-card-web-v1.webp",
+      "bytes": 308484,
+      "width": 800,
+      "height": 450,
+      "sha256": "275a33e528236503a00b4ca22f63ec547c2b01d7bcf9e708997883c6d2388277"
+    },
+    {
+      "slug": "aws-cairn-agent-zero-day",
+      "role": "infographic",
+      "filename": "aws-cairn-agent-zero-day-infographic-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/aws-cairn-agent-zero-day-infographic-web-v1.webp",
+      "bytes": 1287088,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "77e6ef5b9df2c646dfbf5762520448aa150445bd2ac334160d601b80241d99aa"
+    },
+    {
+      "slug": "aws-cairn-agent-zero-day",
+      "role": "og",
+      "filename": "aws-cairn-agent-zero-day-og-web-v1.jpg",
+      "r2_url": "https://media.techmindhub.cc/posts/aws-cairn-agent-zero-day-og-web-v1.jpg",
+      "bytes": 224842,
+      "width": 1200,
+      "height": 630,
+      "sha256": "46eac3c8e2e627c42d45bdd5efd4a109d5561e6ee69d1909919c23ae088493e3",
+      "original_crop_box": [
+        0,
+        31,
+        1672,
+        909
+      ]
+    },
+    {
+      "slug": "aws-sts-scoped-credentials-agents",
+      "role": "card",
+      "filename": "aws-sts-scoped-credentials-agents-card-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/aws-sts-scoped-credentials-agents-card-web-v1.webp",
+      "bytes": 273008,
+      "width": 800,
+      "height": 450,
+      "sha256": "422b7f7db1c460cd8c3ba6c5dcdc61060bafa22abdbc4226c5a77fb35a5274f7"
+    },
+    {
+      "slug": "aws-sts-scoped-credentials-agents",
+      "role": "infographic",
+      "filename": "aws-sts-scoped-credentials-agents-infographic-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/aws-sts-scoped-credentials-agents-infographic-web-v1.webp",
+      "bytes": 1092460,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "8ad24367c0825d24f81292219a0fc4abd924952440527e3f6102a4380b1d0a8e"
+    },
+    {
+      "slug": "aws-sts-scoped-credentials-agents",
+      "role": "og",
+      "filename": "aws-sts-scoped-credentials-agents-og-web-v1.jpg",
+      "r2_url": "https://media.techmindhub.cc/posts/aws-sts-scoped-credentials-agents-og-web-v1.jpg",
+      "bytes": 210603,
+      "width": 1200,
+      "height": 630,
+      "sha256": "3c440eb2fb5fcba49bb218ea9af91b5b28ca3700924f8502756653e1ab8f8ed4",
+      "original_crop_box": [
+        0,
+        31,
+        1672,
+        909
+      ]
+    },
+    {
+      "slug": "mit-chaotic-model-physical-bounds",
+      "role": "card",
+      "filename": "mit-chaotic-model-physical-bounds-card-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/mit-chaotic-model-physical-bounds-card-web-v1.webp",
+      "bytes": 332430,
+      "width": 800,
+      "height": 450,
+      "sha256": "fb4985cfa2aab7f49f79ca829c617f6ad9f2fc636e6de225cbb2e9ffedc8ef67"
+    },
+    {
+      "slug": "mit-chaotic-model-physical-bounds",
+      "role": "infographic",
+      "filename": "mit-chaotic-model-physical-bounds-infographic-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/mit-chaotic-model-physical-bounds-infographic-web-v1.webp",
+      "bytes": 1340182,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "7a3541e59ca67e3e86ed5f4e82ddadb3c99a748bbe12f298375af2afde8c9819"
+    },
+    {
+      "slug": "mit-chaotic-model-physical-bounds",
+      "role": "og",
+      "filename": "mit-chaotic-model-physical-bounds-og-web-v1.jpg",
+      "r2_url": "https://media.techmindhub.cc/posts/mit-chaotic-model-physical-bounds-og-web-v1.jpg",
+      "bytes": 284704,
+      "width": 1200,
+      "height": 630,
+      "sha256": "78e55c6a3e272bda57708cef3ad8fbd70c44f4cd71ad26d8769c9dd066d3b595",
+      "original_crop_box": [
+        0,
+        31,
+        1672,
+        909
+      ]
+    },
+    {
+      "slug": "mit-flying-robot-onboard-sensing",
+      "role": "card",
+      "filename": "mit-flying-robot-onboard-sensing-card-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/mit-flying-robot-onboard-sensing-card-web-v1.webp",
+      "bytes": 361034,
+      "width": 800,
+      "height": 450,
+      "sha256": "4773e3fc7c33ea50f330daad3009bee68911bced21ac5183f2cf45d2bd3923bc"
+    },
+    {
+      "slug": "mit-flying-robot-onboard-sensing",
+      "role": "infographic",
+      "filename": "mit-flying-robot-onboard-sensing-infographic-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/mit-flying-robot-onboard-sensing-infographic-web-v1.webp",
+      "bytes": 1300186,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "6423d4704141c00f248ca4d17a6b70168a335286c77344cf0034f3f93038daaa"
+    },
+    {
+      "slug": "mit-flying-robot-onboard-sensing",
+      "role": "og",
+      "filename": "mit-flying-robot-onboard-sensing-og-web-v1.jpg",
+      "r2_url": "https://media.techmindhub.cc/posts/mit-flying-robot-onboard-sensing-og-web-v1.jpg",
+      "bytes": 293683,
+      "width": 1200,
+      "height": 630,
+      "sha256": "2f3d5653932affbaf8fd7bf312babbfe91e78289565e6032722f83f85e75faa3",
+      "original_crop_box": [
+        0,
+        31,
+        1672,
+        909
+      ]
+    },
+    {
+      "slug": "penn-state-semiconductor-research-tools",
+      "role": "card",
+      "filename": "penn-state-semiconductor-research-tools-card-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/penn-state-semiconductor-research-tools-card-web-v1.webp",
+      "bytes": 329340,
+      "width": 800,
+      "height": 450,
+      "sha256": "59776b3a73c651aa0c08d2949ef4369d9d8e795f1f583a57b0c0ccbacbe54af2"
+    },
+    {
+      "slug": "penn-state-semiconductor-research-tools",
+      "role": "infographic",
+      "filename": "penn-state-semiconductor-research-tools-infographic-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/penn-state-semiconductor-research-tools-infographic-web-v1.webp",
+      "bytes": 1494950,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "e8176e262af8d253289709de9aa189c0342360c11f8be3f8e9349022821b79cc"
+    },
+    {
+      "slug": "penn-state-semiconductor-research-tools",
+      "role": "og",
+      "filename": "penn-state-semiconductor-research-tools-og-web-v1.jpg",
+      "r2_url": "https://media.techmindhub.cc/posts/penn-state-semiconductor-research-tools-og-web-v1.jpg",
+      "bytes": 254682,
+      "width": 1200,
+      "height": 630,
+      "sha256": "09a07dfe2d03fe5708817ea4db9018c1e208f14854a4f956589fa4c616a03af6",
+      "original_crop_box": [
+        0,
+        31,
+        1672,
+        909
+      ]
+    },
+    {
+      "slug": "postgresql-19-concurrent-repack",
+      "role": "card",
+      "filename": "postgresql-19-concurrent-repack-card-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/postgresql-19-concurrent-repack-card-web-v1.webp",
+      "bytes": 312958,
+      "width": 800,
+      "height": 450,
+      "sha256": "6a18a52e5267d3892d4a37159fd5eaa80560d8c779cc044b8ed8245b04098eab"
+    },
+    {
+      "slug": "postgresql-19-concurrent-repack",
+      "role": "infographic",
+      "filename": "postgresql-19-concurrent-repack-infographic-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/postgresql-19-concurrent-repack-infographic-web-v1.webp",
+      "bytes": 1209214,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "334bda6f177b3a855445ff5b7ab7efa12d2cd5caee6370f90cf90123b05d390c"
+    },
+    {
+      "slug": "postgresql-19-concurrent-repack",
+      "role": "og",
+      "filename": "postgresql-19-concurrent-repack-og-web-v1.jpg",
+      "r2_url": "https://media.techmindhub.cc/posts/postgresql-19-concurrent-repack-og-web-v1.jpg",
+      "bytes": 238888,
+      "width": 1200,
+      "height": 630,
+      "sha256": "bdfc302051d4de1ee25ef2f78e2ef935685e11f4ec902095bdc461db001d6566",
+      "original_crop_box": [
+        0,
+        31,
+        1672,
+        909
+      ]
+    },
+    {
+      "slug": "stanford-optical-wireless-reaction-sensor",
+      "role": "card",
+      "filename": "stanford-optical-wireless-reaction-sensor-card-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/stanford-optical-wireless-reaction-sensor-card-web-v1.webp",
+      "bytes": 330772,
+      "width": 800,
+      "height": 450,
+      "sha256": "6e4372df6bf572ba20d7eca0f039cb514a8475cb9c06b88953e947d308559c29"
+    },
+    {
+      "slug": "stanford-optical-wireless-reaction-sensor",
+      "role": "infographic",
+      "filename": "stanford-optical-wireless-reaction-sensor-infographic-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/stanford-optical-wireless-reaction-sensor-infographic-web-v1.webp",
+      "bytes": 1422930,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "148e6dec8dc37efd5ec06939f11d93e2d4dccc70d8b357c250b09abac01f78d0"
+    },
+    {
+      "slug": "stanford-optical-wireless-reaction-sensor",
+      "role": "og",
+      "filename": "stanford-optical-wireless-reaction-sensor-og-web-v1.jpg",
+      "r2_url": "https://media.techmindhub.cc/posts/stanford-optical-wireless-reaction-sensor-og-web-v1.jpg",
+      "bytes": 261314,
+      "width": 1200,
+      "height": 630,
+      "sha256": "0f27ea6d257f89a09a006a9073f77a86a3058101516ee550118cb31880b6e616",
+      "original_crop_box": [
+        0,
+        31,
+        1672,
+        909
+      ]
+    },
+    {
+      "slug": "tencent-hy4-open-weights-moe",
+      "role": "card",
+      "filename": "tencent-hy4-open-weights-moe-card-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/tencent-hy4-open-weights-moe-card-web-v1.webp",
+      "bytes": 263932,
+      "width": 800,
+      "height": 450,
+      "sha256": "5a4d976b840d3f16edca031821495b2a542aa380753c394a98f037060be0eaa1"
+    },
+    {
+      "slug": "tencent-hy4-open-weights-moe",
+      "role": "infographic",
+      "filename": "tencent-hy4-open-weights-moe-infographic-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/tencent-hy4-open-weights-moe-infographic-web-v1.webp",
+      "bytes": 1206152,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "ecd90cb67726c76bdaa4b03bc798949339c54841a1486de5255918055a63cc5c"
+    },
+    {
+      "slug": "tencent-hy4-open-weights-moe",
+      "role": "og",
+      "filename": "tencent-hy4-open-weights-moe-og-web-v1.jpg",
+      "r2_url": "https://media.techmindhub.cc/posts/tencent-hy4-open-weights-moe-og-web-v1.jpg",
+      "bytes": 199337,
+      "width": 1200,
+      "height": 630,
+      "sha256": "b916fbe45788e8188628ae7664958c3db4ee752715fa305ab1ea96e83ab3daba",
+      "original_crop_box": [
+        0,
+        31,
+        1672,
+        909
+      ]
+    },
+    {
+      "slug": "vmware-vcenter-srp-auth-bypass",
+      "role": "card",
+      "filename": "vmware-vcenter-srp-auth-bypass-card-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/vmware-vcenter-srp-auth-bypass-card-web-v1.webp",
+      "bytes": 364958,
+      "width": 800,
+      "height": 450,
+      "sha256": "e006916f28dd6484926a5143a93f8636449230290e0a6f1900202113835db3fc"
+    },
+    {
+      "slug": "vmware-vcenter-srp-auth-bypass",
+      "role": "infographic",
+      "filename": "vmware-vcenter-srp-auth-bypass-infographic-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/vmware-vcenter-srp-auth-bypass-infographic-web-v1.webp",
+      "bytes": 1403908,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "ffc32126d38f4c3fe7a575725b58ae283a46e14b1dd21ffff10e44c67e630776"
+    },
+    {
+      "slug": "vmware-vcenter-srp-auth-bypass",
+      "role": "og",
+      "filename": "vmware-vcenter-srp-auth-bypass-og-web-v1.jpg",
+      "r2_url": "https://media.techmindhub.cc/posts/vmware-vcenter-srp-auth-bypass-og-web-v1.jpg",
+      "bytes": 318918,
+      "width": 1200,
+      "height": 630,
+      "sha256": "ee424f87db74e3dfea11e7262b87d7e6b5f958317a9fdc44c884b46ad243135a",
+      "original_crop_box": [
+        0,
+        31,
+        1672,
+        909
+      ]
+    }
+  ]
+}
