@@ -16,10 +16,10 @@
       "role": "original-infographic",
       "filename": "aws-cairn-agent-zero-day-infographic-original-v1.png",
       "r2_url": null,
-      "bytes": 1837578,
+      "bytes": 1851126,
       "width": 1122,
       "height": 1402,
-      "sha256": "a45303a6163a9e94bc6b95d3bfec4481f6e0b032d694a4f3cb83ca5e5e3f3655"
+      "sha256": "34eca7b773aa32c810df0cf7e03286c70a1b95c3162d5ad80b04faaf1f7d190f"
     },
     {
       "slug": "aws-sts-scoped-credentials-agents",
@@ -198,10 +198,10 @@
       "role": "infographic",
       "filename": "aws-cairn-agent-zero-day-infographic-web-v1.webp",
       "r2_url": "https://media.techmindhub.cc/posts/aws-cairn-agent-zero-day-infographic-web-v1.webp",
-      "bytes": 1290010,
+      "bytes": 1287088,
       "width": 1122,
       "height": 1402,
-      "sha256": "65c879f67a6b7ea926c7f03b60d5025b8328f2b1781305385cbfd15fd3eecc89"
+      "sha256": "77e6ef5b9df2c646dfbf5762520448aa150445bd2ac334160d601b80241d99aa"
     },
     {
       "slug": "aws-cairn-agent-zero-day",
