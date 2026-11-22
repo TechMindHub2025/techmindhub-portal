@@ -1,0 +1,343 @@
+{
+  "release": "2026-11-22-six-systems-v1",
+  "originals": [
+    {
+      "slug": "google-cloud-dataform-cross-tenant-path-traversal",
+      "role": "original-card",
+      "filename": "google-cloud-dataform-cross-tenant-path-traversal-card-original-v1.png",
+      "r2_url": null,
+      "bytes": 1758801,
+      "width": 1672,
+      "height": 941,
+      "sha256": "f49d60d2fb716f55933053fb4a5badeb3336c5069e08098fe9823141e12004d3"
+    },
+    {
+      "slug": "google-cloud-dataform-cross-tenant-path-traversal",
+      "role": "original-infographic",
+      "filename": "google-cloud-dataform-cross-tenant-path-traversal-infographic-original-v1.png",
+      "r2_url": null,
+      "bytes": 1944025,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "58a2ba246ee7424f8b603d11a6afca538d6709d0aec0807bd600e93fa2632687"
+    },
+    {
+      "slug": "cloudflare-pi-agents-wait-without-running",
+      "role": "original-card",
+      "filename": "cloudflare-pi-agents-wait-without-running-card-original-v1.png",
+      "r2_url": null,
+      "bytes": 1450468,
+      "width": 1672,
+      "height": 941,
+      "sha256": "e97d3edca2b315a9840d7c71c47cf3dddf99b0b16d43f7012769b3e2d4e3ad11"
+    },
+    {
+      "slug": "cloudflare-pi-agents-wait-without-running",
+      "role": "original-infographic",
+      "filename": "cloudflare-pi-agents-wait-without-running-infographic-original-v1.png",
+      "r2_url": null,
+      "bytes": 1623266,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "2bad87faba92ff50c19c0e6d49f736d5e7e7365c8dc21eb6b0dc50c516037cf8"
+    },
+    {
+      "slug": "phononic-solid-state-cooling-financing",
+      "role": "original-card",
+      "filename": "phononic-solid-state-cooling-financing-card-original-v1.png",
+      "r2_url": null,
+      "bytes": 1957758,
+      "width": 1672,
+      "height": 941,
+      "sha256": "d3f31aa5369c7ef953a0e5887562a76ec18704ce3df884d624e933b1f149fc79"
+    },
+    {
+      "slug": "phononic-solid-state-cooling-financing",
+      "role": "original-infographic",
+      "filename": "phononic-solid-state-cooling-financing-infographic-original-v1.png",
+      "r2_url": null,
+      "bytes": 1948385,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "ec9c16ef69590f6afaa6778a807f9086fec2186c237beebec3670860517bdb11"
+    },
+    {
+      "slug": "ghes-323-local-ai-secret-detection",
+      "role": "original-card",
+      "filename": "ghes-323-local-ai-secret-detection-card-original-v1.png",
+      "r2_url": null,
+      "bytes": 1978166,
+      "width": 1672,
+      "height": 941,
+      "sha256": "810856833ee19fc3e6e1cd75f042784b768ad37d15d923bf0d60165dda888284"
+    },
+    {
+      "slug": "ghes-323-local-ai-secret-detection",
+      "role": "original-infographic",
+      "filename": "ghes-323-local-ai-secret-detection-infographic-original-v1.png",
+      "r2_url": null,
+      "bytes": 1725198,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "cac49195011ca36bea7a664ce1f0a3412bcbc720e00e26ca111d76754e233467"
+    },
+    {
+      "slug": "cloudflare-inbound-tcp-grpc-edge",
+      "role": "original-card",
+      "filename": "cloudflare-inbound-tcp-grpc-edge-card-original-v1.png",
+      "r2_url": null,
+      "bytes": 1531545,
+      "width": 1672,
+      "height": 941,
+      "sha256": "bd786cc33c0e7354406e7fe96b5d4c69f7ae49a56e173560971dfd81b7dcbd86"
+    },
+    {
+      "slug": "cloudflare-inbound-tcp-grpc-edge",
+      "role": "original-infographic",
+      "filename": "cloudflare-inbound-tcp-grpc-edge-infographic-original-v1.png",
+      "r2_url": null,
+      "bytes": 1734911,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "6f478c67a36beb678ab2e28d0c242a182c237b4948c8d0361be7d7d3255eedb8"
+    },
+    {
+      "slug": "gke-ipv4-tcp-kernel-container-escape",
+      "role": "original-card",
+      "filename": "gke-ipv4-tcp-kernel-container-escape-card-original-v1.png",
+      "r2_url": null,
+      "bytes": 1581834,
+      "width": 1672,
+      "height": 941,
+      "sha256": "8d2fd460b91b25deafcfa74bf4c1eb45c71fdb30888ca49f0af9f30d61bb47a3"
+    },
+    {
+      "slug": "gke-ipv4-tcp-kernel-container-escape",
+      "role": "original-infographic",
+      "filename": "gke-ipv4-tcp-kernel-container-escape-infographic-original-v1.png",
+      "r2_url": null,
+      "bytes": 1752619,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "047d703526329c3e1ec3423bb822403926ac5fdbf34ae0c7fcaf21c4bfc66914"
+    }
+  ],
+  "web": [
+    {
+      "slug": "google-cloud-dataform-cross-tenant-path-traversal",
+      "role": "card",
+      "filename": "google-cloud-dataform-cross-tenant-path-traversal-card-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/google-cloud-dataform-cross-tenant-path-traversal-card-web-v1.webp",
+      "bytes": 295304,
+      "width": 800,
+      "height": 450,
+      "sha256": "0d9a427f4e0cce34d4ab8aab75a156af18a8ba58044f0973b2d19f4f7002aea9"
+    },
+    {
+      "slug": "google-cloud-dataform-cross-tenant-path-traversal",
+      "role": "infographic",
+      "filename": "google-cloud-dataform-cross-tenant-path-traversal-infographic-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/google-cloud-dataform-cross-tenant-path-traversal-infographic-web-v1.webp",
+      "bytes": 1344342,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "d506ad96b962e44dba8d673ff6791a55bea611df507e44e5cb91bed99c1a69ea"
+    },
+    {
+      "slug": "google-cloud-dataform-cross-tenant-path-traversal",
+      "role": "og",
+      "filename": "google-cloud-dataform-cross-tenant-path-traversal-og-web-v1.jpg",
+      "r2_url": "https://media.techmindhub.cc/posts/google-cloud-dataform-cross-tenant-path-traversal-og-web-v1.jpg",
+      "bytes": 222152,
+      "width": 1200,
+      "height": 630,
+      "sha256": "b066c52b37292fa647173e1fba81c2d9afdbd31f47606c284848973faa4ea31f",
+      "original_crop_box": [
+        0,
+        31,
+        1672,
+        909
+      ]
+    },
+    {
+      "slug": "cloudflare-pi-agents-wait-without-running",
+      "role": "card",
+      "filename": "cloudflare-pi-agents-wait-without-running-card-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/cloudflare-pi-agents-wait-without-running-card-web-v1.webp",
+      "bytes": 261158,
+      "width": 800,
+      "height": 450,
+      "sha256": "2f09d4f21b34d777d4f5dc6faa0fe952f2962506ad1691c058ce6744a3460e97"
+    },
+    {
+      "slug": "cloudflare-pi-agents-wait-without-running",
+      "role": "infographic",
+      "filename": "cloudflare-pi-agents-wait-without-running-infographic-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/cloudflare-pi-agents-wait-without-running-infographic-web-v1.webp",
+      "bytes": 1120186,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "596a8d5fd725c7c041e044ea003b1676fe907be23aea875ed979712bf3814325"
+    },
+    {
+      "slug": "cloudflare-pi-agents-wait-without-running",
+      "role": "og",
+      "filename": "cloudflare-pi-agents-wait-without-running-og-web-v1.jpg",
+      "r2_url": "https://media.techmindhub.cc/posts/cloudflare-pi-agents-wait-without-running-og-web-v1.jpg",
+      "bytes": 182434,
+      "width": 1200,
+      "height": 630,
+      "sha256": "db5a2de61bdddbc1b07b469d5bf879c8c1fdd153141efc342994a8e4fbf86804",
+      "original_crop_box": [
+        0,
+        31,
+        1672,
+        909
+      ]
+    },
+    {
+      "slug": "phononic-solid-state-cooling-financing",
+      "role": "card",
+      "filename": "phononic-solid-state-cooling-financing-card-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/phononic-solid-state-cooling-financing-card-web-v1.webp",
+      "bytes": 368988,
+      "width": 800,
+      "height": 450,
+      "sha256": "46452f13ca0f633b5d5a57747678ef4c85f6744fb13a8f3c139721d48d516c83"
+    },
+    {
+      "slug": "phononic-solid-state-cooling-financing",
+      "role": "infographic",
+      "filename": "phononic-solid-state-cooling-financing-infographic-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/phononic-solid-state-cooling-financing-infographic-web-v1.webp",
+      "bytes": 1441608,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "cdc908d45192f88c3a475fda51859af30c95bcb3f0bc0924a4dbec24d0c74b77"
+    },
+    {
+      "slug": "phononic-solid-state-cooling-financing",
+      "role": "og",
+      "filename": "phononic-solid-state-cooling-financing-og-web-v1.jpg",
+      "r2_url": "https://media.techmindhub.cc/posts/phononic-solid-state-cooling-financing-og-web-v1.jpg",
+      "bytes": 321843,
+      "width": 1200,
+      "height": 630,
+      "sha256": "7e1814f1d4245338bd4e5f32c67a0c2296931eb46ee569246e2c0fe12291fbdb",
+      "original_crop_box": [
+        0,
+        31,
+        1672,
+        909
+      ]
+    },
+    {
+      "slug": "ghes-323-local-ai-secret-detection",
+      "role": "card",
+      "filename": "ghes-323-local-ai-secret-detection-card-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/ghes-323-local-ai-secret-detection-card-web-v1.webp",
+      "bytes": 360192,
+      "width": 800,
+      "height": 450,
+      "sha256": "bbdb2f06a1d7db4ec6b96b63e48ba1481715e6616b37e6b59e81930085035327"
+    },
+    {
+      "slug": "ghes-323-local-ai-secret-detection",
+      "role": "infographic",
+      "filename": "ghes-323-local-ai-secret-detection-infographic-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/ghes-323-local-ai-secret-detection-infographic-web-v1.webp",
+      "bytes": 1166046,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "46e95c5ed15c013dc13427ab215a31941e4a93f786ac3c3577181969e72088be"
+    },
+    {
+      "slug": "ghes-323-local-ai-secret-detection",
+      "role": "og",
+      "filename": "ghes-323-local-ai-secret-detection-og-web-v1.jpg",
+      "r2_url": "https://media.techmindhub.cc/posts/ghes-323-local-ai-secret-detection-og-web-v1.jpg",
+      "bytes": 337169,
+      "width": 1200,
+      "height": 630,
+      "sha256": "0bd0d2bc1e79f4c8edf8f7cd93aab99ce92a31d4736afaa48fe80638c9c33d7b",
+      "original_crop_box": [
+        0,
+        31,
+        1672,
+        909
+      ]
+    },
+    {
+      "slug": "cloudflare-inbound-tcp-grpc-edge",
+      "role": "card",
+      "filename": "cloudflare-inbound-tcp-grpc-edge-card-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/cloudflare-inbound-tcp-grpc-edge-card-web-v1.webp",
+      "bytes": 284632,
+      "width": 800,
+      "height": 450,
+      "sha256": "5c0775d95d99331d06693561b033b6c8179436b1ad4d875f4321474cee76dc7e"
+    },
+    {
+      "slug": "cloudflare-inbound-tcp-grpc-edge",
+      "role": "infographic",
+      "filename": "cloudflare-inbound-tcp-grpc-edge-infographic-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/cloudflare-inbound-tcp-grpc-edge-infographic-web-v1.webp",
+      "bytes": 1220522,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "9edb88a5160de615d7c49da1231a360fb4dc20ed927d74db0561d65579734f84"
+    },
+    {
+      "slug": "cloudflare-inbound-tcp-grpc-edge",
+      "role": "og",
+      "filename": "cloudflare-inbound-tcp-grpc-edge-og-web-v1.jpg",
+      "r2_url": "https://media.techmindhub.cc/posts/cloudflare-inbound-tcp-grpc-edge-og-web-v1.jpg",
+      "bytes": 204157,
+      "width": 1200,
+      "height": 630,
+      "sha256": "eede48b7b69d036b0ad1adef836071cdd1e19833e09ce5e653efdfefda68a36a",
+      "original_crop_box": [
+        0,
+        31,
+        1672,
+        909
+      ]
+    },
+    {
+      "slug": "gke-ipv4-tcp-kernel-container-escape",
+      "role": "card",
+      "filename": "gke-ipv4-tcp-kernel-container-escape-card-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/gke-ipv4-tcp-kernel-container-escape-card-web-v1.webp",
+      "bytes": 280092,
+      "width": 800,
+      "height": 450,
+      "sha256": "178b06230332ec28333d44468fde7e2994292f58a14bde9d89bc6ff645b99c16"
+    },
+    {
+      "slug": "gke-ipv4-tcp-kernel-container-escape",
+      "role": "infographic",
+      "filename": "gke-ipv4-tcp-kernel-container-escape-infographic-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/gke-ipv4-tcp-kernel-container-escape-infographic-web-v1.webp",
+      "bytes": 1195612,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "9f230a3112ceb486b594a83ec0214a864b779f9ee35fd9691c7ae788918d4ca0"
+    },
+    {
+      "slug": "gke-ipv4-tcp-kernel-container-escape",
+      "role": "og",
+      "filename": "gke-ipv4-tcp-kernel-container-escape-og-web-v1.jpg",
+      "r2_url": "https://media.techmindhub.cc/posts/gke-ipv4-tcp-kernel-container-escape-og-web-v1.jpg",
+      "bytes": 213695,
+      "width": 1200,
+      "height": 630,
+      "sha256": "3cc208ff27817e21be05347d860ad570e5409bfea2e68147eb6ba27355877aaa",
+      "original_crop_box": [
+        0,
+        31,
+        1672,
+        909
+      ]
+    }
+  ]
+}
