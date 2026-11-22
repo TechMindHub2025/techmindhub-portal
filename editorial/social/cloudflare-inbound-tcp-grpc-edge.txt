@@ -1,0 +1,8 @@
+Cloudflare has opened inbound TCP for Workers and bidirectional gRPC in Containers as a public beta. Its example forwards a stream from Spectrum through a Worker and Durable Object to a container, where TLS terminates and the gRPC server runs.
+
+That opens new options for long-lived edge services, including real-time voice. It also makes connection lifecycle, backpressure and failure recovery central design questions. Public beta and per-zone port limits matter when evaluating a deployment.
+
+Read the analysis: https://techmindhub.cc/posts/cloudflare-inbound-tcp-grpc-edge/
+More from the editor: https://arover.substack.com/
+
+#EdgeComputing #Networking #TechMindHub

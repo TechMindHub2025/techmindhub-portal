@@ -1,0 +1,8 @@
+Google's GKE bulletin GCP-2026-078 describes a Linux IPv4 TCP flaw that can cause a kernel panic or container escape to root on a node. An unprivileged container process can trigger the local path; a remote path requires access to a TCP listener.
+
+The patch matrix depends on the GKE version and node image, and Google updated it on November 18. Network restrictions can reduce remote exposure but cannot replace a kernel fix for untrusted container workloads. Are your node pools running the patched build for their actual image and minor version?
+
+Read the analysis: https://techmindhub.cc/posts/gke-ipv4-tcp-kernel-container-escape/
+More from the editor: https://arover.substack.com/
+
+#Kubernetes #LinuxSecurity #TechMindHub

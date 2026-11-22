@@ -1,0 +1,8 @@
+Trinity Capital committed $100 million in debt financing to Phononic to expand solid-state cooling production for AI infrastructure. Phononic targets localized hotspots in GPUs, HBM, networking chips and optics.
+
+A thermoelectric module moves heat by consuming electricity; its hot side still needs to reject the heat it moves plus its own input power. Financing signals a manufacturing bet, not measured superiority over other cooling designs. The useful comparison needs operating-temperature data, electrical draw, reliability and system-level economics.
+
+Read the analysis: https://techmindhub.cc/posts/phononic-solid-state-cooling-financing/
+More from the editor: https://arover.substack.com/
+
+#DataCenters #ThermalEngineering #TechMindHub

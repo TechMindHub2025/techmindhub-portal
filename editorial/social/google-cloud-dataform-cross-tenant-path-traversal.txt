@@ -1,0 +1,8 @@
+Google patched a critical path traversal affecting Dataform, BigQuery Studio and Colab Enterprise. Its bulletin says an authenticated attacker could have read private files and created files across tenant repositories. The fix was deployed on October 10; Google says no customer action is required and its telemetry shows no evidence of exploitation.
+
+The architectural lesson is the boundary between a workspace path, its Git repository and another tenant. What would your tests prove about path resolution after normalization and at the moment of a file operation?
+
+Read the analysis: https://techmindhub.cc/posts/google-cloud-dataform-cross-tenant-path-traversal/
+More from the editor: https://arover.substack.com/
+
+#CloudSecurity #MultiTenancy #TechMindHub
