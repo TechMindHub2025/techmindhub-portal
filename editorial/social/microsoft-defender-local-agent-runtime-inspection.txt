@@ -1,0 +1,8 @@
+An AI agent can cross a security boundary when untrusted context becomes a privileged tool action. Microsoft's Defender update places inspection inside the local agent runtime and describes alerting or blocking for supported Windows scenarios.
+
+Coverage depends on the particular agent, inspection method and configuration. We examine the control point, the documented support matrix and the tests a security team needs before treating runtime protection as an effective safeguard.
+
+Read the analysis: https://techmindhub.cc/posts/microsoft-defender-local-agent-runtime-inspection/
+More from the editor: https://arover.substack.com/
+
+#AIAgents #EndpointSecurity #TechMindHub
