@@ -1,0 +1,8 @@
+“Keep coffee away from the laptop” might need to mean “keep liquid away from electronics.” MIT and NYU's FLEX method edits the features a robot uses to represent a task: add missing context, generalize a category, or mask an irrelevant detail.
+
+The method has been studied in navigation and tabletop manipulation, including physical robot demonstrations. It does not prove that every language-derived constraint is correct. We examine how a corrected instruction becomes a revised plan and where verification remains essential.
+
+Read the analysis: https://techmindhub.cc/posts/mit-flex-language-robot-task-features/
+More from the editor: https://arover.substack.com/
+
+#Robotics #HumanRobotInteraction #TechMindHub

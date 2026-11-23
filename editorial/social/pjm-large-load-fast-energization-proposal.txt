@@ -1,0 +1,8 @@
+The data center may be ready before the grid. PJM's proposed Fast Energization Process addresses that timing gap by bringing large-load demand, generation and transmission into a more coordinated study. It also proposes interim, firm and nonfirm service choices.
+
+The filing is still before FERC. Faster review does not create a line, substation or generator, and the service choice changes reliability and cost exposure. We examine what a 50 MW+ request needs to prove before a queue position can become power at the rack.
+
+Read the analysis: https://techmindhub.cc/posts/pjm-large-load-fast-energization-proposal/
+More from the editor: https://arover.substack.com/
+
+#DataCenters #ElectricGrid #TechMindHub

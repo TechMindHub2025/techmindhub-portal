@@ -1,0 +1,8 @@
+More neutral-atom qubit sites require more than an optical array. Control electronics, addressing, readout and system integration must scale together. A US CHIPS R&D award of up to $100 million backs Atom Computing's work on that stack.
+
+The funding ceiling is not a performance result, and tens of thousands of qubits remain a development target. Our analysis separates the control problem from the still-unproven end-to-end fault-tolerant system.
+
+Read the analysis: https://techmindhub.cc/posts/atom-computing-neutral-atom-control-rd-award/
+More from the editor: https://arover.substack.com/
+
+#QuantumComputing #Semiconductors #TechMindHub

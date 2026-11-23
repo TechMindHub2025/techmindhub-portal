@@ -1,0 +1,8 @@
+If power or cooling is constrained at one computing site, can an AI job run elsewhere? Sandia and RAVEL's Project Quicksilver is designed to compare three connected sites, air and immersion cooling, network bandwidth and time to completion.
+
+It is a research plan, not a reported efficiency gain. A valid comparison must include the same completed workload and account for network transfer and cooling at the destination. We unpack the scheduling decision and the evidence needed to judge it.
+
+Read the analysis: https://techmindhub.cc/posts/sandia-ravel-quicksilver-power-aware-workloads/
+More from the editor: https://arover.substack.com/
+
+#AIInfrastructure #HPC #TechMindHub

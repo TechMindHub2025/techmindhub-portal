@@ -1,0 +1,343 @@
+{
+  "release": "2026-11-24-six-systems-v1",
+  "originals": [
+    {
+      "slug": "pjm-large-load-fast-energization-proposal",
+      "role": "original-card",
+      "filename": "pjm-large-load-fast-energization-proposal-card-original-v1.png",
+      "r2_url": null,
+      "bytes": 2615910,
+      "width": 1672,
+      "height": 941,
+      "sha256": "81e46378642114c04e79ac4f95761c73feca284aa2036b891c61efd6a6c67389"
+    },
+    {
+      "slug": "pjm-large-load-fast-energization-proposal",
+      "role": "original-infographic",
+      "filename": "pjm-large-load-fast-energization-proposal-infographic-original-v1.png",
+      "r2_url": null,
+      "bytes": 2145291,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "8eb6ecddb2128c43aa537a14c6ac397b6fb2e2d959f7ce039ce57c61e3e7f1b6"
+    },
+    {
+      "slug": "microsoft-defender-local-agent-runtime-inspection",
+      "role": "original-card",
+      "filename": "microsoft-defender-local-agent-runtime-inspection-card-original-v1.png",
+      "r2_url": null,
+      "bytes": 1962560,
+      "width": 1672,
+      "height": 941,
+      "sha256": "0c26f3c40f8e213978df46bb0cc3c01879fb491042284a5e52b21f76f38b3b58"
+    },
+    {
+      "slug": "microsoft-defender-local-agent-runtime-inspection",
+      "role": "original-infographic",
+      "filename": "microsoft-defender-local-agent-runtime-inspection-infographic-original-v1.png",
+      "r2_url": null,
+      "bytes": 1523322,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "eb97a52a2d8259e4d025d63df50f12ab162a34499256f1a39c5446bc1f44647f"
+    },
+    {
+      "slug": "sandia-ravel-quicksilver-power-aware-workloads",
+      "role": "original-card",
+      "filename": "sandia-ravel-quicksilver-power-aware-workloads-card-original-v1.png",
+      "r2_url": null,
+      "bytes": 2028286,
+      "width": 1672,
+      "height": 941,
+      "sha256": "96d1b6f7462bd0612edd445ed79a1e499265979d8201f8b50d6c7ca62512f9dd"
+    },
+    {
+      "slug": "sandia-ravel-quicksilver-power-aware-workloads",
+      "role": "original-infographic",
+      "filename": "sandia-ravel-quicksilver-power-aware-workloads-infographic-original-v1.png",
+      "r2_url": null,
+      "bytes": 2015107,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "a150ff43f7b2623ace081114f2c32db1afb666e76c4c9c087182a3abf97e7066"
+    },
+    {
+      "slug": "mit-self-aligning-voxels-robotic-assembly",
+      "role": "original-card",
+      "filename": "mit-self-aligning-voxels-robotic-assembly-card-original-v1.png",
+      "r2_url": null,
+      "bytes": 1983282,
+      "width": 1672,
+      "height": 941,
+      "sha256": "b8ce5cf5999d47a106322cd6d0cfdd183712eaaf5fae80a72a6fb6404b9b54f5"
+    },
+    {
+      "slug": "mit-self-aligning-voxels-robotic-assembly",
+      "role": "original-infographic",
+      "filename": "mit-self-aligning-voxels-robotic-assembly-infographic-original-v1.png",
+      "r2_url": null,
+      "bytes": 1981724,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "f47b96e70cccc926aaf03b7021f208639fd815fb26f3f7c47ac2460057b1e136"
+    },
+    {
+      "slug": "atom-computing-neutral-atom-control-rd-award",
+      "role": "original-card",
+      "filename": "atom-computing-neutral-atom-control-rd-award-card-original-v1.png",
+      "r2_url": null,
+      "bytes": 1702727,
+      "width": 1672,
+      "height": 941,
+      "sha256": "e792bfa5ce48d3388f3a6c5095e92039dd5d7ee4fb874c7203a7c00938f7a468"
+    },
+    {
+      "slug": "atom-computing-neutral-atom-control-rd-award",
+      "role": "original-infographic",
+      "filename": "atom-computing-neutral-atom-control-rd-award-infographic-original-v1.png",
+      "r2_url": null,
+      "bytes": 1791874,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "6bd29650aaa3cc81d81262fb9267b17981f602bb4d27fde748ffc7320e9db268"
+    },
+    {
+      "slug": "mit-flex-language-robot-task-features",
+      "role": "original-card",
+      "filename": "mit-flex-language-robot-task-features-card-original-v1.png",
+      "r2_url": null,
+      "bytes": 1919651,
+      "width": 1672,
+      "height": 941,
+      "sha256": "4938c13dc244882ce54c6f9a3658de76a4af286691f10765ad26827b202519ed"
+    },
+    {
+      "slug": "mit-flex-language-robot-task-features",
+      "role": "original-infographic",
+      "filename": "mit-flex-language-robot-task-features-infographic-original-v1.png",
+      "r2_url": null,
+      "bytes": 2133990,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "331cecfd97bafbc50e288d05eb768c080743c12108f00352afcef1047676d104"
+    }
+  ],
+  "web": [
+    {
+      "slug": "pjm-large-load-fast-energization-proposal",
+      "role": "card",
+      "filename": "pjm-large-load-fast-energization-proposal-card-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/pjm-large-load-fast-energization-proposal-card-web-v1.webp",
+      "bytes": 478854,
+      "width": 800,
+      "height": 450,
+      "sha256": "652620b2ab44d03997ba56112b9982bbec9b920b02e8aeed4311eb387f3890fd"
+    },
+    {
+      "slug": "pjm-large-load-fast-energization-proposal",
+      "role": "og",
+      "filename": "pjm-large-load-fast-energization-proposal-og-web-v1.jpg",
+      "r2_url": "https://media.techmindhub.cc/posts/pjm-large-load-fast-energization-proposal-og-web-v1.jpg",
+      "bytes": 504312,
+      "width": 1200,
+      "height": 630,
+      "sha256": "f9db456cbdafdc88af167d4027d9aa4cf84e809bee6a68c2f7119c40b171afeb",
+      "original_crop_box": [
+        0,
+        31,
+        1672,
+        909
+      ]
+    },
+    {
+      "slug": "pjm-large-load-fast-energization-proposal",
+      "role": "infographic",
+      "filename": "pjm-large-load-fast-energization-proposal-infographic-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/pjm-large-load-fast-energization-proposal-infographic-web-v1.webp",
+      "bytes": 1576312,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "27d45630562c59b8e5f6f30620dbd2529b8bdf522e86b40305d12b88d41cca06"
+    },
+    {
+      "slug": "microsoft-defender-local-agent-runtime-inspection",
+      "role": "card",
+      "filename": "microsoft-defender-local-agent-runtime-inspection-card-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/microsoft-defender-local-agent-runtime-inspection-card-web-v1.webp",
+      "bytes": 333738,
+      "width": 800,
+      "height": 450,
+      "sha256": "5d7816d5d1b618f340103393decf06b590154fb43f6418991d1747a7aa9d17fa"
+    },
+    {
+      "slug": "microsoft-defender-local-agent-runtime-inspection",
+      "role": "og",
+      "filename": "microsoft-defender-local-agent-runtime-inspection-og-web-v1.jpg",
+      "r2_url": "https://media.techmindhub.cc/posts/microsoft-defender-local-agent-runtime-inspection-og-web-v1.jpg",
+      "bytes": 266456,
+      "width": 1200,
+      "height": 630,
+      "sha256": "a7e851bc9f87d942753dc8800af747f14c6615b9aabcf701473950bc8ebd07de",
+      "original_crop_box": [
+        0,
+        31,
+        1672,
+        909
+      ]
+    },
+    {
+      "slug": "microsoft-defender-local-agent-runtime-inspection",
+      "role": "infographic",
+      "filename": "microsoft-defender-local-agent-runtime-inspection-infographic-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/microsoft-defender-local-agent-runtime-inspection-infographic-web-v1.webp",
+      "bytes": 1045356,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "ebaecad55d4e4c22eb768fa0492c63ad042b3c82bdce22d5354da39b976c1c66"
+    },
+    {
+      "slug": "sandia-ravel-quicksilver-power-aware-workloads",
+      "role": "card",
+      "filename": "sandia-ravel-quicksilver-power-aware-workloads-card-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/sandia-ravel-quicksilver-power-aware-workloads-card-web-v1.webp",
+      "bytes": 387974,
+      "width": 800,
+      "height": 450,
+      "sha256": "82362139790eaaf77149862bc9ae038af212d476de6409a4e82bce16d054f0f7"
+    },
+    {
+      "slug": "sandia-ravel-quicksilver-power-aware-workloads",
+      "role": "og",
+      "filename": "sandia-ravel-quicksilver-power-aware-workloads-og-web-v1.jpg",
+      "r2_url": "https://media.techmindhub.cc/posts/sandia-ravel-quicksilver-power-aware-workloads-og-web-v1.jpg",
+      "bytes": 315095,
+      "width": 1200,
+      "height": 630,
+      "sha256": "6707e69957bd1f5d87e33e0f46b95c13194f8f545b5212c08357bd3026b711df",
+      "original_crop_box": [
+        0,
+        31,
+        1672,
+        909
+      ]
+    },
+    {
+      "slug": "sandia-ravel-quicksilver-power-aware-workloads",
+      "role": "infographic",
+      "filename": "sandia-ravel-quicksilver-power-aware-workloads-infographic-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/sandia-ravel-quicksilver-power-aware-workloads-infographic-web-v1.webp",
+      "bytes": 1512624,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "5482feeed41f0f6735b859fed9693b559ab7c1a8381544e2fae0a30c3b80178a"
+    },
+    {
+      "slug": "mit-self-aligning-voxels-robotic-assembly",
+      "role": "card",
+      "filename": "mit-self-aligning-voxels-robotic-assembly-card-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/mit-self-aligning-voxels-robotic-assembly-card-web-v1.webp",
+      "bytes": 344166,
+      "width": 800,
+      "height": 450,
+      "sha256": "ffff6cb1942a6c062c3ccdc090053c5f576fd2fab411322e42fb06af35db3583"
+    },
+    {
+      "slug": "mit-self-aligning-voxels-robotic-assembly",
+      "role": "og",
+      "filename": "mit-self-aligning-voxels-robotic-assembly-og-web-v1.jpg",
+      "r2_url": "https://media.techmindhub.cc/posts/mit-self-aligning-voxels-robotic-assembly-og-web-v1.jpg",
+      "bytes": 286638,
+      "width": 1200,
+      "height": 630,
+      "sha256": "ad5e8c81a474ce64f7f06516970f4748317a8117d4184b82d2628d9e2bdc5391",
+      "original_crop_box": [
+        0,
+        31,
+        1672,
+        909
+      ]
+    },
+    {
+      "slug": "mit-self-aligning-voxels-robotic-assembly",
+      "role": "infographic",
+      "filename": "mit-self-aligning-voxels-robotic-assembly-infographic-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/mit-self-aligning-voxels-robotic-assembly-infographic-web-v1.webp",
+      "bytes": 1384104,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "159a4b80f17966bd19213cea676bcea6c10b6aa2e1647abafa50de64a5e3e2b8"
+    },
+    {
+      "slug": "atom-computing-neutral-atom-control-rd-award",
+      "role": "card",
+      "filename": "atom-computing-neutral-atom-control-rd-award-card-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/atom-computing-neutral-atom-control-rd-award-card-web-v1.webp",
+      "bytes": 323430,
+      "width": 800,
+      "height": 450,
+      "sha256": "b4d02511d4281072c31519cd51cc4eb4fbf1a9d1d32f7f99de22ada9ec13a070"
+    },
+    {
+      "slug": "atom-computing-neutral-atom-control-rd-award",
+      "role": "og",
+      "filename": "atom-computing-neutral-atom-control-rd-award-og-web-v1.jpg",
+      "r2_url": "https://media.techmindhub.cc/posts/atom-computing-neutral-atom-control-rd-award-og-web-v1.jpg",
+      "bytes": 244990,
+      "width": 1200,
+      "height": 630,
+      "sha256": "d75fee3d17a30d05bbd4140aa22dea2e3a3be72ac1e26114e6cb21e9ae811fb9",
+      "original_crop_box": [
+        0,
+        31,
+        1672,
+        909
+      ]
+    },
+    {
+      "slug": "atom-computing-neutral-atom-control-rd-award",
+      "role": "infographic",
+      "filename": "atom-computing-neutral-atom-control-rd-award-infographic-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/atom-computing-neutral-atom-control-rd-award-infographic-web-v1.webp",
+      "bytes": 1247030,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "3a3ab04f5bca8a30247e6507ea1b35fb56b31496e21638db51202fd801fe7cf2"
+    },
+    {
+      "slug": "mit-flex-language-robot-task-features",
+      "role": "card",
+      "filename": "mit-flex-language-robot-task-features-card-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/mit-flex-language-robot-task-features-card-web-v1.webp",
+      "bytes": 358874,
+      "width": 800,
+      "height": 450,
+      "sha256": "3f07220e6267b3841c89db91d57fb356d24e4fc83506b2736a9795bedde69adf"
+    },
+    {
+      "slug": "mit-flex-language-robot-task-features",
+      "role": "og",
+      "filename": "mit-flex-language-robot-task-features-og-web-v1.jpg",
+      "r2_url": "https://media.techmindhub.cc/posts/mit-flex-language-robot-task-features-og-web-v1.jpg",
+      "bytes": 297293,
+      "width": 1200,
+      "height": 630,
+      "sha256": "00dfcb3b21e89dbfb44824d8d45644abfefaf945666208ff0a8b3f24515158ce",
+      "original_crop_box": [
+        0,
+        31,
+        1672,
+        909
+      ]
+    },
+    {
+      "slug": "mit-flex-language-robot-task-features",
+      "role": "infographic",
+      "filename": "mit-flex-language-robot-task-features-infographic-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/mit-flex-language-robot-task-features-infographic-web-v1.webp",
+      "bytes": 1521842,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "f39140e0ddece8bb62ab73c501a77f659acb31fb000a9492b037669e7ae348f1"
+    }
+  ]
+}
