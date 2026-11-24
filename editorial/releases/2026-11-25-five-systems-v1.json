@@ -1,0 +1,257 @@
+{
+  "release": "2026-11-25-five-systems-v1",
+  "originals": [
+    {
+      "slug": "slic-small-model-analog-circuit-optimization",
+      "role": "original-card",
+      "filename": "slic-small-model-analog-circuit-optimization-card-original-v1.png",
+      "r2_url": null,
+      "bytes": 2138759,
+      "width": 1672,
+      "height": 941,
+      "sha256": "2f58da0712c0a0b5b696856f73e183c7b57a9ad669548bdc94a4faf5c238d12d"
+    },
+    {
+      "slug": "slic-small-model-analog-circuit-optimization",
+      "role": "original-infographic",
+      "filename": "slic-small-model-analog-circuit-optimization-infographic-original-v1.png",
+      "r2_url": null,
+      "bytes": 2718769,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "0059f16428bdd15abfbfacee57914322475b839259f3395b4100ab8bfb4f1081"
+    },
+    {
+      "slug": "shirudo-ebpf-linux-runtime-patch-gap",
+      "role": "original-card",
+      "filename": "shirudo-ebpf-linux-runtime-patch-gap-card-original-v1.png",
+      "r2_url": null,
+      "bytes": 1578190,
+      "width": 1672,
+      "height": 941,
+      "sha256": "c6dd21c580595b06f2069a13b815284971ec95fc4376b34f85dd33cb26811367"
+    },
+    {
+      "slug": "shirudo-ebpf-linux-runtime-patch-gap",
+      "role": "original-infographic",
+      "filename": "shirudo-ebpf-linux-runtime-patch-gap-infographic-original-v1.png",
+      "r2_url": null,
+      "bytes": 1779770,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "e8244e58e534684b80b01a9c396cc42c28bda13df533ab8c88319c929e5dd563"
+    },
+    {
+      "slug": "midea-magnetic-cdu-dry-cooling-sc26",
+      "role": "original-card",
+      "filename": "midea-magnetic-cdu-dry-cooling-sc26-card-original-v1.png",
+      "r2_url": null,
+      "bytes": 2162694,
+      "width": 1672,
+      "height": 941,
+      "sha256": "f2ecbba1e6529f5d4dceee0414d6d50d132651be5dbc448774847bae81c89df1"
+    },
+    {
+      "slug": "midea-magnetic-cdu-dry-cooling-sc26",
+      "role": "original-infographic",
+      "filename": "midea-magnetic-cdu-dry-cooling-sc26-infographic-original-v1.png",
+      "r2_url": null,
+      "bytes": 2712999,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "4f4b510721f22226292d0e95d5398c69e51176ebd5ef5e2c0e777e41426726c6"
+    },
+    {
+      "slug": "glinet-goodcloud-remote-management-incident",
+      "role": "original-card",
+      "filename": "glinet-goodcloud-remote-management-incident-card-original-v1.png",
+      "r2_url": null,
+      "bytes": 1377256,
+      "width": 1672,
+      "height": 941,
+      "sha256": "473e55bdbd098abbb62ba824507f5691bdabd4ec0e2e131af68e56d364f5eab1"
+    },
+    {
+      "slug": "glinet-goodcloud-remote-management-incident",
+      "role": "original-infographic",
+      "filename": "glinet-goodcloud-remote-management-incident-infographic-original-v1.png",
+      "r2_url": null,
+      "bytes": 1579523,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "ebc913436cadce898d6004fdea5510766cb94fd21f51c6a21239a57d841eee74"
+    },
+    {
+      "slug": "sany-bauma-china-cabless-machines-coordinated-fleets",
+      "role": "original-card",
+      "filename": "sany-bauma-china-cabless-machines-coordinated-fleets-card-original-v1.png",
+      "r2_url": null,
+      "bytes": 2290691,
+      "width": 1672,
+      "height": 941,
+      "sha256": "caecd4d1cec5e65ccc6801a1084ca149043acac7e6b0850a384163a6870d7fd3"
+    },
+    {
+      "slug": "sany-bauma-china-cabless-machines-coordinated-fleets",
+      "role": "original-infographic",
+      "filename": "sany-bauma-china-cabless-machines-coordinated-fleets-infographic-original-v1.png",
+      "r2_url": null,
+      "bytes": 1910604,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "9b6500f0f43e37d5b599a62ce11b467af94ca45f331bb102dccf8ddc8691c5c3"
+    }
+  ],
+  "web": [
+    {
+      "slug": "slic-small-model-analog-circuit-optimization",
+      "role": "card",
+      "filename": "slic-small-model-analog-circuit-optimization-card-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/slic-small-model-analog-circuit-optimization-card-web-v1.webp",
+      "bytes": 363808,
+      "width": 800,
+      "height": 450,
+      "sha256": "f75e9916b2744f5f2862da222924c51267994c337cabc1ce63ee6046564f58b0"
+    },
+    {
+      "slug": "slic-small-model-analog-circuit-optimization",
+      "role": "infographic",
+      "filename": "slic-small-model-analog-circuit-optimization-infographic-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/slic-small-model-analog-circuit-optimization-infographic-web-v1.webp",
+      "bytes": 1854548,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "b939d06f154665499777367778689886584a12b2ff2a3c693b8d132f26ba33f6"
+    },
+    {
+      "slug": "slic-small-model-analog-circuit-optimization",
+      "role": "og",
+      "filename": "slic-small-model-analog-circuit-optimization-og-web-v1.jpg",
+      "r2_url": "https://media.techmindhub.cc/posts/slic-small-model-analog-circuit-optimization-og-web-v1.jpg",
+      "bytes": 289939,
+      "width": 1200,
+      "height": 630,
+      "sha256": "e3aa932c816fe1dd69c8d2009f9678002bdf3fc8b97ff419f3dc3125f489ab06"
+    },
+    {
+      "slug": "shirudo-ebpf-linux-runtime-patch-gap",
+      "role": "card",
+      "filename": "shirudo-ebpf-linux-runtime-patch-gap-card-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/shirudo-ebpf-linux-runtime-patch-gap-card-web-v1.webp",
+      "bytes": 316402,
+      "width": 800,
+      "height": 450,
+      "sha256": "c45fe18c91d16bcd705bf41ebac1eaca31e189288c2a4cca1008d3a4332df645"
+    },
+    {
+      "slug": "shirudo-ebpf-linux-runtime-patch-gap",
+      "role": "infographic",
+      "filename": "shirudo-ebpf-linux-runtime-patch-gap-infographic-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/shirudo-ebpf-linux-runtime-patch-gap-infographic-web-v1.webp",
+      "bytes": 1182870,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "b82249f204103c1c78391521e57768344e385516678507abf91727d3f396c268"
+    },
+    {
+      "slug": "shirudo-ebpf-linux-runtime-patch-gap",
+      "role": "og",
+      "filename": "shirudo-ebpf-linux-runtime-patch-gap-og-web-v1.jpg",
+      "r2_url": "https://media.techmindhub.cc/posts/shirudo-ebpf-linux-runtime-patch-gap-og-web-v1.jpg",
+      "bytes": 249871,
+      "width": 1200,
+      "height": 630,
+      "sha256": "0a587dd888d0fe546957790b84211fede287193343ffaa4ab3ba077ed5ed0475"
+    },
+    {
+      "slug": "midea-magnetic-cdu-dry-cooling-sc26",
+      "role": "card",
+      "filename": "midea-magnetic-cdu-dry-cooling-sc26-card-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/midea-magnetic-cdu-dry-cooling-sc26-card-web-v1.webp",
+      "bytes": 425156,
+      "width": 800,
+      "height": 450,
+      "sha256": "67d51f7ac3ab4a9b2e4e4e06822ff3b3259cf2ddccdedf961de9b30e53a44eb9"
+    },
+    {
+      "slug": "midea-magnetic-cdu-dry-cooling-sc26",
+      "role": "infographic",
+      "filename": "midea-magnetic-cdu-dry-cooling-sc26-infographic-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/midea-magnetic-cdu-dry-cooling-sc26-infographic-web-v1.webp",
+      "bytes": 1852990,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "3eac5eb21091269f49fdcd8a7fb6decd103a963bd2bd70ccb45bf951ad04791b"
+    },
+    {
+      "slug": "midea-magnetic-cdu-dry-cooling-sc26",
+      "role": "og",
+      "filename": "midea-magnetic-cdu-dry-cooling-sc26-og-web-v1.jpg",
+      "r2_url": "https://media.techmindhub.cc/posts/midea-magnetic-cdu-dry-cooling-sc26-og-web-v1.jpg",
+      "bytes": 408952,
+      "width": 1200,
+      "height": 630,
+      "sha256": "ed9a94dc6052a012f560b67261c549db069eb644023185146c8d0ba0e99bed29"
+    },
+    {
+      "slug": "glinet-goodcloud-remote-management-incident",
+      "role": "card",
+      "filename": "glinet-goodcloud-remote-management-incident-card-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/glinet-goodcloud-remote-management-incident-card-web-v1.webp",
+      "bytes": 256364,
+      "width": 800,
+      "height": 450,
+      "sha256": "e4b9bb7a45513c3fa009f5dda19c63bc7640b6770c83ca292a1154a05726ffd2"
+    },
+    {
+      "slug": "glinet-goodcloud-remote-management-incident",
+      "role": "infographic",
+      "filename": "glinet-goodcloud-remote-management-incident-infographic-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/glinet-goodcloud-remote-management-incident-infographic-web-v1.webp",
+      "bytes": 1050082,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "7e39dfe82025a42381944198537549d4dddd46121fb84f84b44e7754ce44348a"
+    },
+    {
+      "slug": "glinet-goodcloud-remote-management-incident",
+      "role": "og",
+      "filename": "glinet-goodcloud-remote-management-incident-og-web-v1.jpg",
+      "r2_url": "https://media.techmindhub.cc/posts/glinet-goodcloud-remote-management-incident-og-web-v1.jpg",
+      "bytes": 187173,
+      "width": 1200,
+      "height": 630,
+      "sha256": "8f9d9b49dedd8287cc6feb351d7bf1a0fa83ee11371c46948fe8600162e9bd5c"
+    },
+    {
+      "slug": "sany-bauma-china-cabless-machines-coordinated-fleets",
+      "role": "card",
+      "filename": "sany-bauma-china-cabless-machines-coordinated-fleets-card-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/sany-bauma-china-cabless-machines-coordinated-fleets-card-web-v1.webp",
+      "bytes": 392168,
+      "width": 800,
+      "height": 450,
+      "sha256": "7679d37c823798e8851ff3bf2a2cfc86275e074940f720de660f7c06ebe4dc3a"
+    },
+    {
+      "slug": "sany-bauma-china-cabless-machines-coordinated-fleets",
+      "role": "infographic",
+      "filename": "sany-bauma-china-cabless-machines-coordinated-fleets-infographic-web-v1.webp",
+      "r2_url": "https://media.techmindhub.cc/posts/sany-bauma-china-cabless-machines-coordinated-fleets-infographic-web-v1.webp",
+      "bytes": 1384640,
+      "width": 1122,
+      "height": 1402,
+      "sha256": "b88634ce13254da78cd70d8e28e151d4f4572311685e47c770fdedb14692e4a6"
+    },
+    {
+      "slug": "sany-bauma-china-cabless-machines-coordinated-fleets",
+      "role": "og",
+      "filename": "sany-bauma-china-cabless-machines-coordinated-fleets-og-web-v1.jpg",
+      "r2_url": "https://media.techmindhub.cc/posts/sany-bauma-china-cabless-machines-coordinated-fleets-og-web-v1.jpg",
+      "bytes": 338900,
+      "width": 1200,
+      "height": 630,
+      "sha256": "90b980560639ccf4227d019ab41586fdd6e4bf89fdb54cfd1e2e276a571c0d27"
+    }
+  ]
+}
